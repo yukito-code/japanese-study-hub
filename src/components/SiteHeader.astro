@@ -1,0 +1,48 @@
+---
+import LevelBar from "./LevelBar.astro";
+import { ui, type UiKey } from "../i18n/ui";
+
+type Props = {
+  backHref?: string;
+  backUiKey?: UiKey;
+  /** 漢字などレベルバー不要なページは false */
+  showLevelBar?: boolean;
+};
+
+const { backHref, backUiKey, showLevelBar = true } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const backText =
+  backHref && backUiKey ? ui.ja[backUiKey] : "";
+---
+
+<div class="site-header-stack">
+  <header class="site-header">
+    <div class="site-title">
+      <a href={`${base}`} data-ui="site.name">{ui.ja["site.name"]}</a>
+    </div>
+    <div class="site-header-actions">
+      <div class="lang-switch" role="group" data-aria-label-ui="lang.pick">
+        <button
+          type="button"
+          class="lang-chip"
+          data-set-lang="ja"
+          data-ui="lang.ja"
+          aria-pressed="true">{ui.ja["lang.ja"]}</button>
+        <button
+          type="button"
+          class="lang-chip"
+          data-set-lang="en"
+          data-ui="lang.en"
+          aria-pressed="false">{ui.ja["lang.en"]}</button>
+      </div>
+      {
+        backHref && backUiKey ? (
+          <a class="btn btn-ghost" href={backHref} data-ui={backUiKey}>
+            {backText}
+          </a>
+        ) : null
+      }
+    </div>
+  </header>
+  {showLevelBar ? <LevelBar /> : null}
+</div>

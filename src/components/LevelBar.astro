@@ -1,0 +1,47 @@
+---
+import { ui } from "../i18n/ui";
+---
+
+<nav class="level-bar" aria-label={ui.ja["levelBar.label"]} data-aria-label-ui="levelBar.label">
+  <span class="level-bar-label" data-ui="levelBar.label">{ui.ja["levelBar.label"]}</span>
+  <div class="level-bar-chips" role="group">
+    {
+      ["N1", "N2", "N3", "N4", "N5"].map((lv) => (
+        <button type="button" class="level-chip jlpt-level-chip" data-jlpt-level={lv}>
+          {lv}
+        </button>
+      ))
+    }
+  </div>
+</nav>
+
+<script>
+  import {
+    getStoredJlptLevel,
+    setStoredJlptLevel,
+    JLPT_LEVEL_CHANGE,
+    type JlptLevelFilter,
+  } from "../i18n/level";
+
+  function syncActive() {
+    const cur = getStoredJlptLevel();
+    document.querySelectorAll(".jlpt-level-chip").forEach((node) => {
+      const v = node.getAttribute("data-jlpt-level");
+      node.classList.toggle("is-active", v === cur);
+    });
+  }
+
+  syncActive();
+
+  document.querySelector(".level-bar")?.addEventListener("click", (e) => {
+    const t = e.target as HTMLElement;
+    const chip = t.closest(".jlpt-level-chip");
+    if (!chip) return;
+    const v = chip.getAttribute("data-jlpt-level");
+    if (v === "N1" || v === "N2" || v === "N3" || v === "N4" || v === "N5")
+      setStoredJlptLevel(v as JlptLevelFilter);
+    syncActive();
+  });
+
+  window.addEventListener(JLPT_LEVEL_CHANGE, syncActive);
+</script>

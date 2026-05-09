@@ -1,0 +1,98 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import { ui, type UiKey } from "../i18n/ui";
+
+const base = import.meta.env.BASE_URL;
+
+const thinkTopics: { href: string; titleKey: UiKey; descKey: UiKey }[] = [
+  {
+    href: `${base}kanji/`,
+    titleKey: "home.think.kanji.title",
+    descKey: "home.think.kanji.desc",
+  },
+];
+
+const problemTopics: { href: string; titleKey: UiKey; descKey: UiKey }[] = [
+  {
+    href: `${base}goi/kanji-yomi/`,
+    titleKey: "home.problem.kanjiyomi.title",
+    descKey: "home.problem.kanjiyomi.desc",
+  },
+  {
+    href: `${base}goi/bunmyaku/`,
+    titleKey: "home.problem.bunmyaku.title",
+    descKey: "home.problem.bunmyaku.desc",
+  },
+  {
+    href: `${base}goi/iikae/`,
+    titleKey: "home.problem.iikae.title",
+    descKey: "home.problem.iikae.desc",
+  },
+];
+---
+
+<BaseLayout titleKey="title.home" descKey="meta.home.description">
+  <SiteHeader />
+  <main>
+    <h1 class="hero-title" data-ui="home.hero">{ui.ja["home.hero"]}</h1>
+    <p class="hero-lead" data-ui="home.lead">{ui.ja["home.lead"]}</p>
+
+    <h2 class="hero-title hero-title--section" data-ui="home.menuTitle">
+      {ui.ja["home.menuTitle"]}
+    </h2>
+
+    <h3 class="home-menu-subhead" data-ui="home.sectionThinkTitle">
+      {ui.ja["home.sectionThinkTitle"]}
+    </h3>
+    <p class="home-menu-sublead" data-ui="home.sectionThinkLead">{ui.ja["home.sectionThinkLead"]}</p>
+    <div class="goi-hub-grid home-topic-grid">
+      {
+        thinkTopics.map((t) => (
+          <a class="goi-hub-card" href={t.href}>
+            <h3 data-ui={t.titleKey}>{ui.ja[t.titleKey]}</h3>
+            <p data-ui={t.descKey}>{ui.ja[t.descKey]}</p>
+          </a>
+        ))
+      }
+    </div>
+
+    <h3 class="home-menu-subhead home-menu-subhead--spaced" data-ui="home.sectionProblemsTitle">
+      {ui.ja["home.sectionProblemsTitle"]}
+    </h3>
+    <p class="home-menu-sublead" data-ui="home.sectionProblemsLead">{ui.ja["home.sectionProblemsLead"]}</p>
+    <div class="goi-hub-grid home-topic-grid">
+      {
+        problemTopics.map((t) => (
+          <a class="goi-hub-card" href={t.href}>
+            <h3 data-ui={t.titleKey}>{ui.ja[t.titleKey]}</h3>
+            <p data-ui={t.descKey}>{ui.ja[t.descKey]}</p>
+          </a>
+        ))
+      }
+    </div>
+
+    <p class="footer-note" data-ui="home.footer">{ui.ja["home.footer"]}</p>
+  </main>
+</BaseLayout>
+
+<style>
+  .home-menu-subhead {
+    margin: 1.1rem 0 0.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-ink-soft);
+    letter-spacing: 0.04em;
+  }
+
+  .home-menu-subhead--spaced {
+    margin-top: 1.75rem;
+  }
+
+  .home-menu-sublead {
+    margin: 0 0 0.5rem;
+    font-size: 0.88rem;
+    color: var(--color-muted);
+    line-height: 1.55;
+  }
+</style>

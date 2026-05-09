@@ -1,0 +1,57 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import SiteHeader from "../../components/SiteHeader.astro";
+import { ui } from "../../i18n/ui";
+
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout titleKey="title.flash" descKey="meta.flash.description">
+  <SiteHeader showLevelBar={true} backHref={`${base}kanji/`} backUiKey="nav.kanjiHub" />
+  <main>
+    <h1 class="hero-title" data-ui="flash.title">{ui.ja["flash.title"]}</h1>
+    <p class="hero-lead" data-ui="flash.lead">{ui.ja["flash.lead"]}</p>
+
+    <p id="flash-empty" class="hero-lead" hidden data-ui="kanji.emptyLevel">{ui.ja["kanji.emptyLevel"]}</p>
+
+    <p class="progress-text" id="flash-progress" aria-live="polite">—</p>
+
+    <div class="flash-stage" id="flash-stage">
+      <div
+        class="flash-card"
+        id="flash-card"
+        tabindex="0"
+        role="button"
+        aria-label={ui.ja["flash.cardAria"]}
+      >
+        <div class="flash-face flash-face-front">
+          <span class="flash-char" id="flash-front-char">—</span>
+        </div>
+        <div class="flash-face flash-face-back">
+          <div class="flash-reading" id="flash-back-reading">—</div>
+          <div class="flash-meaning" id="flash-back-meaning">—</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-row" id="flash-nav-row">
+      <button type="button" class="btn btn-secondary" id="flash-prev" data-ui="flash.prev">
+        {ui.ja["flash.prev"]}
+      </button>
+      <button type="button" class="btn btn-secondary" id="flash-flip">
+        {ui.ja["flash.flipToBack"]}
+      </button>
+      <button type="button" class="btn btn-secondary" id="flash-next" data-ui="flash.next">
+        {ui.ja["flash.next"]}
+      </button>
+    </div>
+
+    <p class="footer-note" data-ui="kanji.disclaimer">{ui.ja["kanji.disclaimer"]}</p>
+  </main>
+
+  <script type="application/json" id="kanji-flash-config" set:html={JSON.stringify({ base })}></script>
+  <script>
+    import { mountKanjiFlashDynamic } from "../../scripts/kanji-flash-page";
+    mountKanjiFlashDynamic("kanji-flash-config");
+  </script>
+</BaseLayout>

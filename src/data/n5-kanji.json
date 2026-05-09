@@ -1,0 +1,480 @@
+{
+  "level": "N5",
+  "note": "JLPT に公式の漢字表はありません。出典は学習用の目安です。",
+  "items": [
+    {
+      "char": "一",
+      "reading": "いち",
+      "meaning": "一つの数",
+      "meaningEn": "one"
+    },
+    {
+      "char": "二",
+      "reading": "に",
+      "meaning": "二つの数",
+      "meaningEn": "two"
+    },
+    {
+      "char": "三",
+      "reading": "さん",
+      "meaning": "三つの数",
+      "meaningEn": "three"
+    },
+    {
+      "char": "四",
+      "reading": "よん",
+      "meaning": "四つの数",
+      "meaningEn": "four"
+    },
+    {
+      "char": "五",
+      "reading": "ご",
+      "meaning": "五つの数",
+      "meaningEn": "five"
+    },
+    {
+      "char": "六",
+      "reading": "ろく",
+      "meaning": "六つの数",
+      "meaningEn": "six"
+    },
+    {
+      "char": "七",
+      "reading": "なな",
+      "meaning": "七つの数",
+      "meaningEn": "seven"
+    },
+    {
+      "char": "八",
+      "reading": "はち",
+      "meaning": "八つの数",
+      "meaningEn": "eight"
+    },
+    {
+      "char": "九",
+      "reading": "きゅう",
+      "meaning": "九つの数",
+      "meaningEn": "nine"
+    },
+    {
+      "char": "十",
+      "reading": "じゅう",
+      "meaning": "十の数",
+      "meaningEn": "ten"
+    },
+    {
+      "char": "百",
+      "reading": "ひゃく",
+      "meaning": "百",
+      "meaningEn": "hundred"
+    },
+    {
+      "char": "千",
+      "reading": "せん",
+      "meaning": "千",
+      "meaningEn": "thousand"
+    },
+    {
+      "char": "万",
+      "reading": "まん",
+      "meaning": "万",
+      "meaningEn": "ten thousand"
+    },
+    {
+      "char": "円",
+      "reading": "えん",
+      "meaning": "円、まるい",
+      "meaningEn": "yen, circle"
+    },
+    {
+      "char": "日",
+      "reading": "ひ",
+      "meaning": "日、太陽",
+      "meaningEn": "day, sun"
+    },
+    {
+      "char": "月",
+      "reading": "つき",
+      "meaning": "月、つき",
+      "meaningEn": "moon, month"
+    },
+    {
+      "char": "火",
+      "reading": "か",
+      "meaning": "火",
+      "meaningEn": "fire"
+    },
+    {
+      "char": "水",
+      "reading": "みず",
+      "meaning": "水",
+      "meaningEn": "water"
+    },
+    {
+      "char": "木",
+      "reading": "き",
+      "meaning": "木、樹木",
+      "meaningEn": "tree, wood"
+    },
+    {
+      "char": "金",
+      "reading": "かね",
+      "meaning": "金、金属、お金",
+      "meaningEn": "gold, money, metal"
+    },
+    {
+      "char": "土",
+      "reading": "つち",
+      "meaning": "土、土地",
+      "meaningEn": "earth, soil"
+    },
+    {
+      "char": "年",
+      "reading": "とし",
+      "meaning": "年",
+      "meaningEn": "year"
+    },
+    {
+      "char": "時",
+      "reading": "とき",
+      "meaning": "時、時間",
+      "meaningEn": "time, hour"
+    },
+    {
+      "char": "半",
+      "reading": "はん",
+      "meaning": "半分",
+      "meaningEn": "half"
+    },
+    {
+      "char": "午",
+      "reading": "ご",
+      "meaning": "午（午前）",
+      "meaningEn": "noon (午前)"
+    },
+    {
+      "char": "前",
+      "reading": "まえ",
+      "meaning": "前",
+      "meaningEn": "front, before"
+    },
+    {
+      "char": "後",
+      "reading": "うしろ",
+      "meaning": "後ろ、あと",
+      "meaningEn": "back, after"
+    },
+    {
+      "char": "今",
+      "reading": "いま",
+      "meaning": "今",
+      "meaningEn": "now"
+    },
+    {
+      "char": "先",
+      "reading": "さき",
+      "meaning": "先、前、以前",
+      "meaningEn": "ahead, previous"
+    },
+    {
+      "char": "毎",
+      "reading": "まい",
+      "meaning": "毎〜",
+      "meaningEn": "every ~"
+    },
+    {
+      "char": "間",
+      "reading": "あいだ",
+      "meaning": "あいだ、間",
+      "meaningEn": "interval, between"
+    },
+    {
+      "char": "人",
+      "reading": "ひと",
+      "meaning": "人",
+      "meaningEn": "person"
+    },
+    {
+      "char": "名",
+      "reading": "な",
+      "meaning": "名前の名",
+      "meaningEn": "name"
+    },
+    {
+      "char": "男",
+      "reading": "おとこ",
+      "meaning": "男",
+      "meaningEn": "man"
+    },
+    {
+      "char": "女",
+      "reading": "おんな",
+      "meaning": "女",
+      "meaningEn": "woman"
+    },
+    {
+      "char": "子",
+      "reading": "こ",
+      "meaning": "子ども",
+      "meaningEn": "child"
+    },
+    {
+      "char": "母",
+      "reading": "はは",
+      "meaning": "母",
+      "meaningEn": "mother"
+    },
+    {
+      "char": "父",
+      "reading": "ちち",
+      "meaning": "父",
+      "meaningEn": "father"
+    },
+    {
+      "char": "友",
+      "reading": "とも",
+      "meaning": "友（友だち）",
+      "meaningEn": "friend"
+    },
+    {
+      "char": "生",
+      "reading": "いきる",
+      "meaning": "生きる、生まれる",
+      "meaningEn": "to live, be born"
+    },
+    {
+      "char": "学",
+      "reading": "がく",
+      "meaning": "学ぶ、学問（学）",
+      "meaningEn": "study, learning"
+    },
+    {
+      "char": "大",
+      "reading": "おおきい",
+      "meaning": "大きい",
+      "meaningEn": "big"
+    },
+    {
+      "char": "中",
+      "reading": "なか",
+      "meaning": "中、なか",
+      "meaningEn": "middle, inside"
+    },
+    {
+      "char": "小",
+      "reading": "ちいさい",
+      "meaning": "小さい",
+      "meaningEn": "small"
+    },
+    {
+      "char": "校",
+      "reading": "こう",
+      "meaning": "学校の校",
+      "meaningEn": "school (suffix)"
+    },
+    {
+      "char": "外",
+      "reading": "そと",
+      "meaning": "外",
+      "meaningEn": "outside"
+    },
+    {
+      "char": "国",
+      "reading": "くに",
+      "meaning": "国",
+      "meaningEn": "country"
+    },
+    {
+      "char": "語",
+      "reading": "ご",
+      "meaning": "言葉、語",
+      "meaningEn": "word, language"
+    },
+    {
+      "char": "本",
+      "reading": "ほん",
+      "meaning": "本、〜さん",
+      "meaningEn": "book, counter (~)"
+    },
+    {
+      "char": "何",
+      "reading": "なん",
+      "meaning": "何",
+      "meaningEn": "what"
+    },
+    {
+      "char": "天",
+      "reading": "てん",
+      "meaning": "天、空",
+      "meaningEn": "sky, heaven"
+    },
+    {
+      "char": "気",
+      "reading": "き",
+      "meaning": "気、天気の気",
+      "meaningEn": "spirit, weather"
+    },
+    {
+      "char": "山",
+      "reading": "やま",
+      "meaning": "山",
+      "meaningEn": "mountain"
+    },
+    {
+      "char": "川",
+      "reading": "かわ",
+      "meaning": "川",
+      "meaningEn": "river"
+    },
+    {
+      "char": "雨",
+      "reading": "あめ",
+      "meaning": "雨",
+      "meaningEn": "rain"
+    },
+    {
+      "char": "電",
+      "reading": "でん",
+      "meaning": "電気の電",
+      "meaningEn": "electricity"
+    },
+    {
+      "char": "上",
+      "reading": "うえ",
+      "meaning": "上",
+      "meaningEn": "above, up"
+    },
+    {
+      "char": "下",
+      "reading": "した",
+      "meaning": "下",
+      "meaningEn": "below, down"
+    },
+    {
+      "char": "左",
+      "reading": "ひだり",
+      "meaning": "左",
+      "meaningEn": "left"
+    },
+    {
+      "char": "右",
+      "reading": "みぎ",
+      "meaning": "右",
+      "meaningEn": "right"
+    },
+    {
+      "char": "北",
+      "reading": "きた",
+      "meaning": "北",
+      "meaningEn": "north"
+    },
+    {
+      "char": "南",
+      "reading": "みなみ",
+      "meaning": "南",
+      "meaningEn": "south"
+    },
+    {
+      "char": "東",
+      "reading": "ひがし",
+      "meaning": "東",
+      "meaningEn": "east"
+    },
+    {
+      "char": "西",
+      "reading": "にし",
+      "meaning": "西",
+      "meaningEn": "west"
+    },
+    {
+      "char": "見",
+      "reading": "みる",
+      "meaning": "見る",
+      "meaningEn": "to see"
+    },
+    {
+      "char": "聞",
+      "reading": "きく",
+      "meaning": "聞く",
+      "meaningEn": "to hear, listen"
+    },
+    {
+      "char": "食",
+      "reading": "たべる",
+      "meaning": "食べる",
+      "meaningEn": "to eat"
+    },
+    {
+      "char": "読",
+      "reading": "よむ",
+      "meaning": "読む",
+      "meaningEn": "to read"
+    },
+    {
+      "char": "書",
+      "reading": "かく",
+      "meaning": "書く",
+      "meaningEn": "to write"
+    },
+    {
+      "char": "行",
+      "reading": "いく",
+      "meaning": "行く",
+      "meaningEn": "to go"
+    },
+    {
+      "char": "来",
+      "reading": "くる",
+      "meaning": "来る",
+      "meaningEn": "to come"
+    },
+    {
+      "char": "出",
+      "reading": "でる",
+      "meaning": "出る",
+      "meaningEn": "to exit, go out"
+    },
+    {
+      "char": "入",
+      "reading": "はいる",
+      "meaning": "入る",
+      "meaningEn": "to enter"
+    },
+    {
+      "char": "休",
+      "reading": "やすむ",
+      "meaning": "休む",
+      "meaningEn": "to rest"
+    },
+    {
+      "char": "車",
+      "reading": "くるま",
+      "meaning": "車",
+      "meaningEn": "car, vehicle"
+    },
+    {
+      "char": "話",
+      "reading": "はなす",
+      "meaning": "話す、話",
+      "meaningEn": "to speak, talk"
+    },
+    {
+      "char": "白",
+      "reading": "しろ",
+      "meaning": "白、しろい",
+      "meaningEn": "white"
+    },
+    {
+      "char": "高",
+      "reading": "たかい",
+      "meaning": "高い",
+      "meaningEn": "high, tall"
+    },
+    {
+      "char": "長",
+      "reading": "ながい",
+      "meaning": "長い",
+      "meaningEn": "long, tall"
+    }
+  ]
+}

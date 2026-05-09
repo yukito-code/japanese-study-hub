@@ -1,0 +1,2682 @@
+{
+  "level": "N3",
+  "note": "JLPT に公式の漢字表はありません。出典は学習用の目安です。N4〜N2 は npm jlpt パッケージ由来（意味は英語表記を流用）。",
+  "items": [
+    {
+      "char": "両",
+      "reading": "リョウ",
+      "meaning": "both; counter for carriages/cars (e.g., in a train)",
+      "meaningEn": "both; counter for carriages/cars (e.g., in a train)"
+    },
+    {
+      "char": "予",
+      "reading": "ヨ",
+      "meaning": "beforehand; previous; I; myself",
+      "meaningEn": "beforehand; previous; I; myself"
+    },
+    {
+      "char": "争",
+      "reading": "あらそ",
+      "meaning": "argue; contend; dispute",
+      "meaningEn": "argue; contend; dispute"
+    },
+    {
+      "char": "交",
+      "reading": "か",
+      "meaning": "association; coming & going; mixing",
+      "meaningEn": "association; coming & going; mixing"
+    },
+    {
+      "char": "他",
+      "reading": "ほか",
+      "meaning": "another; other; the others",
+      "meaningEn": "another; other; the others"
+    },
+    {
+      "char": "付",
+      "reading": "つ",
+      "meaning": "adhere; append; attach; refer to",
+      "meaningEn": "adhere; append; attach; refer to"
+    },
+    {
+      "char": "伝",
+      "reading": "つた",
+      "meaning": "communicate; report; follow; tradition",
+      "meaningEn": "communicate; report; follow; tradition"
+    },
+    {
+      "char": "位",
+      "reading": "くらい",
+      "meaning": "rank; grade; about; some; crown;  throne",
+      "meaningEn": "rank; grade; about; some; crown;  throne"
+    },
+    {
+      "char": "係",
+      "reading": "かかり、かか",
+      "meaning": "concern oneself; connection; duty; person in charge",
+      "meaningEn": "concern oneself; connection; duty; person in charge"
+    },
+    {
+      "char": "信",
+      "reading": "シン",
+      "meaning": "trust; to entrust; truth; faith; fidelity",
+      "meaningEn": "trust; to entrust; truth; faith; fidelity"
+    },
+    {
+      "char": "側",
+      "reading": "がわ",
+      "meaning": "side; lean; oppose; regret",
+      "meaningEn": "side; lean; oppose; regret"
+    },
+    {
+      "char": "全",
+      "reading": "すべ",
+      "meaning": "all; entire; fulfill; whole",
+      "meaningEn": "all; entire; fulfill; whole"
+    },
+    {
+      "char": "内",
+      "reading": "うち",
+      "meaning": "inside; within; house; home; among; between",
+      "meaningEn": "inside; within; house; home; among; between"
+    },
+    {
+      "char": "冷",
+      "reading": "さ",
+      "meaning": "chill; cold (to the touch); cool",
+      "meaningEn": "chill; cold (to the touch); cool"
+    },
+    {
+      "char": "初",
+      "reading": "はじ",
+      "meaning": "beginning; first time",
+      "meaningEn": "beginning; first time"
+    },
+    {
+      "char": "利",
+      "reading": "き",
+      "meaning": "advantage; benefit; profit",
+      "meaningEn": "advantage; benefit; profit"
+    },
+    {
+      "char": "加",
+      "reading": "くわ",
+      "meaning": "add; addition; Canada; include; increase; join",
+      "meaningEn": "add; addition; Canada; include; increase; join"
+    },
+    {
+      "char": "助",
+      "reading": "すけ、たす",
+      "meaning": "assist; help; rescue",
+      "meaningEn": "assist; help; rescue"
+    },
+    {
+      "char": "労",
+      "reading": "ロウ",
+      "meaning": "labor; reward for; thank for; toil; trouble",
+      "meaningEn": "labor; reward for; thank for; toil; trouble"
+    },
+    {
+      "char": "勝",
+      "reading": "か",
+      "meaning": "excel; prevail; victory; win",
+      "meaningEn": "excel; prevail; victory; win"
+    },
+    {
+      "char": "化",
+      "reading": "ば",
+      "meaning": "-ization; change; influence; take the form of",
+      "meaningEn": "-ization; change; influence; take the form of"
+    },
+    {
+      "char": "単",
+      "reading": "タン",
+      "meaning": "merely; one; simple; single",
+      "meaningEn": "merely; one; simple; single"
+    },
+    {
+      "char": "原",
+      "reading": "はら",
+      "meaning": "field; meadow; plain; original; primitive",
+      "meaningEn": "field; meadow; plain; original; primitive"
+    },
+    {
+      "char": "参",
+      "reading": "まい",
+      "meaning": "come; go; visit; participate; to intersect; be appened to",
+      "meaningEn": "come; go; visit; participate; to intersect; be appened to"
+    },
+    {
+      "char": "反",
+      "reading": "そ",
+      "meaning": "anti-",
+      "meaningEn": "anti-"
+    },
+    {
+      "char": "取",
+      "reading": "と",
+      "meaning": "fetch; take",
+      "meaningEn": "fetch; take"
+    },
+    {
+      "char": "受",
+      "reading": "う",
+      "meaning": "accept; receive; answer; catch",
+      "meaningEn": "accept; receive; answer; catch"
+    },
+    {
+      "char": "号",
+      "reading": "ゴウ",
+      "meaning": "yell; call; name; nickname; number",
+      "meaningEn": "yell; call; name; nickname; number"
+    },
+    {
+      "char": "向",
+      "reading": "む",
+      "meaning": "peel; face; tend toward; confront",
+      "meaningEn": "peel; face; tend toward; confront"
+    },
+    {
+      "char": "君",
+      "reading": "きみ",
+      "meaning": "you; male name suffix; ruler",
+      "meaningEn": "you; male name suffix; ruler"
+    },
+    {
+      "char": "告",
+      "reading": "つ",
+      "meaning": "announce; inform; revelation; tell",
+      "meaningEn": "announce; inform; revelation; tell"
+    },
+    {
+      "char": "商",
+      "reading": "あきな",
+      "meaning": "trade in; make a deal; merchant",
+      "meaningEn": "trade in; make a deal; merchant"
+    },
+    {
+      "char": "園",
+      "reading": "その",
+      "meaning": "garden; park; yard",
+      "meaningEn": "garden; park; yard"
+    },
+    {
+      "char": "変",
+      "reading": "か",
+      "meaning": "change; strange; unusual",
+      "meaningEn": "change; strange; unusual"
+    },
+    {
+      "char": "夫",
+      "reading": "おっと",
+      "meaning": "husband; man",
+      "meaningEn": "husband; man"
+    },
+    {
+      "char": "失",
+      "reading": "うしな",
+      "meaning": "be defeated; lose; overlook; error; fault",
+      "meaningEn": "be defeated; lose; overlook; error; fault"
+    },
+    {
+      "char": "守",
+      "reading": "まも",
+      "meaning": "protect; defend",
+      "meaningEn": "protect; defend"
+    },
+    {
+      "char": "完",
+      "reading": "カン",
+      "meaning": "completion; end; perfect",
+      "meaningEn": "completion; end; perfect"
+    },
+    {
+      "char": "官",
+      "reading": "カン",
+      "meaning": "bureaucrat; government; organ (body)",
+      "meaningEn": "bureaucrat; government; organ (body)"
+    },
+    {
+      "char": "定",
+      "reading": "さだ",
+      "meaning": "decide; determine; establish; fix",
+      "meaningEn": "decide; determine; establish; fix"
+    },
+    {
+      "char": "実",
+      "reading": "み、みの",
+      "meaning": "reality; truth",
+      "meaningEn": "reality; truth"
+    },
+    {
+      "char": "客",
+      "reading": "カク、キャク",
+      "meaning": "client; customer; guest; visitor",
+      "meaningEn": "client; customer; guest; visitor"
+    },
+    {
+      "char": "宿",
+      "reading": "やど、やど",
+      "meaning": "to stay; lodge; inn; dwelling",
+      "meaningEn": "to stay; lodge; inn; dwelling"
+    },
+    {
+      "char": "察",
+      "reading": "サツ",
+      "meaning": "clearly understand; know well; judge; classify",
+      "meaningEn": "clearly understand; know well; judge; classify"
+    },
+    {
+      "char": "対",
+      "reading": "タイ、ツイ",
+      "meaning": "anti-; oppose; face; answer; respond",
+      "meaningEn": "anti-; oppose; face; answer; respond"
+    },
+    {
+      "char": "局",
+      "reading": "キョク",
+      "meaning": "punctuation; division; bureau; department; board (of a game, ex. shoji)",
+      "meaningEn": "punctuation; division; bureau; department; board (of a game, ex. shoji)"
+    },
+    {
+      "char": "差",
+      "reading": "さ",
+      "meaning": "difference; discrepancy; distinction; variation; to dispatch; to recover",
+      "meaningEn": "difference; discrepancy; distinction; variation; to dispatch; to recover"
+    },
+    {
+      "char": "席",
+      "reading": "セキ",
+      "meaning": "seat; place; mat",
+      "meaningEn": "seat; place; mat"
+    },
+    {
+      "char": "式",
+      "reading": "シキ",
+      "meaning": "form; rule; to conform; ceremony; rite",
+      "meaningEn": "form; rule; to conform; ceremony; rite"
+    },
+    {
+      "char": "当",
+      "reading": "あ",
+      "meaning": "fit; shoulder; bear; appropriate",
+      "meaningEn": "fit; shoulder; bear; appropriate"
+    },
+    {
+      "char": "形",
+      "reading": "かた、かたち",
+      "meaning": "form; shape; style",
+      "meaningEn": "form; shape; style"
+    },
+    {
+      "char": "役",
+      "reading": "エキ、ヤク",
+      "meaning": "role; work; service",
+      "meaningEn": "role; work; service"
+    },
+    {
+      "char": "必",
+      "reading": "かなら",
+      "meaning": "certain; inevitable; invariably",
+      "meaningEn": "certain; inevitable; invariably"
+    },
+    {
+      "char": "念",
+      "reading": "ネン",
+      "meaning": "bear in mind; attention; sense; thought",
+      "meaningEn": "bear in mind; attention; sense; thought"
+    },
+    {
+      "char": "息",
+      "reading": "いき",
+      "meaning": "breath; respiration; interest (on money); son",
+      "meaningEn": "breath; respiration; interest (on money); son"
+    },
+    {
+      "char": "想",
+      "reading": "ソ、ソウ",
+      "meaning": "concept; idea; think; thought",
+      "meaningEn": "concept; idea; think; thought"
+    },
+    {
+      "char": "感",
+      "reading": "カン",
+      "meaning": "emotion; feeling; sensation",
+      "meaningEn": "emotion; feeling; sensation"
+    },
+    {
+      "char": "成",
+      "reading": "な",
+      "meaning": "become; turn into; grow reach; elapse",
+      "meaningEn": "become; turn into; grow reach; elapse"
+    },
+    {
+      "char": "戦",
+      "reading": "いくさ、たたか",
+      "meaning": "battle; match; war",
+      "meaningEn": "battle; match; war"
+    },
+    {
+      "char": "投",
+      "reading": "な",
+      "meaning": "throw; hurl; abandon; give up",
+      "meaningEn": "throw; hurl; abandon; give up"
+    },
+    {
+      "char": "折",
+      "reading": "おり、お",
+      "meaning": "bend; break; fold; submit; yield",
+      "meaningEn": "bend; break; fold; submit; yield"
+    },
+    {
+      "char": "指",
+      "reading": "さ",
+      "meaning": "finger; indicate; point to",
+      "meaningEn": "finger; indicate; point to"
+    },
+    {
+      "char": "敗",
+      "reading": "やぶ",
+      "meaning": "defeat; failure; reversal",
+      "meaningEn": "defeat; failure; reversal"
+    },
+    {
+      "char": "数",
+      "reading": "かず、かぞ",
+      "meaning": "number; figures; to count; fate; plan",
+      "meaningEn": "number; figures; to count; fate; plan"
+    },
+    {
+      "char": "昔",
+      "reading": "むかし",
+      "meaning": "antiquity; old times; once upon a time",
+      "meaningEn": "antiquity; old times; once upon a time"
+    },
+    {
+      "char": "昨",
+      "reading": "サク",
+      "meaning": "previous; yesterday",
+      "meaningEn": "previous; yesterday"
+    },
+    {
+      "char": "晴",
+      "reading": "は",
+      "meaning": "clear up",
+      "meaningEn": "clear up"
+    },
+    {
+      "char": "曲",
+      "reading": "ま",
+      "meaning": "bend; lean; curve; fault; injustice; melody; composition",
+      "meaningEn": "bend; lean; curve; fault; injustice; melody; composition"
+    },
+    {
+      "char": "最",
+      "reading": "もっと",
+      "meaning": "extreme; most",
+      "meaningEn": "extreme; most"
+    },
+    {
+      "char": "望",
+      "reading": "のぞ",
+      "meaning": "ambition; aspire to; desire; expect; hope",
+      "meaningEn": "ambition; aspire to; desire; expect; hope"
+    },
+    {
+      "char": "期",
+      "reading": "キ、ゴ",
+      "meaning": "date; period; term",
+      "meaningEn": "date; period; term"
+    },
+    {
+      "char": "未",
+      "reading": "ミ",
+      "meaning": "not yet; still; sign of the ram",
+      "meaningEn": "not yet; still; sign of the ram"
+    },
+    {
+      "char": "末",
+      "reading": "すえ",
+      "meaning": "close; end; posterity; tip",
+      "meaningEn": "close; end; posterity; tip"
+    },
+    {
+      "char": "束",
+      "reading": "たば",
+      "meaning": "control; manage; ream; sheaf",
+      "meaningEn": "control; manage; ream; sheaf"
+    },
+    {
+      "char": "果",
+      "reading": "は",
+      "meaning": "fruit; finish; complete; achieve",
+      "meaningEn": "fruit; finish; complete; achieve"
+    },
+    {
+      "char": "様",
+      "reading": "さま",
+      "meaning": "polite suffix; manner; situation; way",
+      "meaningEn": "polite suffix; manner; situation; way"
+    },
+    {
+      "char": "横",
+      "reading": "よこ",
+      "meaning": "horizontal; perverse; side; sideways; unreasonable; width; woof",
+      "meaningEn": "horizontal; perverse; side; sideways; unreasonable; width; woof"
+    },
+    {
+      "char": "機",
+      "reading": "はた",
+      "meaning": "machine; airplane; opportunity; occasion; efficacy",
+      "meaningEn": "machine; airplane; opportunity; occasion; efficacy"
+    },
+    {
+      "char": "欠",
+      "reading": "か",
+      "meaning": "lack; gap",
+      "meaningEn": "lack; gap"
+    },
+    {
+      "char": "次",
+      "reading": "つぎ、つ",
+      "meaning": "next; order; sequence",
+      "meaningEn": "next; order; sequence"
+    },
+    {
+      "char": "歯",
+      "reading": "は",
+      "meaning": "tooth",
+      "meaningEn": "tooth"
+    },
+    {
+      "char": "残",
+      "reading": "のこ",
+      "meaning": "leftover; remainder",
+      "meaningEn": "leftover; remainder"
+    },
+    {
+      "char": "求",
+      "reading": "もと",
+      "meaning": "demand; request; want; wish for",
+      "meaningEn": "demand; request; want; wish for"
+    },
+    {
+      "char": "決",
+      "reading": "き",
+      "meaning": "agree upon; appoint; decide; fix",
+      "meaningEn": "agree upon; appoint; decide; fix"
+    },
+    {
+      "char": "治",
+      "reading": "おさ",
+      "meaning": "subdue; suppress; calm down; cure; conserve",
+      "meaningEn": "subdue; suppress; calm down; cure; conserve"
+    },
+    {
+      "char": "法",
+      "reading": "ハッ、ホウ、ホッ",
+      "meaning": "law; rule; method; model; principle",
+      "meaningEn": "law; rule; method; model; principle"
+    },
+    {
+      "char": "活",
+      "reading": "カツ",
+      "meaning": "lively; living; be helped",
+      "meaningEn": "lively; living; be helped"
+    },
+    {
+      "char": "流",
+      "reading": "なが",
+      "meaning": "flow; current; unconfirmed",
+      "meaningEn": "flow; current; unconfirmed"
+    },
+    {
+      "char": "消",
+      "reading": "き",
+      "meaning": "extinguish; cancel; neutralize; turn off",
+      "meaningEn": "extinguish; cancel; neutralize; turn off"
+    },
+    {
+      "char": "港",
+      "reading": "みなと",
+      "meaning": "harbor",
+      "meaningEn": "harbor"
+    },
+    {
+      "char": "満",
+      "reading": "み",
+      "meaning": "satisfy; fullness",
+      "meaningEn": "satisfy; fullness"
+    },
+    {
+      "char": "点",
+      "reading": "テン",
+      "meaning": "point; period; decimal point; speck; spot",
+      "meaningEn": "point; period; decimal point; speck; spot"
+    },
+    {
+      "char": "熱",
+      "reading": "あつ",
+      "meaning": "fever; heat; mania; passion",
+      "meaningEn": "fever; heat; mania; passion"
+    },
+    {
+      "char": "球",
+      "reading": "たま",
+      "meaning": "ball; sphere",
+      "meaningEn": "ball; sphere"
+    },
+    {
+      "char": "由",
+      "reading": "よし",
+      "meaning": "reason",
+      "meaningEn": "reason"
+    },
+    {
+      "char": "申",
+      "reading": "もう",
+      "meaning": "to say; to explain",
+      "meaningEn": "to say; to explain"
+    },
+    {
+      "char": "番",
+      "reading": "バン",
+      "meaning": "number in a series",
+      "meaningEn": "number in a series"
+    },
+    {
+      "char": "登",
+      "reading": "のぼ",
+      "meaning": "ascend; climb up",
+      "meaningEn": "ascend; climb up"
+    },
+    {
+      "char": "直",
+      "reading": "ただ",
+      "meaning": "frankness; honesty; repair; fix",
+      "meaningEn": "frankness; honesty; repair; fix"
+    },
+    {
+      "char": "相",
+      "reading": "ショウ、ソウ",
+      "meaning": "each other; together; mutual; minister of state; phase",
+      "meaningEn": "each other; together; mutual; minister of state; phase"
+    },
+    {
+      "char": "石",
+      "reading": "いし",
+      "meaning": "stone",
+      "meaningEn": "stone"
+    },
+    {
+      "char": "礼",
+      "reading": "ライ、レイ",
+      "meaning": "bow; salute; gratitude; ceremony",
+      "meaningEn": "bow; salute; gratitude; ceremony"
+    },
+    {
+      "char": "神",
+      "reading": "かみ",
+      "meaning": "god; soul",
+      "meaningEn": "god; soul"
+    },
+    {
+      "char": "科",
+      "reading": "カ",
+      "meaning": "department; section",
+      "meaningEn": "department; section"
+    },
+    {
+      "char": "種",
+      "reading": "たね",
+      "meaning": "seed; species; class; variety",
+      "meaningEn": "seed; species; class; variety"
+    },
+    {
+      "char": "笑",
+      "reading": "え",
+      "meaning": "laugh",
+      "meaningEn": "laugh"
+    },
+    {
+      "char": "箱",
+      "reading": "はこ",
+      "meaning": "bin; box; case",
+      "meaningEn": "bin; box; case"
+    },
+    {
+      "char": "米",
+      "reading": "こめ",
+      "meaning": "rice; metre; USA",
+      "meaningEn": "rice; metre; USA"
+    },
+    {
+      "char": "約",
+      "reading": "ヤク",
+      "meaning": "approximately; promise",
+      "meaningEn": "approximately; promise"
+    },
+    {
+      "char": "組",
+      "reading": "くみ、く",
+      "meaning": "assemble; cooperate; unite; braid",
+      "meaningEn": "assemble; cooperate; unite; braid"
+    },
+    {
+      "char": "絵",
+      "reading": "エ、カイ",
+      "meaning": "drawing; painting; picture",
+      "meaningEn": "drawing; painting; picture"
+    },
+    {
+      "char": "続",
+      "reading": "つづ",
+      "meaning": "continue; sequel; series",
+      "meaningEn": "continue; sequel; series"
+    },
+    {
+      "char": "美",
+      "reading": "うつく",
+      "meaning": "beautiful; beauty",
+      "meaningEn": "beautiful; beauty"
+    },
+    {
+      "char": "育",
+      "reading": "そだ",
+      "meaning": "raise; rear; grow up",
+      "meaningEn": "raise; rear; grow up"
+    },
+    {
+      "char": "船",
+      "reading": "ふね",
+      "meaning": "boat; ship",
+      "meaningEn": "boat; ship"
+    },
+    {
+      "char": "苦",
+      "reading": "くる",
+      "meaning": "hardship; suffering; bitterness",
+      "meaningEn": "hardship; suffering; bitterness"
+    },
+    {
+      "char": "葉",
+      "reading": "は",
+      "meaning": "leaf; plant; paper; time; period",
+      "meaningEn": "leaf; plant; paper; time; period"
+    },
+    {
+      "char": "表",
+      "reading": "あらわ",
+      "meaning": "chart; diagram; surface",
+      "meaningEn": "chart; diagram; surface"
+    },
+    {
+      "char": "要",
+      "reading": "い",
+      "meaning": "essence; main point; need",
+      "meaningEn": "essence; main point; need"
+    },
+    {
+      "char": "観",
+      "reading": "カン",
+      "meaning": "appearance; condition; view",
+      "meaningEn": "appearance; condition; view"
+    },
+    {
+      "char": "記",
+      "reading": "しる",
+      "meaning": "mark; sign; to note; to scribe",
+      "meaningEn": "mark; sign; to note; to scribe"
+    },
+    {
+      "char": "調",
+      "reading": "しら",
+      "meaning": "prepare; arrange; investigate; move; transfer; tribute; tone; note",
+      "meaningEn": "prepare; arrange; investigate; move; transfer; tribute; tone; note"
+    },
+    {
+      "char": "談",
+      "reading": "ダン",
+      "meaning": "discuss; talk",
+      "meaningEn": "discuss; talk"
+    },
+    {
+      "char": "議",
+      "reading": "ギ",
+      "meaning": "consideration; debate; deliberation",
+      "meaningEn": "consideration; debate; deliberation"
+    },
+    {
+      "char": "負",
+      "reading": "お",
+      "meaning": "minus; negative; bear; defeat",
+      "meaningEn": "minus; negative; bear; defeat"
+    },
+    {
+      "char": "費",
+      "reading": "つい",
+      "meaning": "spend; waste; expense; cost",
+      "meaningEn": "spend; waste; expense; cost"
+    },
+    {
+      "char": "路",
+      "reading": "ロ",
+      "meaning": "road; path",
+      "meaningEn": "road; path"
+    },
+    {
+      "char": "辞",
+      "reading": "や",
+      "meaning": "resign; word; phrase; blame",
+      "meaningEn": "resign; word; phrase; blame"
+    },
+    {
+      "char": "返",
+      "reading": "かえ",
+      "meaning": "return; answer",
+      "meaningEn": "return; answer"
+    },
+    {
+      "char": "速",
+      "reading": "すみ",
+      "meaning": "fast; quick",
+      "meaningEn": "fast; quick"
+    },
+    {
+      "char": "連",
+      "reading": "つら",
+      "meaning": "connect; join; continue",
+      "meaningEn": "connect; join; continue"
+    },
+    {
+      "char": "遊",
+      "reading": "あそ",
+      "meaning": "play",
+      "meaningEn": "play"
+    },
+    {
+      "char": "選",
+      "reading": "えら",
+      "meaning": "choose; select",
+      "meaningEn": "choose; select"
+    },
+    {
+      "char": "部",
+      "reading": "ブ",
+      "meaning": "bureau; department; group; government office; bring together; govern",
+      "meaningEn": "bureau; department; group; government office; bring together; govern"
+    },
+    {
+      "char": "配",
+      "reading": "くば",
+      "meaning": "distribute",
+      "meaningEn": "distribute"
+    },
+    {
+      "char": "酒",
+      "reading": "さけ",
+      "meaning": "alcohol; sake",
+      "meaningEn": "alcohol; sake"
+    },
+    {
+      "char": "関",
+      "reading": "かか",
+      "meaning": "connection; gateway",
+      "meaningEn": "connection; gateway"
+    },
+    {
+      "char": "雪",
+      "reading": "ゆき",
+      "meaning": "snow",
+      "meaningEn": "snow"
+    },
+    {
+      "char": "面",
+      "reading": "おも、おもて、つら",
+      "meaning": "face; mask; surface",
+      "meaningEn": "face; mask; surface"
+    },
+    {
+      "char": "願",
+      "reading": "ねが",
+      "meaning": "hope; pray; wish",
+      "meaningEn": "hope; pray; wish"
+    },
+    {
+      "char": "類",
+      "reading": "たぐ",
+      "meaning": "variety; class; kind",
+      "meaningEn": "variety; class; kind"
+    },
+    {
+      "char": "飛",
+      "reading": "と",
+      "meaning": "fly; skip (pages)",
+      "meaningEn": "fly; skip (pages)"
+    },
+    {
+      "char": "馬",
+      "reading": "うま、ま",
+      "meaning": "horse",
+      "meaningEn": "horse"
+    },
+    {
+      "char": "鳴",
+      "reading": "な",
+      "meaning": "bark; chirp; cry; honk; ring",
+      "meaningEn": "bark; chirp; cry; honk; ring"
+    },
+    {
+      "char": "亡",
+      "reading": "な",
+      "meaning": "deceased; dying; perish",
+      "meaningEn": "deceased; dying; perish"
+    },
+    {
+      "char": "件",
+      "reading": "ケン",
+      "meaning": "item; matter",
+      "meaningEn": "item; matter"
+    },
+    {
+      "char": "例",
+      "reading": "たと",
+      "meaning": "example; precedent",
+      "meaningEn": "example; precedent"
+    },
+    {
+      "char": "倍",
+      "reading": "バイ",
+      "meaning": "double; times",
+      "meaningEn": "double; times"
+    },
+    {
+      "char": "値",
+      "reading": "あたい、ね",
+      "meaning": "cost; price; value",
+      "meaningEn": "cost; price; value"
+    },
+    {
+      "char": "備",
+      "reading": "そな",
+      "meaning": "preparation",
+      "meaningEn": "preparation"
+    },
+    {
+      "char": "優",
+      "reading": "すぐ",
+      "meaning": "actor; excel; surpass; gentleness",
+      "meaningEn": "actor; excel; surpass; gentleness"
+    },
+    {
+      "char": "共",
+      "reading": "とも",
+      "meaning": "together; with; alike; both",
+      "meaningEn": "together; with; alike; both"
+    },
+    {
+      "char": "具",
+      "reading": "グ",
+      "meaning": "container; utensil; detailed; preparation",
+      "meaningEn": "container; utensil; detailed; preparation"
+    },
+    {
+      "char": "列",
+      "reading": "レツ",
+      "meaning": "column; row; rank",
+      "meaningEn": "column; row; rank"
+    },
+    {
+      "char": "刻",
+      "reading": "きざ",
+      "meaning": "chop; mince; carve; engrave",
+      "meaningEn": "chop; mince; carve; engrave"
+    },
+    {
+      "char": "割",
+      "reading": "さ",
+      "meaning": "proportion; split; divide",
+      "meaningEn": "proportion; split; divide"
+    },
+    {
+      "char": "努",
+      "reading": "つと",
+      "meaning": "diligent; toil",
+      "meaningEn": "diligent; toil"
+    },
+    {
+      "char": "務",
+      "reading": "つと",
+      "meaning": "duty; task",
+      "meaningEn": "duty; task"
+    },
+    {
+      "char": "勤",
+      "reading": "つと",
+      "meaning": "be employed; serve",
+      "meaningEn": "be employed; serve"
+    },
+    {
+      "char": "危",
+      "reading": "あぶ",
+      "meaning": "dangerous; fear",
+      "meaningEn": "dangerous; fear"
+    },
+    {
+      "char": "吸",
+      "reading": "す",
+      "meaning": "inhale; suck",
+      "meaningEn": "inhale; suck"
+    },
+    {
+      "char": "呼",
+      "reading": "よ",
+      "meaning": "call; invite",
+      "meaningEn": "call; invite"
+    },
+    {
+      "char": "命",
+      "reading": "いのち",
+      "meaning": "life; fate; command",
+      "meaningEn": "life; fate; command"
+    },
+    {
+      "char": "和",
+      "reading": "なご",
+      "meaning": "harmony; Japan; Japanese style; peace; soften",
+      "meaningEn": "harmony; Japan; Japanese style; peace; soften"
+    },
+    {
+      "char": "喜",
+      "reading": "よろこ",
+      "meaning": "rejoice; enjoy; congratulations",
+      "meaningEn": "rejoice; enjoy; congratulations"
+    },
+    {
+      "char": "因",
+      "reading": "よ",
+      "meaning": "to depend on; follow; be connected with",
+      "meaningEn": "to depend on; follow; be connected with"
+    },
+    {
+      "char": "困",
+      "reading": "こま",
+      "meaning": "annoyed; distressed",
+      "meaningEn": "annoyed; distressed"
+    },
+    {
+      "char": "在",
+      "reading": "あ",
+      "meaning": "to exist; countryside",
+      "meaningEn": "to exist; countryside"
+    },
+    {
+      "char": "型",
+      "reading": "かた",
+      "meaning": "type; model; shape",
+      "meaningEn": "type; model; shape"
+    },
+    {
+      "char": "報",
+      "reading": "むく",
+      "meaning": "news; to report; retaliation",
+      "meaningEn": "news; to report; retaliation"
+    },
+    {
+      "char": "塩",
+      "reading": "しお",
+      "meaning": "salt",
+      "meaningEn": "salt"
+    },
+    {
+      "char": "増",
+      "reading": "ふ",
+      "meaning": "add; augment; increase",
+      "meaningEn": "add; augment; increase"
+    },
+    {
+      "char": "妻",
+      "reading": "つま",
+      "meaning": "wife",
+      "meaningEn": "wife"
+    },
+    {
+      "char": "婦",
+      "reading": "フ",
+      "meaning": "bride; wife; woman",
+      "meaningEn": "bride; wife; woman"
+    },
+    {
+      "char": "存",
+      "reading": "ソン、ゾン",
+      "meaning": "exist; to preserve; to know of",
+      "meaningEn": "exist; to preserve; to know of"
+    },
+    {
+      "char": "宅",
+      "reading": "タク",
+      "meaning": "home; house; my husband",
+      "meaningEn": "home; house; my husband"
+    },
+    {
+      "char": "容",
+      "reading": "ヨウ",
+      "meaning": "contain; form; shape",
+      "meaningEn": "contain; form; shape"
+    },
+    {
+      "char": "寺",
+      "reading": "てら",
+      "meaning": "Buddhist temple",
+      "meaningEn": "Buddhist temple"
+    },
+    {
+      "char": "島",
+      "reading": "しま",
+      "meaning": "island",
+      "meaningEn": "island"
+    },
+    {
+      "char": "希",
+      "reading": "キ",
+      "meaning": "hope; request; sparse; rare",
+      "meaningEn": "hope; request; sparse; rare"
+    },
+    {
+      "char": "師",
+      "reading": "シ",
+      "meaning": "instructor; master; specialist; metropolis",
+      "meaningEn": "instructor; master; specialist; metropolis"
+    },
+    {
+      "char": "常",
+      "reading": "つね",
+      "meaning": "always; continually; ordinary; normal",
+      "meaningEn": "always; continually; ordinary; normal"
+    },
+    {
+      "char": "平",
+      "reading": "たい",
+      "meaning": "flat; peace",
+      "meaningEn": "flat; peace"
+    },
+    {
+      "char": "幸",
+      "reading": "さいわ",
+      "meaning": "fortune; happiness",
+      "meaningEn": "fortune; happiness"
+    },
+    {
+      "char": "座",
+      "reading": "すわ",
+      "meaning": "sit; seat; cushion",
+      "meaningEn": "sit; seat; cushion"
+    },
+    {
+      "char": "庫",
+      "reading": "ク、コ",
+      "meaning": "warehouse",
+      "meaningEn": "warehouse"
+    },
+    {
+      "char": "庭",
+      "reading": "にわ",
+      "meaning": "courtyard; garden",
+      "meaningEn": "courtyard; garden"
+    },
+    {
+      "char": "徒",
+      "reading": "ト",
+      "meaning": "emptiness; futility; go on foot; pupil",
+      "meaningEn": "emptiness; futility; go on foot; pupil"
+    },
+    {
+      "char": "得",
+      "reading": "う",
+      "meaning": "profit; benefit; advantage; gain",
+      "meaningEn": "profit; benefit; advantage; gain"
+    },
+    {
+      "char": "忘",
+      "reading": "わす",
+      "meaning": "forget",
+      "meaningEn": "forget"
+    },
+    {
+      "char": "性",
+      "reading": "ショウ、セイ",
+      "meaning": "gender; nature",
+      "meaningEn": "gender; nature"
+    },
+    {
+      "char": "悲",
+      "reading": "かな",
+      "meaning": "sad; regret",
+      "meaningEn": "sad; regret"
+    },
+    {
+      "char": "情",
+      "reading": "なさ",
+      "meaning": "circumstances; emotion; feelings; passion",
+      "meaningEn": "circumstances; emotion; feelings; passion"
+    },
+    {
+      "char": "愛",
+      "reading": "アイ",
+      "meaning": "love",
+      "meaningEn": "love"
+    },
+    {
+      "char": "才",
+      "reading": "サイ",
+      "meaning": "genius; years old",
+      "meaningEn": "genius; years old"
+    },
+    {
+      "char": "打",
+      "reading": "う",
+      "meaning": "hit; strike",
+      "meaningEn": "hit; strike"
+    },
+    {
+      "char": "支",
+      "reading": "ささ",
+      "meaning": "branch; support",
+      "meaningEn": "branch; support"
+    },
+    {
+      "char": "放",
+      "reading": "はな",
+      "meaning": "release; liberate; broadcast; emit",
+      "meaningEn": "release; liberate; broadcast; emit"
+    },
+    {
+      "char": "散",
+      "reading": "ち",
+      "meaning": "spend; scatter; disperse",
+      "meaningEn": "spend; scatter; disperse"
+    },
+    {
+      "char": "整",
+      "reading": "ととの",
+      "meaning": "arrange; put in order",
+      "meaningEn": "arrange; put in order"
+    },
+    {
+      "char": "断",
+      "reading": "ことわ",
+      "meaning": "decline; refuse; decide; absolutely",
+      "meaningEn": "decline; refuse; decide; absolutely"
+    },
+    {
+      "char": "易",
+      "reading": "やさ",
+      "meaning": "simple; easy; smooth; modify; fortune-telling",
+      "meaningEn": "simple; easy; smooth; modify; fortune-telling"
+    },
+    {
+      "char": "晩",
+      "reading": "バン",
+      "meaning": "night",
+      "meaningEn": "night"
+    },
+    {
+      "char": "景",
+      "reading": "ケイ",
+      "meaning": "scenery; view",
+      "meaningEn": "scenery; view"
+    },
+    {
+      "char": "札",
+      "reading": "ふだ",
+      "meaning": "counter for bonds; paper money",
+      "meaningEn": "counter for bonds; paper money"
+    },
+    {
+      "char": "材",
+      "reading": "ザイ",
+      "meaning": "ingredients; materials; talent; timber; wood",
+      "meaningEn": "ingredients; materials; talent; timber; wood"
+    },
+    {
+      "char": "格",
+      "reading": "カク、コウ",
+      "meaning": "case (law, grammar); character; rank; status",
+      "meaningEn": "case (law, grammar); character; rank; status"
+    },
+    {
+      "char": "案",
+      "reading": "アン",
+      "meaning": "table; investigate; document; proposition",
+      "meaningEn": "table; investigate; document; proposition"
+    },
+    {
+      "char": "構",
+      "reading": "かま",
+      "meaning": "build; posture; pretend",
+      "meaningEn": "build; posture; pretend"
+    },
+    {
+      "char": "欲",
+      "reading": "ほっ",
+      "meaning": "desire; greed; longing; passion",
+      "meaningEn": "desire; greed; longing; passion"
+    },
+    {
+      "char": "段",
+      "reading": "ダン",
+      "meaning": "stairs",
+      "meaningEn": "stairs"
+    },
+    {
+      "char": "殺",
+      "reading": "ころ",
+      "meaning": "kill; slice off; split",
+      "meaningEn": "kill; slice off; split"
+    },
+    {
+      "char": "氷",
+      "reading": "こおり、ひ",
+      "meaning": "ice; freeze",
+      "meaningEn": "ice; freeze"
+    },
+    {
+      "char": "油",
+      "reading": "あぶら",
+      "meaning": "fat; oil",
+      "meaningEn": "fat; oil"
+    },
+    {
+      "char": "波",
+      "reading": "なみ",
+      "meaning": "waves",
+      "meaningEn": "waves"
+    },
+    {
+      "char": "泣",
+      "reading": "な",
+      "meaning": "cry; weep",
+      "meaningEn": "cry; weep"
+    },
+    {
+      "char": "泳",
+      "reading": "およ",
+      "meaning": "swim",
+      "meaningEn": "swim"
+    },
+    {
+      "char": "深",
+      "reading": "ふか",
+      "meaning": "intensify",
+      "meaningEn": "intensify"
+    },
+    {
+      "char": "済",
+      "reading": "す",
+      "meaning": "come to an end; finish; settle",
+      "meaningEn": "come to an end; finish; settle"
+    },
+    {
+      "char": "温",
+      "reading": "あたた",
+      "meaning": "warm",
+      "meaningEn": "warm"
+    },
+    {
+      "char": "無",
+      "reading": "な",
+      "meaning": "none; not; nothing",
+      "meaningEn": "none; not; nothing"
+    },
+    {
+      "char": "然",
+      "reading": "ゼン、ネン",
+      "meaning": "however; in that case; burn",
+      "meaningEn": "however; in that case; burn"
+    },
+    {
+      "char": "焼",
+      "reading": "や",
+      "meaning": "bake; burn",
+      "meaningEn": "bake; burn"
+    },
+    {
+      "char": "現",
+      "reading": "あらわ",
+      "meaning": "actual; existing; present",
+      "meaningEn": "actual; existing; present"
+    },
+    {
+      "char": "留",
+      "reading": "と",
+      "meaning": "fasten; detain; halt",
+      "meaningEn": "fasten; detain; halt"
+    },
+    {
+      "char": "痛",
+      "reading": "いた",
+      "meaning": "damage; hurt; pain",
+      "meaningEn": "damage; hurt; pain"
+    },
+    {
+      "char": "的",
+      "reading": "まと",
+      "meaning": "target; mark; obvious; adj ending",
+      "meaningEn": "target; mark; obvious; adj ending"
+    },
+    {
+      "char": "確",
+      "reading": "たし",
+      "meaning": "clear; evident; firm; solid",
+      "meaningEn": "clear; evident; firm; solid"
+    },
+    {
+      "char": "示",
+      "reading": "しめ",
+      "meaning": "show; display; express",
+      "meaningEn": "show; display; express"
+    },
+    {
+      "char": "祭",
+      "reading": "まつ",
+      "meaning": "ritual; pray; celebrate",
+      "meaningEn": "ritual; pray; celebrate"
+    },
+    {
+      "char": "積",
+      "reading": "つ",
+      "meaning": "stack; pile; amass; product of multiplication",
+      "meaningEn": "stack; pile; amass; product of multiplication"
+    },
+    {
+      "char": "窓",
+      "reading": "まど",
+      "meaning": "pane; window",
+      "meaningEn": "pane; window"
+    },
+    {
+      "char": "等",
+      "reading": "ひと",
+      "meaning": "etc.; similar; equal",
+      "meaningEn": "etc.; similar; equal"
+    },
+    {
+      "char": "細",
+      "reading": "こま",
+      "meaning": "thin; narrow; detailed; precise",
+      "meaningEn": "thin; narrow; detailed; precise"
+    },
+    {
+      "char": "経",
+      "reading": "へ",
+      "meaning": "longitude; boundary; elapse; measure; warp",
+      "meaningEn": "longitude; boundary; elapse; measure; warp"
+    },
+    {
+      "char": "結",
+      "reading": "むす",
+      "meaning": "bind; join; fasten; contract",
+      "meaningEn": "bind; join; fasten; contract"
+    },
+    {
+      "char": "給",
+      "reading": "キュウ",
+      "meaning": "bestow on; grant; salary; wage",
+      "meaningEn": "bestow on; grant; salary; wage"
+    },
+    {
+      "char": "緑",
+      "reading": "みどり",
+      "meaning": "green",
+      "meaningEn": "green"
+    },
+    {
+      "char": "線",
+      "reading": "セン",
+      "meaning": "line; track",
+      "meaningEn": "line; track"
+    },
+    {
+      "char": "練",
+      "reading": "ね",
+      "meaning": "practice; polish; refine",
+      "meaningEn": "practice; polish; refine"
+    },
+    {
+      "char": "置",
+      "reading": "お",
+      "meaning": "place; put; keep; leave",
+      "meaningEn": "place; put; keep; leave"
+    },
+    {
+      "char": "老",
+      "reading": "お",
+      "meaning": "grow old; old man",
+      "meaningEn": "grow old; old man"
+    },
+    {
+      "char": "職",
+      "reading": "ショク",
+      "meaning": "employment; work",
+      "meaningEn": "employment; work"
+    },
+    {
+      "char": "腹",
+      "reading": "はら",
+      "meaning": "abdomen; stomach",
+      "meaningEn": "abdomen; stomach"
+    },
+    {
+      "char": "良",
+      "reading": "よ",
+      "meaning": "good; skilled",
+      "meaningEn": "good; skilled"
+    },
+    {
+      "char": "若",
+      "reading": "も",
+      "meaning": "young; immature; perhaps; few in number",
+      "meaningEn": "young; immature; perhaps; few in number"
+    },
+    {
+      "char": "草",
+      "reading": "くさ",
+      "meaning": "grass; weeds; herbs; draft; beginning",
+      "meaningEn": "grass; weeds; herbs; draft; beginning"
+    },
+    {
+      "char": "荷",
+      "reading": "に",
+      "meaning": "baggage; to bear; to shoulder",
+      "meaningEn": "baggage; to bear; to shoulder"
+    },
+    {
+      "char": "落",
+      "reading": "お",
+      "meaning": "fall; drop",
+      "meaningEn": "fall; drop"
+    },
+    {
+      "char": "術",
+      "reading": "ジュツ",
+      "meaning": "skill ;etchnique; art; magic",
+      "meaningEn": "skill ;etchnique; art; magic"
+    },
+    {
+      "char": "衣",
+      "reading": "ころも",
+      "meaning": "clothes; garment",
+      "meaningEn": "clothes; garment"
+    },
+    {
+      "char": "覚",
+      "reading": "おぼ",
+      "meaning": "wake up; memorize; remember",
+      "meaningEn": "wake up; memorize; remember"
+    },
+    {
+      "char": "解",
+      "reading": "と",
+      "meaning": "answer; explanation; undo; unravel; cancel; key",
+      "meaningEn": "answer; explanation; undo; unravel; cancel; key"
+    },
+    {
+      "char": "認",
+      "reading": "みと",
+      "meaning": "acknowledge;recognize",
+      "meaningEn": "acknowledge;recognize"
+    },
+    {
+      "char": "警",
+      "reading": "ケイ",
+      "meaning": "caution; warn against; surprise",
+      "meaningEn": "caution; warn against; surprise"
+    },
+    {
+      "char": "身",
+      "reading": "み",
+      "meaning": "self; body",
+      "meaningEn": "self; body"
+    },
+    {
+      "char": "追",
+      "reading": "お",
+      "meaning": "chase; follow ;pursue",
+      "meaningEn": "chase; follow ;pursue"
+    },
+    {
+      "char": "過",
+      "reading": "あやま",
+      "meaning": "exceed; overdo; error; mistake",
+      "meaningEn": "exceed; overdo; error; mistake"
+    },
+    {
+      "char": "達",
+      "reading": "タツ",
+      "meaning": "attain; reach",
+      "meaningEn": "attain; reach"
+    },
+    {
+      "char": "適",
+      "reading": "テキ",
+      "meaning": "capable; qualified; suitable",
+      "meaningEn": "capable; qualified; suitable"
+    },
+    {
+      "char": "量",
+      "reading": "はか",
+      "meaning": "amount; quantity; weight; estimate; measure",
+      "meaningEn": "amount; quantity; weight; estimate; measure"
+    },
+    {
+      "char": "鉄",
+      "reading": "テツ",
+      "meaning": "iron",
+      "meaningEn": "iron"
+    },
+    {
+      "char": "閉",
+      "reading": "し",
+      "meaning": "closed; shut",
+      "meaningEn": "closed; shut"
+    },
+    {
+      "char": "降",
+      "reading": "お",
+      "meaning": "descend; fall; precipitate; surrender",
+      "meaningEn": "descend; fall; precipitate; surrender"
+    },
+    {
+      "char": "限",
+      "reading": "かぎ",
+      "meaning": "limit; restrict",
+      "meaningEn": "limit; restrict"
+    },
+    {
+      "char": "陽",
+      "reading": "ヨウ",
+      "meaning": "in the sun; bright",
+      "meaningEn": "in the sun; bright"
+    },
+    {
+      "char": "階",
+      "reading": "カイ",
+      "meaning": "stairs; up and down",
+      "meaningEn": "stairs; up and down"
+    },
+    {
+      "char": "際",
+      "reading": "きわ",
+      "meaning": "edge; verge; relationship; interval; fate",
+      "meaningEn": "edge; verge; relationship; interval; fate"
+    },
+    {
+      "char": "雑",
+      "reading": "ザツ、ゾウ",
+      "meaning": "mixed; disordered",
+      "meaningEn": "mixed; disordered"
+    },
+    {
+      "char": "難",
+      "reading": "かた",
+      "meaning": "difficult; tough; misfortune; sorrow; fight; rebuke",
+      "meaningEn": "difficult; tough; misfortune; sorrow; fight; rebuke"
+    },
+    {
+      "char": "雲",
+      "reading": "くも",
+      "meaning": "cloud",
+      "meaningEn": "cloud"
+    },
+    {
+      "char": "静",
+      "reading": "しず",
+      "meaning": "quiet",
+      "meaningEn": "quiet"
+    },
+    {
+      "char": "非",
+      "reading": "ヒ",
+      "meaning": "poor; error; blame; non-",
+      "meaningEn": "poor; error; blame; non-"
+    },
+    {
+      "char": "並",
+      "reading": "なみ、なら",
+      "meaning": "line up; line; both; identical; ordinary",
+      "meaningEn": "line up; line; both; identical; ordinary"
+    },
+    {
+      "char": "丸",
+      "reading": "まる、まる",
+      "meaning": "circle; make circular; entirely; perfectly",
+      "meaningEn": "circle; make circular; entirely; perfectly"
+    },
+    {
+      "char": "任",
+      "reading": "まか",
+      "meaning": "entrust; shoulder; endure; work; duty",
+      "meaningEn": "entrust; shoulder; endure; work; duty"
+    },
+    {
+      "char": "似",
+      "reading": "に",
+      "meaning": "imitate; resemble",
+      "meaningEn": "imitate; resemble"
+    },
+    {
+      "char": "余",
+      "reading": "あま",
+      "meaning": "remainder; surplus",
+      "meaningEn": "remainder; surplus"
+    },
+    {
+      "char": "供",
+      "reading": "そな",
+      "meaning": "offer; sacrifice; supply",
+      "meaningEn": "offer; sacrifice; supply"
+    },
+    {
+      "char": "価",
+      "reading": "あたい",
+      "meaning": "price; value",
+      "meaningEn": "price; value"
+    },
+    {
+      "char": "個",
+      "reading": "コ",
+      "meaning": "individual",
+      "meaningEn": "individual"
+    },
+    {
+      "char": "冊",
+      "reading": "サク、サツ",
+      "meaning": "tome; volume; counter for books",
+      "meaningEn": "tome; volume; counter for books"
+    },
+    {
+      "char": "再",
+      "reading": "ふたた",
+      "meaning": "again; twice",
+      "meaningEn": "again; twice"
+    },
+    {
+      "char": "処",
+      "reading": "ショ",
+      "meaning": "put; fix; place",
+      "meaningEn": "put; fix; place"
+    },
+    {
+      "char": "判",
+      "reading": "ハン、バン",
+      "meaning": "judgement; seal; signature",
+      "meaningEn": "judgement; seal; signature"
+    },
+    {
+      "char": "制",
+      "reading": "セイ",
+      "meaning": "law; rule; system",
+      "meaningEn": "law; rule; system"
+    },
+    {
+      "char": "包",
+      "reading": "つつ",
+      "meaning": "conceal; pack up; wrap",
+      "meaningEn": "conceal; pack up; wrap"
+    },
+    {
+      "char": "卒",
+      "reading": "ソツ",
+      "meaning": "graduate; sudden; private; soldier",
+      "meaningEn": "graduate; sudden; private; soldier"
+    },
+    {
+      "char": "印",
+      "reading": "しるし",
+      "meaning": "sumbol; seal; stamp",
+      "meaningEn": "sumbol; seal; stamp"
+    },
+    {
+      "char": "卵",
+      "reading": "たまご",
+      "meaning": "egg; ovum",
+      "meaningEn": "egg; ovum"
+    },
+    {
+      "char": "厚",
+      "reading": "あつ",
+      "meaning": "thick; heavy; kind",
+      "meaningEn": "thick; heavy; kind"
+    },
+    {
+      "char": "収",
+      "reading": "おさ",
+      "meaning": "income; obtain; supply; store",
+      "meaningEn": "income; obtain; supply; store"
+    },
+    {
+      "char": "吹",
+      "reading": "ふ",
+      "meaning": "blow; breathe; smoke",
+      "meaningEn": "blow; breathe; smoke"
+    },
+    {
+      "char": "周",
+      "reading": "まわ",
+      "meaning": "circumference",
+      "meaningEn": "circumference"
+    },
+    {
+      "char": "器",
+      "reading": "うつわ",
+      "meaning": "container; vessel; talent; ability; tool",
+      "meaningEn": "container; vessel; talent; ability; tool"
+    },
+    {
+      "char": "坂",
+      "reading": "さか",
+      "meaning": "hill; incline; slope",
+      "meaningEn": "hill; incline; slope"
+    },
+    {
+      "char": "夢",
+      "reading": "ゆめ",
+      "meaning": "dream; vision",
+      "meaningEn": "dream; vision"
+    },
+    {
+      "char": "婚",
+      "reading": "コン",
+      "meaning": "marriage",
+      "meaningEn": "marriage"
+    },
+    {
+      "char": "季",
+      "reading": "キ",
+      "meaning": "seasons",
+      "meaningEn": "seasons"
+    },
+    {
+      "char": "寄",
+      "reading": "よ",
+      "meaning": "rely on; entrust to; approach",
+      "meaningEn": "rely on; entrust to; approach"
+    },
+    {
+      "char": "寝",
+      "reading": "ね",
+      "meaning": "lie down; sleep",
+      "meaningEn": "lie down; sleep"
+    },
+    {
+      "char": "専",
+      "reading": "もっぱ",
+      "meaning": "exclusive; solely; devote oneself to",
+      "meaningEn": "exclusive; solely; devote oneself to"
+    },
+    {
+      "char": "居",
+      "reading": "い",
+      "meaning": "exist; reside",
+      "meaningEn": "exist; reside"
+    },
+    {
+      "char": "届",
+      "reading": "とど",
+      "meaning": "arrive; deliver; forward; notify",
+      "meaningEn": "arrive; deliver; forward; notify"
+    },
+    {
+      "char": "忙",
+      "reading": "いそが",
+      "meaning": "busy; occupied",
+      "meaningEn": "busy; occupied"
+    },
+    {
+      "char": "慣",
+      "reading": "な",
+      "meaning": "accustomed to; get used to",
+      "meaningEn": "accustomed to; get used to"
+    },
+    {
+      "char": "戻",
+      "reading": "もど",
+      "meaning": "return; arrive",
+      "meaningEn": "return; arrive"
+    },
+    {
+      "char": "払",
+      "reading": "はら",
+      "meaning": "pay; oppose",
+      "meaningEn": "pay; oppose"
+    },
+    {
+      "char": "技",
+      "reading": "わざ",
+      "meaning": "skill; craft",
+      "meaningEn": "skill; craft"
+    },
+    {
+      "char": "押",
+      "reading": "お",
+      "meaning": "push; press; hold down; sign",
+      "meaningEn": "push; press; hold down; sign"
+    },
+    {
+      "char": "招",
+      "reading": "まね",
+      "meaning": "invite; summon",
+      "meaningEn": "invite; summon"
+    },
+    {
+      "char": "捨",
+      "reading": "す",
+      "meaning": "discard; throw away",
+      "meaningEn": "discard; throw away"
+    },
+    {
+      "char": "授",
+      "reading": "さず",
+      "meaning": "impart; instruct",
+      "meaningEn": "impart; instruct"
+    },
+    {
+      "char": "探",
+      "reading": "さが",
+      "meaning": "search",
+      "meaningEn": "search"
+    },
+    {
+      "char": "接",
+      "reading": "つ",
+      "meaning": "connect; join; meet",
+      "meaningEn": "connect; join; meet"
+    },
+    {
+      "char": "換",
+      "reading": "か",
+      "meaning": "change; interchange",
+      "meaningEn": "change; interchange"
+    },
+    {
+      "char": "星",
+      "reading": "ほし",
+      "meaning": "star",
+      "meaningEn": "star"
+    },
+    {
+      "char": "暖",
+      "reading": "あたた",
+      "meaning": "warmth",
+      "meaningEn": "warmth"
+    },
+    {
+      "char": "暮",
+      "reading": "く",
+      "meaning": "livelihood; make a living; to set (ex. sunset); close",
+      "meaningEn": "livelihood; make a living; to set (ex. sunset); close"
+    },
+    {
+      "char": "査",
+      "reading": "サ",
+      "meaning": "investigate",
+      "meaningEn": "investigate"
+    },
+    {
+      "char": "根",
+      "reading": "ね",
+      "meaning": "root",
+      "meaningEn": "root"
+    },
+    {
+      "char": "植",
+      "reading": "う",
+      "meaning": "plant",
+      "meaningEn": "plant"
+    },
+    {
+      "char": "極",
+      "reading": "きわ",
+      "meaning": "exterme; pole; very; to decide; to enter into",
+      "meaningEn": "exterme; pole; very; to decide; to enter into"
+    },
+    {
+      "char": "歳",
+      "reading": "サイ、セイ",
+      "meaning": "age; year; ripen",
+      "meaningEn": "age; year; ripen"
+    },
+    {
+      "char": "比",
+      "reading": "くら",
+      "meaning": "compare; ratio",
+      "meaningEn": "compare; ratio"
+    },
+    {
+      "char": "毛",
+      "reading": "け",
+      "meaning": "hair; fur",
+      "meaningEn": "hair; fur"
+    },
+    {
+      "char": "浅",
+      "reading": "あさ",
+      "meaning": "shallow; superficial",
+      "meaningEn": "shallow; superficial"
+    },
+    {
+      "char": "浴",
+      "reading": "あ",
+      "meaning": "bathe; take a shower",
+      "meaningEn": "bathe; take a shower"
+    },
+    {
+      "char": "混",
+      "reading": "こ",
+      "meaning": "mix; cloud; confuse",
+      "meaningEn": "mix; cloud; confuse"
+    },
+    {
+      "char": "減",
+      "reading": "へ",
+      "meaning": "decline; decrease; reduce",
+      "meaningEn": "decline; decrease; reduce"
+    },
+    {
+      "char": "渡",
+      "reading": "わた",
+      "meaning": "deliver; hand over; pass",
+      "meaningEn": "deliver; hand over; pass"
+    },
+    {
+      "char": "準",
+      "reading": "ジュン",
+      "meaning": "level; make even; conform; guage; standard",
+      "meaningEn": "level; make even; conform; guage; standard"
+    },
+    {
+      "char": "演",
+      "reading": "エン",
+      "meaning": "act; performance; play",
+      "meaningEn": "act; performance; play"
+    },
+    {
+      "char": "煙",
+      "reading": "けむり、けむ",
+      "meaning": "smoke",
+      "meaningEn": "smoke"
+    },
+    {
+      "char": "片",
+      "reading": "かた",
+      "meaning": "fragment; piece; right half",
+      "meaningEn": "fragment; piece; right half"
+    },
+    {
+      "char": "犯",
+      "reading": "おか",
+      "meaning": "crime; offense",
+      "meaningEn": "crime; offense"
+    },
+    {
+      "char": "状",
+      "reading": "ジョウ",
+      "meaning": "circumstances; conditions; form",
+      "meaningEn": "circumstances; conditions; form"
+    },
+    {
+      "char": "独",
+      "reading": "ひと",
+      "meaning": "alone; single",
+      "meaningEn": "alone; single"
+    },
+    {
+      "char": "玉",
+      "reading": "たま",
+      "meaning": "jewel; sphere",
+      "meaningEn": "jewel; sphere"
+    },
+    {
+      "char": "疑",
+      "reading": "うたが",
+      "meaning": "distrust; doubt; question",
+      "meaningEn": "distrust; doubt; question"
+    },
+    {
+      "char": "疲",
+      "reading": "つか",
+      "meaning": "exhausted; tired",
+      "meaningEn": "exhausted; tired"
+    },
+    {
+      "char": "眠",
+      "reading": "ねむ",
+      "meaning": "die; sleep",
+      "meaningEn": "die; sleep"
+    },
+    {
+      "char": "破",
+      "reading": "やぶ",
+      "meaning": "break; destroy; rip; defeat",
+      "meaningEn": "break; destroy; rip; defeat"
+    },
+    {
+      "char": "祖",
+      "reading": "ソ",
+      "meaning": "ancestor; founder",
+      "meaningEn": "ancestor; founder"
+    },
+    {
+      "char": "禁",
+      "reading": "キン",
+      "meaning": "ban; prohibit; endure",
+      "meaningEn": "ban; prohibit; endure"
+    },
+    {
+      "char": "秒",
+      "reading": "ビョウ",
+      "meaning": "second",
+      "meaningEn": "second"
+    },
+    {
+      "char": "移",
+      "reading": "うつ",
+      "meaning": "move; change; transcribe",
+      "meaningEn": "move; change; transcribe"
+    },
+    {
+      "char": "程",
+      "reading": "ほど",
+      "meaning": "rule; law; extent; degree",
+      "meaningEn": "rule; law; extent; degree"
+    },
+    {
+      "char": "算",
+      "reading": "サン",
+      "meaning": "abacus; count; calculate",
+      "meaningEn": "abacus; count; calculate"
+    },
+    {
+      "char": "節",
+      "reading": "ふし",
+      "meaning": "knot; joint; knuckle; occasion; chance; punctuation",
+      "meaningEn": "knot; joint; knuckle; occasion; chance; punctuation"
+    },
+    {
+      "char": "簡",
+      "reading": "カン",
+      "meaning": "simple;  brevity",
+      "meaningEn": "simple;  brevity"
+    },
+    {
+      "char": "精",
+      "reading": "ショウ、セイ",
+      "meaning": "purify; refine; spirit; heart; ghost",
+      "meaningEn": "purify; refine; spirit; heart; ghost"
+    },
+    {
+      "char": "糸",
+      "reading": "いと",
+      "meaning": "string",
+      "meaningEn": "string"
+    },
+    {
+      "char": "紅",
+      "reading": "くれない、べに",
+      "meaning": "crimson",
+      "meaningEn": "crimson"
+    },
+    {
+      "char": "絶",
+      "reading": "た",
+      "meaning": "stand; bear; stop; eradicate; extremely; very",
+      "meaningEn": "stand; bear; stop; eradicate; extremely; very"
+    },
+    {
+      "char": "緒",
+      "reading": "お",
+      "meaning": "thread; string; connection; beginning",
+      "meaningEn": "thread; string; connection; beginning"
+    },
+    {
+      "char": "罪",
+      "reading": "つみ",
+      "meaning": "crime; sin",
+      "meaningEn": "crime; sin"
+    },
+    {
+      "char": "署",
+      "reading": "ショ",
+      "meaning": "signature; government office; role; duty",
+      "meaningEn": "signature; government office; role; duty"
+    },
+    {
+      "char": "背",
+      "reading": "せ、せい、そむ",
+      "meaning": "back; behind; abandon; turn one's back on",
+      "meaningEn": "back; behind; abandon; turn one's back on"
+    },
+    {
+      "char": "能",
+      "reading": "ノウ",
+      "meaning": "ability; skill",
+      "meaningEn": "ability; skill"
+    },
+    {
+      "char": "裏",
+      "reading": "うら",
+      "meaning": "reverse; backside; internal",
+      "meaningEn": "reverse; backside; internal"
+    },
+    {
+      "char": "規",
+      "reading": "キ",
+      "meaning": "compass; standard; to correct; measure",
+      "meaningEn": "compass; standard; to correct; measure"
+    },
+    {
+      "char": "訪",
+      "reading": "おとず",
+      "meaning": "visit; call on",
+      "meaningEn": "visit; call on"
+    },
+    {
+      "char": "許",
+      "reading": "ゆる",
+      "meaning": "approve; permit",
+      "meaningEn": "approve; permit"
+    },
+    {
+      "char": "誤",
+      "reading": "あやま",
+      "meaning": "error; mistake; wrong",
+      "meaningEn": "error; mistake; wrong"
+    },
+    {
+      "char": "論",
+      "reading": "ロン",
+      "meaning": "argue; discuss; point of view",
+      "meaningEn": "argue; discuss; point of view"
+    },
+    {
+      "char": "識",
+      "reading": "シキ",
+      "meaning": "to know; record; write down",
+      "meaningEn": "to know; record; write down"
+    },
+    {
+      "char": "財",
+      "reading": "サイ、ザイ",
+      "meaning": "assets; wealth",
+      "meaningEn": "assets; wealth"
+    },
+    {
+      "char": "貧",
+      "reading": "まず",
+      "meaning": "poverty",
+      "meaningEn": "poverty"
+    },
+    {
+      "char": "責",
+      "reading": "せ",
+      "meaning": "blame; condemn",
+      "meaningEn": "blame; condemn"
+    },
+    {
+      "char": "農",
+      "reading": "ノウ",
+      "meaning": "agriculture",
+      "meaningEn": "agriculture"
+    },
+    {
+      "char": "辺",
+      "reading": "あた",
+      "meaning": "boundary; border; vicinity",
+      "meaningEn": "boundary; border; vicinity"
+    },
+    {
+      "char": "込",
+      "reading": "こ",
+      "meaning": "crowded; included; packed",
+      "meaningEn": "crowded; included; packed"
+    },
+    {
+      "char": "迷",
+      "reading": "まよ",
+      "meaning": "be lost; confused; unclear; hesitate",
+      "meaningEn": "be lost; confused; unclear; hesitate"
+    },
+    {
+      "char": "退",
+      "reading": "しりぞ",
+      "meaning": "withdraw; retreat; retire; repel",
+      "meaningEn": "withdraw; retreat; retire; repel"
+    },
+    {
+      "char": "遅",
+      "reading": "おく",
+      "meaning": "late; slow",
+      "meaningEn": "late; slow"
+    },
+    {
+      "char": "違",
+      "reading": "ちが",
+      "meaning": "differ",
+      "meaningEn": "differ"
+    },
+    {
+      "char": "郵",
+      "reading": "ユウ",
+      "meaning": "(postal) mail",
+      "meaningEn": "(postal) mail"
+    },
+    {
+      "char": "防",
+      "reading": "ふせ",
+      "meaning": "defend; resist; surround; rival; equal",
+      "meaningEn": "defend; resist; surround; rival; equal"
+    },
+    {
+      "char": "除",
+      "reading": "のぞ",
+      "meaning": "exclude; remove; division (math)",
+      "meaningEn": "exclude; remove; division (math)"
+    },
+    {
+      "char": "頂",
+      "reading": "いただき、いただ",
+      "meaning": "peak; summit",
+      "meaningEn": "peak; summit"
+    },
+    {
+      "char": "順",
+      "reading": "ジュン",
+      "meaning": "obey; follow; well behaved; order; sequence",
+      "meaningEn": "obey; follow; well behaved; order; sequence"
+    },
+    {
+      "char": "預",
+      "reading": "あず",
+      "meaning": "entrust to; deposit",
+      "meaningEn": "entrust to; deposit"
+    },
+    {
+      "char": "額",
+      "reading": "ひたい",
+      "meaning": "forehead; fixed amount; plaque; sign",
+      "meaningEn": "forehead; fixed amount; plaque; sign"
+    },
+    {
+      "char": "骨",
+      "reading": "ほね",
+      "meaning": "bone",
+      "meaningEn": "bone"
+    },
+    {
+      "char": "与",
+      "reading": "あた",
+      "meaning": "award; bestow; take part in; cooperate",
+      "meaningEn": "award; bestow; take part in; cooperate"
+    },
+    {
+      "char": "久",
+      "reading": "ひさ",
+      "meaning": "long time",
+      "meaningEn": "long time"
+    },
+    {
+      "char": "互",
+      "reading": "たが",
+      "meaning": "mutually; reciprocally",
+      "meaningEn": "mutually; reciprocally"
+    },
+    {
+      "char": "倒",
+      "reading": "たお",
+      "meaning": "knock down; fall; collapse",
+      "meaningEn": "knock down; fall; collapse"
+    },
+    {
+      "char": "偶",
+      "reading": "グウ",
+      "meaning": "unexpected; accidentally; even number; same kind",
+      "meaningEn": "unexpected; accidentally; even number; same kind"
+    },
+    {
+      "char": "到",
+      "reading": "トウ",
+      "meaning": "arrive; attain; invert",
+      "meaningEn": "arrive; attain; invert"
+    },
+    {
+      "char": "刺",
+      "reading": "さ",
+      "meaning": "stab; pierce; calling card",
+      "meaningEn": "stab; pierce; calling card"
+    },
+    {
+      "char": "効",
+      "reading": "き",
+      "meaning": "benefit; efficacy",
+      "meaningEn": "benefit; efficacy"
+    },
+    {
+      "char": "可",
+      "reading": "カ",
+      "meaning": "can; passable",
+      "meaningEn": "can; passable"
+    },
+    {
+      "char": "善",
+      "reading": "よ",
+      "meaning": "good; virtuous",
+      "meaningEn": "good; virtuous"
+    },
+    {
+      "char": "均",
+      "reading": "キン",
+      "meaning": "average; level",
+      "meaningEn": "average; level"
+    },
+    {
+      "char": "城",
+      "reading": "しろ",
+      "meaning": "castle",
+      "meaningEn": "castle"
+    },
+    {
+      "char": "域",
+      "reading": "イキ",
+      "meaning": "level; limit; range",
+      "meaningEn": "level; limit; range"
+    },
+    {
+      "char": "基",
+      "reading": "もと、もとい",
+      "meaning": "foundation; basis; be based on",
+      "meaningEn": "foundation; basis; be based on"
+    },
+    {
+      "char": "士",
+      "reading": "シ",
+      "meaning": "gentleman; samurai",
+      "meaningEn": "gentleman; samurai"
+    },
+    {
+      "char": "奥",
+      "reading": "おく",
+      "meaning": "interior; all the way inside",
+      "meaningEn": "interior; all the way inside"
+    },
+    {
+      "char": "娘",
+      "reading": "むすめ",
+      "meaning": "daughter",
+      "meaningEn": "daughter"
+    },
+    {
+      "char": "宝",
+      "reading": "たから",
+      "meaning": "treasure",
+      "meaningEn": "treasure"
+    },
+    {
+      "char": "導",
+      "reading": "みちび",
+      "meaning": "guide; lead",
+      "meaningEn": "guide; lead"
+    },
+    {
+      "char": "布",
+      "reading": "ぬの",
+      "meaning": "cloth",
+      "meaningEn": "cloth"
+    },
+    {
+      "char": "張",
+      "reading": "は",
+      "meaning": "stretch; spread; play (string instrument)",
+      "meaningEn": "stretch; spread; play (string instrument)"
+    },
+    {
+      "char": "彼",
+      "reading": "かの、かれ",
+      "meaning": "he",
+      "meaningEn": "he"
+    },
+    {
+      "char": "怒",
+      "reading": "いか",
+      "meaning": "to become angry",
+      "meaningEn": "to become angry"
+    },
+    {
+      "char": "怖",
+      "reading": "こわ",
+      "meaning": "be frightened; afraid",
+      "meaningEn": "be frightened; afraid"
+    },
+    {
+      "char": "恐",
+      "reading": "おそ",
+      "meaning": "fear; awe",
+      "meaningEn": "fear; awe"
+    },
+    {
+      "char": "恥",
+      "reading": "はじ、は",
+      "meaning": "dishonor",
+      "meaningEn": "dishonor"
+    },
+    {
+      "char": "抱",
+      "reading": "いだ",
+      "meaning": "embrace; hold",
+      "meaningEn": "embrace; hold"
+    },
+    {
+      "char": "普",
+      "reading": "フ",
+      "meaning": "widely; generally; universally",
+      "meaningEn": "widely; generally; universally"
+    },
+    {
+      "char": "更",
+      "reading": "さら、ふ",
+      "meaning": "to change; alternately; by turns; to pass; futhermore",
+      "meaningEn": "to change; alternately; by turns; to pass; futhermore"
+    },
+    {
+      "char": "替",
+      "reading": "か",
+      "meaning": "exchange; substitute",
+      "meaningEn": "exchange; substitute"
+    },
+    {
+      "char": "机",
+      "reading": "つくえ",
+      "meaning": "desk; table",
+      "meaningEn": "desk; table"
+    },
+    {
+      "char": "杯",
+      "reading": "さかずき",
+      "meaning": "counter for cups, glasses",
+      "meaningEn": "counter for cups, glasses"
+    },
+    {
+      "char": "松",
+      "reading": "まつ",
+      "meaning": "pine tree",
+      "meaningEn": "pine tree"
+    },
+    {
+      "char": "汗",
+      "reading": "あせ",
+      "meaning": "sweat",
+      "meaningEn": "sweat"
+    },
+    {
+      "char": "汚",
+      "reading": "きたな",
+      "meaning": "dirty; pollute; disgrace",
+      "meaningEn": "dirty; pollute; disgrace"
+    },
+    {
+      "char": "泊",
+      "reading": "と",
+      "meaning": "overnight stay",
+      "meaningEn": "overnight stay"
+    },
+    {
+      "char": "津",
+      "reading": "つ",
+      "meaning": "harbor; soak; spill; soup; bodily fluid",
+      "meaningEn": "harbor; soak; spill; soup; bodily fluid"
+    },
+    {
+      "char": "涙",
+      "reading": "なみだ",
+      "meaning": "tears",
+      "meaningEn": "tears"
+    },
+    {
+      "char": "燃",
+      "reading": "も",
+      "meaning": "blaze; burn; glow",
+      "meaningEn": "blaze; burn; glow"
+    },
+    {
+      "char": "猫",
+      "reading": "ねこ",
+      "meaning": "cat",
+      "meaningEn": "cat"
+    },
+    {
+      "char": "異",
+      "reading": "こと",
+      "meaning": "different; uncommon",
+      "meaningEn": "different; uncommon"
+    },
+    {
+      "char": "皆",
+      "reading": "みな",
+      "meaning": "all; everything; everyone",
+      "meaningEn": "all; everything; everyone"
+    },
+    {
+      "char": "盗",
+      "reading": "ぬす",
+      "meaning": "steal",
+      "meaningEn": "steal"
+    },
+    {
+      "char": "突",
+      "reading": "つ",
+      "meaning": "collide; sudden",
+      "meaningEn": "collide; sudden"
+    },
+    {
+      "char": "絡",
+      "reading": "から",
+      "meaning": "entwine; coil around; connect; logical thread",
+      "meaningEn": "entwine; coil around; connect; logical thread"
+    },
+    {
+      "char": "舞",
+      "reading": "まい、ま",
+      "meaning": "dance; encourage",
+      "meaningEn": "dance; encourage"
+    },
+    {
+      "char": "薄",
+      "reading": "うす",
+      "meaning": "think; shallow; weak (taste, etc.)",
+      "meaningEn": "think; shallow; weak (taste, etc.)"
+    },
+    {
+      "char": "街",
+      "reading": "まち",
+      "meaning": "street; town",
+      "meaningEn": "street; town"
+    },
+    {
+      "char": "講",
+      "reading": "コウ",
+      "meaning": "reconcile; make peace with; learn; discuss",
+      "meaningEn": "reconcile; make peace with; learn; discuss"
+    },
+    {
+      "char": "豆",
+      "reading": "まめ",
+      "meaning": "bean",
+      "meaningEn": "bean"
+    },
+    {
+      "char": "越",
+      "reading": "こ",
+      "meaning": "exceed; surpass",
+      "meaningEn": "exceed; surpass"
+    },
+    {
+      "char": "迎",
+      "reading": "むか",
+      "meaning": "greet; welcome",
+      "meaningEn": "greet; welcome"
+    },
+    {
+      "char": "述",
+      "reading": "の",
+      "meaning": "mention; relate; speak; state",
+      "meaningEn": "mention; relate; speak; state"
+    },
+    {
+      "char": "逃",
+      "reading": "に",
+      "meaning": "escape; evade; set free",
+      "meaningEn": "escape; evade; set free"
+    },
+    {
+      "char": "逆",
+      "reading": "さか、さか",
+      "meaning": "opposite; reversed",
+      "meaningEn": "opposite; reversed"
+    },
+    {
+      "char": "途",
+      "reading": "ト",
+      "meaning": "road; path",
+      "meaningEn": "road; path"
+    },
+    {
+      "char": "震",
+      "reading": "ふる",
+      "meaning": "shake; tremble",
+      "meaningEn": "shake; tremble"
+    },
+    {
+      "char": "靴",
+      "reading": "くつ",
+      "meaning": "shoes",
+      "meaningEn": "shoes"
+    },
+    {
+      "char": "頼",
+      "reading": "たの",
+      "meaning": "request; rely on; trust",
+      "meaningEn": "request; rely on; trust"
+    },
+    {
+      "char": "髪",
+      "reading": "かみ",
+      "meaning": "hair (on the head)",
+      "meaningEn": "hair (on the head)"
+    },
+    {
+      "char": "齢",
+      "reading": "レイ",
+      "meaning": "age",
+      "meaningEn": "age"
+    }
+  ]
+}
