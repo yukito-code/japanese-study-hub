@@ -27,7 +27,7 @@ function faviconDevRedirect(basePath) {
 // GitHub Project Pages: `base` を変更したら `SITE_BASE` も同じ値にしてください。
 // ユーザーサイト (username.github.io) のルートなら base: '/' とし、SITE_BASE を '/' にします。
 export default defineConfig({
-  site: "https://example.github.io",
+  site: "https://yukito-code.github.io",
   base: SITE_BASE,
   trailingSlash: "always",
   vite: {
