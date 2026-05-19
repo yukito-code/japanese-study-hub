@@ -1,5 +1,9 @@
 import { applyDataUi } from "../i18n/client";
-import { getStoredJlptLevel, JLPT_LEVEL_CHANGE } from "../i18n/level";
+import {
+  applyJlptLevelFromSearchParams,
+  getStoredJlptLevel,
+  JLPT_LEVEL_CHANGE,
+} from "../i18n/level";
 import type { KanjiItem } from "./kanji-item";
 
 function readJsonConfig<T>(id: string): T {
@@ -22,6 +26,7 @@ export function mountKanjiListPage(configId: string): void {
   if (!root) return;
 
   const { base } = readJsonConfig<{ base: string }>(configId);
+  applyJlptLevelFromSearchParams();
 
   async function load() {
     const level = getStoredJlptLevel();

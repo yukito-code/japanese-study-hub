@@ -1,77 +1,72 @@
 /**
- * data/source の Excel から四択問題 JSON を生成する。
+ * data/source/jlpt-hand-questions.data.mjs から四択問題 JSON を生成する。
  */
-import XLSX from "xlsx";
 import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import { handQuestions } from "../data/source/jlpt-hand-questions.data.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
-const xlsxPath = join(
-  root,
-  "data",
-  "source",
-  "JLPT_N1-N5_questions_kanji_context_paraphrase.xlsx",
-);
 
 /** @typedef {{ level: string; n: number; prompt: string; choices: string[]; correctIndex: number; explanation: string }} Q */
 
-const SHEETS = [
-  { sheet: "漢字読み", id: "kanji-yomi" },
-  { sheet: "文脈規定", id: "bunmyaku" },
-  { sheet: "言い換え", id: "iikae" },
+const LEVELS = ["N1", "N2", "N3", "N4", "N5"];
+
+const CATEGORY_META = [
+  { id: "kanji-yomi", sheet: "漢字読み" },
+  { id: "bunmyaku", sheet: "文脈規定" },
+  { id: "iikae", sheet: "言い換え" },
 ];
 
-function rowToQuestion(row) {
-  const level = String(row["レベル"] ?? "").trim();
-  const n = Number(row["問題番号"]);
-  const prompt = String(row["問題文"] ?? "").trim();
-  const choices = [1, 2, 3, 4].map((i) => String(row[`選択肢${i}`] ?? "").trim());
-  const ans = Number(row["正答"]);
-  const explanation = String(row["解説"] ?? "").trim();
+/** @param {string} id */
+function bakeCategory(id) {
+  const byLevel = handQuestions[id];
+  if (!byLevel) throw new Error(`Missing category: ${id}`);
 
-  if (!["N1", "N2", "N3", "N4", "N5"].includes(level)) {
-    throw new Error(`Unknown level: ${level}`);
-  }
-  if (!Number.isInteger(ans) || ans < 1 || ans > 4) {
-    throw new Error(`Invalid 正答 for ${level} #${n}: ${ans}`);
-  }
-  if (choices.some((c) => !c)) {
-    throw new Error(`Empty choice ${level} #${n}`);
-  }
-
-  return {
-    level,
-    n,
-    prompt,
-    choices,
-    correctIndex: ans - 1,
-    explanation,
-  };
-}
-
-const wb = XLSX.readFile(xlsxPath);
-const categories = [];
-
-for (const { sheet, id } of SHEETS) {
-  if (!wb.SheetNames.includes(sheet)) {
-    console.error("Missing sheet:", sheet);
-    process.exit(1);
-  }
-  const rows = XLSX.utils.sheet_to_json(wb.Sheets[sheet], { defval: "" });
   /** @type {Q[]} */
-  const questions = rows.map(rowToQuestion);
-  if (questions.length !== 50) {
-    console.error(id, "expected 50 questions, got", questions.length);
-    process.exit(1);
+  const questions = [];
+  let n = 1;
+
+  for (const level of LEVELS) {
+    const arr = byLevel[level];
+    if (!Array.isArray(arr) || arr.length !== 10) {
+      throw new Error(`${id}/${level}: expected 10 questions, got ${arr?.length ?? 0}`);
+    }
+    for (const q of arr) {
+      const { prompt, choices, correctIndex, explanation } = q;
+      if (!prompt || !Array.isArray(choices) || choices.length !== 4) {
+        throw new Error(`${id}/${level} #${n}: invalid question shape`);
+      }
+      if (!Number.isInteger(correctIndex) || correctIndex < 0 || correctIndex > 3) {
+        throw new Error(`${id}/${level} #${n}: invalid correctIndex`);
+      }
+      questions.push({
+        level,
+        n: n++,
+        prompt,
+        choices,
+        correctIndex,
+        explanation: String(explanation ?? "").trim(),
+      });
+    }
   }
-  categories.push({ id, sheet, questions });
+
+  if (questions.length !== 50) {
+    throw new Error(`${id}: expected 50 questions, got ${questions.length}`);
+  }
+  return questions;
 }
+
+const categories = CATEGORY_META.map(({ id, sheet }) => ({
+  id,
+  sheet,
+  questions: bakeCategory(id),
+}));
 
 const out = {
   version: 1,
-  generatedFrom: "JLPT_N1-N5_questions_kanji_context_paraphrase.xlsx",
+  generatedFrom: "jlpt-hand-questions.data.mjs",
   categories,
 };
 

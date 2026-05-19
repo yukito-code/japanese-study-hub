@@ -1,8 +1,8 @@
 import { getLocale } from "../i18n/client";
+import { isGoiLevelReleased } from "../i18n/goi-levels";
 import { ui, fillTemplate } from "../i18n/ui";
 import {
-  getStoredJlptLevel,
-  JLPT_LEVEL_CHANGE,
+  applyJlptLevelFromSearchParams,
   type JlptLevelFilter,
 } from "../i18n/level";
 
@@ -37,12 +37,75 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-/** N1–N5 語彙四択（漢字読み・文脈規定・言い換え）。レベルはメニューバーの LevelBar と同期 */
+function levelFromUrl(): JlptLevelFilter | null {
+  const raw = new URLSearchParams(window.location.search).get("lv");
+  if (raw === "N1" || raw === "N2" || raw === "N3" || raw === "N4" || raw === "N5") {
+    return raw;
+  }
+  return null;
+}
+
+/** 下線部「…」マーカーを画面上の下線表示に置き換える（「下線部「」」の文字列は出さない） */
+function renderGoiPrompt(el: HTMLElement, prompt: string): void {
+  el.replaceChildren();
+  const m = /下線部「([^」]+)」/.exec(prompt);
+  if (!m) {
+    el.textContent = prompt;
+    return;
+  }
+  const target = m[1] ?? "";
+  const before = prompt.slice(0, m.index ?? 0);
+  const after = prompt.slice((m.index ?? 0) + m[0].length);
+
+  function appendSpanTarget(text: string): void {
+    const span = document.createElement("span");
+    span.className = "prompt-target";
+    span.textContent = text;
+    el.appendChild(span);
+  }
+
+  if (target && before.includes(target)) {
+    const pos = before.indexOf(target);
+    el.appendChild(document.createTextNode(before.slice(0, pos)));
+    appendSpanTarget(target);
+    el.appendChild(document.createTextNode(before.slice(pos + target.length)));
+  } else {
+    el.appendChild(document.createTextNode(before));
+    if (target) appendSpanTarget(target);
+  }
+  el.appendChild(document.createTextNode(after));
+}
+
+/** JLPT 語彙四択。級は URL の ?lv= のみ（カードの N1〜N5 リンク） */
 export function mountGoiQuiz(payloadId = "goi-quiz-payload"): void {
+  applyJlptLevelFromSearchParams();
   const cat = readPayload(payloadId);
   const all = cat.questions;
 
-  let levelFilter: JlptLevelFilter = getStoredJlptLevel();
+  const quizRoot = document.getElementById("goi-quiz-root");
+  const unavailableRoot = document.getElementById("goi-level-unavailable");
+
+  const urlLevel = levelFromUrl();
+  if (!urlLevel || !isGoiLevelReleased(urlLevel)) {
+    if (quizRoot) quizRoot.hidden = true;
+    if (unavailableRoot) unavailableRoot.hidden = false;
+    return;
+  }
+
+  if (quizRoot) quizRoot.hidden = false;
+  if (unavailableRoot) unavailableRoot.hidden = true;
+
+  const headingEl = document.getElementById("goi-page-heading");
+  const titleKey = headingEl?.dataset.pageTitleKey;
+  if (headingEl && titleKey && titleKey in ui.ja) {
+    const L = getLocale();
+    const key = titleKey as keyof (typeof ui)["ja"];
+    headingEl.textContent = fillTemplate(`${ui[L][key]}${ui[L]["goi.levelSuffix"]}`, {
+      level: urlLevel,
+    });
+  }
+
+  const levelFilter = urlLevel;
   let order: number[] = [];
   let pool: GoiQuestion[] = [];
   let qi = 0;
@@ -57,6 +120,7 @@ export function mountGoiQuiz(payloadId = "goi-quiz-payload"): void {
   const elFbCorrect = document.getElementById("goi-correct-line");
   const elFbExpl = document.getElementById("goi-explain-body");
   const btnNext = document.getElementById("goi-next");
+  const btnPrev = document.getElementById("goi-prev");
 
   function loc() {
     return getLocale();
@@ -80,6 +144,10 @@ export function mountGoiQuiz(payloadId = "goi-quiz-payload"): void {
     });
   }
 
+  function updatePrevNextButtons() {
+    if (btnPrev) btnPrev.disabled = qi <= 0;
+  }
+
   function showQuestion() {
     locked = false;
     lastOk = null;
@@ -89,11 +157,12 @@ export function mountGoiQuiz(payloadId = "goi-quiz-payload"): void {
       if (elPrompt) elPrompt.textContent = "—";
       if (elProg) elProg.textContent = "";
       elOpts?.replaceChildren();
+      updatePrevNextButtons();
       return;
     }
     const q = pool[order[qi]];
     if (!elPrompt || !elProg || !elOpts) return;
-    elPrompt.textContent = q.prompt;
+    renderGoiPrompt(elPrompt, q.prompt);
     elProg.textContent = progressText();
     elOpts.replaceChildren();
     q.choices.forEach((text, idx) => {
@@ -105,6 +174,7 @@ export function mountGoiQuiz(payloadId = "goi-quiz-payload"): void {
       b.addEventListener("click", () => onPick(b, q));
       elOpts.appendChild(b);
     });
+    updatePrevNextButtons();
   }
 
   function onPick(btn: HTMLButtonElement, q: GoiQuestion) {
@@ -132,6 +202,7 @@ export function mountGoiQuiz(payloadId = "goi-quiz-payload"): void {
       elFbExpl.textContent = q.explanation;
     }
     if (btnNext) btnNext.disabled = false;
+    updatePrevNextButtons();
   }
 
   function paintFeedbackLocale() {
@@ -145,12 +216,6 @@ export function mountGoiQuiz(payloadId = "goi-quiz-payload"): void {
       elFbCorrect.textContent = fillTemplate(ui[L]["goi.correctChoice"], { choice: correctText });
   }
 
-  function onLevelChange() {
-    levelFilter = getStoredJlptLevel();
-    newRound();
-    showQuestion();
-  }
-
   btnNext?.addEventListener("click", () => {
     qi++;
     if (qi >= order.length) {
@@ -159,7 +224,11 @@ export function mountGoiQuiz(payloadId = "goi-quiz-payload"): void {
     showQuestion();
   });
 
-  window.addEventListener(JLPT_LEVEL_CHANGE, onLevelChange);
+  btnPrev?.addEventListener("click", () => {
+    if (qi <= 0) return;
+    qi--;
+    showQuestion();
+  });
 
   newRound();
   showQuestion();

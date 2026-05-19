@@ -18,7 +18,9 @@ export function setLocale(locale: Locale): void {
 function applyMetaAndTitle(locale: Locale): void {
   const titleKey = document.body?.getAttribute("data-title-key") as UiKey | null;
   if (titleKey && ui[locale][titleKey]) {
-    document.title = ui[locale][titleKey];
+    let title = ui[locale][titleKey];
+    title = title.replace(/\|\s*日本語学習ハブ\s*$/, "| Japanese Study Hub");
+    document.title = title;
   }
   const metaKey = document
     .querySelector('meta[name="description"][data-desc-key]')

@@ -1,22 +1,19 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import SiteHeader from "../../components/SiteHeader.astro";
+import PageBackLink from "../../components/PageBackLink.astro";
 import { ui } from "../../i18n/ui";
 
 const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout titleKey="title.kanjiList" descKey="meta.kanji.list">
-  <SiteHeader showLevelBar={true} backHref={`${base}kanji/`} backUiKey="nav.kanjiHub" />
+  <SiteHeader showLevelBar={true} topHref={`${base}`} />
   <main>
     <h1 class="hero-title" data-ui="kanji.list.title">{ui.ja["kanji.list.title"]}</h1>
-    <p class="hero-lead">
-      <span class="num-em" id="kanji-list-count">—</span><span data-ui="kanji.leadSuffix">{ui.ja["kanji.leadSuffix"]}</span>
-    </p>
+    <PageBackLink href={`${base}kanji/`} />
 
     <div id="kanji-list-root"></div>
-
-    <p class="footer-note" data-ui="kanji.disclaimer">{ui.ja["kanji.disclaimer"]}</p>
   </main>
 
   <script type="application/json" id="kanji-list-config" set:html={JSON.stringify({ base })}></script>

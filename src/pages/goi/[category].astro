@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import SiteHeader from "../../components/SiteHeader.astro";
+import PageBackLink from "../../components/PageBackLink.astro";
 import bank from "../../data/jlpt-questions.json";
 import { ui, type UiKey } from "../../i18n/ui";
 
@@ -12,16 +13,10 @@ const TITLE_KEY: Record<string, UiKey> = {
   iikae: "title.goiIikae",
 };
 
-const H1_KEY: Record<string, UiKey> = {
+const PAGE_TITLE_KEY: Record<string, UiKey> = {
   "kanji-yomi": "goi.pageTitle.kanjiYomi",
   bunmyaku: "goi.pageTitle.bunmyaku",
   iikae: "goi.pageTitle.iikae",
-};
-
-const LEAD_KEY: Record<string, UiKey> = {
-  "kanji-yomi": "goi.lead.kanjiYomi",
-  bunmyaku: "goi.lead.bunmyaku",
-  iikae: "goi.lead.iikae",
 };
 
 export function getStaticPaths() {
@@ -31,48 +26,64 @@ export function getStaticPaths() {
 const id = Astro.params.category ?? "";
 const cat = bank.categories.find((c) => c.id === id);
 if (!cat || !TITLE_KEY[id]) {
-  return Astro.redirect(`${import.meta.env.BASE_URL}goi/`);
+  return Astro.redirect(`${import.meta.env.BASE_URL}`);
 }
 
 const titleKey = TITLE_KEY[id];
-const h1Key = H1_KEY[id];
-const leadKey = LEAD_KEY[id];
+const pageTitleKey = PAGE_TITLE_KEY[id];
 ---
 
 <BaseLayout titleKey={titleKey} descKey="meta.goi.description">
-  <SiteHeader backHref={`${base}goi/`} backUiKey="nav.goiHub" />
+  <SiteHeader topHref={`${base}`} />
   <main>
-    <h1 class="hero-title" data-ui={h1Key}>{ui.ja[h1Key]}</h1>
-    <p class="hero-lead" data-ui={leadKey}>{ui.ja[leadKey]}</p>
+    <h1
+      class="hero-title"
+      data-ui={pageTitleKey}
+      id="goi-page-heading"
+      data-page-title-key={pageTitleKey}
+    >
+      {ui.ja[pageTitleKey]}
+    </h1>
+    <PageBackLink href={`${base}`} />
 
-    <p class="goi-prompt" id="goi-prompt">—</p>
-    <p class="quiz-prompt" id="goi-instruction" data-ui="goi.instruction">
-      {ui.ja["goi.instruction"]}
-    </p>
-
-    <p class="progress-text" id="goi-progress" aria-live="polite">—</p>
-
-    <div class="card" style="margin-top: 0.65rem">
-      <div class="quiz-options" id="goi-options"></div>
-      <div id="goi-feedback" class="quiz-feedback" hidden>
-        <p id="goi-feedback-head" style="margin: 0 0 0.35rem; font-weight: 700"></p>
-        <p id="goi-correct-line" style="margin: 0 0 0.35rem"></p>
-        <p class="goi-explain-title" data-ui="goi.explain.title">
-          {ui.ja["goi.explain.title"]}
-        </p>
-        <p class="goi-explain-body" id="goi-explain-body"></p>
-      </div>
-      <div class="nav-row" style="margin-top: 1rem">
-        <button type="button" class="btn btn-primary" id="goi-next" disabled data-ui="goi.next">
-          {ui.ja["goi.next"]}
-        </button>
-      </div>
+    <div id="goi-level-unavailable" class="card card-muted" hidden>
+      <p data-ui="goi.levelUnavailable">{ui.ja["goi.levelUnavailable"]}</p>
     </div>
 
-    <p class="footer-note" data-ui="goi.footer">{ui.ja["goi.footer"]}</p>
+    <div id="goi-quiz-root">
+      <p class="goi-prompt" id="goi-prompt">—</p>
+
+      <p class="progress-text" id="goi-progress" aria-live="polite">—</p>
+
+      <div class="card" style="margin-top: 0.65rem">
+        <div class="quiz-options" id="goi-options"></div>
+        <div class="nav-row nav-row--quiz-footer" style="margin-top: 1rem">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            id="goi-prev"
+            disabled
+            data-ui="goi.prev"
+          >
+            {ui.ja["goi.prev"]}
+          </button>
+          <button type="button" class="btn btn-goi-next" id="goi-next" disabled data-ui="goi.next">
+            {ui.ja["goi.next"]}
+          </button>
+        </div>
+        <div id="goi-feedback" class="quiz-feedback" hidden>
+          <p id="goi-feedback-head" style="margin: 0 0 0.35rem; font-weight: 700"></p>
+          <p id="goi-correct-line" style="margin: 0 0 0.35rem"></p>
+          <p class="goi-explain-title" data-ui="goi.explain.title">
+            {ui.ja["goi.explain.title"]}
+          </p>
+          <p class="goi-explain-body" id="goi-explain-body"></p>
+        </div>
+      </div>
+    </div>
   </main>
 
-  <script type="application/json" id="goi-quiz-payload" set:html={JSON.stringify(cat)}></script>
+  <script type="application/json" id="goi-quiz-payload" set:html={JSON.stringify(cat)} />
   <script>
     import { mountGoiQuiz } from "../../scripts/goi-quiz-page";
     mountGoiQuiz();

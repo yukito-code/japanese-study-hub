@@ -1,0 +1,52 @@
+---
+import { ui, type UiKey } from "../i18n/ui";
+import type { JlptLevelFilter } from "../i18n/level";
+
+type Props = {
+  base: string;
+  /** 例: `kanji/list/` または `goi/kanji-yomi/`（base の直後） */
+  path: string;
+  titleKey: UiKey;
+  descKey: UiKey;
+  /** 未指定なら N1〜N5 すべてリンク。語彙問題集など段階公開時は N1 のみ等 */
+  enabledLevels?: readonly JlptLevelFilter[];
+  /** 左アクセントの色（学習=moss / 問題=indigo） */
+  accent?: "moss" | "indigo";
+};
+
+const { base, path, titleKey, descKey, enabledLevels, accent = "indigo" } = Astro.props;
+const accentClass = accent === "moss" ? "goi-hub-card--moss" : "goi-hub-card--indigo";
+const levels = ["N1", "N2", "N3", "N4", "N5"] as const;
+const enabled = enabledLevels ?? levels;
+---
+
+<div class:list={["goi-hub-card", "goi-hub-card--block", accentClass]}>
+  <h3 data-ui={titleKey}>{ui.ja[titleKey]}</h3>
+  <p data-ui={descKey}>{ui.ja[descKey]}</p>
+  <div class="kanji-hub-card-levels" role="group" aria-label="N1–N5">
+    <div class="level-bar-chips level-bar-chips--in-card">
+      {
+        levels.map((lv) =>
+          enabled.includes(lv) ? (
+            <a
+              class="level-chip jlpt-level-chip"
+              href={`${base}${path}?lv=${lv}`}
+              data-jlpt-level={lv}
+            >
+              {lv}
+            </a>
+          ) : (
+            <span
+              class="level-chip level-chip--disabled"
+              data-jlpt-level={lv}
+              aria-disabled="true"
+              title={ui.ja["jlpt.level.unreleased"]}
+            >
+              {lv}
+            </span>
+          ),
+        )
+      }
+    </div>
+  </div>
+</div>

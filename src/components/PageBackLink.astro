@@ -1,0 +1,13 @@
+---
+import { ui } from "../i18n/ui";
+
+type Props = {
+  href: string;
+};
+
+const { href } = Astro.props;
+---
+
+<p class="page-back-wrap">
+  <a class="page-back-link" href={href} data-ui="nav.back">{ui.ja["nav.back"]}</a>
+</p>

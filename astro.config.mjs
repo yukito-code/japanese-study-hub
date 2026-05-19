@@ -2,7 +2,7 @@
 import { defineConfig } from "astro/config";
 
 /** GitHub Project Pages のサブパス（リポジトリ名と一致させる） */
-const SITE_BASE = "/jlpt-study-hub";
+const SITE_BASE = "/japanese-study-hub";
 
 /**
  * 開発時、ブラウザがルートの /favicon.ico を取りに行き base と不一致でエラーになるのを避ける。

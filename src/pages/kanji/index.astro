@@ -1,41 +1,27 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import SiteHeader from "../../components/SiteHeader.astro";
-import { ui, type UiKey } from "../../i18n/ui";
+import PageBackLink from "../../components/PageBackLink.astro";
+import KanjiHubCardWithLevels from "../../components/KanjiHubCardWithLevels.astro";
+import { ui } from "../../i18n/ui";
 
 const base = import.meta.env.BASE_URL;
-
-const cards: { href: string; titleKey: UiKey; descKey: UiKey }[] = [
-  {
-    href: `${base}kanji/list/`,
-    titleKey: "kanji.hub.cardList.title",
-    descKey: "kanji.hub.cardList.desc",
-  },
-  {
-    href: `${base}kanji/flash/`,
-    titleKey: "kanji.hub.cardFlash.title",
-    descKey: "kanji.hub.cardFlash.desc",
-  },
-];
 ---
 
 <BaseLayout titleKey="title.kanjiHub" descKey="meta.kanji.hub">
-  <SiteHeader showLevelBar={true} backHref={`${base}`} backUiKey="nav.top" />
+  <SiteHeader topHref={`${base}`} />
   <main>
     <h1 class="hero-title" data-ui="kanji.hub.title">{ui.ja["kanji.hub.title"]}</h1>
+    <PageBackLink href={`${base}`} />
     <p class="hero-lead" data-ui="kanji.hub.lead">{ui.ja["kanji.hub.lead"]}</p>
-
     <div class="goi-hub-grid">
-      {
-        cards.map((c) => (
-          <a class="goi-hub-card" href={c.href}>
-            <h3 data-ui={c.titleKey}>{ui.ja[c.titleKey]}</h3>
-            <p data-ui={c.descKey}>{ui.ja[c.descKey]}</p>
-          </a>
-        ))
-      }
+      <KanjiHubCardWithLevels
+        base={base}
+        path="kanji/list/"
+        titleKey="kanji.hub.cardList.title"
+        descKey="kanji.hub.cardList.desc"
+        accent="moss"
+      />
     </div>
-
-    <p class="footer-note" data-ui="kanji.disclaimer">{ui.ja["kanji.disclaimer"]}</p>
   </main>
 </BaseLayout>

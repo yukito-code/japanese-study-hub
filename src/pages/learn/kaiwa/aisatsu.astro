@@ -1,0 +1,139 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import SiteHeader from "../../../components/SiteHeader.astro";
+import PageBackLink from "../../../components/PageBackLink.astro";
+import LearnBlocks from "../../../components/LearnBlocks.astro";
+import { ui } from "../../../i18n/ui";
+import {
+  kaiwaAisatsuIntro,
+  kaiwaAisatsuSections,
+} from "../../../data/kaiwa-aisatsu";
+import { kaiwaAisatsuQuizItems } from "../../../data/kaiwa-aisatsu-quiz";
+
+const base = import.meta.env.BASE_URL;
+const quizPayload = JSON.stringify({ items: kaiwaAisatsuQuizItems });
+---
+
+<BaseLayout titleKey="title.learnKaiwaAisatsu" descKey="meta.learn.kaiwaAisatsu">
+  <SiteHeader topHref={`${base}`} />
+  <main class="learn-article">
+    <h1 class="hero-title" data-ui="learn.kaiwa.aisatsu.h1">{ui.ja["learn.kaiwa.aisatsu.h1"]}</h1>
+    <div id="kaiwa-page-back-wrap">
+      <PageBackLink href={`${base}`} />
+    </div>
+
+    <div id="kaiwa-read-panel">
+      <div id="kaiwa-read-cta-wrap" class="kaiwa-action-row">
+        <button
+          type="button"
+          class="btn btn-kaiwa-quiz-cta"
+          id="kaiwa-btn-open-quiz"
+          data-ui="learn.kaiwa.quiz.startButton">{ui.ja["learn.kaiwa.quiz.startButton"]}</button>
+      </div>
+
+      <div class="learn-locale-ja">
+        <p class="hero-lead learn-intro">{kaiwaAisatsuIntro.ja}</p>
+      </div>
+      <div class="learn-locale-en">
+        <p class="hero-lead learn-intro">{kaiwaAisatsuIntro.en}</p>
+      </div>
+
+      {
+        kaiwaAisatsuSections.map((sec) => (
+          <section class="learn-section">
+            <div class="learn-locale-ja">
+              <h2 class="hero-title hero-title--section">{sec.ja.title}</h2>
+              <LearnBlocks blocks={sec.ja.blocks} />
+            </div>
+            <div class="learn-locale-en">
+              <h2 class="hero-title hero-title--section">{sec.en.title}</h2>
+              <LearnBlocks blocks={sec.en.blocks} />
+            </div>
+          </section>
+        ))
+      }
+
+      <p class="learn-foot card-muted" data-ui="learn.kaiwa.disclaimer">
+        {ui.ja["learn.kaiwa.disclaimer"]}
+      </p>
+    </div>
+
+    <div id="kaiwa-quiz-panel" class="kaiwa-quiz-panel" hidden>
+      <p class="page-back-wrap">
+        <button type="button" class="page-back-link" id="kaiwa-btn-back-read" data-ui="nav.back">
+          {ui.ja["nav.back"]}
+        </button>
+      </p>
+
+      <h2 class="hero-title hero-title--section" data-ui="learn.kaiwa.quiz.sectionTitle">
+        {ui.ja["learn.kaiwa.quiz.sectionTitle"]}
+      </h2>
+
+      <p class="kaiwa-quiz-prompt" id="kaiwa-quiz-prompt" lang="ja"></p>
+      <p class="progress-text" id="kaiwa-quiz-progress" aria-live="polite"></p>
+
+      <div class="card" style="margin-top: 0.65rem">
+        <div class="quiz-options" id="kaiwa-quiz-options"></div>
+        <div class="nav-row nav-row--quiz-footer" style="margin-top: 1rem">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            id="kaiwa-quiz-prev"
+            disabled
+            data-ui="learn.kaiwa.quiz.prevQuestion">{ui.ja["learn.kaiwa.quiz.prevQuestion"]}</button>
+          <button type="button" class="btn btn-goi-next" id="kaiwa-quiz-next" disabled data-ui="learn.kaiwa.quiz.next">
+            {ui.ja["learn.kaiwa.quiz.next"]}
+          </button>
+        </div>
+        <div id="kaiwa-quiz-feedback" class="quiz-feedback" hidden>
+          <p id="kaiwa-quiz-feedback-head" style="margin: 0 0 0.35rem; font-weight: 700"></p>
+          <p id="kaiwa-quiz-correct-line" style="margin: 0 0 0.35rem" lang="ja"></p>
+          <p class="goi-explain-title" data-ui="goi.explain.title">{ui.ja["goi.explain.title"]}</p>
+          <p class="goi-explain-body" id="kaiwa-quiz-explain-body"></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script type="application/json" id="kaiwa-quiz-payload" set:html={quizPayload} />
+  <script>
+    import { mountKaiwaAisatsuPage } from "../../../scripts/kaiwa-aisatsu-page";
+    mountKaiwaAisatsuPage();
+  </script>
+</BaseLayout>
+
+<style>
+  .kaiwa-action-row {
+    margin: 0.35rem 0 1.1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .kaiwa-quiz-panel {
+    padding-bottom: 0.5rem;
+  }
+
+  .kaiwa-quiz-prompt {
+    margin: 0.35rem 0 0.4rem;
+    font-size: 1.12rem;
+    line-height: 1.65;
+    color: var(--color-ink-soft);
+  }
+
+  .nav-row--quiz-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .nav-row--quiz-footer .btn-goi-next {
+    margin-left: auto;
+  }
+
+  @media (min-width: 56rem) {
+    .kaiwa-quiz-prompt {
+      font-size: 1.22rem;
+    }
+  }
+</style>

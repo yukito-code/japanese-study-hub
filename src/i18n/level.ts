@@ -23,3 +23,12 @@ export function setStoredJlptLevel(level: JlptLevelFilter): void {
     new CustomEvent(JLPT_LEVEL_CHANGE, { detail: { level } }),
   );
 }
+
+/** URL の `?lv=N1` などを読み取り、有効なら localStorage に保存する（漢字ハブの級リンク用） */
+export function applyJlptLevelFromSearchParams(): void {
+  if (typeof window === "undefined") return;
+  const raw = new URLSearchParams(window.location.search).get("lv");
+  if (raw === "N1" || raw === "N2" || raw === "N3" || raw === "N4" || raw === "N5") {
+    setStoredJlptLevel(raw);
+  }
+}

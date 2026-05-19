@@ -1,0 +1,39 @@
+---
+import type { LearnBlock } from "../data/kaiwa-aisatsu";
+
+type Props = { blocks: LearnBlock[] };
+
+const { blocks } = Astro.props;
+---
+
+{
+  blocks.map((block) =>
+    block.kind === "p" ? (
+      <p class="learn-p">{block.text}</p>
+    ) : (
+      <div class="learn-table-wrap">
+        <table class="learn-table learn-table--phrases" data-cols={block.header.length}>
+          <thead>
+            <tr>
+              {block.header.map((h) => (
+                <th scope="col">{h}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {block.rows.map((row) => (
+              <tr>
+                {row.map((cell, i) => {
+                  const langJa =
+                    (block.header.length === 2 && i === 0) ||
+                    (block.header.length === 3 && i === 1);
+                  return <td {...(langJa ? { lang: "ja" } : {})}>{cell}</td>;
+                })}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    ),
+  )
+}

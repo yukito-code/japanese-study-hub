@@ -1,48 +1,92 @@
 ---
 import LevelBar from "./LevelBar.astro";
-import { ui, type UiKey } from "../i18n/ui";
+import { ui } from "../i18n/ui";
 
 type Props = {
-  backHref?: string;
-  backUiKey?: UiKey;
+  /** トップ（サイトルート）へ。子ページでは `base` を渡す */
+  topHref?: string;
   /** 漢字などレベルバー不要なページは false */
   showLevelBar?: boolean;
 };
 
-const { backHref, backUiKey, showLevelBar = true } = Astro.props;
+const { topHref, showLevelBar = false } = Astro.props;
 const base = import.meta.env.BASE_URL;
-const backText =
-  backHref && backUiKey ? ui.ja[backUiKey] : "";
+const topText = ui.ja["nav.top"];
 ---
 
 <div class="site-header-stack">
   <header class="site-header">
-    <div class="site-title">
-      <a href={`${base}`} data-ui="site.name">{ui.ja["site.name"]}</a>
-    </div>
-    <div class="site-header-actions">
-      <div class="lang-switch" role="group" data-aria-label-ui="lang.pick">
-        <button
-          type="button"
-          class="lang-chip"
-          data-set-lang="ja"
-          data-ui="lang.ja"
-          aria-pressed="true">{ui.ja["lang.ja"]}</button>
-        <button
-          type="button"
-          class="lang-chip"
-          data-set-lang="en"
-          data-ui="lang.en"
-          aria-pressed="false">{ui.ja["lang.en"]}</button>
+    <div class="site-header-primary">
+      <div class="site-header-start">
+        {
+          topHref ? (
+            <a class="btn btn-ghost site-header-top" href={topHref} data-ui="nav.top">
+              {topText}
+            </a>
+          ) : null
+        }
       </div>
-      {
-        backHref && backUiKey ? (
-          <a class="btn btn-ghost" href={backHref} data-ui={backUiKey}>
-            {backText}
-          </a>
-        ) : null
-      }
+      <div class="site-title site-title--header">
+        <a href={`${base}`} data-ui="site.name">{ui.ja["site.name"]}</a>
+      </div>
+      <div class="site-header-actions">
+        <div class="lang-switch" role="group" data-aria-label-ui="lang.pick">
+          <button
+            type="button"
+            class="lang-chip"
+            data-set-lang="ja"
+            data-ui="lang.ja"
+            aria-pressed="true">{ui.ja["lang.ja"]}</button>
+          <button
+            type="button"
+            class="lang-chip"
+            data-set-lang="en"
+            data-ui="lang.en"
+            aria-pressed="false">{ui.ja["lang.en"]}</button>
+        </div>
+      </div>
     </div>
   </header>
   {showLevelBar ? <LevelBar /> : null}
 </div>
+
+<style>
+  .site-header-primary {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 0.35rem 0.65rem;
+    width: 100%;
+    padding: 0.65rem 0 0.5rem;
+  }
+
+  .site-header-start {
+    justify-self: start;
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.15rem 0.35rem;
+  }
+
+  .site-title--header {
+    justify-self: center;
+    min-width: 0;
+    text-align: center;
+  }
+
+  .site-header-actions {
+    justify-self: end;
+    margin-left: 0;
+  }
+
+  .site-title--header a {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .site-header-top {
+    padding-left: 0.35rem;
+    padding-right: 0.5rem;
+  }
+</style>
