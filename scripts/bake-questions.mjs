@@ -14,6 +14,7 @@ const root = join(__dirname, "..");
 const LEVELS = ["N1", "N2", "N3", "N4", "N5"];
 
 const CATEGORY_META = [
+  { id: "kanji-yomi", sheet: "漢字の読み" },
   { id: "bunmyaku", sheet: "文脈規定" },
   { id: "iikae", sheet: "言い換え" },
 ];
