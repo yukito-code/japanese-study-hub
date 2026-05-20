@@ -39,10 +39,10 @@ export const handQuestions = {
       },
       {
         prompt:
-          "彼は混乱した相場に下線部「趁機」して優良株を買い集めた。下線部の読み方は？",
-        choices: ["じんき", "ちんき", "しんき", "てんき"],
-        correctIndex: 1,
-        explanation: "趁機＝ちんき。好機につけ込むこと。",
+          "円安を下線部「機会」に、輸出を拡大する企業が増えている。下線部の読み方は？",
+        choices: ["きかい", "きけい", "きがい", "きか"],
+        correctIndex: 0,
+        explanation: "機会＝きかい。チャンス・好機。",
       },
       {
         prompt:
@@ -53,10 +53,10 @@ export const handQuestions = {
       },
       {
         prompt:
-          "契約書に下線部「瑕疵」があれば、解除を求められることがある。下線部の読み方は？",
-        choices: ["けし", "かし", "かび", "けいび"],
-        correctIndex: 1,
-        explanation: "瑕疵＝かし。欠陥（法律・契約の用語）。",
+          "新しい規則は来月から下線部「適用」される。下線部の読み方は？",
+        choices: ["てきよう", "てきょう", "しよう", "よう"],
+        correctIndex: 0,
+        explanation: "適用＝てきよう。規則などを実際に使うこと。",
       },
       {
         prompt:
@@ -380,13 +380,13 @@ export const handQuestions = {
       },
       {
         prompt: "長い議論の末、ようやく全会一致で＿＿が成立した。",
-        choices: ["齟齬", "結論", "瑕疵", "逸話"],
+        choices: ["齟齬", "結論", "障害", "逸話"],
         correctIndex: 1,
         explanation: "議論の結果として「結論」が成立する。",
       },
       {
         prompt: "彼の研究は、がん治療の分野に大きく＿＿した。",
-        choices: ["貢献", "趁機", "更迭", "抽象"],
+        choices: ["貢献", "機会", "更迭", "抽象"],
         correctIndex: 0,
         explanation: "学術分野に「貢献」する。",
       },
@@ -404,13 +404,13 @@ export const handQuestions = {
       },
       {
         prompt: "両国は経済協力を＿＿に、文化交流も深めている。",
-        choices: ["凌駕", "通じて", "踏襲", "趁機"],
+        choices: ["凌駕", "通じて", "踏襲", "適用"],
         correctIndex: 1,
         explanation: "～を「通じて」＝手段・媒介として。",
       },
       {
         prompt: "この論文は、従来の学説に新たな＿＿を与えた。",
-        choices: ["視点", "憤り", "波紋", "瑕疵"],
+        choices: ["視点", "憤り", "波紋", "障害"],
         correctIndex: 0,
         explanation: "学説に新しい「視点」を与える。",
       },

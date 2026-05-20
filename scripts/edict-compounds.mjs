@@ -1,6 +1,7 @@
 /**
  * EDICT2 から漢字→実在する熟語・用例を索引（存在しない自動合成語を除外）
  */
+import { readFileSync } from "node:fs";
 import { spawn } from "node:child_process";
 import { createInterface } from "node:readline";
 import { fileURLToPath } from "node:url";
@@ -9,6 +10,7 @@ import { dirname, join } from "node:path";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 export const EDICT_GZ_PATH = join(__dirname, "data", "edict2.gz");
 export const COMPOUND_INDEX_PATH = join(__dirname, "data", "kanji-compound-index.json");
+export const EDICT_HEADWORDS_PATH = join(__dirname, "data", "edict-headwords.json");
 
 const HAN = /\p{Script=Han}/u;
 const HIRA = /[\u3040-\u309f]/;
@@ -92,9 +94,15 @@ function scoreCompound(targetKanji, word, common) {
  * @param {string} gzPath
  * @returns {Promise<Record<string, { word: string; reading: string }[]>>}
  */
+/**
+ * @param {string} gzPath
+ * @returns {Promise<{ index: Record<string, { word: string; reading: string }[]>; headwords: Set<string> }>}
+ */
 export async function buildCompoundIndexFromEdictGz(gzPath) {
   /** @type {Map<string, Map<string, { word: string; reading: string; score: number }>>} */
   const byKanji = new Map();
+  /** @type {Set<string>} */
+  const headwords = new Set();
 
   const proc = spawn("sh", [
     "-c",
@@ -111,7 +119,8 @@ export async function buildCompoundIndexFromEdictGz(gzPath) {
         continue;
       }
       const form = cleanEdictForm(rawForm);
-      if (!isCompoundCandidate(form)) continue;
+      headwords.add(form);
+      if (!common || !isCompoundCandidate(form)) continue;
       const reading = readings[0];
       if (!kunReadingPlausible(form, reading)) continue;
       const skPenalty = 0;
@@ -167,5 +176,25 @@ export async function buildCompoundIndexFromEdictGz(gzPath) {
     index[ch] = pickForKanji([...bucket.values()]);
   }
 
-  return index;
+  return { index, headwords };
+}
+
+/** @param {string} [path] */
+export function loadEdictHeadwords(path = EDICT_HEADWORDS_PATH) {
+  const arr = JSON.parse(readFileSync(path, "utf8"));
+  return new Set(arr);
+}
+
+const KANJI_YOMI_TARGET_RE = /下線部「([^」]+)」/;
+
+/** @param {string} prompt */
+export function kanjiYomiTarget(prompt) {
+  return KANJI_YOMI_TARGET_RE.exec(prompt)?.[1] ?? "";
+}
+
+/** @param {string} prompt @param {Set<string>} headwords */
+export function assertKanjiYomiLemma(prompt, headwords) {
+  const target = kanjiYomiTarget(prompt);
+  if (!target || headwords.has(target)) return;
+  throw new Error(`kanji-yomi: EDICT にない語「${target}」: ${prompt.slice(0, 60)}…`);
 }

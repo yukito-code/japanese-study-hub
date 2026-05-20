@@ -55,14 +55,14 @@
           "glossEn": "generation; public; society; world"
         },
         {
-          "word": "世にも",
-          "reading": "よにも",
+          "word": "彼の世",
+          "reading": "あのよ",
           "glossJa": "",
           "glossEn": "generation; public; society; world"
         },
         {
-          "word": "世にいう",
-          "reading": "よにいう",
+          "word": "後世",
+          "reading": "こうせい",
           "glossJa": "",
           "glossEn": "generation; public; society; world"
         }
@@ -187,14 +187,14 @@
           "glossEn": "capital"
         },
         {
-          "word": "京ことば",
-          "reading": "きょうことば",
+          "word": "京坂",
+          "reading": "けいはん",
           "glossJa": "",
           "glossEn": "capital"
         },
         {
-          "word": "京おんな",
-          "reading": "きょうおんな",
+          "word": "京都",
+          "reading": "きょうと",
           "glossJa": "",
           "glossEn": "capital"
         }
@@ -226,8 +226,8 @@
           "glossEn": "attend; doing; official; serve"
         },
         {
-          "word": "仕なおす",
-          "reading": "しなおす",
+          "word": "仕合わせ",
+          "reading": "しあわせ",
           "glossJa": "",
           "glossEn": "attend; doing; official; serve"
         }
@@ -325,8 +325,8 @@
           "glossEn": "association; interview; join; meet; meeting; party"
         },
         {
-          "word": "会す",
-          "reading": "えす",
+          "word": "巡り会う",
+          "reading": "めぐりあう",
           "glossJa": "",
           "glossEn": "association; interview; join; meet; meeting; party"
         }
@@ -424,8 +424,8 @@
           "glossEn": "body; object; substance"
         },
         {
-          "word": "体ごと",
-          "reading": "からだごと",
+          "word": "死に体",
+          "reading": "しにたい",
           "glossJa": "",
           "glossEn": "body; object; substance"
         }
@@ -622,8 +622,8 @@
           "glossEn": "beginning; origin; former time"
         },
         {
-          "word": "元い",
-          "reading": "もとい",
+          "word": "還元",
+          "reading": "かんげん",
           "glossJa": "",
           "glossEn": "beginning; origin; former time"
         }
@@ -688,8 +688,8 @@
           "glossEn": "light; ray"
         },
         {
-          "word": "光らす",
-          "reading": "ひからす",
+          "word": "光り輝く",
+          "reading": "ひかりかがやく",
           "glossJa": "",
           "glossEn": "light; ray"
         }
@@ -715,14 +715,14 @@
           "glossEn": "governmental; public"
         },
         {
-          "word": "公にする",
-          "reading": "おおやけにする",
+          "word": "公益",
+          "reading": "こうえき",
           "glossJa": "",
           "glossEn": "governmental; public"
         },
         {
-          "word": "公の場",
-          "reading": "おおやけのば",
+          "word": "公園",
+          "reading": "こうえん",
           "glossJa": "",
           "glossEn": "governmental; public"
         }
@@ -781,14 +781,14 @@
           "glossEn": "winter"
         },
         {
-          "word": "冬うつ",
-          "reading": "ふゆうつ",
+          "word": "冬休み",
+          "reading": "ふゆやすみ",
           "glossJa": "",
           "glossEn": "winter"
         },
         {
-          "word": "冬ごもり",
-          "reading": "ふゆごもり",
+          "word": "暖冬",
+          "reading": "だんとう",
           "glossJa": "",
           "glossEn": "winter"
         }
@@ -1012,14 +1012,14 @@
           "glossEn": "doctor; medicine"
         },
         {
-          "word": "医する",
-          "reading": "いする",
+          "word": "医学",
+          "reading": "いがく",
           "glossJa": "",
           "glossEn": "doctor; medicine"
         },
         {
-          "word": "医者にかかる",
-          "reading": "いしゃにかかる",
+          "word": "医局",
+          "reading": "いきょく",
           "glossJa": "",
           "glossEn": "doctor; medicine"
         }
@@ -1051,8 +1051,8 @@
           "glossEn": "eliminate; leave; past; quit"
         },
         {
-          "word": "去なす",
-          "reading": "いなす",
+          "word": "置き去り",
+          "reading": "おきざり",
           "glossJa": "",
           "glossEn": "eliminate; leave; past; quit"
         }
@@ -1150,8 +1150,8 @@
           "glossEn": "a stand; counter for machines and vehicles"
         },
         {
-          "word": "台ばかり",
-          "reading": "だいばかり",
+          "word": "滑り台",
+          "reading": "すべりだい",
           "glossJa": "",
           "glossEn": "a stand; counter for machines and vehicles"
         }
@@ -1276,14 +1276,14 @@
           "glossEn": "goods; refinement"
         },
         {
-          "word": "品がある",
-          "reading": "ひんがある",
+          "word": "品切れ",
+          "reading": "しなぎれ",
           "glossJa": "",
           "glossEn": "goods; refinement"
         },
         {
-          "word": "品がいい",
-          "reading": "ひんがいい(品がいい",
+          "word": "逸品",
+          "reading": "いっぴん",
           "glossJa": "",
           "glossEn": "goods; refinement"
         }
@@ -1309,14 +1309,14 @@
           "glossEn": "employee; member"
         },
         {
-          "word": "員に備わるのみ",
-          "reading": "いんにそなわるのみ",
+          "word": "員数",
+          "reading": "いんずう",
           "glossJa": "",
           "glossEn": "employee; member"
         },
         {
-          "word": "員数",
-          "reading": "いんずう",
+          "word": "駅員",
+          "reading": "えきいん",
           "glossJa": "",
           "glossEn": "employee; member"
         }
@@ -1414,8 +1414,8 @@
           "glossEn": "map; plan"
         },
         {
-          "word": "図らう",
-          "reading": "はからう",
+          "word": "図々しい",
+          "reading": "ずうずうしい",
           "glossJa": "",
           "glossEn": "map; plan"
         }
@@ -1441,14 +1441,14 @@
           "glossEn": "earth; ground"
         },
         {
-          "word": "地すべり",
-          "reading": "じすべり",
+          "word": "空き地",
+          "reading": "あきち",
           "glossJa": "",
           "glossEn": "earth; ground"
         },
         {
-          "word": "地でいく",
-          "reading": "じでいく(地でいく",
+          "word": "奥地",
+          "reading": "おくち",
           "glossJa": "",
           "glossEn": "earth; ground"
         }
@@ -1474,14 +1474,14 @@
           "glossEn": "hall"
         },
         {
-          "word": "堂にいる",
-          "reading": "どうにいる",
+          "word": "講堂",
+          "reading": "こうどう",
           "glossJa": "",
           "glossEn": "hall"
         },
         {
-          "word": "鐘つき堂",
-          "reading": "かねつきどう",
+          "word": "食堂",
+          "reading": "しょくどう",
           "glossJa": "",
           "glossEn": "hall"
         }
@@ -1507,14 +1507,14 @@
           "glossEn": "location; place"
         },
         {
-          "word": "場なれ",
-          "reading": "ばなれ",
+          "word": "見せ場",
+          "reading": "みせば",
           "glossJa": "",
           "glossEn": "location; place"
         },
         {
-          "word": "場つなぎ",
-          "reading": "ばつなぎ",
+          "word": "開場",
+          "reading": "かいじょう",
           "glossJa": "",
           "glossEn": "location; place"
         }
@@ -1540,14 +1540,14 @@
           "glossEn": "voice"
         },
         {
-          "word": "声かけ",
-          "reading": "こえかけ(声かけ",
+          "word": "掛け声",
+          "reading": "かけごえ",
           "glossJa": "",
           "glossEn": "voice"
         },
         {
-          "word": "声がかり",
-          "reading": "こえがかり",
+          "word": "掛声",
+          "reading": "かけごえ",
           "glossJa": "",
           "glossEn": "voice"
         }
@@ -1612,8 +1612,8 @@
           "glossEn": "summer"
         },
         {
-          "word": "夏い",
-          "reading": "なつい",
+          "word": "夏休み",
+          "reading": "なつやすみ",
           "glossJa": "",
           "glossEn": "summer"
         }
@@ -1645,8 +1645,8 @@
           "glossEn": "evening"
         },
         {
-          "word": "夕ごはん",
-          "reading": "ゆうごはん",
+          "word": "夕焼け",
+          "reading": "ゆうやけ",
           "glossJa": "",
           "glossEn": "evening"
         }
@@ -1804,14 +1804,14 @@
           "glossEn": "younger sister"
         },
         {
-          "word": "妹さん",
-          "reading": "いもうとさん",
+          "word": "弟妹",
+          "reading": "ていまい",
           "glossJa": "",
           "glossEn": "younger sister"
         },
         {
-          "word": "妹の命",
-          "reading": "いものみこと",
+          "word": "従姉妹",
+          "reading": "いとこ",
           "glossJa": "",
           "glossEn": "younger sister"
         }
@@ -1843,8 +1843,8 @@
           "glossEn": "elder sister"
         },
         {
-          "word": "姉さま",
-          "reading": "ねえさま",
+          "word": "従姉妹",
+          "reading": "いとこ",
           "glossJa": "",
           "glossEn": "elder sister"
         }
@@ -2008,8 +2008,8 @@
           "glossEn": "family; home; expert; professional"
         },
         {
-          "word": "家だに",
-          "reading": "いえだに(家だに",
+          "word": "家造り",
+          "reading": "いえづくり(家づくり",
           "glossJa": "",
           "glossEn": "family; home; expert; professional"
         }
@@ -2134,14 +2134,14 @@
           "glossEn": "construction; craft; katakana e radical (no. 48)"
         },
         {
-          "word": "工む",
-          "reading": "たくむ",
+          "word": "起工",
+          "reading": "きこう",
           "glossJa": "",
           "glossEn": "construction; craft; katakana e radical (no. 48)"
         },
         {
-          "word": "加工なし",
-          "reading": "かこうなし",
+          "word": "工合",
+          "reading": "ぐあい",
           "glossJa": "",
           "glossEn": "construction; craft; katakana e radical (no. 48)"
         }
@@ -2167,13 +2167,13 @@
           "glossEn": "city; market"
         },
         {
-          "word": "競り市",
-          "reading": "せりいち",
+          "word": "市外",
+          "reading": "しがい",
           "glossJa": "",
           "glossEn": "city; market"
         },
         {
-          "word": "市外",
+          "word": "市街",
           "reading": "しがい",
           "glossJa": "",
           "glossEn": "city; market"
@@ -2272,8 +2272,8 @@
           "glossEn": "shop; store"
         },
         {
-          "word": "店ざらし",
-          "reading": "たなざらし",
+          "word": "店開き",
+          "reading": "みせびらき",
           "glossJa": "",
           "glossEn": "shop; store"
         }
@@ -2305,8 +2305,8 @@
           "glossEn": "degrees; occurrence; time"
         },
         {
-          "word": "度ごと",
-          "reading": "たびごと",
+          "word": "一度に",
+          "reading": "いちどに",
           "glossJa": "",
           "glossEn": "degrees; occurrence; time"
         }
@@ -2398,14 +2398,14 @@
           "glossEn": "younger brother"
         },
         {
-          "word": "弟さん",
-          "reading": "おとうとさん",
+          "word": "弟子入り",
+          "reading": "でしいり",
           "glossJa": "",
           "glossEn": "younger brother"
         },
         {
-          "word": "弟子入り",
-          "reading": "でしいり",
+          "word": "子弟",
+          "reading": "してい",
           "glossJa": "",
           "glossEn": "younger brother"
         }
@@ -2662,14 +2662,14 @@
           "glossEn": "care; desire; thought"
         },
         {
-          "word": "意をくむ",
-          "reading": "いをくむ",
+          "word": "不意に",
+          "reading": "ふいに",
           "glossJa": "",
           "glossEn": "care; desire; thought"
         },
         {
-          "word": "意にかなう",
-          "reading": "いにかなう",
+          "word": "意気",
+          "reading": "いき",
           "glossJa": "",
           "glossEn": "care; desire; thought"
         }
@@ -2827,14 +2827,14 @@
           "glossEn": "art; decoration; literature"
         },
         {
-          "word": "文つける",
-          "reading": "あやつける",
+          "word": "文句なし",
+          "reading": "もんくなし",
           "glossJa": "",
           "glossEn": "art; decoration; literature"
         },
         {
-          "word": "文なし",
-          "reading": "もんなし",
+          "word": "英文",
+          "reading": "えいぶん",
           "glossJa": "",
           "glossEn": "art; decoration; literature"
         }
@@ -2860,14 +2860,14 @@
           "glossEn": "fee; materials"
         },
         {
-          "word": "料る",
-          "reading": "りょうる",
+          "word": "給料",
+          "reading": "きゅうりょう",
           "glossJa": "",
           "glossEn": "fee; materials"
         },
         {
-          "word": "飲み料",
-          "reading": "のみりょう",
+          "word": "原料",
+          "reading": "げんりょう",
           "glossJa": "",
           "glossEn": "fee; materials"
         }
@@ -2959,14 +2959,14 @@
           "glossEn": "travel; trip"
         },
         {
-          "word": "旅がらす",
-          "reading": "たびがらす",
+          "word": "独り旅",
+          "reading": "ひとりたび",
           "glossJa": "",
           "glossEn": "travel; trip"
         },
         {
-          "word": "旅する",
-          "reading": "たびする",
+          "word": "旅客",
+          "reading": "りょかく",
           "glossJa": "",
           "glossEn": "travel; trip"
         }
@@ -2992,14 +2992,14 @@
           "glossEn": "family; tribe"
         },
         {
-          "word": "乍ら族",
-          "reading": "ながらぞく",
+          "word": "王族",
+          "reading": "おうぞく",
           "glossJa": "",
           "glossEn": "family; tribe"
         },
         {
-          "word": "王族",
-          "reading": "おうぞく",
+          "word": "家族",
+          "reading": "かぞく",
           "glossJa": "",
           "glossEn": "family; tribe"
         }
@@ -3124,14 +3124,14 @@
           "glossEn": "springtime"
         },
         {
-          "word": "春うらら",
-          "reading": "はるうらら",
+          "word": "春休み",
+          "reading": "はるやすみ",
           "glossJa": "",
           "glossEn": "springtime"
         },
         {
-          "word": "春まき",
-          "reading": "はるまき",
+          "word": "春季",
+          "reading": "しゅんき",
           "glossJa": "",
           "glossEn": "springtime"
         }
@@ -3256,14 +3256,14 @@
           "glossEn": "weekday"
         },
         {
-          "word": "灰の水曜日",
-          "reading": "はいのすいようび",
+          "word": "月曜",
+          "reading": "げつよう",
           "glossJa": "",
           "glossEn": "weekday"
         },
         {
-          "word": "月曜",
-          "reading": "げつよう",
+          "word": "水曜",
+          "reading": "すいよう",
           "glossJa": "",
           "glossEn": "weekday"
         }
@@ -3322,14 +3322,14 @@
           "glossEn": "clothing"
         },
         {
-          "word": "服す",
-          "reading": "ふくす",
+          "word": "呉服",
+          "reading": "ごふく",
           "glossJa": "",
           "glossEn": "clothing"
         },
         {
-          "word": "服する",
-          "reading": "ふくする",
+          "word": "降服",
+          "reading": "こうふく",
           "glossJa": "",
           "glossEn": "clothing"
         }
@@ -3388,14 +3388,14 @@
           "glossEn": "town; village"
         },
         {
-          "word": "村づくり",
-          "reading": "むらづくり(村づくり",
+          "word": "山村",
+          "reading": "さんそん",
           "glossJa": "",
           "glossEn": "town; village"
         },
         {
-          "word": "村はずれ",
-          "reading": "むらはずれ",
+          "word": "村人",
+          "reading": "むらびと",
           "glossJa": "",
           "glossEn": "town; village"
         }
@@ -3421,14 +3421,14 @@
           "glossEn": "forest; grove"
         },
         {
-          "word": "魚つき林",
-          "reading": "うおつきりん",
+          "word": "植林",
+          "reading": "しょくりん",
           "glossJa": "",
           "glossEn": "forest; grove"
         },
         {
-          "word": "植林",
-          "reading": "しょくりん",
+          "word": "森林",
+          "reading": "しんりん",
           "glossJa": "",
           "glossEn": "forest; grove"
         }
@@ -3444,24 +3444,6 @@
         {
           "word": "森林",
           "reading": "しんりん",
-          "glossJa": "",
-          "glossEn": "forest; woods"
-        },
-        {
-          "word": "森々",
-          "reading": "しんしん",
-          "glossJa": "",
-          "glossEn": "forest; woods"
-        },
-        {
-          "word": "闇の森",
-          "reading": "やみのもり",
-          "glossJa": "",
-          "glossEn": "forest; woods"
-        },
-        {
-          "word": "森森",
-          "reading": "しんしん",
           "glossJa": "",
           "glossEn": "forest; woods"
         }
@@ -3487,14 +3469,14 @@
           "glossEn": "arts; vocation"
         },
         {
-          "word": "業とする",
-          "reading": "ぎょうとする",
+          "word": "家業",
+          "reading": "かぎょう",
           "glossJa": "",
           "glossEn": "arts; vocation"
         },
         {
-          "word": "業をにやす",
-          "reading": "ごうをにやす",
+          "word": "稼業",
+          "reading": "かぎょう",
           "glossJa": "",
           "glossEn": "arts; vocation"
         }
@@ -3559,8 +3541,8 @@
           "glossEn": "sing; song"
         },
         {
-          "word": "歌いだし",
-          "reading": "うたいだし",
+          "word": "歌合わせ",
+          "reading": "うたあわせ",
           "glossJa": "",
           "glossEn": "sing; song"
         }
@@ -3691,8 +3673,8 @@
           "glossEn": "death"
         },
         {
-          "word": "死す",
-          "reading": "しす",
+          "word": "飢え死に",
+          "reading": "うえじに",
           "glossJa": "",
           "glossEn": "death"
         }
@@ -3718,14 +3700,14 @@
           "glossEn": "nation; people"
         },
         {
-          "word": "神の民",
-          "reading": "かみのたみ",
+          "word": "漁民",
+          "reading": "ぎょみん",
           "glossJa": "",
           "glossEn": "nation; people"
         },
         {
-          "word": "漁民",
-          "reading": "ぎょみん",
+          "word": "区民",
+          "reading": "くみん",
           "glossJa": "",
           "glossEn": "nation; people"
         }
@@ -3817,14 +3799,14 @@
           "glossEn": "ocean; sea; Western style; foreign"
         },
         {
-          "word": "洋がらし",
-          "reading": "ようがらし",
+          "word": "西洋",
+          "reading": "せいよう",
           "glossJa": "",
           "glossEn": "ocean; sea; Western style; foreign"
         },
         {
-          "word": "洋もの",
-          "reading": "ようもの",
+          "word": "大洋",
+          "reading": "たいよう",
           "glossJa": "",
           "glossEn": "ocean; sea; Western style; foreign"
         }
@@ -3856,8 +3838,8 @@
           "glossEn": "inquire into; probe; wash"
         },
         {
-          "word": "洗い",
-          "reading": "あらい",
+          "word": "皿洗い",
+          "reading": "さらあらい",
           "glossJa": "",
           "glossEn": "inquire into; probe; wash"
         }
@@ -3883,14 +3865,14 @@
           "glossEn": "ocean"
         },
         {
-          "word": "海がめ",
-          "reading": "うみがめ(海がめ",
+          "word": "海運",
+          "reading": "かいうん",
           "glossJa": "",
           "glossEn": "ocean"
         },
         {
-          "word": "海っぺり",
-          "reading": "うみっぺり",
+          "word": "海外",
+          "reading": "かいがい",
           "glossJa": "",
           "glossEn": "ocean"
         }
@@ -3916,14 +3898,14 @@
           "glossEn": "China; Sino-"
         },
         {
-          "word": "漢は黙って",
-          "reading": "おとこはだまって",
+          "word": "漢字",
+          "reading": "かんじ",
           "glossJa": "",
           "glossEn": "China; Sino-"
         },
         {
-          "word": "漢字",
-          "reading": "かんじ",
+          "word": "漢文",
+          "reading": "かんぶん",
           "glossJa": "",
           "glossEn": "China; Sino-"
         }
@@ -3949,14 +3931,14 @@
           "glossEn": "cow"
         },
         {
-          "word": "牛すじ",
-          "reading": "ぎゅうすじ",
+          "word": "牛肉",
+          "reading": "ぎゅうにく",
           "glossJa": "",
           "glossEn": "cow"
         },
         {
-          "word": "牛すね",
-          "reading": "ぎゅうすね(牛すね",
+          "word": "牛乳",
+          "reading": "ぎゅうにゅう",
           "glossJa": "",
           "glossEn": "cow"
         }
@@ -3982,14 +3964,14 @@
           "glossEn": "matter; object; thing"
         },
         {
-          "word": "物かは",
-          "reading": "ものかは",
+          "word": "其の物",
+          "reading": "そのもの",
           "glossJa": "",
           "glossEn": "matter; object; thing"
         },
         {
-          "word": "物がある",
-          "reading": "ものがある",
+          "word": "遺物",
+          "reading": "いぶつ",
           "glossJa": "",
           "glossEn": "matter; object; thing"
         }
@@ -4021,8 +4003,8 @@
           "glossEn": "special"
         },
         {
-          "word": "特になし",
-          "reading": "とくになし",
+          "word": "特急",
+          "reading": "とっきゅう",
           "glossJa": "",
           "glossEn": "special"
         }
@@ -4048,14 +4030,14 @@
           "glossEn": "dog"
         },
         {
-          "word": "犬かき",
-          "reading": "いぬかき",
+          "word": "飼い犬",
+          "reading": "かいいぬ",
           "glossJa": "",
           "glossEn": "dog"
         },
         {
-          "word": "犬ぞり",
-          "reading": "いぬぞり(犬ぞり",
+          "word": "仔犬",
+          "reading": "こいぬ",
           "glossJa": "",
           "glossEn": "dog"
         }
@@ -4081,14 +4063,14 @@
           "glossEn": "arrangement; justice; logic; reason"
         },
         {
-          "word": "理り",
-          "reading": "ことわり",
+          "word": "無理やり",
+          "reading": "むりやり",
           "glossJa": "",
           "glossEn": "arrangement; justice; logic; reason"
         },
         {
-          "word": "理のある",
-          "reading": "りのある",
+          "word": "管理",
+          "reading": "かんり",
           "glossJa": "",
           "glossEn": "arrangement; justice; logic; reason"
         }
@@ -4153,8 +4135,8 @@
           "glossEn": "business; employ; use"
         },
         {
-          "word": "用うる",
-          "reading": "もちうる",
+          "word": "使用済み",
+          "reading": "しようずみ",
           "glossJa": "",
           "glossEn": "business; employ; use"
         }
@@ -4186,8 +4168,8 @@
           "glossEn": "rice field; rice paddy"
         },
         {
-          "word": "田ぶ",
-          "reading": "でんぶ",
+          "word": "田植え",
+          "reading": "たうえ",
           "glossJa": "",
           "glossEn": "rice field; rice paddy"
         }
@@ -4219,8 +4201,8 @@
           "glossEn": "block; street; town; village"
         },
         {
-          "word": "町おこし",
-          "reading": "まちおこし",
+          "word": "町作り",
+          "reading": "まちづくり",
           "glossJa": "",
           "glossEn": "block; street; town; village"
         }
@@ -4279,14 +4261,14 @@
           "glossEn": "boundary; world"
         },
         {
-          "word": "政界の嵐",
-          "reading": "せいかいのあらし",
+          "word": "外界",
+          "reading": "がいかい",
           "glossJa": "",
           "glossEn": "boundary; world"
         },
         {
-          "word": "外界",
-          "reading": "がいかい",
+          "word": "角界",
+          "reading": "かくかい",
           "glossJa": "",
           "glossEn": "boundary; world"
         }
@@ -4318,8 +4300,8 @@
           "glossEn": "ill; sick"
         },
         {
-          "word": "病みつき",
-          "reading": "やみつき",
+          "word": "臆病",
+          "reading": "おくびょう",
           "glossJa": "",
           "glossEn": "ill; sick"
         }
@@ -4351,8 +4333,8 @@
           "glossEn": "departure; disclose; emit; publish; start from"
         },
         {
-          "word": "発がん",
-          "reading": "はつがん",
+          "word": "見切り発車",
+          "reading": "みきりはっしゃ",
           "glossJa": "",
           "glossEn": "departure; disclose; emit; publish; start from"
         }
@@ -4411,14 +4393,14 @@
           "glossEn": "prefecture"
         },
         {
-          "word": "海なし県",
-          "reading": "うみなしけん",
+          "word": "県会",
+          "reading": "けんかい",
           "glossJa": "",
           "glossEn": "prefecture"
         },
         {
-          "word": "県会",
-          "reading": "けんかい",
+          "word": "県外",
+          "reading": "けんがい",
           "glossJa": "",
           "glossEn": "prefecture"
         }
@@ -4609,14 +4591,14 @@
           "glossEn": "association; company; shrine"
         },
         {
-          "word": "我が社",
-          "reading": "わがしゃ",
+          "word": "結社",
+          "reading": "けっしゃ",
           "glossJa": "",
           "glossEn": "association; company; shrine"
         },
         {
-          "word": "結社",
-          "reading": "けっしゃ",
+          "word": "御社",
+          "reading": "おんしゃ",
           "glossJa": "",
           "glossEn": "association; company; shrine"
         }
@@ -4675,14 +4657,14 @@
           "glossEn": "autumn"
         },
         {
-          "word": "秋あがり",
-          "reading": "あきあがり",
+          "word": "秋晴れ",
+          "reading": "あきばれ",
           "glossJa": "",
           "glossEn": "autumn"
         },
         {
-          "word": "秋まき",
-          "reading": "あきまき",
+          "word": "秋季",
+          "reading": "しゅうき",
           "glossJa": "",
           "glossEn": "autumn"
         }
@@ -4708,14 +4690,14 @@
           "glossEn": "research; study"
         },
         {
-          "word": "究める",
-          "reading": "きわめる",
+          "word": "究明",
+          "reading": "きゅうめい",
           "glossJa": "",
           "glossEn": "research; study"
         },
         {
-          "word": "研究の料",
-          "reading": "けんきゅうのりょう",
+          "word": "研究",
+          "reading": "けんきゅう",
           "glossJa": "",
           "glossEn": "research; study"
         }
@@ -4846,8 +4828,8 @@
           "glossEn": "paper"
         },
         {
-          "word": "紙おむつ",
-          "reading": "かみおむつ",
+          "word": "折り紙",
+          "reading": "おりがみ",
           "glossJa": "",
           "glossEn": "paper"
         }
@@ -4912,8 +4894,8 @@
           "glossEn": "learn"
         },
         {
-          "word": "習い",
-          "reading": "ならい",
+          "word": "見習い",
+          "reading": "みならい",
           "glossJa": "",
           "glossEn": "learn"
         }
@@ -4972,14 +4954,14 @@
           "glossEn": "person"
         },
         {
-          "word": "者ども",
-          "reading": "ものども",
+          "word": "障がい者",
+          "reading": "しょうがいしゃ",
           "glossJa": "",
           "glossEn": "person"
         },
         {
-          "word": "障がい者",
-          "reading": "しょうがいしゃ",
+          "word": "王者",
+          "reading": "おうじゃ",
           "glossJa": "",
           "glossEn": "person"
         }
@@ -5005,14 +4987,14 @@
           "glossEn": "meat"
         },
         {
-          "word": "肉がつく",
-          "reading": "にくがつく",
+          "word": "挽き肉",
+          "reading": "ひきにく",
           "glossJa": "",
           "glossEn": "meat"
         },
         {
-          "word": "肉じゃが",
-          "reading": "にくじゃが",
+          "word": "魚肉",
+          "reading": "ぎょにく",
           "glossJa": "",
           "glossEn": "meat"
         }
@@ -5137,14 +5119,14 @@
           "glossEn": "England; English"
         },
         {
-          "word": "英気を養う",
-          "reading": "えいきをやしなう",
+          "word": "英語",
+          "reading": "えいご",
           "glossJa": "",
           "glossEn": "England; English"
         },
         {
-          "word": "英語",
-          "reading": "えいご",
+          "word": "英国",
+          "reading": "えいこく",
           "glossJa": "",
           "glossEn": "England; English"
         }
@@ -5176,8 +5158,8 @@
           "glossEn": "tea"
         },
         {
-          "word": "茶こし",
-          "reading": "ちゃこし",
+          "word": "茶の間",
+          "reading": "ちゃのま",
           "glossJa": "",
           "glossEn": "tea"
         }
@@ -5203,14 +5185,14 @@
           "glossEn": "greens; vegetable"
         },
         {
-          "word": "菜ばし",
-          "reading": "さいばし",
+          "word": "菜種",
+          "reading": "なたね",
           "glossJa": "",
           "glossEn": "greens; vegetable"
         },
         {
-          "word": "摘み菜",
-          "reading": "つまみな",
+          "word": "菜食",
+          "reading": "さいしょく",
           "glossJa": "",
           "glossEn": "greens; vegetable"
         }
@@ -5236,14 +5218,14 @@
           "glossEn": "chemical; medicine"
         },
         {
-          "word": "薬さじ",
-          "reading": "やくさじ",
+          "word": "劇薬",
+          "reading": "げきやく",
           "glossJa": "",
           "glossEn": "chemical; medicine"
         },
         {
-          "word": "薬になる",
-          "reading": "くすりになる",
+          "word": "試薬",
+          "reading": "しやく",
           "glossJa": "",
           "glossEn": "chemical; medicine"
         }
@@ -5341,8 +5323,8 @@
           "glossEn": "measure; plan"
         },
         {
-          "word": "計らい",
-          "reading": "はからい",
+          "word": "取計らい",
+          "reading": "とりはからい",
           "glossJa": "",
           "glossEn": "measure; plan"
         }
@@ -5407,8 +5389,8 @@
           "glossEn": "explanation; opinion"
         },
         {
-          "word": "説きつける",
-          "reading": "ときつける",
+          "word": "解説",
+          "reading": "かいせつ",
           "glossJa": "",
           "glossEn": "explanation; opinion"
         }
@@ -5500,14 +5482,14 @@
           "glossEn": "matter; quality"
         },
         {
-          "word": "質がいい",
-          "reading": "たちがいい",
+          "word": "質問をする",
+          "reading": "しつもんをする",
           "glossJa": "",
           "glossEn": "matter; quality"
         },
         {
-          "word": "質問をする",
-          "reading": "しつもんをする",
+          "word": "音質",
+          "reading": "おんしつ",
           "glossJa": "",
           "glossEn": "matter; quality"
         }
@@ -6001,8 +5983,8 @@
           "glossEn": "capital; metropolis"
         },
         {
-          "word": "都こんぶ",
-          "reading": "みやここんぶ",
+          "word": "首都",
+          "reading": "しゅと",
           "glossJa": "",
           "glossEn": "capital; metropolis"
         }
@@ -6061,14 +6043,14 @@
           "glossEn": "field; rustic"
         },
         {
-          "word": "野いちご",
-          "reading": "のいちご",
+          "word": "荒れ野",
+          "reading": "こうや(荒野",
           "glossJa": "",
           "glossEn": "field; rustic"
         },
         {
-          "word": "野うさぎ",
-          "reading": "のうさぎ",
+          "word": "原野",
+          "reading": "げんや",
           "glossJa": "",
           "glossEn": "field; rustic"
         }
@@ -6094,14 +6076,14 @@
           "glossEn": "silver"
         },
         {
-          "word": "銀あん",
-          "reading": "ぎんあん",
+          "word": "銀行",
+          "reading": "ぎんこう",
           "glossJa": "",
           "glossEn": "silver"
         },
         {
-          "word": "銀だら",
-          "reading": "ぎんだら",
+          "word": "銀座",
+          "reading": "ぎんざ",
           "glossJa": "",
           "glossEn": "silver"
         }
@@ -6127,14 +6109,14 @@
           "glossEn": "gate"
         },
         {
-          "word": "門がまえ",
-          "reading": "もんがまえ",
+          "word": "門前払い",
+          "reading": "もんぜんばらい",
           "glossJa": "",
           "glossEn": "gate"
         },
         {
-          "word": "門をたたく",
-          "reading": "もんをたたく",
+          "word": "関門",
+          "reading": "かんもん",
           "glossJa": "",
           "glossEn": "gate"
         }
@@ -6193,14 +6175,14 @@
           "glossEn": "institution"
         },
         {
-          "word": "院の庁",
-          "reading": "いんのちょう",
+          "word": "院内",
+          "reading": "いんない",
           "glossJa": "",
           "glossEn": "institution"
         },
         {
-          "word": "院内",
-          "reading": "いんない",
+          "word": "下院",
+          "reading": "かいん",
           "glossJa": "",
           "glossEn": "institution"
         }
@@ -6298,8 +6280,8 @@
           "glossEn": "noise; sound"
         },
         {
-          "word": "音がする",
-          "reading": "おとがする",
+          "word": "音読み",
+          "reading": "おんよみ",
           "glossJa": "",
           "glossEn": "noise; sound"
         }
@@ -6325,14 +6307,14 @@
           "glossEn": "head"
         },
         {
-          "word": "頭いい",
-          "reading": "あたまいい(頭いい",
+          "word": "頭打ち",
+          "reading": "あたまうち",
           "glossJa": "",
           "glossEn": "head"
         },
         {
-          "word": "頭から",
-          "reading": "あたまから",
+          "word": "街頭",
+          "reading": "がいとう",
           "glossJa": "",
           "glossEn": "head"
         }
@@ -6430,8 +6412,8 @@
           "glossEn": "air; manner; style; wind"
         },
         {
-          "word": "風のつて",
-          "reading": "かぜのつて",
+          "word": "追い風",
+          "reading": "おいかぜ",
           "glossJa": "",
           "glossEn": "air; manner; style; wind"
         }
@@ -6457,14 +6439,14 @@
           "glossEn": "boiled rice; meal"
         },
         {
-          "word": "飯ごう",
-          "reading": "はんごう",
+          "word": "握り飯",
+          "reading": "にぎりめし",
           "glossJa": "",
           "glossEn": "boiled rice; meal"
         },
         {
-          "word": "握り飯",
-          "reading": "にぎりめし",
+          "word": "昼飯",
+          "reading": "ひるめし",
           "glossJa": "",
           "glossEn": "boiled rice; meal"
         }
@@ -6496,8 +6478,8 @@
           "glossEn": "drink"
         },
         {
-          "word": "飲ます",
-          "reading": "のます",
+          "word": "飲み会",
+          "reading": "のみかい",
           "glossJa": "",
           "glossEn": "drink"
         }
@@ -6523,14 +6505,14 @@
           "glossEn": "(large) building"
         },
         {
-          "word": "貸し館",
-          "reading": "かしかん",
+          "word": "館長",
+          "reading": "かんちょう",
           "glossJa": "",
           "glossEn": "(large) building"
         },
         {
-          "word": "館長",
-          "reading": "かんちょう",
+          "word": "館内",
+          "reading": "かんない",
           "glossJa": "",
           "glossEn": "(large) building"
         }
@@ -6556,14 +6538,14 @@
           "glossEn": "neck"
         },
         {
-          "word": "首ったけ",
-          "reading": "くびったけ",
+          "word": "首飾り",
+          "reading": "くびかざり",
           "glossJa": "",
           "glossEn": "neck"
         },
         {
-          "word": "首なし",
-          "reading": "くびなし",
+          "word": "元首",
+          "reading": "げんしゅ",
           "glossJa": "",
           "glossEn": "neck"
         }
@@ -6589,14 +6571,14 @@
           "glossEn": "station"
         },
         {
-          "word": "駅止め",
-          "reading": "えきどめ",
+          "word": "駅長",
+          "reading": "えきちょう",
           "glossJa": "",
           "glossEn": "station"
         },
         {
-          "word": "駅長",
-          "reading": "えきちょう",
+          "word": "駅伝",
+          "reading": "えきでん",
           "glossJa": "",
           "glossEn": "station"
         }
@@ -6655,14 +6637,14 @@
           "glossEn": "fish"
         },
         {
-          "word": "魚すき",
-          "reading": "うおすき",
+          "word": "魚屋",
+          "reading": "さかなや",
           "glossJa": "",
           "glossEn": "fish"
         },
         {
-          "word": "魚をとる",
-          "reading": "さかなをとる",
+          "word": "魚介",
+          "reading": "ぎょかい",
           "glossJa": "",
           "glossEn": "fish"
         }
@@ -6688,14 +6670,14 @@
           "glossEn": "bird; chicken"
         },
         {
-          "word": "鳥がら",
-          "reading": "とりがら(鶏がら",
+          "word": "焼き鳥",
+          "reading": "やきとり",
           "glossJa": "",
           "glossEn": "bird; chicken"
         },
         {
-          "word": "鳥おどし",
-          "reading": "とりおどし",
+          "word": "鳥肉",
+          "reading": "とりにく",
           "glossJa": "",
           "glossEn": "bird; chicken"
         }

@@ -22,14 +22,14 @@
           "glossEn": "Politics, Government"
         },
         {
-          "word": "政を執る",
-          "reading": "まつりごとをとる",
+          "word": "憲政",
+          "reading": "けんせい",
           "glossJa": "",
           "glossEn": "Politics, Government"
         },
         {
-          "word": "憲政",
-          "reading": "けんせい",
+          "word": "行政",
+          "reading": "ぎょうせい",
           "glossJa": "",
           "glossEn": "Politics, Government"
         }
@@ -55,14 +55,14 @@
           "glossEn": "Political party, Faction, Clique"
         },
         {
-          "word": "我が党",
-          "reading": "わがとう",
+          "word": "結党",
+          "reading": "けっとう",
           "glossJa": "",
           "glossEn": "Political party, Faction, Clique"
         },
         {
-          "word": "結党",
-          "reading": "けっとう",
+          "word": "新党",
+          "reading": "しんとう",
           "glossJa": "",
           "glossEn": "Political party, Faction, Clique"
         }
@@ -94,8 +94,8 @@
           "glossEn": "General, Whole, All, Full, Total"
         },
         {
-          "word": "総ぐるみ",
-          "reading": "そうぐるみ",
+          "word": "総当たり",
+          "reading": "そうあたり",
           "glossJa": "",
           "glossEn": "General, Whole, All, Full, Total"
         }
@@ -121,14 +121,14 @@
           "glossEn": "Territory, Jurisdiction, Dominion, Reign"
         },
         {
-          "word": "領する",
-          "reading": "りょうする",
+          "word": "首領",
+          "reading": "しゅりょう",
           "glossJa": "",
           "glossEn": "Territory, Jurisdiction, Dominion, Reign"
         },
         {
-          "word": "要領よく",
-          "reading": "ようりょうよく",
+          "word": "主領",
+          "reading": "しゅりょう",
           "glossJa": "",
           "glossEn": "Territory, Jurisdiction, Dominion, Reign"
         }
@@ -160,8 +160,8 @@
           "glossEn": "Establish, Provision, Prepare"
         },
         {
-          "word": "設い",
-          "reading": "しつらい",
+          "word": "開設",
+          "reading": "かいせつ",
           "glossJa": "",
           "glossEn": "Establish, Provision, Prepare"
         }
@@ -220,14 +220,14 @@
           "glossEn": "rights, authority, power"
         },
         {
-          "word": "権柄ずく",
-          "reading": "けんぺいずく",
+          "word": "強権",
+          "reading": "きょうけん",
           "glossJa": "",
           "glossEn": "rights, authority, power"
         },
         {
-          "word": "強権",
-          "reading": "きょうけん",
+          "word": "金権",
+          "reading": "きんけん",
           "glossJa": "",
           "glossEn": "rights, authority, power"
         }
@@ -259,8 +259,8 @@
           "glossEn": "resources, capital, fund, data"
         },
         {
-          "word": "資す",
-          "reading": "しす",
+          "word": "資金繰り",
+          "reading": "しきんぐり",
           "glossJa": "",
           "glossEn": "resources, capital, fund, data"
         }
@@ -286,14 +286,14 @@
           "glossEn": "group, association"
         },
         {
-          "word": "団らん",
-          "reading": "だんらん",
+          "word": "敷き布団",
+          "reading": "しきぶとん",
           "glossJa": "",
           "glossEn": "group, association"
         },
         {
-          "word": "敷き布団",
-          "reading": "しきぶとん",
+          "word": "楽団",
+          "reading": "がくだん",
           "glossJa": "",
           "glossEn": "group, association"
         }
@@ -325,8 +325,8 @@
           "glossEn": "leather, skin, reform, become, serious"
         },
         {
-          "word": "革む",
-          "reading": "あらたむ",
+          "word": "革靴",
+          "reading": "かわぐつ",
           "glossJa": "",
           "glossEn": "leather, skin, reform, become, serious"
         }
@@ -451,14 +451,14 @@
           "glossEn": "examine, investigate"
         },
         {
-          "word": "検する",
-          "reading": "けんする",
+          "word": "検挙",
+          "reading": "けんきょ",
           "glossJa": "",
           "glossEn": "examine, investigate"
         },
         {
-          "word": "検索よけ",
-          "reading": "けんさくよけ",
+          "word": "検査",
+          "reading": "けんさ",
           "glossJa": "",
           "glossEn": "examine, investigate"
         }
@@ -523,8 +523,8 @@
           "glossEn": "supplement, supply, make good, offset, compensate, assistant, learner"
         },
         {
-          "word": "補い",
-          "reading": "おぎない",
+          "word": "補給",
+          "reading": "ほきゅう",
           "glossJa": "",
           "glossEn": "supplement, supply, make good, offset, compensate, assistant, learner"
         }
@@ -550,14 +550,14 @@
           "glossEn": "boundary, border, region"
         },
         {
-          "word": "境する",
-          "reading": "さかいする",
+          "word": "環境",
+          "reading": "かんきょう",
           "glossJa": "",
           "glossEn": "boundary, border, region"
         },
         {
-          "word": "見境ない",
-          "reading": "みさかいない",
+          "word": "逆境",
+          "reading": "ぎゃっきょう",
           "glossJa": "",
           "glossEn": "boundary, border, region"
         }
@@ -583,14 +583,14 @@
           "glossEn": "exhibit"
         },
         {
-          "word": "展べる",
-          "reading": "のべる",
+          "word": "進展",
+          "reading": "しんてん",
           "glossJa": "",
           "glossEn": "exhibit"
         },
         {
-          "word": "展く",
-          "reading": "ひらく",
+          "word": "展開",
+          "reading": "てんかい",
           "glossJa": "",
           "glossEn": "exhibit"
         }
@@ -616,14 +616,14 @@
           "glossEn": "military, warrior"
         },
         {
-          "word": "武し",
-          "reading": "たけし",
+          "word": "武者",
+          "reading": "むしゃ",
           "glossJa": "",
           "glossEn": "military, warrior"
         },
         {
-          "word": "武を練る",
-          "reading": "ぶをねる",
+          "word": "武将",
+          "reading": "ぶしょう",
           "glossJa": "",
           "glossEn": "military, warrior"
         }
@@ -655,8 +655,8 @@
           "glossEn": "rate, ratio, proportion, factor"
         },
         {
-          "word": "率る",
-          "reading": "いる",
+          "word": "伸び率",
+          "reading": "のびりつ",
           "glossJa": "",
           "glossEn": "rate, ratio, proportion, factor"
         }
@@ -682,14 +682,14 @@
           "glossEn": "transport, send, be inferior"
         },
         {
-          "word": "一籌を輸する",
-          "reading": "いっちゅうをゆする",
+          "word": "空輸",
+          "reading": "くうゆ",
           "glossJa": "",
           "glossEn": "transport, send, be inferior"
         },
         {
-          "word": "空輸",
-          "reading": "くうゆ",
+          "word": "密輸",
+          "reading": "みつゆ",
           "glossJa": "",
           "glossEn": "transport, send, be inferior"
         }
@@ -748,14 +748,14 @@
           "glossEn": "ring, circle, link, wheel"
         },
         {
-          "word": "吊り環",
-          "reading": "つりわ",
+          "word": "環境",
+          "reading": "かんきょう",
           "glossJa": "",
           "glossEn": "ring, circle, link, wheel"
         },
         {
-          "word": "環境",
-          "reading": "かんきょう",
+          "word": "環礁",
+          "reading": "かんしょう",
           "glossJa": "",
           "glossEn": "ring, circle, link, wheel"
         }
@@ -886,8 +886,8 @@
           "glossEn": "put on, incur, cover, veil, shelter, wear, be exposed(film), receiving"
         },
         {
-          "word": "被せ蓋",
-          "reading": "かぶせぶた",
+          "word": "被災",
+          "reading": "ひさい",
           "glossJa": "",
           "glossEn": "put on, incur, cover, veil, shelter, wear, be exposed(film), receiving"
         }
@@ -913,14 +913,14 @@
           "glossEn": "restore, return to, revert, resume"
         },
         {
-          "word": "復す",
-          "reading": "ふくす",
+          "word": "恢復",
+          "reading": "かいふく",
           "glossJa": "",
           "glossEn": "restore, return to, revert, resume"
         },
         {
-          "word": "復する",
-          "reading": "ふくする",
+          "word": "修復",
+          "reading": "しゅうふく",
           "glossJa": "",
           "glossEn": "restore, return to, revert, resume"
         }
@@ -946,14 +946,14 @@
           "glossEn": "evaluate, criticism, comment"
         },
         {
-          "word": "評す",
-          "reading": "ひょうす",
+          "word": "書評",
+          "reading": "しょひょう",
           "glossJa": "",
           "glossEn": "evaluate, criticism, comment"
         },
         {
-          "word": "評する",
-          "reading": "ひょうする",
+          "word": "総評",
+          "reading": "そうひょう",
           "glossJa": "",
           "glossEn": "evaluate, criticism, comment"
         }
@@ -979,14 +979,14 @@
           "glossEn": "brain, memory"
         },
         {
-          "word": "脳たりん",
-          "reading": "のうたりん",
+          "word": "洗脳",
+          "reading": "せんのう",
           "glossJa": "",
           "glossEn": "brain, memory"
         },
         {
-          "word": "脳みそ",
-          "reading": "のうみそ",
+          "word": "大脳",
+          "reading": "だいのう",
           "glossJa": "",
           "glossEn": "brain, memory"
         }
@@ -1051,8 +1051,8 @@
           "glossEn": "storehouse, hide, own, have, possess"
         },
         {
-          "word": "蔵ざらえ",
-          "reading": "くらざらえ",
+          "word": "蔵書",
+          "reading": "ぞうしょ",
           "glossJa": "",
           "glossEn": "storehouse, hide, own, have, possess"
         }
@@ -1078,14 +1078,14 @@
           "glossEn": "manufacture, madein"
         },
         {
-          "word": "製する",
-          "reading": "せいする",
+          "word": "手製",
+          "reading": "てせい",
           "glossJa": "",
           "glossEn": "manufacture, madein"
         },
         {
-          "word": "私製はがき",
-          "reading": "しせいはがき(私製はがき",
+          "word": "精製",
+          "reading": "せいせい",
           "glossJa": "",
           "glossEn": "manufacture, madein"
         }
@@ -1117,8 +1117,8 @@
           "glossEn": "condition,situation"
         },
         {
-          "word": "況してや",
-          "reading": "ましてや",
+          "word": "近況",
+          "reading": "きんきょう",
           "glossJa": "",
           "glossEn": "condition,situation"
         }
@@ -1144,14 +1144,14 @@
           "glossEn": "needle, pin, staple, stringer"
         },
         {
-          "word": "針もぐら",
-          "reading": "はりもぐら",
+          "word": "釣り針",
+          "reading": "つりばり",
           "glossJa": "",
           "glossEn": "needle, pin, staple, stringer"
         },
         {
-          "word": "針ねずみ",
-          "reading": "はりねずみ",
+          "word": "釣針",
+          "reading": "つりばり",
           "glossJa": "",
           "glossEn": "needle, pin, staple, stringer"
         }
@@ -1216,8 +1216,8 @@
           "glossEn": "old times, old things, old friend, former, ex-"
         },
         {
-          "word": "旧る",
-          "reading": "ふる",
+          "word": "旧姓",
+          "reading": "きゅうせい",
           "glossJa": "",
           "glossEn": "old times, old things, old friend, former, ex-"
         }
@@ -1243,14 +1243,14 @@
           "glossEn": "negate, no, noes, refuse, decline, deny"
         },
         {
-          "word": "否でも",
-          "reading": "いやでも",
+          "word": "拒否",
+          "reading": "きょひ",
           "glossJa": "",
           "glossEn": "negate, no, noes, refuse, decline, deny"
         },
         {
-          "word": "否む",
-          "reading": "いやむ",
+          "word": "合否",
+          "reading": "ごうひ",
           "glossJa": "",
           "glossEn": "negate, no, noes, refuse, decline, deny"
         }
@@ -1276,14 +1276,14 @@
           "glossEn": "criticism, strike"
         },
         {
-          "word": "厳しい批評",
-          "reading": "きびしいひひょう",
+          "word": "批評",
+          "reading": "ひひょう",
           "glossJa": "",
           "glossEn": "criticism, strike"
         },
         {
-          "word": "批評",
-          "reading": "ひひょう",
+          "word": "批難",
+          "reading": "ひなん",
           "glossJa": "",
           "glossEn": "criticism, strike"
         }
@@ -1348,8 +1348,8 @@
           "glossEn": "compile, knit, plait, braid, twist, editing, completed poem, part of a book"
         },
         {
-          "word": "編く",
-          "reading": "すく",
+          "word": "編み物",
+          "reading": "あみもの",
           "glossJa": "",
           "glossEn": "compile, knit, plait, braid, twist, editing, completed poem, part of a book"
         }
@@ -1381,8 +1381,8 @@
           "glossEn": "look for, search, locate"
         },
         {
-          "word": "捜しだす",
-          "reading": "さがしだす",
+          "word": "捜し回る",
+          "reading": "さがしまわる",
           "glossJa": "",
           "glossEn": "look for, search, locate"
         }
@@ -1441,14 +1441,14 @@
           "glossEn": "heal, cure"
         },
         {
-          "word": "揉み療治",
-          "reading": "もみりょうじ",
+          "word": "診療",
+          "reading": "しんりょう",
           "glossJa": "",
           "glossEn": "heal, cure"
         },
         {
-          "word": "診療",
-          "reading": "しんりょう",
+          "word": "療法",
+          "reading": "りょうほう",
           "glossJa": "",
           "glossEn": "heal, cure"
         }
@@ -1480,8 +1480,8 @@
           "glossEn": "discipline, conduct onesel well, study, master"
         },
         {
-          "word": "修する",
-          "reading": "しゅうする",
+          "word": "研修",
+          "reading": "けんしゅう",
           "glossJa": "",
           "glossEn": "discipline, conduct onesel well, study, master"
         }
@@ -1546,8 +1546,8 @@
           "glossEn": "pick, take, fetch, take up"
         },
         {
-          "word": "採れる",
-          "reading": "とれる",
+          "word": "採り方",
+          "reading": "とりかた",
           "glossJa": "",
           "glossEn": "pick, take, fetch, take up"
         }
@@ -1639,14 +1639,14 @@
           "glossEn": "mediate, shellfish, concern, oneself with"
         },
         {
-          "word": "介して",
-          "reading": "かいして",
+          "word": "介助",
+          "reading": "かいじょ",
           "glossJa": "",
           "glossEn": "mediate, shellfish, concern, oneself with"
         },
         {
-          "word": "介す",
-          "reading": "かいす",
+          "word": "介入",
+          "reading": "かいにゅう",
           "glossJa": "",
           "glossEn": "mediate, shellfish, concern, oneself with"
         }
@@ -1672,14 +1672,14 @@
           "glossEn": "marketing, sale, trade"
         },
         {
-          "word": "販ぐ",
-          "reading": "ひさぐ",
+          "word": "自販",
+          "reading": "じはん",
           "glossJa": "",
           "glossEn": "marketing, sale, trade"
         },
         {
-          "word": "春を販ぐ",
-          "reading": "はるをひさぐ",
+          "word": "通販",
+          "reading": "つうはん",
           "glossJa": "",
           "glossEn": "marketing, sale, trade"
         }
@@ -1705,14 +1705,14 @@
           "glossEn": "leader, commander, general, admiral, or, and again, soon, from now on, just about"
         },
         {
-          "word": "将に",
-          "reading": "まさに",
+          "word": "将棋倒し",
+          "reading": "しょうぎだおし",
           "glossJa": "",
           "glossEn": "leader, commander, general, admiral, or, and again, soon, from now on, just about"
         },
         {
-          "word": "将る",
-          "reading": "いる",
+          "word": "将棋",
+          "reading": "しょうぎ",
           "glossJa": "",
           "glossEn": "leader, commander, general, admiral, or, and again, soon, from now on, just about"
         }
@@ -1738,14 +1738,14 @@
           "glossEn": "width, hanging scroll"
         },
         {
-          "word": "幅ったい",
-          "reading": "はばったい",
+          "word": "振り幅",
+          "reading": "しんぷく",
           "glossJa": "",
           "glossEn": "width, hanging scroll"
         },
         {
-          "word": "幅にする",
-          "reading": "はばにする",
+          "word": "振幅",
+          "reading": "しんぷく",
           "glossJa": "",
           "glossEn": "width, hanging scroll"
         }
@@ -1829,24 +1829,6 @@
           "reading": "ぼうえき",
           "glossJa": "",
           "glossEn": "trade, exchange"
-        },
-        {
-          "word": "内貿",
-          "reading": "ないぼう",
-          "glossJa": "",
-          "glossEn": "trade, exchange"
-        },
-        {
-          "word": "中継ぎ貿易",
-          "reading": "なかつぎぼうえき",
-          "glossJa": "",
-          "glossEn": "trade, exchange"
-        },
-        {
-          "word": "片貿易",
-          "reading": "かたぼうえき",
-          "glossJa": "",
-          "glossEn": "trade, exchange"
         }
       ]
     },
@@ -1903,14 +1885,8 @@
           "glossEn": "various, many, several, together"
         },
         {
-          "word": "諸に",
-          "reading": "もろに",
-          "glossJa": "",
-          "glossEn": "various, many, several, together"
-        },
-        {
-          "word": "諸掛かり",
-          "reading": "しょがかり",
+          "word": "諸島",
+          "reading": "しょとう",
           "glossJa": "",
           "glossEn": "various, many, several, together"
         }
@@ -1942,8 +1918,8 @@
           "glossEn": "drama, play"
         },
         {
-          "word": "演劇づく",
-          "reading": "えんげきづく",
+          "word": "観劇",
+          "reading": "かんげき",
           "glossJa": "",
           "glossEn": "drama, play"
         }
@@ -2008,8 +1984,8 @@
           "glossEn": "outburst, rave, fret, force, violence, cruelty, outrage"
         },
         {
-          "word": "暴きだす",
-          "reading": "あばきだす",
+          "word": "暴虐",
+          "reading": "ぼうぎゃく",
           "glossJa": "",
           "glossEn": "outburst, rave, fret, force, violence, cruelty, outrage"
         }
@@ -2074,8 +2050,8 @@
           "glossEn": "inaccessible place, impregnable, position, steep place, sharp eyes"
         },
         {
-          "word": "険しい顔",
-          "reading": "けわしいかお",
+          "word": "探険",
+          "reading": "たんけん",
           "glossJa": "",
           "glossEn": "inaccessible place, impregnable, position, steep place, sharp eyes"
         }
@@ -2107,8 +2083,8 @@
           "glossEn": "pressure, push, overwhelm, oppress, dominate"
         },
         {
-          "word": "圧しあう",
-          "reading": "へしあう",
+          "word": "圧勝",
+          "reading": "あっしょう",
           "glossJa": "",
           "glossEn": "pressure, push, overwhelm, oppress, dominate"
         }
@@ -2200,14 +2176,14 @@
           "glossEn": "bomb, burst open, split"
         },
         {
-          "word": "爆ぜる",
-          "reading": "はぜる",
+          "word": "原爆",
+          "reading": "げんばく",
           "glossJa": "",
           "glossEn": "bomb, burst open, split"
         },
         {
-          "word": "爆ごう",
-          "reading": "ばくごう",
+          "word": "水爆",
+          "reading": "すいばく",
           "glossJa": "",
           "glossEn": "bomb, burst open, split"
         }
@@ -2338,8 +2314,8 @@
           "glossEn": "bountiful, exxcellent, rich"
         },
         {
-          "word": "心豊か",
-          "reading": "こころゆたか",
+          "word": "豊作",
+          "reading": "ほうさく",
           "glossJa": "",
           "glossEn": "bountiful, exxcellent, rich"
         }
@@ -2371,8 +2347,8 @@
           "glossEn": "fathom, plan, scheme, measure"
         },
         {
-          "word": "測りかねる",
-          "reading": "はかりかねる",
+          "word": "観測",
+          "reading": "かんそく",
           "glossJa": "",
           "glossEn": "fathom, plan, scheme, measure"
         }
@@ -2404,8 +2380,8 @@
           "glossEn": "abbreviation, omission, outline, shorten, capture, plunder"
         },
         {
-          "word": "略して",
-          "reading": "りゃくして",
+          "word": "攻略",
+          "reading": "こうりゃく",
           "glossJa": "",
           "glossEn": "abbreviation, omission, outline, shorten, capture, plunder"
         }
@@ -2530,14 +2506,14 @@
           "glossEn": "government office"
         },
         {
-          "word": "院の庁",
-          "reading": "いんのちょう",
+          "word": "省庁",
+          "reading": "しょうちょう",
           "glossJa": "",
           "glossEn": "government office"
         },
         {
-          "word": "省庁",
-          "reading": "しょうちょう",
+          "word": "政庁",
+          "reading": "せいちょう",
           "glossJa": "",
           "glossEn": "government office"
         }
@@ -2596,14 +2572,14 @@
           "glossEn": "printing block, printing plate, edition, impression, label"
         },
         {
-          "word": "組み版",
-          "reading": "くみはん",
+          "word": "図版",
+          "reading": "ずはん",
           "glossJa": "",
           "glossEn": "printing block, printing plate, edition, impression, label"
         },
         {
-          "word": "図版",
-          "reading": "ずはん",
+          "word": "凸版",
+          "reading": "とっぱん",
           "glossJa": "",
           "glossEn": "printing block, printing plate, edition, impression, label"
         }
@@ -2668,8 +2644,8 @@
           "glossEn": "recruit, campaign, enlist, grow, violent"
         },
         {
-          "word": "募らす",
-          "reading": "つのらす",
+          "word": "募金",
+          "reading": "ぼきん",
           "glossJa": "",
           "glossEn": "recruit, campaign, enlist, grow, violent"
         }
@@ -2695,14 +2671,14 @@
           "glossEn": "buddha, the dead, france"
         },
         {
-          "word": "仏さん",
-          "reading": "ほとけさん",
+          "word": "念仏",
+          "reading": "ねんぶつ",
           "glossJa": "",
           "glossEn": "buddha, the dead, france"
         },
         {
-          "word": "仏になる",
-          "reading": "ほとけになる",
+          "word": "仏教",
+          "reading": "ぶっきょう",
           "glossJa": "",
           "glossEn": "buddha, the dead, france"
         }
@@ -2728,14 +2704,14 @@
           "glossEn": "exploits, achievements, unreeling, cocoons"
         },
         {
-          "word": "績む",
-          "reading": "うむ",
+          "word": "実績",
+          "reading": "じっせき",
           "glossJa": "",
           "glossEn": "exploits, achievements, unreeling, cocoons"
         },
         {
-          "word": "実績を残す",
-          "reading": "じっせきをのこす",
+          "word": "成績",
+          "reading": "せいせき",
           "glossJa": "",
           "glossEn": "exploits, achievements, unreeling, cocoons"
         }
@@ -2800,8 +2776,8 @@
           "glossEn": "intention, plan, resolve, aspire, motive, hopes, shilling"
         },
         {
-          "word": "志半ば",
-          "reading": "こころざしなかば",
+          "word": "志願",
+          "reading": "しがん",
           "glossJa": "",
           "glossEn": "intention, plan, resolve, aspire, motive, hopes, shilling"
         }
@@ -2932,8 +2908,8 @@
           "glossEn": "document, record"
         },
         {
-          "word": "誌等で",
-          "reading": "しとうで",
+          "word": "誌面",
+          "reading": "しめん",
           "glossJa": "",
           "glossEn": "document, record"
         }
@@ -2992,14 +2968,14 @@
           "glossEn": "statue, picture, image, figure, portrait"
         },
         {
-          "word": "泥の像",
-          "reading": "でいのぞう",
+          "word": "胸像",
+          "reading": "きょうぞう",
           "glossJa": "",
           "glossEn": "statue, picture, image, figure, portrait"
         },
         {
-          "word": "胸像",
-          "reading": "きょうぞう",
+          "word": "偶像",
+          "reading": "ぐうぞう",
           "glossJa": "",
           "glossEn": "statue, picture, image, figure, portrait"
         }
@@ -3058,14 +3034,14 @@
           "glossEn": "approve, praise, title or inscription on picture, assist, agree with"
         },
         {
-          "word": "賛する",
-          "reading": "さんする",
+          "word": "賛歌",
+          "reading": "さんか",
           "glossJa": "",
           "glossEn": "approve, praise, title or inscription on picture, assist, agree with"
         },
         {
-          "word": "愛の賛歌",
-          "reading": "あいのさんか",
+          "word": "賛辞",
+          "reading": "さんじ",
           "glossJa": "",
           "glossEn": "approve, praise, title or inscription on picture, assist, agree with"
         }
@@ -3091,13 +3067,13 @@
           "glossEn": "eaves, roof, house, heaven"
         },
         {
-          "word": "宇宙ごみ",
-          "reading": "うちゅうごみ",
+          "word": "宇柳貝",
+          "reading": "ウルグアイ",
           "glossJa": "",
           "glossEn": "eaves, roof, house, heaven"
         },
         {
-          "word": "宇柳貝",
+          "word": "宇柳具",
           "reading": "ウルグアイ",
           "glossJa": "",
           "glossEn": "eaves, roof, house, heaven"
@@ -3124,14 +3100,14 @@
           "glossEn": "gigantic, big, large, great"
         },
         {
-          "word": "巨かい",
-          "reading": "きょかい",
+          "word": "巨匠",
+          "reading": "きょしょう",
           "glossJa": "",
           "glossEn": "gigantic, big, large, great"
         },
         {
-          "word": "巨星墜つ",
-          "reading": "きょせいおつ",
+          "word": "巨人",
+          "reading": "きょじん",
           "glossJa": "",
           "glossEn": "gigantic, big, large, great"
         }
@@ -3196,8 +3172,8 @@
           "glossEn": "reliant, depend on, consequently, therefore, due to"
         },
         {
-          "word": "依って",
-          "reading": "よって",
+          "word": "依然として",
+          "reading": "いぜんとして",
           "glossJa": "",
           "glossEn": "reliant, depend on, consequently, therefore, due to"
         }
@@ -3223,14 +3199,14 @@
           "glossEn": "sheet of something, counter for flat things"
         },
         {
-          "word": "枚を銜む",
-          "reading": "ばいをふくむ",
+          "word": "二枚",
+          "reading": "にまい",
           "glossJa": "",
           "glossEn": "sheet of something, counter for flat things"
         },
         {
-          "word": "二枚",
-          "reading": "にまい",
+          "word": "枚挙",
+          "reading": "まいきょ",
           "glossJa": "",
           "glossEn": "sheet of something, counter for flat things"
         }
@@ -3394,8 +3370,8 @@
           "glossEn": "reside in ,resident, stop over"
         },
         {
-          "word": "斜め駐車",
-          "reading": "ななめちゅうしゃ",
+          "word": "駐在",
+          "reading": "ちゅうざい",
           "glossJa": "",
           "glossEn": "reside in ,resident, stop over"
         }
@@ -3460,8 +3436,8 @@
           "glossEn": "introduce, inherit, help"
         },
         {
-          "word": "紹継",
-          "reading": "しょうけい",
+          "word": "自己紹介",
+          "reading": "じこしょうかい",
           "glossJa": "",
           "glossEn": "introduce, inherit, help"
         }
@@ -3493,8 +3469,8 @@
           "glossEn": "employ, hire"
         },
         {
-          "word": "雇い",
-          "reading": "やとい",
+          "word": "雇い主",
+          "reading": "やといぬし",
           "glossJa": "",
           "glossEn": "employ, hire"
         }
@@ -3520,14 +3496,14 @@
           "glossEn": "entrails, viscera, bowels"
         },
         {
-          "word": "膵臓がん",
-          "reading": "すいぞうがん",
+          "word": "腎臓",
+          "reading": "じんぞう",
           "glossJa": "",
           "glossEn": "entrails, viscera, bowels"
         },
         {
-          "word": "腎臓",
-          "reading": "じんぞう",
+          "word": "臓器",
+          "reading": "ぞうき",
           "glossJa": "",
           "glossEn": "entrails, viscera, bowels"
         }
@@ -3553,14 +3529,14 @@
           "glossEn": "rythym, law, regulation, gauge, control"
         },
         {
-          "word": "律する",
-          "reading": "りっする",
+          "word": "戒律",
+          "reading": "かいりつ",
           "glossJa": "",
           "glossEn": "rythym, law, regulation, gauge, control"
         },
         {
-          "word": "一律に",
-          "reading": "いちりつに",
+          "word": "規律",
+          "reading": "きりつ",
           "glossJa": "",
           "glossEn": "rythym, law, regulation, gauge, control"
         }
@@ -3619,14 +3595,14 @@
           "glossEn": "mid-air, air, space, sky, memorization, interval of mine"
         },
         {
-          "word": "宙づり",
-          "reading": "ちゅうづり",
+          "word": "宙返り",
+          "reading": "ちゅうがえり",
           "glossJa": "",
           "glossEn": "mid-air, air, space, sky, memorization, interval of mine"
         },
         {
-          "word": "宙ぶらりん",
-          "reading": "ちゅうぶらりん",
+          "word": "宇宙開発",
+          "reading": "うちゅうかいはつ",
           "glossJa": "",
           "glossEn": "mid-air, air, space, sky, memorization, interval of mine"
         }
@@ -3691,8 +3667,8 @@
           "glossEn": "maneuver, manipulate, operate, steer, chastity, virginity, fidelity"
         },
         {
-          "word": "操す",
-          "reading": "あやなす",
+          "word": "操作",
+          "reading": "そうさ",
           "glossJa": "",
           "glossEn": "maneuver, manipulate, operate, steer, chastity, virginity, fidelity"
         }
@@ -3784,14 +3760,14 @@
           "glossEn": "wall, lining, fence"
         },
         {
-          "word": "壁にかける",
-          "reading": "かべにかける",
+          "word": "障壁",
+          "reading": "しょうへき",
           "glossJa": "",
           "glossEn": "wall, lining, fence"
         },
         {
-          "word": "壁にかかる",
-          "reading": "かべにかかる",
+          "word": "牆壁",
+          "reading": "しょうへき",
           "glossJa": "",
           "glossEn": "wall, lining, fence"
         }
@@ -3850,14 +3826,14 @@
           "glossEn": "genuine, purity, innocence"
         },
         {
-          "word": "純な少女",
-          "reading": "じゅんなしょうじょ",
+          "word": "純情",
+          "reading": "じゅんじょう",
           "glossJa": "",
           "glossEn": "genuine, purity, innocence"
         },
         {
-          "word": "純情",
-          "reading": "じゅんじょう",
+          "word": "純粋",
+          "reading": "じゅんすい",
           "glossJa": "",
           "glossEn": "genuine, purity, innocence"
         }
@@ -3889,8 +3865,8 @@
           "glossEn": "watch over, see"
         },
         {
-          "word": "看す",
-          "reading": "めす",
+          "word": "看做す",
+          "reading": "みなす",
           "glossJa": "",
           "glossEn": "watch over, see"
         }
@@ -3955,8 +3931,8 @@
           "glossEn": "cheerful, pleasant, aggreeable, comfortable"
         },
         {
-          "word": "快く",
-          "reading": "こころよく",
+          "word": "快闊",
+          "reading": "かいかつ",
           "glossJa": "",
           "glossEn": "cheerful, pleasant, aggreeable, comfortable"
         }
@@ -3988,8 +3964,8 @@
           "glossEn": "respect, awe, honor, revere"
         },
         {
-          "word": "敬い",
-          "reading": "うやまい",
+          "word": "敬遠",
+          "reading": "けいえん",
           "glossJa": "",
           "glossEn": "respect, awe, honor, revere"
         }
@@ -4048,14 +4024,14 @@
           "glossEn": "fountain, spring"
         },
         {
-          "word": "温泉めぐり",
-          "reading": "おんせんめぐり",
+          "word": "原泉",
+          "reading": "げんせん",
           "glossJa": "",
           "glossEn": "fountain, spring"
         },
         {
-          "word": "原泉",
-          "reading": "げんせん",
+          "word": "泉水",
+          "reading": "せんすい",
           "glossJa": "",
           "glossEn": "fountain, spring"
         }
@@ -4081,14 +4057,14 @@
           "glossEn": "honorable, manipulate, govern"
         },
         {
-          "word": "御す",
-          "reading": "ぎょす",
+          "word": "御守り",
+          "reading": "おまもり",
           "glossJa": "",
           "glossEn": "honorable, manipulate, govern"
         },
         {
-          "word": "御する",
-          "reading": "ぎょする",
+          "word": "御守",
+          "reading": "おまもり",
           "glossJa": "",
           "glossEn": "honorable, manipulate, govern"
         }
@@ -4213,14 +4189,14 @@
           "glossEn": "sack, bag, pouch"
         },
         {
-          "word": "袋にする",
-          "reading": "ふくろにする",
+          "word": "手袋",
+          "reading": "てぶくろ",
           "glossJa": "",
           "glossEn": "sack, bag, pouch"
         },
         {
-          "word": "袋とじ",
-          "reading": "ふくろとじ",
+          "word": "足袋",
+          "reading": "たび",
           "glossJa": "",
           "glossEn": "sack, bag, pouch"
         }
@@ -4252,8 +4228,8 @@
           "glossEn": "seal, closing"
         },
         {
-          "word": "封じ",
-          "reading": "ふうじ",
+          "word": "封じ手",
+          "reading": "ふうじて",
           "glossJa": "",
           "glossEn": "seal, closing"
         }
@@ -4279,14 +4255,14 @@
           "glossEn": "chest, bosom, breast, heart, feelings"
         },
         {
-          "word": "胸がすく",
-          "reading": "むねがすく",
+          "word": "胸中",
+          "reading": "きょうちゅう",
           "glossJa": "",
           "glossEn": "chest, bosom, breast, heart, feelings"
         },
         {
-          "word": "胸ぐら",
-          "reading": "むなぐら",
+          "word": "胸部",
+          "reading": "きょうぶ",
           "glossJa": "",
           "glossEn": "chest, bosom, breast, heart, feelings"
         }
@@ -4312,14 +4288,14 @@
           "glossEn": "sand"
         },
         {
-          "word": "砂かぶり",
-          "reading": "すなかぶり",
+          "word": "土砂降り",
+          "reading": "どしゃぶり",
           "glossJa": "",
           "glossEn": "sand"
         },
         {
-          "word": "砂ずり",
-          "reading": "すなずり",
+          "word": "砂糖",
+          "reading": "さとう",
           "glossJa": "",
           "glossEn": "sand"
         }
@@ -4351,8 +4327,8 @@
           "glossEn": "intelligent, wise, wisdom, cleverness"
         },
         {
-          "word": "賢しい",
-          "reading": "さかしい",
+          "word": "悪賢い",
+          "reading": "わるがしこい",
           "glossJa": "",
           "glossEn": "intelligent, wise, wisdom, cleverness"
         }
@@ -4378,14 +4354,14 @@
           "glossEn": "arm, ability, talent"
         },
         {
-          "word": "腕がいい",
-          "reading": "うでがいい(腕がいい",
+          "word": "手腕",
+          "reading": "しゅわん",
           "glossJa": "",
           "glossEn": "arm, ability, talent"
         },
         {
-          "word": "腕がらみ",
-          "reading": "うでがらみ",
+          "word": "敏腕",
+          "reading": "びんわん",
           "glossJa": "",
           "glossEn": "arm, ability, talent"
         }
@@ -4444,14 +4420,14 @@
           "glossEn": "bed, counter for beds, floor, padding, tatami"
         },
         {
-          "word": "床しい",
-          "reading": "ゆかしい",
+          "word": "床の間",
+          "reading": "とこのま",
           "glossJa": "",
           "glossEn": "bed, counter for beds, floor, padding, tatami"
         },
         {
-          "word": "床ずれ",
-          "reading": "とこずれ",
+          "word": "胡床",
+          "reading": "あぐら",
           "glossJa": "",
           "glossEn": "bed, counter for beds, floor, padding, tatami"
         }
@@ -4543,14 +4519,14 @@
           "glossEn": "mansion, palace, temple, lord"
         },
         {
-          "word": "釣り殿",
-          "reading": "つりどの",
+          "word": "神殿",
+          "reading": "しんでん",
           "glossJa": "",
           "glossEn": "mansion, palace, temple, lord"
         },
         {
-          "word": "神殿",
-          "reading": "しんでん",
+          "word": "殿下",
+          "reading": "でんか",
           "glossJa": "",
           "glossEn": "mansion, palace, temple, lord"
         }
@@ -4582,8 +4558,8 @@
           "glossEn": "concentrated, thick, dark, undiluted"
         },
         {
-          "word": "濃がある",
-          "reading": "こくがある",
+          "word": "濃縮",
+          "reading": "のうしゅく",
           "glossJa": "",
           "glossEn": "concentrated, thick, dark, undiluted"
         }
@@ -4609,14 +4585,14 @@
           "glossEn": "fluid, juice, liquid, sap, secretion"
         },
         {
-          "word": "液だめ",
-          "reading": "えきだめ",
+          "word": "液体",
+          "reading": "えきたい",
           "glossJa": "",
           "glossEn": "fluid, juice, liquid, sap, secretion"
         },
         {
-          "word": "液だく",
-          "reading": "つゆだく",
+          "word": "血液",
+          "reading": "けつえき",
           "glossJa": "",
           "glossEn": "fluid, juice, liquid, sap, secretion"
         }
@@ -4636,20 +4612,14 @@
           "glossEn": "shoulder"
         },
         {
-          "word": "右肩",
-          "reading": "みぎかた",
-          "glossJa": "",
-          "glossEn": "shoulder"
-        },
-        {
           "word": "肩こり",
           "reading": "かたこり",
           "glossJa": "",
           "glossEn": "shoulder"
         },
         {
-          "word": "肩がこる",
-          "reading": "かたがこる",
+          "word": "肩凝り",
+          "reading": "かたこり",
           "glossJa": "",
           "glossEn": "shoulder"
         }
@@ -4914,14 +4884,14 @@
           "glossEn": "milk, breast"
         },
         {
-          "word": "乳がん",
-          "reading": "にゅうがん",
+          "word": "豆乳",
+          "reading": "とうにゅう",
           "glossJa": "",
           "glossEn": "milk, breast"
         },
         {
-          "word": "乳び",
-          "reading": "にゅうび",
+          "word": "乳児",
+          "reading": "にゅうじ",
           "glossJa": "",
           "glossEn": "milk, breast"
         }
@@ -4976,18 +4946,6 @@
         {
           "word": "郊外",
           "reading": "こうがい",
-          "glossJa": "",
-          "glossEn": "outskirts, suburbs, rural area"
-        },
-        {
-          "word": "遠郊",
-          "reading": "えんこう",
-          "glossJa": "",
-          "glossEn": "outskirts, suburbs, rural area"
-        },
-        {
-          "word": "郊野",
-          "reading": "こうの",
           "glossJa": "",
           "glossEn": "outskirts, suburbs, rural area"
         }
@@ -5085,8 +5043,8 @@
           "glossEn": "rare, curious, strange"
         },
         {
-          "word": "珍しがる",
-          "reading": "めずらしがる",
+          "word": "珍味",
+          "reading": "ちんみ",
           "glossJa": "",
           "glossEn": "rare, curious, strange"
         }
@@ -5244,14 +5202,14 @@
           "glossEn": "mineral, ore"
         },
         {
-          "word": "坑内掘り炭鉱",
-          "reading": "こうないぼりたんこう",
+          "word": "鉱山",
+          "reading": "こうざん",
           "glossJa": "",
           "glossEn": "mineral, ore"
         },
         {
-          "word": "鉱山",
-          "reading": "こうざん",
+          "word": "鉱石",
+          "reading": "こうせき",
           "glossJa": "",
           "glossEn": "mineral, ore"
         }
@@ -5273,18 +5231,6 @@
         {
           "word": "匹敵",
           "reading": "ひってき",
-          "glossJa": "",
-          "glossEn": "equal, head, counter for small animals, roll of cloth"
-        },
-        {
-          "word": "三匹のこぶた",
-          "reading": "さんぴきのこぶた",
-          "glossJa": "",
-          "glossEn": "equal, head, counter for small animals, roll of cloth"
-        },
-        {
-          "word": "数匹",
-          "reading": "すうひき",
           "glossJa": "",
           "glossEn": "equal, head, counter for small animals, roll of cloth"
         }
@@ -5316,8 +5262,8 @@
           "glossEn": "sharp, pointed, edge, weapon, violent"
         },
         {
-          "word": "鋭し",
-          "reading": "とし",
+          "word": "鋭利",
+          "reading": "えいり",
           "glossJa": "",
           "glossEn": "sharp, pointed, edge, weapon, violent"
         }
@@ -5343,14 +5289,14 @@
           "glossEn": "branch, twig, limb, counter for branches"
         },
         {
-          "word": "枝ぶり",
-          "reading": "えだぶり",
+          "word": "小枝",
+          "reading": "こえだ",
           "glossJa": "",
           "glossEn": "branch, twig, limb, counter for branches"
         },
         {
-          "word": "枝る",
-          "reading": "えだる",
+          "word": "大枝",
+          "reading": "おおえだ",
           "glossJa": "",
           "glossEn": "branch, twig, limb, counter for branches"
         }
@@ -5382,8 +5328,8 @@
           "glossEn": "paint, plaster, daub, smear, coating"
         },
         {
-          "word": "塗す",
-          "reading": "まぶす",
+          "word": "漆塗り",
+          "reading": "うるしぬり",
           "glossJa": "",
           "glossEn": "paint, plaster, daub, smear, coating"
         }
@@ -5436,12 +5382,6 @@
           "glossEn": "shout, exclaim, yell"
         },
         {
-          "word": "哀叫",
-          "reading": "あいきょう",
-          "glossJa": "",
-          "glossEn": "shout, exclaim, yell"
-        },
-        {
           "word": "叫く",
           "reading": "わめく",
           "glossJa": "",
@@ -5450,6 +5390,12 @@
         {
           "word": "叫び",
           "reading": "さけび",
+          "glossJa": "",
+          "glossEn": "shout, exclaim, yell"
+        },
+        {
+          "word": "叫び声",
+          "reading": "さけびごえ",
           "glossJa": "",
           "glossEn": "shout, exclaim, yell"
         }
@@ -5481,8 +5427,8 @@
           "glossEn": "worship, adore, pray to"
         },
         {
-          "word": "拝す",
-          "reading": "はいす",
+          "word": "拝啓",
+          "reading": "はいけい",
           "glossJa": "",
           "glossEn": "worship, adore, pray to"
         }
@@ -5541,14 +5487,14 @@
           "glossEn": "rod, stick, cane, pole, line"
         },
         {
-          "word": "棒きれ",
-          "reading": "ぼうきれ",
+          "word": "棒立ち",
+          "reading": "ぼうだち",
           "glossJa": "",
           "glossEn": "rod, stick, cane, pole, line"
         },
         {
-          "word": "棒だら",
-          "reading": "ぼうだら",
+          "word": "泥棒",
+          "reading": "どろぼう",
           "glossJa": "",
           "glossEn": "rod, stick, cane, pole, line"
         }
@@ -5607,14 +5553,14 @@
           "glossEn": "cotton"
         },
         {
-          "word": "綿くず",
-          "reading": "わたくず",
+          "word": "綿密",
+          "reading": "めんみつ",
           "glossJa": "",
           "glossEn": "cotton"
         },
         {
-          "word": "綿ぼこり",
-          "reading": "わたぼこり",
+          "word": "木綿",
+          "reading": "もめん",
           "glossJa": "",
           "glossEn": "cotton"
         }
@@ -5640,14 +5586,14 @@
           "glossEn": "copper,"
         },
         {
-          "word": "銅鉦ぶいぶい",
-          "reading": "どうがねぶいぶい",
+          "word": "銅山",
+          "reading": "どうざん",
           "glossJa": "",
           "glossEn": "copper,"
         },
         {
-          "word": "銅山",
-          "reading": "どうざん",
+          "word": "銅像",
+          "reading": "どうぞう",
           "glossJa": "",
           "glossEn": "copper,"
         }
@@ -5694,26 +5640,14 @@
       "meaningEn": "blossom, bloom",
       "compounds": [
         {
-          "word": "巧咲",
-          "reading": "こうしょう",
-          "glossJa": "",
-          "glossEn": "blossom, bloom"
-        },
-        {
-          "word": "早咲",
-          "reading": "はやざき",
-          "glossJa": "",
-          "glossEn": "blossom, bloom"
-        },
-        {
           "word": "咲く",
           "reading": "さく",
           "glossJa": "",
           "glossEn": "blossom, bloom"
         },
         {
-          "word": "咲かせる",
-          "reading": "さかせる",
+          "word": "咲乱れる",
+          "reading": "さきみだれる",
           "glossJa": "",
           "glossEn": "blossom, bloom"
         }
@@ -5745,8 +5679,8 @@
           "glossEn": "seduce, call, send for, wear, put on, ride in, buy, eat, drink, catch(cold)"
         },
         {
-          "word": "召される",
-          "reading": "めされる",
+          "word": "召し上がる",
+          "reading": "めしあがる",
           "glossJa": "",
           "glossEn": "seduce, call, send for, wear, put on, ride in, buy, eat, drink, catch(cold)"
         }
@@ -5772,14 +5706,14 @@
           "glossEn": "fat, grease, tallow, lard, rosin, gum, tar"
         },
         {
-          "word": "脂ぎった",
-          "reading": "あぶらぎった",
+          "word": "樹脂",
+          "reading": "じゅし",
           "glossJa": "",
           "glossEn": "fat, grease, tallow, lard, rosin, gum, tar"
         },
         {
-          "word": "脂ぎる",
-          "reading": "あぶらぎる",
+          "word": "油脂",
+          "reading": "ゆし",
           "glossJa": "",
           "glossEn": "fat, grease, tallow, lard, rosin, gum, tar"
         }
@@ -5877,8 +5811,8 @@
           "glossEn": "plow, till, cultivate"
         },
         {
-          "word": "耕うん",
-          "reading": "こううん",
+          "word": "農耕",
+          "reading": "のうこう",
           "glossJa": "",
           "glossEn": "plow, till, cultivate"
         }
@@ -5910,8 +5844,8 @@
           "glossEn": "dull, slow, foolish, blunt"
         },
         {
-          "word": "勘が鈍る",
-          "reading": "かんがにぶる",
+          "word": "鈍間",
+          "reading": "のろま",
           "glossJa": "",
           "glossEn": "dull, slow, foolish, blunt"
         }
@@ -5937,14 +5871,14 @@
           "glossEn": "mud, mire, adhere to, to attached to"
         },
         {
-          "word": "泥いじり",
-          "reading": "どろいじり",
+          "word": "雲泥の差",
+          "reading": "うんでいのさ",
           "glossJa": "",
           "glossEn": "mud, mire, adhere to, to attached to"
         },
         {
-          "word": "泥だらけ",
-          "reading": "どろだらけ",
+          "word": "泥炭",
+          "reading": "でいたん",
           "glossJa": "",
           "glossEn": "mud, mire, adhere to, to attached to"
         }
@@ -5970,14 +5904,14 @@
           "glossEn": "corner, nook"
         },
         {
-          "word": "隅っこ",
-          "reading": "すみっこ",
+          "word": "隅隅",
+          "reading": "すみずみ",
           "glossJa": "",
           "glossEn": "corner, nook"
         },
         {
-          "word": "隅返し",
-          "reading": "すみがえし",
+          "word": "四隅",
+          "reading": "よすみ",
           "glossJa": "",
           "glossEn": "corner, nook"
         }
@@ -6069,14 +6003,14 @@
           "glossEn": "surname"
         },
         {
-          "word": "姓が変わる",
-          "reading": "せいがかわる",
+          "word": "同姓",
+          "reading": "どうせい",
           "glossJa": "",
           "glossEn": "surname"
         },
         {
-          "word": "同姓",
-          "reading": "どうせい",
+          "word": "百姓",
+          "reading": "ひゃくしょう",
           "glossJa": "",
           "glossEn": "surname"
         }
@@ -6102,14 +6036,14 @@
           "glossEn": "cilinder, pipe, tube, gun barrel, sleeve"
         },
         {
-          "word": "銃の筒",
-          "reading": "じゅうのつつ",
+          "word": "水筒",
+          "reading": "すいとう",
           "glossJa": "",
           "glossEn": "cilinder, pipe, tube, gun barrel, sleeve"
         },
         {
-          "word": "水筒",
-          "reading": "すいとう",
+          "word": "筒井",
+          "reading": "つつい",
           "glossJa": "",
           "glossEn": "cilinder, pipe, tube, gun barrel, sleeve"
         }
@@ -6135,14 +6069,14 @@
           "glossEn": "grains, drop, counter for tiny particles"
         },
         {
-          "word": "粒あん",
-          "reading": "つぶあん",
+          "word": "粒子",
+          "reading": "りゅうし",
           "glossJa": "",
           "glossEn": "grains, drop, counter for tiny particles"
         },
         {
-          "word": "粒ぞろい",
-          "reading": "つぶぞろい",
+          "word": "粒状",
+          "reading": "りゅうじょう",
           "glossJa": "",
           "glossEn": "grains, drop, counter for tiny particles"
         }
@@ -6168,14 +6102,14 @@
           "glossEn": "poetry, part of speech, words"
         },
         {
-          "word": "隠し詞",
-          "reading": "かくしことば",
+          "word": "助詞",
+          "reading": "じょし",
           "glossJa": "",
           "glossEn": "poetry, part of speech, words"
         },
         {
-          "word": "助詞",
-          "reading": "じょし",
+          "word": "動詞",
+          "reading": "どうし",
           "glossJa": "",
           "glossEn": "poetry, part of speech, words"
         }
@@ -6207,8 +6141,8 @@
           "glossEn": "admirable, greatness, remarkable, conceited, famous, excellent"
         },
         {
-          "word": "偉いさん",
-          "reading": "えらいさん",
+          "word": "偉大",
+          "reading": "いだい",
           "glossJa": "",
           "glossEn": "admirable, greatness, remarkable, conceited, famous, excellent"
         }
@@ -6228,20 +6162,14 @@
           "glossEn": "tatami mat, counter for tatami mats, fold, shut up, do away with"
         },
         {
-          "word": "畳紙",
-          "reading": "たとうがみ",
-          "glossJa": "",
-          "glossEn": "tatami mat, counter for tatami mats, fold, shut up, do away with"
-        },
-        {
           "word": "畳む",
           "reading": "たたむ",
           "glossJa": "",
           "glossEn": "tatami mat, counter for tatami mats, fold, shut up, do away with"
         },
         {
-          "word": "畳まる",
-          "reading": "たたまる",
+          "word": "折り畳み",
+          "reading": "おりたたみ",
           "glossJa": "",
           "glossEn": "tatami mat, counter for tatami mats, fold, shut up, do away with"
         }
@@ -6300,14 +6228,8 @@
           "glossEn": "laundry, wash, pour on, rinse"
         },
         {
-          "word": "濯ぐ",
-          "reading": "すすぐ",
-          "glossJa": "",
-          "glossEn": "laundry, wash, pour on, rinse"
-        },
-        {
-          "word": "洗い濯ぎ",
-          "reading": "あらいすすぎ",
+          "word": "洗濯物",
+          "reading": "せんたくもの",
           "glossJa": "",
           "glossEn": "laundry, wash, pour on, rinse"
         }
@@ -6323,24 +6245,6 @@
         {
           "word": "管制塔",
           "reading": "かんせいとう",
-          "glossJa": "",
-          "glossEn": "pagoda, tower, steeple"
-        },
-        {
-          "word": "円塔",
-          "reading": "えんとう",
-          "glossJa": "",
-          "glossEn": "pagoda, tower, steeple"
-        },
-        {
-          "word": "蟻の塔",
-          "reading": "ありのとう",
-          "glossJa": "",
-          "glossEn": "pagoda, tower, steeple"
-        },
-        {
-          "word": "巨塔",
-          "reading": "きょとう",
           "glossJa": "",
           "glossEn": "pagoda, tower, steeple"
         }
@@ -6399,14 +6303,14 @@
           "glossEn": "ashes, puckery juice, cremate"
         },
         {
-          "word": "灰かぶり",
-          "reading": "はいかぶり",
+          "word": "石灰",
+          "reading": "せっかい",
           "glossJa": "",
           "glossEn": "ashes, puckery juice, cremate"
         },
         {
-          "word": "灰になる",
-          "reading": "はいになる",
+          "word": "火山灰",
+          "reading": "かざんばい",
           "glossJa": "",
           "glossEn": "ashes, puckery juice, cremate"
         }
@@ -6432,14 +6336,14 @@
           "glossEn": "candy, cakes, fruit"
         },
         {
-          "word": "引き菓子",
-          "reading": "ひきがし",
+          "word": "菓子屋",
+          "reading": "かしや",
           "glossJa": "",
           "glossEn": "candy, cakes, fruit"
         },
         {
-          "word": "菓子屋",
-          "reading": "かしや",
+          "word": "駄菓子",
+          "reading": "だがし",
           "glossJa": "",
           "glossEn": "candy, cakes, fruit"
         }
@@ -6455,24 +6359,6 @@
         {
           "word": "帽子",
           "reading": "ぼうし",
-          "glossJa": "",
-          "glossEn": "hat"
-        },
-        {
-          "word": "角帽",
-          "reading": "かくぼう",
-          "glossJa": "",
-          "glossEn": "hat"
-        },
-        {
-          "word": "麦わら帽",
-          "reading": "むぎわらぼう",
-          "glossJa": "",
-          "glossEn": "hat"
-        },
-        {
-          "word": "学帽",
-          "reading": "がくぼう",
           "glossJa": "",
           "glossEn": "hat"
         }
@@ -6504,8 +6390,8 @@
           "glossEn": "wither, die, dry up, be seasoned"
         },
         {
-          "word": "枯らびる",
-          "reading": "からびる",
+          "word": "枯れ木",
+          "reading": "かれき",
           "glossJa": "",
           "glossEn": "wither, die, dry up, be seasoned"
         }
@@ -6564,14 +6450,14 @@
           "glossEn": "boat, ship"
         },
         {
-          "word": "舟をこぐ",
-          "reading": "ふねをこぐ",
+          "word": "渡し舟",
+          "reading": "わたしぶね",
           "glossJa": "",
           "glossEn": "boat, ship"
         },
         {
-          "word": "渡し舟",
-          "reading": "わたしぶね",
+          "word": "呉越同舟",
+          "reading": "ごえつどうしゅう",
           "glossJa": "",
           "glossEn": "boat, ship"
         }
@@ -6597,14 +6483,14 @@
           "glossEn": "token, sign, mark, tally, charm"
         },
         {
-          "word": "割り符",
-          "reading": "わりふ",
+          "word": "切符",
+          "reading": "きっぷ",
           "glossJa": "",
           "glossEn": "token, sign, mark, tally, charm"
         },
         {
-          "word": "切符",
-          "reading": "きっぷ",
+          "word": "符号",
+          "reading": "ふごう",
           "glossJa": "",
           "glossEn": "token, sign, mark, tally, charm"
         }
@@ -6657,20 +6543,14 @@
           "glossEn": "agreement, consent, comply with"
         },
         {
-          "word": "肯諾",
-          "reading": "こうだく",
-          "glossJa": "",
-          "glossEn": "agreement, consent, comply with"
-        },
-        {
           "word": "肯く",
           "reading": "うなずく",
           "glossJa": "",
           "glossEn": "agreement, consent, comply with"
         },
         {
-          "word": "肯う",
-          "reading": "うけがう",
+          "word": "首肯く",
+          "reading": "うなずく",
           "glossJa": "",
           "glossEn": "agreement, consent, comply with"
         }
@@ -6700,12 +6580,6 @@
           "reading": "はしゃぐ",
           "glossJa": "",
           "glossEn": "dry up, parch"
-        },
-        {
-          "word": "大燥ぎ",
-          "reading": "おおはしゃぎ",
-          "glossJa": "",
-          "glossEn": "dry up, parch"
         }
       ]
     },
@@ -6729,14 +6603,14 @@
           "glossEn": "livestock, domestic animals"
         },
         {
-          "word": "家畜囲い",
-          "reading": "かちくかこい",
+          "word": "畜生",
+          "reading": "ちくしょう",
           "glossJa": "",
           "glossEn": "livestock, domestic animals"
         },
         {
-          "word": "畜生",
-          "reading": "ちくしょう",
+          "word": "牧畜",
+          "reading": "ぼくちく",
           "glossJa": "",
           "glossEn": "livestock, domestic animals"
         }
@@ -6783,18 +6657,6 @@
       "meaningEn": "pinch, between",
       "compounds": [
         {
-          "word": "挟撃",
-          "reading": "きょうげき",
-          "glossJa": "",
-          "glossEn": "pinch, between"
-        },
-        {
-          "word": "挟殺",
-          "reading": "きょうさつ",
-          "glossJa": "",
-          "glossEn": "pinch, between"
-        },
-        {
           "word": "挟まる",
           "reading": "はさまる",
           "glossJa": "",
@@ -6803,6 +6665,12 @@
         {
           "word": "挟む",
           "reading": "はさむ",
+          "glossJa": "",
+          "glossEn": "pinch, between"
+        },
+        {
+          "word": "挟み撃ち",
+          "reading": "はさみうち",
           "glossJa": "",
           "glossEn": "pinch, between"
         }
@@ -6826,18 +6694,6 @@
           "reading": "てんてき",
           "glossJa": "",
           "glossEn": "drip, drop"
-        },
-        {
-          "word": "滴し",
-          "reading": "たらし",
-          "glossJa": "",
-          "glossEn": "drip, drop"
-        },
-        {
-          "word": "滴らす",
-          "reading": "したたらす",
-          "glossJa": "",
-          "glossEn": "drip, drop"
         }
       ]
     },
@@ -6855,20 +6711,14 @@
           "glossEn": "pay respects, visit, ask, inquire, question, implore"
         },
         {
-          "word": "経伺",
-          "reading": "けいし",
-          "glossJa": "",
-          "glossEn": "pay respects, visit, ask, inquire, question, implore"
-        },
-        {
           "word": "伺う",
           "reading": "うかがう",
           "glossJa": "",
           "glossEn": "pay respects, visit, ask, inquire, question, implore"
         },
         {
-          "word": "伺い",
-          "reading": "うかがい",
+          "word": "進退伺い",
+          "reading": "しんたいうかがい",
           "glossJa": "",
           "glossEn": "pay respects, visit, ask, inquire, question, implore"
         }

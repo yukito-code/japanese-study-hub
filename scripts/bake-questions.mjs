@@ -4,7 +4,12 @@
 import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import { readFileSync, existsSync } from "node:fs";
 import { handQuestions } from "../data/source/jlpt-hand-questions.data.mjs";
+import {
+  assertKanjiYomiLemma,
+  EDICT_HEADWORDS_PATH,
+} from "./edict-compounds.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
@@ -12,6 +17,18 @@ const root = join(__dirname, "..");
 /** @typedef {{ level: string; n: number; prompt: string; choices: string[]; correctIndex: number; explanation: string }} Q */
 
 const LEVELS = ["N1", "N2", "N3", "N4", "N5"];
+
+let edictHeadwords = null;
+function getEdictHeadwords() {
+  if (edictHeadwords) return edictHeadwords;
+  if (!existsSync(EDICT_HEADWORDS_PATH)) {
+    throw new Error(
+      `edict-headwords.json がありません。node scripts/build-kanji-compound-index.mjs を実行してください。`,
+    );
+  }
+  edictHeadwords = new Set(JSON.parse(readFileSync(EDICT_HEADWORDS_PATH, "utf8")));
+  return edictHeadwords;
+}
 
 const CATEGORY_META = [
   { id: "kanji-yomi", sheet: "漢字の読み" },
@@ -37,6 +54,9 @@ function bakeCategory(id) {
       const { prompt, choices, correctIndex, explanation } = q;
       if (!prompt || !Array.isArray(choices) || choices.length !== 4) {
         throw new Error(`${id}/${level} #${n}: invalid question shape`);
+      }
+      if (id === "kanji-yomi") {
+        assertKanjiYomiLemma(prompt, getEdictHeadwords());
       }
       if (!Number.isInteger(correctIndex) || correctIndex < 0 || correctIndex > 3) {
         throw new Error(`${id}/${level} #${n}: invalid correctIndex`);

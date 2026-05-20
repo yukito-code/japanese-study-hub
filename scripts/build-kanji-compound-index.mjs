@@ -10,6 +10,7 @@ import {
   buildCompoundIndexFromEdictGz,
   COMPOUND_INDEX_PATH,
   EDICT_GZ_PATH,
+  EDICT_HEADWORDS_PATH,
 } from "./edict-compounds.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -35,10 +36,12 @@ async function main() {
     await downloadEdict(EDICT_GZ_PATH);
   }
   console.log("building compound index …");
-  const index = await buildCompoundIndexFromEdictGz(EDICT_GZ_PATH);
+  const { index, headwords } = await buildCompoundIndexFromEdictGz(EDICT_GZ_PATH);
   writeFileSync(COMPOUND_INDEX_PATH, JSON.stringify(index));
+  writeFileSync(EDICT_HEADWORDS_PATH, JSON.stringify([...headwords].sort()));
   const chars = Object.keys(index).length;
   console.log("wrote", COMPOUND_INDEX_PATH, chars, "kanji keys");
+  console.log("wrote", EDICT_HEADWORDS_PATH, headwords.size, "headwords");
 }
 
 main().catch((e) => {

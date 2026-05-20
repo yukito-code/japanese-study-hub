@@ -10,7 +10,7 @@
     "data:compound-index": "node scripts/build-kanji-compound-index.mjs",
     "questions": "node scripts/bake-questions.mjs",
     "dev": "astro dev",
-    "build": "npm run data && npm run questions && astro build",
+    "build": "npm run data:compound-index && npm run data && npm run questions && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
