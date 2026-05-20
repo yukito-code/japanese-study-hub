@@ -232,6 +232,161 @@ a:hover {
   color: var(--color-accent);
 }
 
+/* サイト名バナー（和モダン・四隅装飾） */
+.site-title-banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 6.25rem;
+  margin: 0 0 0.75rem;
+  padding: 1.65rem clamp(4.75rem, 26vw, 6.5rem) 1.55rem;
+  border-radius: calc(var(--radius) + 2px);
+  background:
+    radial-gradient(ellipse 85% 70% at 50% 45%, rgba(255, 250, 242, 0.55), transparent 68%),
+    linear-gradient(168deg, #e4d9c4 0%, #d6c9b0 38%, #c8b89c 72%, #bfb08a 100%);
+  border: 1px solid rgba(180, 165, 140, 0.65);
+  box-shadow:
+    0 6px 22px rgba(31, 26, 22, 0.08),
+    var(--shadow-inset),
+    inset 0 0 0 1px rgba(255, 252, 245, 0.35);
+  overflow: hidden;
+  text-align: center;
+}
+
+.site-title-banner__vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse 72% 58% at 50% 50%, transparent 35%, rgba(58, 48, 38, 0.06) 100%);
+}
+
+.site-title-banner__frame {
+  position: absolute;
+  inset: 0.45rem;
+  pointer-events: none;
+  border: 1px solid rgba(154, 123, 45, 0.22);
+  border-radius: calc(var(--radius-sm) - 2px);
+  box-shadow: inset 0 0 0 1px rgba(255, 252, 245, 0.25);
+}
+
+.site-title-banner__decor {
+  position: absolute;
+  pointer-events: none;
+  filter: drop-shadow(0 2px 6px rgba(31, 26, 22, 0.12));
+}
+
+.site-title-banner__decor--tl {
+  top: -0.15rem;
+  left: -0.1rem;
+  width: clamp(4rem, 24vw, 6.25rem);
+  height: auto;
+}
+
+.site-title-banner__decor--bl {
+  bottom: -0.1rem;
+  left: -0.15rem;
+  width: clamp(3.75rem, 22vw, 5.75rem);
+  height: auto;
+}
+
+.site-title-banner__decor--tr {
+  top: -0.15rem;
+  right: -0.1rem;
+  width: clamp(4rem, 24vw, 6.25rem);
+  height: auto;
+}
+
+.site-title-banner__decor--br {
+  bottom: -0.2rem;
+  right: -0.15rem;
+  width: clamp(4.25rem, 26vw, 6.75rem);
+  height: auto;
+}
+
+.site-title-banner__content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  width: 100%;
+  max-width: 20rem;
+}
+
+.site-title-banner__ornament {
+  font-size: 0.42rem;
+  line-height: 1;
+  color: var(--color-gold);
+  opacity: 0.72;
+  letter-spacing: 0.35em;
+}
+
+.site-title-banner__ornament:first-child {
+  margin-bottom: -0.1rem;
+}
+
+.site-title-banner__ornament:last-child {
+  margin-top: -0.1rem;
+  transform: scale(0.85);
+  opacity: 0.55;
+}
+
+.site-title--banner {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  line-height: 1.2;
+}
+
+.site-title--banner a {
+  display: inline-block;
+  border-left: none;
+  padding: 0.15rem 0.25rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.28rem, 6.2vw, 1.58rem);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  line-height: 1.25;
+  color: var(--color-ink);
+  text-shadow:
+    0 1px 0 rgba(255, 252, 245, 0.85),
+    0 2px 12px rgba(31, 26, 22, 0.06);
+  transition:
+    color 0.2s ease,
+    letter-spacing 0.2s ease;
+}
+
+.site-title--banner a:hover {
+  color: var(--color-accent);
+  letter-spacing: 0.16em;
+}
+
+.site-title--banner a::after {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 2px;
+  margin: 0.45rem auto 0;
+  border-radius: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-accent-soft) 20%,
+    var(--color-gold) 50%,
+    var(--color-accent-soft) 80%,
+    transparent
+  );
+  opacity: 0.75;
+  transition: width 0.2s ease, opacity 0.2s ease;
+}
+
+.site-title--banner a:hover::after {
+  width: 3.25rem;
+  opacity: 1;
+}
+
 .lang-select-wrap {
   display: inline-block;
   max-width: min(9.5rem, 32vw);
@@ -310,7 +465,8 @@ a:hover {
   color: #fff;
 }
 
-.btn-kaiwa-quiz-cta {
+.btn-kaiwa-quiz-cta,
+.btn-kanji-flash-cta {
   width: 100%;
   max-width: 22rem;
   margin: 0 auto;
@@ -328,12 +484,23 @@ a:hover {
     inset 0 1px 0 rgba(255, 255, 255, 0.22);
 }
 
-.btn-kaiwa-quiz-cta:hover {
+.btn-kanji-flash-cta {
+  text-decoration: none;
+}
+
+.btn-kaiwa-quiz-cta:hover,
+.btn-kanji-flash-cta:hover {
   background: linear-gradient(180deg, #b84d52 0%, var(--color-accent-hover) 100%);
   color: #fff;
   box-shadow:
     0 6px 22px rgba(143, 45, 50, 0.4),
     inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.kanji-action-row {
+  margin: 0.35rem 0 1.1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .btn-secondary {
@@ -452,27 +619,20 @@ a:hover {
 }
 
 .kanji-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.75rem;
-  padding: 0.85rem 1rem;
+  display: grid;
+  grid-template-columns: 3.25rem minmax(0, 1fr);
+  align-items: start;
+  gap: 0.5rem 1.25rem;
+  padding: 1rem 1.15rem;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
-  border-left: var(--accent-bar) solid transparent;
   border-radius: var(--radius-sm);
-  text-decoration: none;
   color: inherit;
   min-height: var(--tap-min);
+  box-shadow: var(--shadow-inset);
   transition:
     border-color 0.15s ease,
     box-shadow 0.15s ease;
-}
-
-.kanji-row:hover {
-  border-color: #c9bdae;
-  border-left-color: var(--color-moss);
-  box-shadow: var(--shadow);
 }
 
 .kanji-char {
@@ -481,12 +641,155 @@ a:hover {
   font-weight: 600;
   line-height: 1;
   color: var(--color-ink);
+  align-self: center;
+  justify-self: center;
 }
 
-.kanji-meta {
-  text-align: right;
+.kanji-body {
+  min-width: 0;
+  max-width: 42rem;
+  text-align: left;
+}
+
+.kanji-field {
+  margin: 0 0 0.42rem;
   font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--color-ink-soft);
+}
+
+.kanji-field:last-of-type {
+  margin-bottom: 0.35rem;
+}
+
+.kanji-field-label {
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
   color: var(--color-muted);
+  margin-right: 0.5em;
+}
+
+.kanji-field-value {
+  color: var(--color-ink-soft);
+}
+
+.kanji-compounds {
+  margin-top: 0.55rem;
+  padding-top: 0.55rem;
+  border-top: 1px dashed var(--color-border);
+  text-align: left;
+}
+
+.kanji-compounds-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--color-muted);
+  margin-bottom: 0.25rem;
+}
+
+.kanji-compounds-list {
+  margin: 0;
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  color: var(--color-ink-soft);
+  line-height: 1.45;
+}
+
+.kanji-compound-line {
+  margin: 0.2rem 0;
+  line-height: 1.5;
+}
+
+.kanji-compound-word {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.kanji-compound-reading {
+  font-size: 0.78rem;
+  color: var(--color-muted);
+}
+
+.flash-stage {
+  perspective: 1200px;
+  margin: 1rem 0 1.25rem;
+}
+
+.flash-card {
+  position: relative;
+  min-height: 228px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.flash-card:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+}
+
+.flash-card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.flash-face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border-strong);
+  background: linear-gradient(145deg, #fffefb 0%, var(--color-surface) 100%);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  box-shadow: var(--shadow), var(--shadow-inset);
+}
+
+.flash-face-back {
+  transform: rotateY(180deg);
+  background: linear-gradient(155deg, #faf7f1 0%, #f3ece4 100%);
+  align-items: stretch;
+  justify-content: flex-start;
+  overflow-y: auto;
+}
+
+.flash-char {
+  font-family: var(--font-serif);
+  font-size: clamp(4.5rem, 22vw, 6.5rem);
+  font-weight: 600;
+  line-height: 1;
+  color: var(--color-ink);
+}
+
+.flash-reading {
+  font-size: 1.35rem;
+  margin-bottom: 0.35rem;
+  color: var(--color-ink-soft);
+}
+
+.flash-meaning {
+  font-size: 1rem;
+  color: var(--color-muted);
+}
+
+.flash-back-compounds {
+  margin-top: 0.65rem;
+  text-align: left;
+}
+
+.flash-back-compounds .kanji-compounds-title {
+  margin-bottom: 0.35rem;
+}
+
+.flash-back-compounds .kanji-compounds-list {
+  font-size: 0.85rem;
 }
 
 .quiz-char {
@@ -1100,6 +1403,24 @@ html[data-locale="en"] .learn-kicker {
     font-size: 1.36rem;
   }
 
+  .site-title-banner {
+    min-height: 7rem;
+    padding: 1.85rem 6.75rem 1.7rem;
+  }
+
+  .site-title-banner__content {
+    max-width: 24rem;
+  }
+
+  .site-title--banner a {
+    font-size: 1.72rem;
+    letter-spacing: 0.16em;
+  }
+
+  .site-title-banner__ornament {
+    font-size: 0.48rem;
+  }
+
   .hero-title {
     font-size: clamp(1.72rem, 2.8vw, 2.12rem);
   }
@@ -1169,7 +1490,8 @@ html[data-locale="en"] .learn-kicker {
     font-size: 1.05rem;
   }
 
-  .btn-kaiwa-quiz-cta {
+  .btn-kaiwa-quiz-cta,
+  .btn-kanji-flash-cta {
     max-width: 26rem;
     font-size: 1.12rem;
     padding: 0.95rem 1.5rem;

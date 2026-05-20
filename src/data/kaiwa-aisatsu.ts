@@ -1,26 +1,15 @@
 /**
- * 会話「あいさつ」：フレーズ＋短い解説を表中心で提示（JA / EN）
+ * 会話「あいさつ」：フレーズ＋短い解説を表中心で提示（JA / EN / ZH）
  */
 
-export type LearnBlock =
-  | { kind: "p"; text: string }
-  | { kind: "table"; header: string[]; rows: string[][] };
+import type { LearnIntro, LearnSection } from "./learn-content";
 
-export type LearnSectionLocale = {
-  title: string;
-  blocks: LearnBlock[];
-};
+export type { LearnBlock, LearnSection, LearnSectionLocale } from "./learn-content";
 
 import { kaiwaAisatsuIntroZh, kaiwaAisatsuSectionsZh } from "./kaiwa-aisatsu-zh";
 
-export type LearnSection = {
-  ja: LearnSectionLocale;
-  en: LearnSectionLocale;
-  zh: LearnSectionLocale;
-};
-
 /** 冒頭は一行のみ（表本体が主） */
-export const kaiwaAisatsuIntro: { ja: string; en: string; zh: string } = {
+export const kaiwaAisatsuIntro: LearnIntro = {
   ja: "下の表は「フレーズ」と「いつ・どんな相手向きか」の対応です。",
   en: "Each table pairs a phrase with a short note on when and for whom it fits.",
   zh: kaiwaAisatsuIntroZh,

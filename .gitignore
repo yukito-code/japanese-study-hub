@@ -6,6 +6,9 @@ dist/
 # dependencies
 node_modules/
 
+# EDICT source (index JSON is committed)
+scripts/data/edict2.gz
+
 # logs
 npm-debug.log*
 yarn-debug.log*

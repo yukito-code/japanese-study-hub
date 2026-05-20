@@ -10,7 +10,7 @@ const base = import.meta.env.BASE_URL;
 
 const thinkTopics = [
   {
-    href: `${base}kanji/`,
+    href: `${base}learn/kanji/`,
     titleKey: "home.think.kanji.title" as const,
     descKey: "home.think.kanji.desc" as const,
     imageSrc: "images/home/kanji.svg",
@@ -54,14 +54,6 @@ const thinkTopics = [
       {ui.ja["home.sectionProblemsTitle"]}
     </h3>
     <div class="goi-hub-grid home-topic-grid">
-      <KanjiHubCardWithLevels
-        base={base}
-        path="goi/kanji-yomi/"
-        titleKey="home.problem.kanjiYomi.title"
-        descKey="home.problem.kanjiYomi.desc"
-        imageSrc="images/home/kanji-yomi.svg"
-        enabledLevels={GOI_RELEASED_LEVELS}
-      />
       <KanjiHubCardWithLevels
         base={base}
         path="goi/bunmyaku/"

@@ -1,5 +1,6 @@
 ---
 import LevelBar from "./LevelBar.astro";
+import SiteTitleBanner from "./SiteTitleBanner.astro";
 import { LOCALES } from "../i18n/locales";
 import { ui, type UiKey } from "../i18n/ui";
 
@@ -27,9 +28,6 @@ const topText = ui.ja["nav.top"];
           ) : null
         }
       </div>
-      <div class="site-title site-title--header">
-        <a href={`${base}`} data-ui="site.name">{ui.ja["site.name"]}</a>
-      </div>
       <div class="site-header-actions">
         <label class="lang-select-wrap">
           <span class="visually-hidden" data-ui="lang.pick">{ui.ja["lang.pick"]}</span>
@@ -50,6 +48,7 @@ const topText = ui.ja["nav.top"];
         </label>
       </div>
     </div>
+    <SiteTitleBanner href={`${base}`} />
   </header>
   {showLevelBar ? <LevelBar /> : null}
 </div>
@@ -57,11 +56,11 @@ const topText = ui.ja["nav.top"];
 <style>
   .site-header-primary {
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: 1fr auto;
     align-items: center;
     gap: 0.35rem 0.65rem;
     width: 100%;
-    padding: 0.65rem 0 0.5rem;
+    padding: 0.5rem 0 0.35rem;
   }
 
   .site-header-start {
@@ -73,20 +72,9 @@ const topText = ui.ja["nav.top"];
     gap: 0.15rem 0.35rem;
   }
 
-  .site-title--header {
-    justify-self: center;
-    min-width: 0;
-    text-align: center;
-  }
-
   .site-header-actions {
     justify-self: end;
     margin-left: 0;
-  }
-
-  .site-title--header a {
-    border-left: none;
-    padding-left: 0;
   }
 
   .site-header-top {

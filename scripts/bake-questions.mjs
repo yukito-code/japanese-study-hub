@@ -14,7 +14,6 @@ const root = join(__dirname, "..");
 const LEVELS = ["N1", "N2", "N3", "N4", "N5"];
 
 const CATEGORY_META = [
-  { id: "kanji-yomi", sheet: "漢字読み" },
   { id: "bunmyaku", sheet: "文脈規定" },
   { id: "iikae", sheet: "言い換え" },
 ];
@@ -52,8 +51,9 @@ function bakeCategory(id) {
     }
   }
 
-  if (questions.length !== 50) {
-    throw new Error(`${id}: expected 50 questions, got ${questions.length}`);
+  const expected = LEVELS.length * 10;
+  if (questions.length !== expected) {
+    throw new Error(`${id}: expected ${expected} questions, got ${questions.length}`);
   }
   return questions;
 }

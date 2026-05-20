@@ -3,6 +3,7 @@ import {
   LOCALE_STORAGE_KEY,
   type UiKey,
   ui,
+  fillTemplate,
 } from "./ui";
 
 export function getLocale(): Locale {
@@ -16,11 +17,30 @@ export function setLocale(locale: Locale): void {
 }
 
 function applyMetaAndTitle(locale: Locale): void {
-  const titleKey = document.body?.getAttribute("data-title-key") as UiKey | null;
-  if (titleKey && ui[locale][titleKey]) {
-    let title = ui[locale][titleKey];
-    title = title.replace(/\|\s*日本語学習ハブ\s*$/, "| Japanese Study Hub");
-    document.title = title;
+  const tplKey = document.body?.getAttribute("data-title-template-key") as UiKey | null;
+  const varsJson = document.body?.getAttribute("data-title-template-vars");
+  let titleSet = false;
+  if (tplKey && varsJson) {
+    try {
+      const vars = JSON.parse(varsJson) as Record<string, string>;
+      const tpl = ui[locale][tplKey];
+      if (tpl) {
+        let title = fillTemplate(tpl, vars);
+        title = title.replace(/\|\s*日本語学習ハブ\s*$/, "| Japanese Study Hub");
+        document.title = title;
+        titleSet = true;
+      }
+    } catch {
+      /* ignore */
+    }
+  }
+  if (!titleSet) {
+    const titleKey = document.body?.getAttribute("data-title-key") as UiKey | null;
+    if (titleKey && ui[locale][titleKey]) {
+      let title = ui[locale][titleKey];
+      title = title.replace(/\|\s*日本語学習ハブ\s*$/, "| Japanese Study Hub");
+      document.title = title;
+    }
   }
   const metaKey = document
     .querySelector('meta[name="description"][data-desc-key]')

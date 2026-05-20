@@ -1,27 +1,4 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import SiteHeader from "../../components/SiteHeader.astro";
-import PageBackLink from "../../components/PageBackLink.astro";
-import KanjiHubCardWithLevels from "../../components/KanjiHubCardWithLevels.astro";
-import { ui } from "../../i18n/ui";
-
 const base = import.meta.env.BASE_URL;
+return Astro.redirect(`${base}learn/kanji/`, 302);
 ---
-
-<BaseLayout titleKey="title.kanjiHub" descKey="meta.kanji.hub">
-  <SiteHeader />
-  <main>
-    <PageBackLink href={`${base}`} />
-    <h1 class="hero-title" data-ui="kanji.hub.title">{ui.ja["kanji.hub.title"]}</h1>
-    <p class="hero-lead" data-ui="kanji.hub.lead">{ui.ja["kanji.hub.lead"]}</p>
-    <div class="goi-hub-grid">
-      <KanjiHubCardWithLevels
-        base={base}
-        path="kanji/list/"
-        titleKey="kanji.hub.cardList.title"
-        descKey="kanji.hub.cardList.desc"
-        accent="moss"
-      />
-    </div>
-  </main>
-</BaseLayout>

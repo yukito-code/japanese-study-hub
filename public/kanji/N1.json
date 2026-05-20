@@ -1,5 +1,6804 @@
 {
   "level": "N1",
-  "note": "N1 漢字データは未収録です（空リスト）。今後追加予定です。",
-  "items": []
+  "note": "N1 字表は jlpt パッケージに N1 専用データがないため、N2・N3 字表の両方に載る字を掲載しています。N1〜N5 で同じ字は重複しません。",
+  "items": [
+    {
+      "char": "経",
+      "reading": "へ (る)、きょう、けい",
+      "meaningJa": "",
+      "meaning": "longitude; boundary; elapse; measure; warp",
+      "meaningEn": "longitude; boundary; elapse; measure; warp",
+      "compounds": [
+        {
+          "word": "経緯",
+          "reading": "けいい",
+          "glossJa": "",
+          "glossEn": "longitude; boundary; elapse; measure; warp"
+        },
+        {
+          "word": "経営",
+          "reading": "けいえい",
+          "glossJa": "",
+          "glossEn": "longitude; boundary; elapse; measure; warp"
+        },
+        {
+          "word": "経つ",
+          "reading": "たつ",
+          "glossJa": "",
+          "glossEn": "longitude; boundary; elapse; measure; warp"
+        },
+        {
+          "word": "経る",
+          "reading": "へる",
+          "glossJa": "",
+          "glossEn": "longitude; boundary; elapse; measure; warp"
+        }
+      ]
+    },
+    {
+      "char": "現",
+      "reading": "あらわ (す)、あらわ (れる)、げん",
+      "meaningJa": "",
+      "meaning": "actual; existing; present",
+      "meaningEn": "actual; existing; present",
+      "compounds": [
+        {
+          "word": "現況",
+          "reading": "げんきょう",
+          "glossJa": "",
+          "glossEn": "actual; existing; present"
+        },
+        {
+          "word": "現金",
+          "reading": "げんきん",
+          "glossJa": "",
+          "glossEn": "actual; existing; present"
+        },
+        {
+          "word": "現に",
+          "reading": "げんに",
+          "glossJa": "",
+          "glossEn": "actual; existing; present"
+        },
+        {
+          "word": "現れ",
+          "reading": "あらわれ",
+          "glossJa": "",
+          "glossEn": "actual; existing; present"
+        }
+      ]
+    },
+    {
+      "char": "性",
+      "reading": "しょう、せい",
+      "meaningJa": "",
+      "meaning": "gender; nature",
+      "meaningEn": "gender; nature",
+      "compounds": [
+        {
+          "word": "悪性",
+          "reading": "あくせい",
+          "glossJa": "",
+          "glossEn": "gender; nature"
+        },
+        {
+          "word": "異性",
+          "reading": "いせい",
+          "glossJa": "",
+          "glossEn": "gender; nature"
+        },
+        {
+          "word": "凝り性",
+          "reading": "こりしょう",
+          "glossJa": "",
+          "glossEn": "gender; nature"
+        },
+        {
+          "word": "陰性",
+          "reading": "いんせい",
+          "glossJa": "",
+          "glossEn": "gender; nature"
+        }
+      ]
+    },
+    {
+      "char": "制",
+      "reading": "せい",
+      "meaningJa": "",
+      "meaning": "law; rule; system",
+      "meaningEn": "law; rule; system",
+      "compounds": [
+        {
+          "word": "管制",
+          "reading": "かんせい",
+          "glossJa": "",
+          "glossEn": "law; rule; system"
+        },
+        {
+          "word": "規制",
+          "reading": "きせい",
+          "glossJa": "",
+          "glossEn": "law; rule; system"
+        },
+        {
+          "word": "制する",
+          "reading": "せいする",
+          "glossJa": "",
+          "glossEn": "law; rule; system"
+        },
+        {
+          "word": "制す",
+          "reading": "せいす",
+          "glossJa": "",
+          "glossEn": "law; rule; system"
+        }
+      ]
+    },
+    {
+      "char": "務",
+      "reading": "つと (める)、む",
+      "meaningJa": "",
+      "meaning": "duty; task",
+      "meaningEn": "duty; task",
+      "compounds": [
+        {
+          "word": "外務",
+          "reading": "がいむ",
+          "glossJa": "",
+          "glossEn": "duty; task"
+        },
+        {
+          "word": "義務",
+          "reading": "ぎむ",
+          "glossJa": "",
+          "glossEn": "duty; task"
+        },
+        {
+          "word": "務め",
+          "reading": "つとめ",
+          "glossJa": "",
+          "glossEn": "duty; task"
+        },
+        {
+          "word": "務める",
+          "reading": "つとめる",
+          "glossJa": "",
+          "glossEn": "duty; task"
+        }
+      ]
+    },
+    {
+      "char": "支",
+      "reading": "ささ (える)、し",
+      "meaningJa": "",
+      "meaning": "branch; support",
+      "meaningEn": "branch; support",
+      "compounds": [
+        {
+          "word": "支援",
+          "reading": "しえん",
+          "glossJa": "",
+          "glossEn": "branch; support"
+        },
+        {
+          "word": "支給",
+          "reading": "しきゅう",
+          "glossJa": "",
+          "glossEn": "branch; support"
+        },
+        {
+          "word": "支える",
+          "reading": "ささえる",
+          "glossJa": "",
+          "glossEn": "branch; support"
+        },
+        {
+          "word": "差し支え",
+          "reading": "さしつかえ",
+          "glossJa": "",
+          "glossEn": "branch; support"
+        }
+      ]
+    },
+    {
+      "char": "報",
+      "reading": "むく (いる)、ほう",
+      "meaningJa": "",
+      "meaning": "news; to report; retaliation",
+      "meaningEn": "news; to report; retaliation",
+      "compounds": [
+        {
+          "word": "会報",
+          "reading": "かいほう",
+          "glossJa": "",
+          "glossEn": "news; to report; retaliation"
+        },
+        {
+          "word": "官報",
+          "reading": "かんぽう",
+          "glossJa": "",
+          "glossEn": "news; to report; retaliation"
+        },
+        {
+          "word": "報せ",
+          "reading": "しらせ",
+          "glossJa": "",
+          "glossEn": "news; to report; retaliation"
+        },
+        {
+          "word": "報せる",
+          "reading": "しらせる",
+          "glossJa": "",
+          "glossEn": "news; to report; retaliation"
+        }
+      ]
+    },
+    {
+      "char": "済",
+      "reading": "す (ます)、す (む)、さい",
+      "meaningJa": "",
+      "meaning": "come to an end; finish; settle",
+      "meaningEn": "come to an end; finish; settle",
+      "compounds": [
+        {
+          "word": "救済",
+          "reading": "きゅうさい",
+          "glossJa": "",
+          "glossEn": "come to an end; finish; settle"
+        },
+        {
+          "word": "共済",
+          "reading": "きょうさい",
+          "glossJa": "",
+          "glossEn": "come to an end; finish; settle"
+        },
+        {
+          "word": "済う",
+          "reading": "すくう",
+          "glossJa": "",
+          "glossEn": "come to an end; finish; settle"
+        },
+        {
+          "word": "済ます",
+          "reading": "すます",
+          "glossJa": "",
+          "glossEn": "come to an end; finish; settle"
+        }
+      ]
+    },
+    {
+      "char": "解",
+      "reading": "と (かす)、と (く)、と (ける)、かい、げ",
+      "meaningJa": "",
+      "meaning": "answer; explanation; undo; unravel; cancel; key",
+      "meaningEn": "answer; explanation; undo; unravel; cancel; key",
+      "compounds": [
+        {
+          "word": "解禁",
+          "reading": "かいきん",
+          "glossJa": "",
+          "glossEn": "answer; explanation; undo; unravel; cancel; key"
+        },
+        {
+          "word": "解決",
+          "reading": "かいけつ",
+          "glossJa": "",
+          "glossEn": "answer; explanation; undo; unravel; cancel; key"
+        },
+        {
+          "word": "解く",
+          "reading": "ほどく",
+          "glossJa": "",
+          "glossEn": "answer; explanation; undo; unravel; cancel; key"
+        },
+        {
+          "word": "絵解き",
+          "reading": "えとき",
+          "glossJa": "",
+          "glossEn": "answer; explanation; undo; unravel; cancel; key"
+        }
+      ]
+    },
+    {
+      "char": "際",
+      "reading": "きわ、さい",
+      "meaningJa": "",
+      "meaning": "edge; verge; relationship; interval; fate",
+      "meaningEn": "edge; verge; relationship; interval; fate",
+      "compounds": [
+        {
+          "word": "学際",
+          "reading": "がくさい",
+          "glossJa": "",
+          "glossEn": "edge; verge; relationship; interval; fate"
+        },
+        {
+          "word": "間際",
+          "reading": "まぎわ",
+          "glossJa": "",
+          "glossEn": "edge; verge; relationship; interval; fate"
+        },
+        {
+          "word": "際して",
+          "reading": "さいして",
+          "glossJa": "",
+          "glossEn": "edge; verge; relationship; interval; fate"
+        },
+        {
+          "word": "際する",
+          "reading": "さいする",
+          "glossJa": "",
+          "glossEn": "edge; verge; relationship; interval; fate"
+        }
+      ]
+    },
+    {
+      "char": "査",
+      "reading": "さ",
+      "meaningJa": "",
+      "meaning": "investigate",
+      "meaningEn": "investigate",
+      "compounds": [
+        {
+          "word": "監査",
+          "reading": "かんさ",
+          "glossJa": "",
+          "glossEn": "investigate"
+        },
+        {
+          "word": "鑑査",
+          "reading": "かんさ",
+          "glossJa": "",
+          "glossEn": "investigate"
+        },
+        {
+          "word": "溢れ検査",
+          "reading": "あふれけんさ",
+          "glossJa": "",
+          "glossEn": "investigate"
+        },
+        {
+          "word": "検査",
+          "reading": "けんさ",
+          "glossJa": "",
+          "glossEn": "investigate"
+        }
+      ]
+    },
+    {
+      "char": "判",
+      "reading": "はん、ばん",
+      "meaningJa": "",
+      "meaning": "judgement; seal; signature",
+      "meaningEn": "judgement; seal; signature",
+      "compounds": [
+        {
+          "word": "公判",
+          "reading": "こうはん",
+          "glossJa": "",
+          "glossEn": "judgement; seal; signature"
+        },
+        {
+          "word": "裁判",
+          "reading": "さいばん",
+          "glossJa": "",
+          "glossEn": "judgement; seal; signature"
+        },
+        {
+          "word": "判り",
+          "reading": "わかり",
+          "glossJa": "",
+          "glossEn": "judgement; seal; signature"
+        },
+        {
+          "word": "判る",
+          "reading": "わかる",
+          "glossJa": "",
+          "glossEn": "judgement; seal; signature"
+        }
+      ]
+    },
+    {
+      "char": "認",
+      "reading": "みと (める)、にん",
+      "meaningJa": "",
+      "meaning": "acknowledge;recognize",
+      "meaningEn": "acknowledge;recognize",
+      "compounds": [
+        {
+          "word": "確認",
+          "reading": "かくにん",
+          "glossJa": "",
+          "glossEn": "acknowledge;recognize"
+        },
+        {
+          "word": "誤認",
+          "reading": "ごにん",
+          "glossJa": "",
+          "glossEn": "acknowledge;recognize"
+        },
+        {
+          "word": "認め",
+          "reading": "みとめ",
+          "glossJa": "",
+          "glossEn": "acknowledge;recognize"
+        },
+        {
+          "word": "認める",
+          "reading": "みとめる",
+          "glossJa": "",
+          "glossEn": "acknowledge;recognize"
+        }
+      ]
+    },
+    {
+      "char": "在",
+      "reading": "あ (る)、ざい",
+      "meaningJa": "",
+      "meaning": "to exist; countryside",
+      "meaningEn": "to exist; countryside",
+      "compounds": [
+        {
+          "word": "介在",
+          "reading": "かいざい",
+          "glossJa": "",
+          "glossEn": "to exist; countryside"
+        },
+        {
+          "word": "健在",
+          "reading": "けんざい",
+          "glossJa": "",
+          "glossEn": "to exist; countryside"
+        },
+        {
+          "word": "在る",
+          "reading": "ある",
+          "glossJa": "",
+          "glossEn": "to exist; countryside"
+        },
+        {
+          "word": "在す",
+          "reading": "おわす",
+          "glossJa": "",
+          "glossEn": "to exist; countryside"
+        }
+      ]
+    },
+    {
+      "char": "件",
+      "reading": "けん",
+      "meaningJa": "",
+      "meaning": "item; matter",
+      "meaningEn": "item; matter",
+      "compounds": [
+        {
+          "word": "案件",
+          "reading": "あんけん",
+          "glossJa": "",
+          "glossEn": "item; matter"
+        },
+        {
+          "word": "一件",
+          "reading": "いっけん",
+          "glossJa": "",
+          "glossEn": "item; matter"
+        },
+        {
+          "word": "条件付き",
+          "reading": "じょうけんつき",
+          "glossJa": "",
+          "glossEn": "item; matter"
+        },
+        {
+          "word": "件数",
+          "reading": "けんすう",
+          "glossJa": "",
+          "glossEn": "item; matter"
+        }
+      ]
+    },
+    {
+      "char": "任",
+      "reading": "まか (す)、まか (せる)、にん",
+      "meaningJa": "",
+      "meaning": "entrust; shoulder; endure; work; duty",
+      "meaningEn": "entrust; shoulder; endure; work; duty",
+      "compounds": [
+        {
+          "word": "委任",
+          "reading": "いにん",
+          "glossJa": "",
+          "glossEn": "entrust; shoulder; endure; work; duty"
+        },
+        {
+          "word": "一任",
+          "reading": "いちにん",
+          "glossJa": "",
+          "glossEn": "entrust; shoulder; endure; work; duty"
+        },
+        {
+          "word": "任す",
+          "reading": "まかす",
+          "glossJa": "",
+          "glossEn": "entrust; shoulder; endure; work; duty"
+        },
+        {
+          "word": "任せる",
+          "reading": "まかせる",
+          "glossJa": "",
+          "glossEn": "entrust; shoulder; endure; work; duty"
+        }
+      ]
+    },
+    {
+      "char": "論",
+      "reading": "ろん",
+      "meaningJa": "",
+      "meaning": "argue; discuss; point of view",
+      "meaningEn": "argue; discuss; point of view",
+      "compounds": [
+        {
+          "word": "異論",
+          "reading": "いろん",
+          "glossJa": "",
+          "glossEn": "argue; discuss; point of view"
+        },
+        {
+          "word": "概論",
+          "reading": "がいろん",
+          "glossJa": "",
+          "glossEn": "argue; discuss; point of view"
+        },
+        {
+          "word": "論じる",
+          "reading": "ろんじる",
+          "glossJa": "",
+          "glossEn": "argue; discuss; point of view"
+        },
+        {
+          "word": "論ずる",
+          "reading": "ろんずる",
+          "glossJa": "",
+          "glossEn": "argue; discuss; point of view"
+        }
+      ]
+    },
+    {
+      "char": "増",
+      "reading": "ふ (える)、ふ (やす)、ま (す)、ぞう",
+      "meaningJa": "",
+      "meaning": "add; augment; increase",
+      "meaningEn": "add; augment; increase",
+      "compounds": [
+        {
+          "word": "増々",
+          "reading": "ますます",
+          "glossJa": "",
+          "glossEn": "add; augment; increase"
+        },
+        {
+          "word": "急増",
+          "reading": "きゅうぞう",
+          "glossJa": "",
+          "glossEn": "add; augment; increase"
+        },
+        {
+          "word": "増して",
+          "reading": "まして",
+          "glossJa": "",
+          "glossEn": "add; augment; increase"
+        },
+        {
+          "word": "増える",
+          "reading": "ふえる",
+          "glossJa": "",
+          "glossEn": "add; augment; increase"
+        }
+      ]
+    },
+    {
+      "char": "情",
+      "reading": "なさ (け)、じょう、せい",
+      "meaningJa": "",
+      "meaning": "circumstances; emotion; feelings; passion",
+      "meaningEn": "circumstances; emotion; feelings; passion",
+      "compounds": [
+        {
+          "word": "愛情",
+          "reading": "あいじょう",
+          "glossJa": "",
+          "glossEn": "circumstances; emotion; feelings; passion"
+        },
+        {
+          "word": "感情",
+          "reading": "かんじょう",
+          "glossJa": "",
+          "glossEn": "circumstances; emotion; feelings; passion"
+        },
+        {
+          "word": "情け",
+          "reading": "なさけ",
+          "glossJa": "",
+          "glossEn": "circumstances; emotion; feelings; passion"
+        },
+        {
+          "word": "情けない",
+          "reading": "なさけない",
+          "glossJa": "",
+          "glossEn": "circumstances; emotion; feelings; passion"
+        }
+      ]
+    },
+    {
+      "char": "示",
+      "reading": "しめ (す)、し、じ",
+      "meaningJa": "",
+      "meaning": "show; display; express",
+      "meaningEn": "show; display; express",
+      "compounds": [
+        {
+          "word": "暗示",
+          "reading": "あんじ",
+          "glossJa": "",
+          "glossEn": "show; display; express"
+        },
+        {
+          "word": "開示",
+          "reading": "かいじ",
+          "glossJa": "",
+          "glossEn": "show; display; express"
+        },
+        {
+          "word": "示し",
+          "reading": "しめし",
+          "glossJa": "",
+          "glossEn": "show; display; express"
+        },
+        {
+          "word": "示す",
+          "reading": "しめす",
+          "glossJa": "",
+          "glossEn": "show; display; express"
+        }
+      ]
+    },
+    {
+      "char": "基",
+      "reading": "もと、もとい、き",
+      "meaningJa": "",
+      "meaning": "foundation; basis; be based on",
+      "meaningEn": "foundation; basis; be based on",
+      "compounds": [
+        {
+          "word": "塩基",
+          "reading": "えんき",
+          "glossJa": "",
+          "glossEn": "foundation; basis; be based on"
+        },
+        {
+          "word": "基幹",
+          "reading": "きかん",
+          "glossJa": "",
+          "glossEn": "foundation; basis; be based on"
+        },
+        {
+          "word": "基づく",
+          "reading": "もとづく",
+          "glossJa": "",
+          "glossEn": "foundation; basis; be based on"
+        },
+        {
+          "word": "基く",
+          "reading": "もとづく",
+          "glossJa": "",
+          "glossEn": "foundation; basis; be based on"
+        }
+      ]
+    },
+    {
+      "char": "価",
+      "reading": "あたい、か",
+      "meaningJa": "",
+      "meaning": "price; value",
+      "meaningEn": "price; value",
+      "compounds": [
+        {
+          "word": "安価",
+          "reading": "あんか",
+          "glossJa": "",
+          "glossEn": "price; value"
+        },
+        {
+          "word": "価格",
+          "reading": "かかく",
+          "glossJa": "",
+          "glossEn": "price; value"
+        },
+        {
+          "word": "価する",
+          "reading": "あたいする",
+          "glossJa": "",
+          "glossEn": "price; value"
+        },
+        {
+          "word": "価値ある",
+          "reading": "かちある",
+          "glossJa": "",
+          "glossEn": "price; value"
+        }
+      ]
+    },
+    {
+      "char": "確",
+      "reading": "たし (か)、たし (かめる)、かく",
+      "meaningJa": "",
+      "meaning": "clear; evident; firm; solid",
+      "meaningEn": "clear; evident; firm; solid",
+      "compounds": [
+        {
+          "word": "確固",
+          "reading": "かっこ",
+          "glossJa": "",
+          "glossEn": "clear; evident; firm; solid"
+        },
+        {
+          "word": "確乎",
+          "reading": "かっこ",
+          "glossJa": "",
+          "glossEn": "clear; evident; firm; solid"
+        },
+        {
+          "word": "確か",
+          "reading": "たしか",
+          "glossJa": "",
+          "glossEn": "clear; evident; firm; solid"
+        },
+        {
+          "word": "確かめる",
+          "reading": "たしかめる",
+          "glossJa": "",
+          "glossEn": "clear; evident; firm; solid"
+        }
+      ]
+    },
+    {
+      "char": "減",
+      "reading": "へ (らす)、へ (る)、げん",
+      "meaningJa": "",
+      "meaning": "decline; decrease; reduce",
+      "meaningEn": "decline; decrease; reduce",
+      "compounds": [
+        {
+          "word": "加減",
+          "reading": "かげん",
+          "glossJa": "",
+          "glossEn": "decline; decrease; reduce"
+        },
+        {
+          "word": "軽減",
+          "reading": "けいげん",
+          "glossJa": "",
+          "glossEn": "decline; decrease; reduce"
+        },
+        {
+          "word": "減らす",
+          "reading": "へらす",
+          "glossJa": "",
+          "glossEn": "decline; decrease; reduce"
+        },
+        {
+          "word": "減る",
+          "reading": "へる",
+          "glossJa": "",
+          "glossEn": "decline; decrease; reduce"
+        }
+      ]
+    },
+    {
+      "char": "容",
+      "reading": "よう",
+      "meaningJa": "",
+      "meaning": "contain; form; shape",
+      "meaningEn": "contain; form; shape",
+      "compounds": [
+        {
+          "word": "寛容",
+          "reading": "かんよう",
+          "glossJa": "",
+          "glossEn": "contain; form; shape"
+        },
+        {
+          "word": "容気",
+          "reading": "きしつ",
+          "glossJa": "",
+          "glossEn": "contain; form; shape"
+        },
+        {
+          "word": "容れる",
+          "reading": "いれる",
+          "glossJa": "",
+          "glossEn": "contain; form; shape"
+        },
+        {
+          "word": "容かい",
+          "reading": "ようかい",
+          "glossJa": "",
+          "glossEn": "contain; form; shape"
+        }
+      ]
+    },
+    {
+      "char": "演",
+      "reading": "えん",
+      "meaningJa": "",
+      "meaning": "act; performance; play",
+      "meaningEn": "act; performance; play",
+      "compounds": [
+        {
+          "word": "演歌",
+          "reading": "えんか",
+          "glossJa": "",
+          "glossEn": "act; performance; play"
+        },
+        {
+          "word": "演技",
+          "reading": "えんぎ",
+          "glossJa": "",
+          "glossEn": "act; performance; play"
+        },
+        {
+          "word": "演じる",
+          "reading": "えんじる",
+          "glossJa": "",
+          "glossEn": "act; performance; play"
+        },
+        {
+          "word": "演ずる",
+          "reading": "えんずる",
+          "glossJa": "",
+          "glossEn": "act; performance; play"
+        }
+      ]
+    },
+    {
+      "char": "歳",
+      "reading": "さい、せい",
+      "meaningJa": "",
+      "meaning": "age; year; ripen",
+      "meaningEn": "age; year; ripen",
+      "compounds": [
+        {
+          "word": "何歳",
+          "reading": "なんさい",
+          "glossJa": "",
+          "glossEn": "age; year; ripen"
+        },
+        {
+          "word": "歳月",
+          "reading": "さいげつ",
+          "glossJa": "",
+          "glossEn": "age; year; ripen"
+        },
+        {
+          "word": "歳をとる",
+          "reading": "としをとる",
+          "glossJa": "",
+          "glossEn": "age; year; ripen"
+        },
+        {
+          "word": "歳とった",
+          "reading": "としとった",
+          "glossJa": "",
+          "glossEn": "age; year; ripen"
+        }
+      ]
+    },
+    {
+      "char": "能",
+      "reading": "のう",
+      "meaningJa": "",
+      "meaning": "ability; skill",
+      "meaningEn": "ability; skill",
+      "compounds": [
+        {
+          "word": "可能",
+          "reading": "かのう",
+          "glossJa": "",
+          "glossEn": "ability; skill"
+        },
+        {
+          "word": "堪能",
+          "reading": "たんのう",
+          "glossJa": "",
+          "glossEn": "ability; skill"
+        },
+        {
+          "word": "能く",
+          "reading": "よく",
+          "glossJa": "",
+          "glossEn": "ability; skill"
+        },
+        {
+          "word": "能う",
+          "reading": "あたう",
+          "glossJa": "",
+          "glossEn": "ability; skill"
+        }
+      ]
+    },
+    {
+      "char": "再",
+      "reading": "ふたた (び)、さ、さい",
+      "meaningJa": "",
+      "meaning": "again; twice",
+      "meaningEn": "again; twice",
+      "compounds": [
+        {
+          "word": "再演",
+          "reading": "さいえん",
+          "glossJa": "",
+          "glossEn": "again; twice"
+        },
+        {
+          "word": "再会",
+          "reading": "さいかい",
+          "glossJa": "",
+          "glossEn": "again; twice"
+        },
+        {
+          "word": "再び",
+          "reading": "ふたたび",
+          "glossJa": "",
+          "glossEn": "again; twice"
+        },
+        {
+          "word": "再び取る",
+          "reading": "ふたたびとる",
+          "glossJa": "",
+          "glossEn": "again; twice"
+        }
+      ]
+    },
+    {
+      "char": "格",
+      "reading": "かく、こう",
+      "meaningJa": "",
+      "meaning": "case (law, grammar); character; rank; status",
+      "meaningEn": "case (law, grammar); character; rank; status",
+      "compounds": [
+        {
+          "word": "価格",
+          "reading": "かかく",
+          "glossJa": "",
+          "glossEn": "case (law, grammar); character; rank; status"
+        },
+        {
+          "word": "格安",
+          "reading": "かくやす",
+          "glossJa": "",
+          "glossEn": "case (law, grammar); character; rank; status"
+        },
+        {
+          "word": "格好いい",
+          "reading": "かっこいい",
+          "glossJa": "",
+          "glossEn": "case (law, grammar); character; rank; status"
+        },
+        {
+          "word": "格好",
+          "reading": "かっこう",
+          "glossJa": "",
+          "glossEn": "case (law, grammar); character; rank; status"
+        }
+      ]
+    },
+    {
+      "char": "疑",
+      "reading": "うたが (う)、ぎ",
+      "meaningJa": "",
+      "meaning": "distrust; doubt; question",
+      "meaningEn": "distrust; doubt; question",
+      "compounds": [
+        {
+          "word": "懐疑",
+          "reading": "かいぎ",
+          "glossJa": "",
+          "glossEn": "distrust; doubt; question"
+        },
+        {
+          "word": "疑義",
+          "reading": "ぎぎ",
+          "glossJa": "",
+          "glossEn": "distrust; doubt; question"
+        },
+        {
+          "word": "疑い",
+          "reading": "うたがい",
+          "glossJa": "",
+          "glossEn": "distrust; doubt; question"
+        },
+        {
+          "word": "疑う",
+          "reading": "うたがう",
+          "glossJa": "",
+          "glossEn": "distrust; doubt; question"
+        }
+      ]
+    },
+    {
+      "char": "過",
+      "reading": "あやま (ち)、あやま (つ)、す (ぎる)、す (ごす)、か",
+      "meaningJa": "",
+      "meaning": "exceed; overdo; error; mistake",
+      "meaningEn": "exceed; overdo; error; mistake",
+      "compounds": [
+        {
+          "word": "一過",
+          "reading": "いっか",
+          "glossJa": "",
+          "glossEn": "exceed; overdo; error; mistake"
+        },
+        {
+          "word": "過去",
+          "reading": "かこ",
+          "glossJa": "",
+          "glossEn": "exceed; overdo; error; mistake"
+        },
+        {
+          "word": "過ぎ",
+          "reading": "すぎ",
+          "glossJa": "",
+          "glossEn": "exceed; overdo; error; mistake"
+        },
+        {
+          "word": "過ぎる",
+          "reading": "すぎる",
+          "glossJa": "",
+          "glossEn": "exceed; overdo; error; mistake"
+        }
+      ]
+    },
+    {
+      "char": "常",
+      "reading": "つね、じょう",
+      "meaningJa": "",
+      "meaning": "always; continually; ordinary; normal",
+      "meaningEn": "always; continually; ordinary; normal",
+      "compounds": [
+        {
+          "word": "異常",
+          "reading": "いじょう",
+          "glossJa": "",
+          "glossEn": "always; continually; ordinary; normal"
+        },
+        {
+          "word": "経常",
+          "reading": "けいじょう",
+          "glossJa": "",
+          "glossEn": "always; continually; ordinary; normal"
+        },
+        {
+          "word": "常に",
+          "reading": "つねに",
+          "glossJa": "",
+          "glossEn": "always; continually; ordinary; normal"
+        },
+        {
+          "word": "常しえ",
+          "reading": "とこしえ",
+          "glossJa": "",
+          "glossEn": "always; continually; ordinary; normal"
+        }
+      ]
+    },
+    {
+      "char": "状",
+      "reading": "じょう",
+      "meaningJa": "",
+      "meaning": "circumstances; conditions; form",
+      "meaningEn": "circumstances; conditions; form",
+      "compounds": [
+        {
+          "word": "異状",
+          "reading": "いじょう",
+          "glossJa": "",
+          "glossEn": "circumstances; conditions; form"
+        },
+        {
+          "word": "賀状",
+          "reading": "がじょう",
+          "glossJa": "",
+          "glossEn": "circumstances; conditions; form"
+        },
+        {
+          "word": "果たし状",
+          "reading": "はたしじょう",
+          "glossJa": "",
+          "glossEn": "circumstances; conditions; form"
+        },
+        {
+          "word": "環状",
+          "reading": "かんじょう",
+          "glossJa": "",
+          "glossEn": "circumstances; conditions; form"
+        }
+      ]
+    },
+    {
+      "char": "職",
+      "reading": "しょく",
+      "meaningJa": "",
+      "meaning": "employment; work",
+      "meaningEn": "employment; work",
+      "compounds": [
+        {
+          "word": "汚職",
+          "reading": "おしょく",
+          "glossJa": "",
+          "glossEn": "employment; work"
+        },
+        {
+          "word": "休職",
+          "reading": "きゅうしょく",
+          "glossJa": "",
+          "glossEn": "employment; work"
+        },
+        {
+          "word": "職として",
+          "reading": "しょくとして",
+          "glossJa": "",
+          "glossEn": "employment; work"
+        },
+        {
+          "word": "職につく",
+          "reading": "しょくにつく",
+          "glossJa": "",
+          "glossEn": "employment; work"
+        }
+      ]
+    },
+    {
+      "char": "与",
+      "reading": "あた (える)、よ",
+      "meaningJa": "",
+      "meaning": "award; bestow; take part in; cooperate",
+      "meaningEn": "award; bestow; take part in; cooperate",
+      "compounds": [
+        {
+          "word": "関与",
+          "reading": "かんよ",
+          "glossJa": "",
+          "glossEn": "award; bestow; take part in; cooperate"
+        },
+        {
+          "word": "干与",
+          "reading": "かんよ",
+          "glossJa": "",
+          "glossEn": "award; bestow; take part in; cooperate"
+        },
+        {
+          "word": "与える",
+          "reading": "あたえる",
+          "glossJa": "",
+          "glossEn": "award; bestow; take part in; cooperate"
+        },
+        {
+          "word": "与え",
+          "reading": "あたえ",
+          "glossJa": "",
+          "glossEn": "award; bestow; take part in; cooperate"
+        }
+      ]
+    },
+    {
+      "char": "供",
+      "reading": "そな (える)、とも、きょう、く",
+      "meaningJa": "",
+      "meaning": "offer; sacrifice; supply",
+      "meaningEn": "offer; sacrifice; supply",
+      "compounds": [
+        {
+          "word": "供給",
+          "reading": "きょうきゅう",
+          "glossJa": "",
+          "glossEn": "offer; sacrifice; supply"
+        },
+        {
+          "word": "供出",
+          "reading": "きょうしゅつ",
+          "glossJa": "",
+          "glossEn": "offer; sacrifice; supply"
+        },
+        {
+          "word": "供える",
+          "reading": "そなえる",
+          "glossJa": "",
+          "glossEn": "offer; sacrifice; supply"
+        },
+        {
+          "word": "供え",
+          "reading": "そなえ",
+          "glossJa": "",
+          "glossEn": "offer; sacrifice; supply"
+        }
+      ]
+    },
+    {
+      "char": "可",
+      "reading": "か",
+      "meaningJa": "",
+      "meaning": "can; passable",
+      "meaningEn": "can; passable",
+      "compounds": [
+        {
+          "word": "可決",
+          "reading": "かけつ",
+          "glossJa": "",
+          "glossEn": "can; passable"
+        },
+        {
+          "word": "可能",
+          "reading": "かのう",
+          "glossJa": "",
+          "glossEn": "can; passable"
+        },
+        {
+          "word": "可き",
+          "reading": "べき",
+          "glossJa": "",
+          "glossEn": "can; passable"
+        },
+        {
+          "word": "可い",
+          "reading": "べい",
+          "glossJa": "",
+          "glossEn": "can; passable"
+        }
+      ]
+    },
+    {
+      "char": "構",
+      "reading": "かま (う)、かま (える)、こう",
+      "meaningJa": "",
+      "meaning": "build; posture; pretend",
+      "meaningEn": "build; posture; pretend",
+      "compounds": [
+        {
+          "word": "遺構",
+          "reading": "いこう",
+          "glossJa": "",
+          "glossEn": "build; posture; pretend"
+        },
+        {
+          "word": "機構",
+          "reading": "きこう",
+          "glossJa": "",
+          "glossEn": "build; posture; pretend"
+        },
+        {
+          "word": "構う",
+          "reading": "かまう",
+          "glossJa": "",
+          "glossEn": "build; posture; pretend"
+        },
+        {
+          "word": "構える",
+          "reading": "かまえる",
+          "glossJa": "",
+          "glossEn": "build; posture; pretend"
+        }
+      ]
+    },
+    {
+      "char": "割",
+      "reading": "さ (く)、わり、わ (る)、わ (れる)、かつ",
+      "meaningJa": "",
+      "meaning": "proportion; split; divide",
+      "meaningEn": "proportion; split; divide",
+      "compounds": [
+        {
+          "word": "一割",
+          "reading": "いちわり",
+          "glossJa": "",
+          "glossEn": "proportion; split; divide"
+        },
+        {
+          "word": "学割",
+          "reading": "がくわり",
+          "glossJa": "",
+          "glossEn": "proportion; split; divide"
+        },
+        {
+          "word": "割と",
+          "reading": "わりと",
+          "glossJa": "",
+          "glossEn": "proportion; split; divide"
+        },
+        {
+          "word": "割りと",
+          "reading": "わりと",
+          "glossJa": "",
+          "glossEn": "proportion; split; divide"
+        }
+      ]
+    },
+    {
+      "char": "比",
+      "reading": "くら (べる)、ひ",
+      "meaningJa": "",
+      "meaning": "compare; ratio",
+      "meaningEn": "compare; ratio",
+      "compounds": [
+        {
+          "word": "対比",
+          "reading": "たいひ",
+          "glossJa": "",
+          "glossEn": "compare; ratio"
+        },
+        {
+          "word": "比較",
+          "reading": "ひかく",
+          "glossJa": "",
+          "glossEn": "compare; ratio"
+        },
+        {
+          "word": "比べ",
+          "reading": "くらべ",
+          "glossJa": "",
+          "glossEn": "compare; ratio"
+        },
+        {
+          "word": "比べる",
+          "reading": "くらべる",
+          "glossJa": "",
+          "glossEn": "compare; ratio"
+        }
+      ]
+    },
+    {
+      "char": "難",
+      "reading": "かた (い)、むずか (しい)、なん",
+      "meaningJa": "",
+      "meaning": "difficult; tough; misfortune; sorrow; fight; rebuke",
+      "meaningEn": "difficult; tough; misfortune; sorrow; fight; rebuke",
+      "compounds": [
+        {
+          "word": "海難",
+          "reading": "かいなん",
+          "glossJa": "",
+          "glossEn": "difficult; tough; misfortune; sorrow; fight; rebuke"
+        },
+        {
+          "word": "苦難",
+          "reading": "くなん",
+          "glossJa": "",
+          "glossEn": "difficult; tough; misfortune; sorrow; fight; rebuke"
+        },
+        {
+          "word": "難い",
+          "reading": "かたい",
+          "glossJa": "",
+          "glossEn": "difficult; tough; misfortune; sorrow; fight; rebuke"
+        },
+        {
+          "word": "気難しい",
+          "reading": "きむずかしい",
+          "glossJa": "",
+          "glossEn": "difficult; tough; misfortune; sorrow; fight; rebuke"
+        }
+      ]
+    },
+    {
+      "char": "防",
+      "reading": "ふせ (ぐ)、ぼう",
+      "meaningJa": "",
+      "meaning": "defend; resist; surround; rival; equal",
+      "meaningEn": "defend; resist; surround; rival; equal",
+      "compounds": [
+        {
+          "word": "攻防",
+          "reading": "こうぼう",
+          "glossJa": "",
+          "glossEn": "defend; resist; surround; rival; equal"
+        },
+        {
+          "word": "国防",
+          "reading": "こくぼう",
+          "glossJa": "",
+          "glossEn": "defend; resist; surround; rival; equal"
+        },
+        {
+          "word": "防ぐ",
+          "reading": "ふせぐ",
+          "glossJa": "",
+          "glossEn": "defend; resist; surround; rival; equal"
+        },
+        {
+          "word": "防ぎ",
+          "reading": "ふせぎ",
+          "glossJa": "",
+          "glossEn": "defend; resist; surround; rival; equal"
+        }
+      ]
+    },
+    {
+      "char": "優",
+      "reading": "すぐ (れる)、やさ (しい)、ゆう",
+      "meaningJa": "",
+      "meaning": "actor; excel; surpass; gentleness",
+      "meaningEn": "actor; excel; surpass; gentleness",
+      "compounds": [
+        {
+          "word": "女優",
+          "reading": "じょゆう",
+          "glossJa": "",
+          "glossEn": "actor; excel; surpass; gentleness"
+        },
+        {
+          "word": "男優",
+          "reading": "だんゆう",
+          "glossJa": "",
+          "glossEn": "actor; excel; surpass; gentleness"
+        },
+        {
+          "word": "優る",
+          "reading": "まさる",
+          "glossJa": "",
+          "glossEn": "actor; excel; surpass; gentleness"
+        },
+        {
+          "word": "優しい",
+          "reading": "やさしい",
+          "glossJa": "",
+          "glossEn": "actor; excel; surpass; gentleness"
+        }
+      ]
+    },
+    {
+      "char": "収",
+      "reading": "おさ (まる)、おさ (める)、しゅう",
+      "meaningJa": "",
+      "meaning": "income; obtain; supply; store",
+      "meaningEn": "income; obtain; supply; store",
+      "compounds": [
+        {
+          "word": "押収",
+          "reading": "おうしゅう",
+          "glossJa": "",
+          "glossEn": "income; obtain; supply; store"
+        },
+        {
+          "word": "回収",
+          "reading": "かいしゅう",
+          "glossJa": "",
+          "glossEn": "income; obtain; supply; store"
+        },
+        {
+          "word": "収まり",
+          "reading": "おさまり",
+          "glossJa": "",
+          "glossEn": "income; obtain; supply; store"
+        },
+        {
+          "word": "収まる",
+          "reading": "おさまる",
+          "glossJa": "",
+          "glossEn": "income; obtain; supply; store"
+        }
+      ]
+    },
+    {
+      "char": "断",
+      "reading": "ことわ (る)、た (つ)、だん",
+      "meaningJa": "",
+      "meaning": "decline; refuse; decide; absolutely",
+      "meaningEn": "decline; refuse; decide; absolutely",
+      "compounds": [
+        {
+          "word": "横断",
+          "reading": "おうだん",
+          "glossJa": "",
+          "glossEn": "decline; refuse; decide; absolutely"
+        },
+        {
+          "word": "決断",
+          "reading": "けつだん",
+          "glossJa": "",
+          "glossEn": "decline; refuse; decide; absolutely"
+        },
+        {
+          "word": "断じて",
+          "reading": "だんじて",
+          "glossJa": "",
+          "glossEn": "decline; refuse; decide; absolutely"
+        },
+        {
+          "word": "断つ",
+          "reading": "たつ",
+          "glossJa": "",
+          "glossEn": "decline; refuse; decide; absolutely"
+        }
+      ]
+    },
+    {
+      "char": "違",
+      "reading": "ちが (う)、ちが (える)、い",
+      "meaningJa": "",
+      "meaning": "differ",
+      "meaningEn": "differ",
+      "compounds": [
+        {
+          "word": "違憲",
+          "reading": "いけん",
+          "glossJa": "",
+          "glossEn": "differ"
+        },
+        {
+          "word": "違反",
+          "reading": "いはん",
+          "glossJa": "",
+          "glossEn": "differ"
+        },
+        {
+          "word": "違い",
+          "reading": "ちがい",
+          "glossJa": "",
+          "glossEn": "differ"
+        },
+        {
+          "word": "違いない",
+          "reading": "ちがいない",
+          "glossJa": "",
+          "glossEn": "differ"
+        }
+      ]
+    },
+    {
+      "char": "規",
+      "reading": "き",
+      "meaningJa": "",
+      "meaning": "compass; standard; to correct; measure",
+      "meaningEn": "compass; standard; to correct; measure",
+      "compounds": [
+        {
+          "word": "規準",
+          "reading": "きじゅん",
+          "glossJa": "",
+          "glossEn": "compass; standard; to correct; measure"
+        },
+        {
+          "word": "規格",
+          "reading": "きかく",
+          "glossJa": "",
+          "glossEn": "compass; standard; to correct; measure"
+        },
+        {
+          "word": "規則どおり",
+          "reading": "きそくどおり",
+          "glossJa": "",
+          "glossEn": "compass; standard; to correct; measure"
+        },
+        {
+          "word": "規制",
+          "reading": "きせい",
+          "glossJa": "",
+          "glossEn": "compass; standard; to correct; measure"
+        }
+      ]
+    },
+    {
+      "char": "術",
+      "reading": "じゅつ",
+      "meaningJa": "",
+      "meaning": "skill ;etchnique; art; magic",
+      "meaningEn": "skill ;etchnique; art; magic",
+      "compounds": [
+        {
+          "word": "学術",
+          "reading": "がくじゅつ",
+          "glossJa": "",
+          "glossEn": "skill ;etchnique; art; magic"
+        },
+        {
+          "word": "奇術",
+          "reading": "きじゅつ",
+          "glossJa": "",
+          "glossEn": "skill ;etchnique; art; magic"
+        },
+        {
+          "word": "術ない",
+          "reading": "じゅつない",
+          "glossJa": "",
+          "glossEn": "skill ;etchnique; art; magic"
+        },
+        {
+          "word": "術なし",
+          "reading": "すべなし",
+          "glossJa": "",
+          "glossEn": "skill ;etchnique; art; magic"
+        }
+      ]
+    },
+    {
+      "char": "導",
+      "reading": "みちび (く)、どう",
+      "meaningJa": "",
+      "meaning": "guide; lead",
+      "meaningEn": "guide; lead",
+      "compounds": [
+        {
+          "word": "指導",
+          "reading": "しどう",
+          "glossJa": "",
+          "glossEn": "guide; lead"
+        },
+        {
+          "word": "主導",
+          "reading": "しゅどう",
+          "glossJa": "",
+          "glossEn": "guide; lead"
+        },
+        {
+          "word": "導く",
+          "reading": "みちびく",
+          "glossJa": "",
+          "glossEn": "guide; lead"
+        },
+        {
+          "word": "導き",
+          "reading": "みちびき",
+          "glossJa": "",
+          "glossEn": "guide; lead"
+        }
+      ]
+    },
+    {
+      "char": "備",
+      "reading": "そな (える)、そな (わる)、び",
+      "meaningJa": "",
+      "meaning": "preparation",
+      "meaningEn": "preparation",
+      "compounds": [
+        {
+          "word": "軍備",
+          "reading": "ぐんび",
+          "glossJa": "",
+          "glossEn": "preparation"
+        },
+        {
+          "word": "警備",
+          "reading": "けいび",
+          "glossJa": "",
+          "glossEn": "preparation"
+        },
+        {
+          "word": "備え",
+          "reading": "そなえ",
+          "glossJa": "",
+          "glossEn": "preparation"
+        },
+        {
+          "word": "備える",
+          "reading": "そなえる",
+          "glossJa": "",
+          "glossEn": "preparation"
+        }
+      ]
+    },
+    {
+      "char": "宅",
+      "reading": "たく",
+      "meaningJa": "",
+      "meaning": "home; house; my husband",
+      "meaningEn": "home; house; my husband",
+      "compounds": [
+        {
+          "word": "家宅",
+          "reading": "かたく",
+          "glossJa": "",
+          "glossEn": "home; house; my husband"
+        },
+        {
+          "word": "帰宅",
+          "reading": "きたく",
+          "glossJa": "",
+          "glossEn": "home; house; my husband"
+        },
+        {
+          "word": "借り宅",
+          "reading": "かりたく",
+          "glossJa": "",
+          "glossEn": "home; house; my husband"
+        },
+        {
+          "word": "在宅",
+          "reading": "ざいたく",
+          "glossJa": "",
+          "glossEn": "home; house; my husband"
+        }
+      ]
+    },
+    {
+      "char": "張",
+      "reading": "は (る)、ちょう",
+      "meaningJa": "",
+      "meaning": "stretch; spread; play (string instrument)",
+      "meaningEn": "stretch; spread; play (string instrument)",
+      "compounds": [
+        {
+          "word": "拡張",
+          "reading": "かくちょう",
+          "glossJa": "",
+          "glossEn": "stretch; spread; play (string instrument)"
+        },
+        {
+          "word": "緊張",
+          "reading": "きんちょう",
+          "glossJa": "",
+          "glossEn": "stretch; spread; play (string instrument)"
+        },
+        {
+          "word": "張り",
+          "reading": "ばり",
+          "glossJa": "",
+          "glossEn": "stretch; spread; play (string instrument)"
+        },
+        {
+          "word": "張る",
+          "reading": "はる",
+          "glossJa": "",
+          "glossEn": "stretch; spread; play (string instrument)"
+        }
+      ]
+    },
+    {
+      "char": "域",
+      "reading": "いき",
+      "meaningJa": "",
+      "meaning": "level; limit; range",
+      "meaningEn": "level; limit; range",
+      "compounds": [
+        {
+          "word": "域外",
+          "reading": "いきがい",
+          "glossJa": "",
+          "glossEn": "level; limit; range"
+        },
+        {
+          "word": "域内",
+          "reading": "いきない",
+          "glossJa": "",
+          "glossEn": "level; limit; range"
+        },
+        {
+          "word": "地域おこし",
+          "reading": "ちいきおこし",
+          "glossJa": "",
+          "glossEn": "level; limit; range"
+        },
+        {
+          "word": "海域",
+          "reading": "かいいき",
+          "glossJa": "",
+          "glossEn": "level; limit; range"
+        }
+      ]
+    },
+    {
+      "char": "述",
+      "reading": "の (べる)、じゅつ",
+      "meaningJa": "",
+      "meaning": "mention; relate; speak; state",
+      "meaningEn": "mention; relate; speak; state",
+      "compounds": [
+        {
+          "word": "記述",
+          "reading": "きじゅつ",
+          "glossJa": "",
+          "glossEn": "mention; relate; speak; state"
+        },
+        {
+          "word": "供述",
+          "reading": "きょうじゅつ",
+          "glossJa": "",
+          "glossEn": "mention; relate; speak; state"
+        },
+        {
+          "word": "述べる",
+          "reading": "のべる",
+          "glossJa": "",
+          "glossEn": "mention; relate; speak; state"
+        },
+        {
+          "word": "述べ合う",
+          "reading": "のべあう",
+          "glossJa": "",
+          "glossEn": "mention; relate; speak; state"
+        }
+      ]
+    },
+    {
+      "char": "訪",
+      "reading": "おとず (れる)、たず (ねる)、ほう",
+      "meaningJa": "",
+      "meaning": "visit; call on",
+      "meaningEn": "visit; call on",
+      "compounds": [
+        {
+          "word": "探訪",
+          "reading": "たんぼう",
+          "glossJa": "",
+          "glossEn": "visit; call on"
+        },
+        {
+          "word": "訪欧",
+          "reading": "ほうおう",
+          "glossJa": "",
+          "glossEn": "visit; call on"
+        },
+        {
+          "word": "訪ねる",
+          "reading": "たずねる",
+          "glossJa": "",
+          "glossEn": "visit; call on"
+        },
+        {
+          "word": "訪れ",
+          "reading": "おとずれ",
+          "glossJa": "",
+          "glossEn": "visit; call on"
+        }
+      ]
+    },
+    {
+      "char": "警",
+      "reading": "けい",
+      "meaningJa": "",
+      "meaning": "caution; warn against; surprise",
+      "meaningEn": "caution; warn against; surprise",
+      "compounds": [
+        {
+          "word": "警戒",
+          "reading": "けいかい",
+          "glossJa": "",
+          "glossEn": "caution; warn against; surprise"
+        },
+        {
+          "word": "警官",
+          "reading": "けいかん",
+          "glossJa": "",
+          "glossEn": "caution; warn against; surprise"
+        },
+        {
+          "word": "警め",
+          "reading": "いましめ",
+          "glossJa": "",
+          "glossEn": "caution; warn against; surprise"
+        },
+        {
+          "word": "警める",
+          "reading": "いましめる",
+          "glossJa": "",
+          "glossEn": "caution; warn against; surprise"
+        }
+      ]
+    },
+    {
+      "char": "独",
+      "reading": "ひと (り)、どく",
+      "meaningJa": "",
+      "meaning": "alone; single",
+      "meaningEn": "alone; single",
+      "compounds": [
+        {
+          "word": "孤独",
+          "reading": "こどく",
+          "glossJa": "",
+          "glossEn": "alone; single"
+        },
+        {
+          "word": "西独",
+          "reading": "せいどく",
+          "glossJa": "",
+          "glossEn": "alone; single"
+        },
+        {
+          "word": "独り",
+          "reading": "ひとり",
+          "glossJa": "",
+          "glossEn": "alone; single"
+        },
+        {
+          "word": "独りで",
+          "reading": "ひとりで",
+          "glossJa": "",
+          "glossEn": "alone; single"
+        }
+      ]
+    },
+    {
+      "char": "限",
+      "reading": "かぎ (る)、げん",
+      "meaningJa": "",
+      "meaning": "limit; restrict",
+      "meaningEn": "limit; restrict",
+      "compounds": [
+        {
+          "word": "下限",
+          "reading": "かげん",
+          "glossJa": "",
+          "glossEn": "limit; restrict"
+        },
+        {
+          "word": "期限",
+          "reading": "きげん",
+          "glossJa": "",
+          "glossEn": "limit; restrict"
+        },
+        {
+          "word": "限り",
+          "reading": "かぎり",
+          "glossJa": "",
+          "glossEn": "limit; restrict"
+        },
+        {
+          "word": "限りない",
+          "reading": "かぎりない",
+          "glossJa": "",
+          "glossEn": "limit; restrict"
+        }
+      ]
+    },
+    {
+      "char": "額",
+      "reading": "ひたい、がく",
+      "meaningJa": "",
+      "meaning": "forehead; fixed amount; plaque; sign",
+      "meaningEn": "forehead; fixed amount; plaque; sign",
+      "compounds": [
+        {
+          "word": "額縁",
+          "reading": "がくぶち",
+          "glossJa": "",
+          "glossEn": "forehead; fixed amount; plaque; sign"
+        },
+        {
+          "word": "額面",
+          "reading": "がくめん",
+          "glossJa": "",
+          "glossEn": "forehead; fixed amount; plaque; sign"
+        },
+        {
+          "word": "額ずく",
+          "reading": "ぬかずく(額ずく",
+          "glossJa": "",
+          "glossEn": "forehead; fixed amount; plaque; sign"
+        },
+        {
+          "word": "額突く",
+          "reading": "ぬかずく(額ずく",
+          "glossJa": "",
+          "glossEn": "forehead; fixed amount; plaque; sign"
+        }
+      ]
+    },
+    {
+      "char": "退",
+      "reading": "しりぞ (く)、しりぞ (ける)、たい",
+      "meaningJa": "",
+      "meaning": "withdraw; retreat; retire; repel",
+      "meaningEn": "withdraw; retreat; retire; repel",
+      "compounds": [
+        {
+          "word": "引退",
+          "reading": "いんたい",
+          "glossJa": "",
+          "glossEn": "withdraw; retreat; retire; repel"
+        },
+        {
+          "word": "減退",
+          "reading": "げんたい",
+          "glossJa": "",
+          "glossEn": "withdraw; retreat; retire; repel"
+        },
+        {
+          "word": "退く",
+          "reading": "どく",
+          "glossJa": "",
+          "glossEn": "withdraw; retreat; retire; repel"
+        },
+        {
+          "word": "退き時",
+          "reading": "ひきどき",
+          "glossJa": "",
+          "glossEn": "withdraw; retreat; retire; repel"
+        }
+      ]
+    },
+    {
+      "char": "準",
+      "reading": "じゅん",
+      "meaningJa": "",
+      "meaning": "level; make even; conform; guage; standard",
+      "meaningEn": "level; make even; conform; guage; standard",
+      "compounds": [
+        {
+          "word": "基準",
+          "reading": "きじゅん",
+          "glossJa": "",
+          "glossEn": "level; make even; conform; guage; standard"
+        },
+        {
+          "word": "規準",
+          "reading": "きじゅん",
+          "glossJa": "",
+          "glossEn": "level; make even; conform; guage; standard"
+        },
+        {
+          "word": "準える",
+          "reading": "なぞらえる",
+          "glossJa": "",
+          "glossEn": "level; make even; conform; guage; standard"
+        },
+        {
+          "word": "準じる",
+          "reading": "じゅんじる",
+          "glossJa": "",
+          "glossEn": "level; make even; conform; guage; standard"
+        }
+      ]
+    },
+    {
+      "char": "技",
+      "reading": "わざ、ぎ",
+      "meaningJa": "",
+      "meaning": "skill; craft",
+      "meaningEn": "skill; craft",
+      "compounds": [
+        {
+          "word": "演技",
+          "reading": "えんぎ",
+          "glossJa": "",
+          "glossEn": "skill; craft"
+        },
+        {
+          "word": "技巧",
+          "reading": "ぎこう",
+          "glossJa": "",
+          "glossEn": "skill; craft"
+        },
+        {
+          "word": "技あり",
+          "reading": "わざあり",
+          "glossJa": "",
+          "glossEn": "skill; craft"
+        },
+        {
+          "word": "引き技",
+          "reading": "ひきわざ",
+          "glossJa": "",
+          "glossEn": "skill; craft"
+        }
+      ]
+    },
+    {
+      "char": "渡",
+      "reading": "わた (す)、わた (る)、と",
+      "meaningJa": "",
+      "meaning": "deliver; hand over; pass",
+      "meaningEn": "deliver; hand over; pass",
+      "compounds": [
+        {
+          "word": "鳥渡",
+          "reading": "ちょっと",
+          "glossJa": "",
+          "glossEn": "deliver; hand over; pass"
+        },
+        {
+          "word": "引渡",
+          "reading": "ひきわたし",
+          "glossJa": "",
+          "glossEn": "deliver; hand over; pass"
+        },
+        {
+          "word": "渡し",
+          "reading": "わたし",
+          "glossJa": "",
+          "glossEn": "deliver; hand over; pass"
+        },
+        {
+          "word": "渡す",
+          "reading": "わたす",
+          "glossJa": "",
+          "glossEn": "deliver; hand over; pass"
+        }
+      ]
+    },
+    {
+      "char": "移",
+      "reading": "うつ (す)、うつ (る)、い",
+      "meaningJa": "",
+      "meaning": "move; change; transcribe",
+      "meaningEn": "move; change; transcribe",
+      "compounds": [
+        {
+          "word": "移管",
+          "reading": "いかん",
+          "glossJa": "",
+          "glossEn": "move; change; transcribe"
+        },
+        {
+          "word": "移行",
+          "reading": "いこう",
+          "glossJa": "",
+          "glossEn": "move; change; transcribe"
+        },
+        {
+          "word": "移す",
+          "reading": "うつす",
+          "glossJa": "",
+          "glossEn": "move; change; transcribe"
+        },
+        {
+          "word": "移る",
+          "reading": "うつる",
+          "glossJa": "",
+          "glossEn": "move; change; transcribe"
+        }
+      ]
+    },
+    {
+      "char": "個",
+      "reading": "こ",
+      "meaningJa": "",
+      "meaning": "individual",
+      "meaningEn": "individual",
+      "compounds": [
+        {
+          "word": "個月",
+          "reading": "かげつ",
+          "glossJa": "",
+          "glossEn": "individual"
+        },
+        {
+          "word": "一個",
+          "reading": "いっこ",
+          "glossJa": "",
+          "glossEn": "individual"
+        },
+        {
+          "word": "個々に",
+          "reading": "ここに",
+          "glossJa": "",
+          "glossEn": "individual"
+        },
+        {
+          "word": "個所",
+          "reading": "かしょ",
+          "glossJa": "",
+          "glossEn": "individual"
+        }
+      ]
+    },
+    {
+      "char": "若",
+      "reading": "も (しくは)、わか (い)、じゃく、にゃく",
+      "meaningJa": "",
+      "meaning": "young; immature; perhaps; few in number",
+      "meaningEn": "young; immature; perhaps; few in number",
+      "compounds": [
+        {
+          "word": "若干",
+          "reading": "じゃっかん",
+          "glossJa": "",
+          "glossEn": "young; immature; perhaps; few in number"
+        },
+        {
+          "word": "若者",
+          "reading": "わかもの",
+          "glossJa": "",
+          "glossEn": "young; immature; perhaps; few in number"
+        },
+        {
+          "word": "若い",
+          "reading": "わかい",
+          "glossJa": "",
+          "glossEn": "young; immature; perhaps; few in number"
+        },
+        {
+          "word": "若いころ",
+          "reading": "わかいころ",
+          "glossJa": "",
+          "glossEn": "young; immature; perhaps; few in number"
+        }
+      ]
+    },
+    {
+      "char": "非",
+      "reading": "ひ",
+      "meaningJa": "",
+      "meaning": "poor; error; blame; non-",
+      "meaningEn": "poor; error; blame; non-",
+      "compounds": [
+        {
+          "word": "是非",
+          "reading": "ぜひ",
+          "glossJa": "",
+          "glossEn": "poor; error; blame; non-"
+        },
+        {
+          "word": "非行",
+          "reading": "ひこう",
+          "glossJa": "",
+          "glossEn": "poor; error; blame; non-"
+        },
+        {
+          "word": "非がある",
+          "reading": "ひがある",
+          "glossJa": "",
+          "glossEn": "poor; error; blame; non-"
+        },
+        {
+          "word": "非ざる",
+          "reading": "あらざる",
+          "glossJa": "",
+          "glossEn": "poor; error; blame; non-"
+        }
+      ]
+    },
+    {
+      "char": "段",
+      "reading": "だん",
+      "meaningJa": "",
+      "meaning": "stairs",
+      "meaningEn": "stairs",
+      "compounds": [
+        {
+          "word": "一段",
+          "reading": "いちだん",
+          "glossJa": "",
+          "glossEn": "stairs"
+        },
+        {
+          "word": "階段",
+          "reading": "かいだん",
+          "glossJa": "",
+          "glossEn": "stairs"
+        },
+        {
+          "word": "段だら",
+          "reading": "だんだら",
+          "glossJa": "",
+          "glossEn": "stairs"
+        },
+        {
+          "word": "段取り",
+          "reading": "だんどり",
+          "glossJa": "",
+          "glossEn": "stairs"
+        }
+      ]
+    },
+    {
+      "char": "財",
+      "reading": "さい、ざい",
+      "meaningJa": "",
+      "meaning": "assets; wealth",
+      "meaningEn": "assets; wealth",
+      "compounds": [
+        {
+          "word": "家財",
+          "reading": "かざい",
+          "glossJa": "",
+          "glossEn": "assets; wealth"
+        },
+        {
+          "word": "管財",
+          "reading": "かんざい",
+          "glossJa": "",
+          "glossEn": "assets; wealth"
+        },
+        {
+          "word": "財を成す",
+          "reading": "ざいをなす",
+          "glossJa": "",
+          "glossEn": "assets; wealth"
+        },
+        {
+          "word": "財界",
+          "reading": "ざいかい",
+          "glossJa": "",
+          "glossEn": "assets; wealth"
+        }
+      ]
+    },
+    {
+      "char": "識",
+      "reading": "しき",
+      "meaningJa": "",
+      "meaning": "to know; record; write down",
+      "meaningEn": "to know; record; write down",
+      "compounds": [
+        {
+          "word": "意識",
+          "reading": "いしき",
+          "glossJa": "",
+          "glossEn": "to know; record; write down"
+        },
+        {
+          "word": "学識",
+          "reading": "がくしき",
+          "glossJa": "",
+          "glossEn": "to know; record; write down"
+        },
+        {
+          "word": "識す",
+          "reading": "しるす",
+          "glossJa": "",
+          "glossEn": "to know; record; write down"
+        },
+        {
+          "word": "識る",
+          "reading": "しる",
+          "glossJa": "",
+          "glossEn": "to know; record; write down"
+        }
+      ]
+    },
+    {
+      "char": "呼",
+      "reading": "よ (ぶ)、こ",
+      "meaningJa": "",
+      "meaning": "call; invite",
+      "meaningEn": "call; invite",
+      "compounds": [
+        {
+          "word": "呼出",
+          "reading": "よびだし",
+          "glossJa": "",
+          "glossEn": "call; invite"
+        },
+        {
+          "word": "呼水",
+          "reading": "よびみず",
+          "glossJa": "",
+          "glossEn": "call; invite"
+        },
+        {
+          "word": "呼びかけ",
+          "reading": "よびかけ",
+          "glossJa": "",
+          "glossEn": "call; invite"
+        },
+        {
+          "word": "呼ぶ",
+          "reading": "よぶ",
+          "glossJa": "",
+          "glossEn": "call; invite"
+        }
+      ]
+    },
+    {
+      "char": "専",
+      "reading": "もっぱ (ら)、せん",
+      "meaningJa": "",
+      "meaning": "exclusive; solely; devote oneself to",
+      "meaningEn": "exclusive; solely; devote oneself to",
+      "compounds": [
+        {
+          "word": "住専",
+          "reading": "じゅうせん",
+          "glossJa": "",
+          "glossEn": "exclusive; solely; devote oneself to"
+        },
+        {
+          "word": "専横",
+          "reading": "せんおう",
+          "glossJa": "",
+          "glossEn": "exclusive; solely; devote oneself to"
+        },
+        {
+          "word": "専ら",
+          "reading": "もっぱら",
+          "glossJa": "",
+          "glossEn": "exclusive; solely; devote oneself to"
+        },
+        {
+          "word": "専らにする",
+          "reading": "もっぱらにする",
+          "glossJa": "",
+          "glossEn": "exclusive; solely; devote oneself to"
+        }
+      ]
+    },
+    {
+      "char": "程",
+      "reading": "ほど、てい",
+      "meaningJa": "",
+      "meaning": "rule; law; extent; degree",
+      "meaningEn": "rule; law; extent; degree",
+      "compounds": [
+        {
+          "word": "彼程",
+          "reading": "あれほど",
+          "glossJa": "",
+          "glossEn": "rule; law; extent; degree"
+        },
+        {
+          "word": "其程",
+          "reading": "それほど",
+          "glossJa": "",
+          "glossEn": "rule; law; extent; degree"
+        },
+        {
+          "word": "程なく",
+          "reading": "ほどなく",
+          "glossJa": "",
+          "glossEn": "rule; law; extent; degree"
+        },
+        {
+          "word": "程ほど",
+          "reading": "ほどほど",
+          "glossJa": "",
+          "glossEn": "rule; law; extent; degree"
+        }
+      ]
+    },
+    {
+      "char": "値",
+      "reading": "あたい、ね、ち",
+      "meaningJa": "",
+      "meaning": "cost; price; value",
+      "meaningEn": "cost; price; value",
+      "compounds": [
+        {
+          "word": "安値",
+          "reading": "やすね",
+          "glossJa": "",
+          "glossEn": "cost; price; value"
+        },
+        {
+          "word": "卸値",
+          "reading": "おろしね",
+          "glossJa": "",
+          "glossEn": "cost; price; value"
+        },
+        {
+          "word": "値する",
+          "reading": "あたいする",
+          "glossJa": "",
+          "glossEn": "cost; price; value"
+        },
+        {
+          "word": "値がさ",
+          "reading": "ねがさ",
+          "glossJa": "",
+          "glossEn": "cost; price; value"
+        }
+      ]
+    },
+    {
+      "char": "突",
+      "reading": "つ (く)、とつ",
+      "meaningJa": "",
+      "meaning": "collide; sudden",
+      "meaningEn": "collide; sudden",
+      "compounds": [
+        {
+          "word": "煙突",
+          "reading": "えんとつ",
+          "glossJa": "",
+          "glossEn": "collide; sudden"
+        },
+        {
+          "word": "烟突",
+          "reading": "えんとつ",
+          "glossJa": "",
+          "glossEn": "collide; sudden"
+        },
+        {
+          "word": "突き",
+          "reading": "つき",
+          "glossJa": "",
+          "glossEn": "collide; sudden"
+        },
+        {
+          "word": "突く",
+          "reading": "つく",
+          "glossJa": "",
+          "glossEn": "collide; sudden"
+        }
+      ]
+    },
+    {
+      "char": "接",
+      "reading": "つ (ぐ)、せつ",
+      "meaningJa": "",
+      "meaning": "connect; join; meet",
+      "meaningEn": "connect; join; meet",
+      "compounds": [
+        {
+          "word": "応接",
+          "reading": "おうせつ",
+          "glossJa": "",
+          "glossEn": "connect; join; meet"
+        },
+        {
+          "word": "間接",
+          "reading": "かんせつ",
+          "glossJa": "",
+          "glossEn": "connect; join; meet"
+        },
+        {
+          "word": "接する",
+          "reading": "せっする",
+          "glossJa": "",
+          "glossEn": "connect; join; meet"
+        },
+        {
+          "word": "接ぎ",
+          "reading": "つぎ",
+          "glossJa": "",
+          "glossEn": "connect; join; meet"
+        }
+      ]
+    },
+    {
+      "char": "授",
+      "reading": "さず (かる)、さず (ける)、じゅ",
+      "meaningJa": "",
+      "meaning": "impart; instruct",
+      "meaningEn": "impart; instruct",
+      "compounds": [
+        {
+          "word": "教授",
+          "reading": "きょうじゅ",
+          "glossJa": "",
+          "glossEn": "impart; instruct"
+        },
+        {
+          "word": "授精",
+          "reading": "じゅせい",
+          "glossJa": "",
+          "glossEn": "impart; instruct"
+        },
+        {
+          "word": "授かる",
+          "reading": "さずかる",
+          "glossJa": "",
+          "glossEn": "impart; instruct"
+        },
+        {
+          "word": "授ける",
+          "reading": "さずける",
+          "glossJa": "",
+          "glossEn": "impart; instruct"
+        }
+      ]
+    },
+    {
+      "char": "効",
+      "reading": "き (く)、こう",
+      "meaningJa": "",
+      "meaning": "benefit; efficacy",
+      "meaningEn": "benefit; efficacy",
+      "compounds": [
+        {
+          "word": "効果",
+          "reading": "こうか",
+          "glossJa": "",
+          "glossEn": "benefit; efficacy"
+        },
+        {
+          "word": "効能",
+          "reading": "こうのう",
+          "glossJa": "",
+          "glossEn": "benefit; efficacy"
+        },
+        {
+          "word": "効く",
+          "reading": "きく",
+          "glossJa": "",
+          "glossEn": "benefit; efficacy"
+        },
+        {
+          "word": "効かせる",
+          "reading": "きかせる",
+          "glossJa": "",
+          "glossEn": "benefit; efficacy"
+        }
+      ]
+    },
+    {
+      "char": "処",
+      "reading": "しょ",
+      "meaningJa": "",
+      "meaning": "put; fix; place",
+      "meaningEn": "put; fix; place",
+      "compounds": [
+        {
+          "word": "何処",
+          "reading": "どこ",
+          "glossJa": "",
+          "glossEn": "put; fix; place"
+        },
+        {
+          "word": "見処",
+          "reading": "みどころ",
+          "glossJa": "",
+          "glossEn": "put; fix; place"
+        },
+        {
+          "word": "処す",
+          "reading": "しょす",
+          "glossJa": "",
+          "glossEn": "put; fix; place"
+        },
+        {
+          "word": "処する",
+          "reading": "しょする",
+          "glossJa": "",
+          "glossEn": "put; fix; place"
+        }
+      ]
+    },
+    {
+      "char": "師",
+      "reading": "し",
+      "meaningJa": "",
+      "meaning": "instructor; master; specialist; metropolis",
+      "meaningEn": "instructor; master; specialist; metropolis",
+      "compounds": [
+        {
+          "word": "医師",
+          "reading": "いし",
+          "glossJa": "",
+          "glossEn": "instructor; master; specialist; metropolis"
+        },
+        {
+          "word": "恩師",
+          "reading": "おんし",
+          "glossJa": "",
+          "glossEn": "instructor; master; specialist; metropolis"
+        },
+        {
+          "word": "占い師",
+          "reading": "うらないし",
+          "glossJa": "",
+          "glossEn": "instructor; master; specialist; metropolis"
+        },
+        {
+          "word": "技師",
+          "reading": "ぎし",
+          "glossJa": "",
+          "glossEn": "instructor; master; specialist; metropolis"
+        }
+      ]
+    },
+    {
+      "char": "易",
+      "reading": "やさ (しい)、い、えき",
+      "meaningJa": "",
+      "meaning": "simple; easy; smooth; modify; fortune-telling",
+      "meaningEn": "simple; easy; smooth; modify; fortune-telling",
+      "compounds": [
+        {
+          "word": "安易",
+          "reading": "あんい",
+          "glossJa": "",
+          "glossEn": "simple; easy; smooth; modify; fortune-telling"
+        },
+        {
+          "word": "簡易",
+          "reading": "かんい",
+          "glossJa": "",
+          "glossEn": "simple; easy; smooth; modify; fortune-telling"
+        },
+        {
+          "word": "易い",
+          "reading": "やすい",
+          "glossJa": "",
+          "glossEn": "simple; easy; smooth; modify; fortune-telling"
+        },
+        {
+          "word": "易しい",
+          "reading": "やさしい",
+          "glossJa": "",
+          "glossEn": "simple; easy; smooth; modify; fortune-telling"
+        }
+      ]
+    },
+    {
+      "char": "存",
+      "reading": "そん、ぞん",
+      "meaningJa": "",
+      "meaning": "exist; to preserve; to know of",
+      "meaningEn": "exist; to preserve; to know of",
+      "compounds": [
+        {
+          "word": "依存",
+          "reading": "いぞん",
+          "glossJa": "",
+          "glossEn": "exist; to preserve; to know of"
+        },
+        {
+          "word": "温存",
+          "reading": "おんぞん",
+          "glossJa": "",
+          "glossEn": "exist; to preserve; to know of"
+        },
+        {
+          "word": "存じる",
+          "reading": "ぞんじる",
+          "glossJa": "",
+          "glossEn": "exist; to preserve; to know of"
+        },
+        {
+          "word": "存じ",
+          "reading": "ぞんじ",
+          "glossJa": "",
+          "glossEn": "exist; to preserve; to know of"
+        }
+      ]
+    },
+    {
+      "char": "座",
+      "reading": "すわ (る)、ざ",
+      "meaningJa": "",
+      "meaning": "sit; seat; cushion",
+      "meaningEn": "sit; seat; cushion",
+      "compounds": [
+        {
+          "word": "一座",
+          "reading": "いちざ",
+          "glossJa": "",
+          "glossEn": "sit; seat; cushion"
+        },
+        {
+          "word": "王座",
+          "reading": "おうざ",
+          "glossJa": "",
+          "glossEn": "sit; seat; cushion"
+        },
+        {
+          "word": "座り",
+          "reading": "すわり",
+          "glossJa": "",
+          "glossEn": "sit; seat; cushion"
+        },
+        {
+          "word": "座る",
+          "reading": "すわる",
+          "glossJa": "",
+          "glossEn": "sit; seat; cushion"
+        }
+      ]
+    },
+    {
+      "char": "破",
+      "reading": "やぶ (る)、やぶ (れる)、は",
+      "meaningJa": "",
+      "meaning": "break; destroy; rip; defeat",
+      "meaningEn": "break; destroy; rip; defeat",
+      "compounds": [
+        {
+          "word": "破目",
+          "reading": "はめ",
+          "glossJa": "",
+          "glossEn": "break; destroy; rip; defeat"
+        },
+        {
+          "word": "喝破",
+          "reading": "かっぱ",
+          "glossJa": "",
+          "glossEn": "break; destroy; rip; defeat"
+        },
+        {
+          "word": "破れる",
+          "reading": "われる",
+          "glossJa": "",
+          "glossEn": "break; destroy; rip; defeat"
+        },
+        {
+          "word": "破る",
+          "reading": "やぶる",
+          "glossJa": "",
+          "glossEn": "break; destroy; rip; defeat"
+        }
+      ]
+    },
+    {
+      "char": "除",
+      "reading": "のぞ (く)、じ、じょ",
+      "meaningJa": "",
+      "meaning": "exclude; remove; division (math)",
+      "meaningEn": "exclude; remove; division (math)",
+      "compounds": [
+        {
+          "word": "解除",
+          "reading": "かいじょ",
+          "glossJa": "",
+          "glossEn": "exclude; remove; division (math)"
+        },
+        {
+          "word": "駆除",
+          "reading": "くじょ",
+          "glossJa": "",
+          "glossEn": "exclude; remove; division (math)"
+        },
+        {
+          "word": "除いて",
+          "reading": "のぞいて",
+          "glossJa": "",
+          "glossEn": "exclude; remove; division (math)"
+        },
+        {
+          "word": "除く",
+          "reading": "のぞく",
+          "glossJa": "",
+          "glossEn": "exclude; remove; division (math)"
+        }
+      ]
+    },
+    {
+      "char": "降",
+      "reading": "お (りる)、お (ろす)、ふ (る)、こう",
+      "meaningJa": "",
+      "meaning": "descend; fall; precipitate; surrender",
+      "meaningEn": "descend; fall; precipitate; surrender",
+      "compounds": [
+        {
+          "word": "以降",
+          "reading": "いこう",
+          "glossJa": "",
+          "glossEn": "descend; fall; precipitate; surrender"
+        },
+        {
+          "word": "已降",
+          "reading": "いこう",
+          "glossJa": "",
+          "glossEn": "descend; fall; precipitate; surrender"
+        },
+        {
+          "word": "降す",
+          "reading": "くだす",
+          "glossJa": "",
+          "glossEn": "descend; fall; precipitate; surrender"
+        },
+        {
+          "word": "降り",
+          "reading": "くだり",
+          "glossJa": "",
+          "glossEn": "descend; fall; precipitate; surrender"
+        }
+      ]
+    },
+    {
+      "char": "責",
+      "reading": "せ (める)、せき",
+      "meaningJa": "",
+      "meaning": "blame; condemn",
+      "meaningEn": "blame; condemn",
+      "compounds": [
+        {
+          "word": "引責",
+          "reading": "いんせき",
+          "glossJa": "",
+          "glossEn": "blame; condemn"
+        },
+        {
+          "word": "自責",
+          "reading": "じせき",
+          "glossJa": "",
+          "glossEn": "blame; condemn"
+        },
+        {
+          "word": "責める",
+          "reading": "せめる",
+          "glossJa": "",
+          "glossEn": "blame; condemn"
+        },
+        {
+          "word": "責め",
+          "reading": "せめ",
+          "glossJa": "",
+          "glossEn": "blame; condemn"
+        }
+      ]
+    },
+    {
+      "char": "並",
+      "reading": "なみ、なら (びに)、なら (ぶ)、なら (べる)、へい",
+      "meaningJa": "",
+      "meaning": "line up; line; both; identical; ordinary",
+      "meaningEn": "line up; line; both; identical; ordinary",
+      "compounds": [
+        {
+          "word": "月並",
+          "reading": "つきなみ",
+          "glossJa": "",
+          "glossEn": "line up; line; both; identical; ordinary"
+        },
+        {
+          "word": "軒並",
+          "reading": "のきなみ",
+          "glossJa": "",
+          "glossEn": "line up; line; both; identical; ordinary"
+        },
+        {
+          "word": "並み",
+          "reading": "なみ",
+          "glossJa": "",
+          "glossEn": "line up; line; both; identical; ordinary"
+        },
+        {
+          "word": "並び",
+          "reading": "ならび",
+          "glossJa": "",
+          "glossEn": "line up; line; both; identical; ordinary"
+        }
+      ]
+    },
+    {
+      "char": "危",
+      "reading": "あぶ (ない)、あや (うい)、あや (ぶむ)、き",
+      "meaningJa": "",
+      "meaning": "dangerous; fear",
+      "meaningEn": "dangerous; fear",
+      "compounds": [
+        {
+          "word": "危害",
+          "reading": "きがい",
+          "glossJa": "",
+          "glossEn": "dangerous; fear"
+        },
+        {
+          "word": "危機",
+          "reading": "きき",
+          "glossJa": "",
+          "glossEn": "dangerous; fear"
+        },
+        {
+          "word": "危うい",
+          "reading": "あやうい",
+          "glossJa": "",
+          "glossEn": "dangerous; fear"
+        },
+        {
+          "word": "危うく",
+          "reading": "あやうく",
+          "glossJa": "",
+          "glossEn": "dangerous; fear"
+        }
+      ]
+    },
+    {
+      "char": "迎",
+      "reading": "むか (える)、げい",
+      "meaningJa": "",
+      "meaning": "greet; welcome",
+      "meaningEn": "greet; welcome",
+      "compounds": [
+        {
+          "word": "歓迎",
+          "reading": "かんげい",
+          "glossJa": "",
+          "glossEn": "greet; welcome"
+        },
+        {
+          "word": "迎撃",
+          "reading": "げいげき",
+          "glossJa": "",
+          "glossEn": "greet; welcome"
+        },
+        {
+          "word": "迎え",
+          "reading": "むかえ",
+          "glossJa": "",
+          "glossEn": "greet; welcome"
+        },
+        {
+          "word": "迎える",
+          "reading": "むかえる",
+          "glossJa": "",
+          "glossEn": "greet; welcome"
+        }
+      ]
+    },
+    {
+      "char": "異",
+      "reading": "こと、い",
+      "meaningJa": "",
+      "meaning": "different; uncommon",
+      "meaningEn": "different; uncommon",
+      "compounds": [
+        {
+          "word": "異議",
+          "reading": "いぎ",
+          "glossJa": "",
+          "glossEn": "different; uncommon"
+        },
+        {
+          "word": "異国",
+          "reading": "いこく",
+          "glossJa": "",
+          "glossEn": "different; uncommon"
+        },
+        {
+          "word": "異なる",
+          "reading": "ことなる",
+          "glossJa": "",
+          "glossEn": "different; uncommon"
+        },
+        {
+          "word": "異る",
+          "reading": "ことなる",
+          "glossJa": "",
+          "glossEn": "different; uncommon"
+        }
+      ]
+    },
+    {
+      "char": "因",
+      "reading": "よ (る)、いん",
+      "meaningJa": "",
+      "meaning": "to depend on; follow; be connected with",
+      "meaningEn": "to depend on; follow; be connected with",
+      "compounds": [
+        {
+          "word": "一因",
+          "reading": "いちいん",
+          "glossJa": "",
+          "glossEn": "to depend on; follow; be connected with"
+        },
+        {
+          "word": "因縁",
+          "reading": "いんねん",
+          "glossJa": "",
+          "glossEn": "to depend on; follow; be connected with"
+        },
+        {
+          "word": "因る",
+          "reading": "よる",
+          "glossJa": "",
+          "glossEn": "to depend on; follow; be connected with"
+        },
+        {
+          "word": "因みに",
+          "reading": "ちなみに",
+          "glossJa": "",
+          "glossEn": "to depend on; follow; be connected with"
+        }
+      ]
+    },
+    {
+      "char": "彼",
+      "reading": "かの、かれ、ひ",
+      "meaningJa": "",
+      "meaning": "he",
+      "meaningEn": "he",
+      "compounds": [
+        {
+          "word": "彼程",
+          "reading": "あれほど",
+          "glossJa": "",
+          "glossEn": "he"
+        },
+        {
+          "word": "彼等",
+          "reading": "かれら",
+          "glossJa": "",
+          "glossEn": "he"
+        },
+        {
+          "word": "彼れ",
+          "reading": "あれ",
+          "glossJa": "",
+          "glossEn": "he"
+        },
+        {
+          "word": "彼の",
+          "reading": "あの",
+          "glossJa": "",
+          "glossEn": "he"
+        }
+      ]
+    },
+    {
+      "char": "講",
+      "reading": "こう",
+      "meaningJa": "",
+      "meaning": "reconcile; make peace with; learn; discuss",
+      "meaningEn": "reconcile; make peace with; learn; discuss",
+      "compounds": [
+        {
+          "word": "休講",
+          "reading": "きゅうこう",
+          "glossJa": "",
+          "glossEn": "reconcile; make peace with; learn; discuss"
+        },
+        {
+          "word": "講演",
+          "reading": "こうえん",
+          "glossJa": "",
+          "glossEn": "reconcile; make peace with; learn; discuss"
+        },
+        {
+          "word": "講ずる",
+          "reading": "こうずる",
+          "glossJa": "",
+          "glossEn": "reconcile; make peace with; learn; discuss"
+        },
+        {
+          "word": "講じる",
+          "reading": "こうじる",
+          "glossJa": "",
+          "glossEn": "reconcile; make peace with; learn; discuss"
+        }
+      ]
+    },
+    {
+      "char": "舞",
+      "reading": "まい、ま (う)、ぶ",
+      "meaningJa": "",
+      "meaning": "dance; encourage",
+      "meaningEn": "dance; encourage",
+      "compounds": [
+        {
+          "word": "演舞",
+          "reading": "えんぶ",
+          "glossJa": "",
+          "glossEn": "dance; encourage"
+        },
+        {
+          "word": "見舞",
+          "reading": "みまい",
+          "glossJa": "",
+          "glossEn": "dance; encourage"
+        },
+        {
+          "word": "舞い",
+          "reading": "まい",
+          "glossJa": "",
+          "glossEn": "dance; encourage"
+        },
+        {
+          "word": "舞う",
+          "reading": "まう",
+          "glossJa": "",
+          "glossEn": "dance; encourage"
+        }
+      ]
+    },
+    {
+      "char": "亡",
+      "reading": "な (い)、ぼう、もう",
+      "meaningJa": "",
+      "meaning": "deceased; dying; perish",
+      "meaningEn": "deceased; dying; perish",
+      "compounds": [
+        {
+          "word": "死亡",
+          "reading": "しぼう",
+          "glossJa": "",
+          "glossEn": "deceased; dying; perish"
+        },
+        {
+          "word": "存亡",
+          "reading": "そんぼう",
+          "glossJa": "",
+          "glossEn": "deceased; dying; perish"
+        },
+        {
+          "word": "亡くす",
+          "reading": "なくす",
+          "glossJa": "",
+          "glossEn": "deceased; dying; perish"
+        },
+        {
+          "word": "亡くなる",
+          "reading": "なくなる",
+          "glossJa": "",
+          "glossEn": "deceased; dying; perish"
+        }
+      ]
+    },
+    {
+      "char": "適",
+      "reading": "てき",
+      "meaningJa": "",
+      "meaning": "capable; qualified; suitable",
+      "meaningEn": "capable; qualified; suitable",
+      "compounds": [
+        {
+          "word": "快適",
+          "reading": "かいてき",
+          "glossJa": "",
+          "glossEn": "capable; qualified; suitable"
+        },
+        {
+          "word": "最適",
+          "reading": "さいてき",
+          "glossJa": "",
+          "glossEn": "capable; qualified; suitable"
+        },
+        {
+          "word": "適に",
+          "reading": "たまに",
+          "glossJa": "",
+          "glossEn": "capable; qualified; suitable"
+        },
+        {
+          "word": "適わない",
+          "reading": "かなわない",
+          "glossJa": "",
+          "glossEn": "capable; qualified; suitable"
+        }
+      ]
+    },
+    {
+      "char": "婦",
+      "reading": "ふ",
+      "meaningJa": "",
+      "meaning": "bride; wife; woman",
+      "meaningEn": "bride; wife; woman",
+      "compounds": [
+        {
+          "word": "寡婦",
+          "reading": "かふ",
+          "glossJa": "",
+          "glossEn": "bride; wife; woman"
+        },
+        {
+          "word": "主婦",
+          "reading": "しゅふ",
+          "glossJa": "",
+          "glossEn": "bride; wife; woman"
+        },
+        {
+          "word": "賄い婦",
+          "reading": "まかないふ",
+          "glossJa": "",
+          "glossEn": "bride; wife; woman"
+        },
+        {
+          "word": "娼婦",
+          "reading": "しょうふ",
+          "glossJa": "",
+          "glossEn": "bride; wife; woman"
+        }
+      ]
+    },
+    {
+      "char": "寄",
+      "reading": "よ (せる)、よ (る)、き",
+      "meaningJa": "",
+      "meaning": "rely on; entrust to; approach",
+      "meaningEn": "rely on; entrust to; approach",
+      "compounds": [
+        {
+          "word": "寄道",
+          "reading": "よりみち",
+          "glossJa": "",
+          "glossEn": "rely on; entrust to; approach"
+        },
+        {
+          "word": "寄金",
+          "reading": "ききん",
+          "glossJa": "",
+          "glossEn": "rely on; entrust to; approach"
+        },
+        {
+          "word": "寄せ",
+          "reading": "よせ",
+          "glossJa": "",
+          "glossEn": "rely on; entrust to; approach"
+        },
+        {
+          "word": "寄せる",
+          "reading": "よせる",
+          "glossJa": "",
+          "glossEn": "rely on; entrust to; approach"
+        }
+      ]
+    },
+    {
+      "char": "込",
+      "reading": "こ (む)、こ (める)",
+      "meaningJa": "",
+      "meaning": "crowded; included; packed",
+      "meaningEn": "crowded; included; packed",
+      "compounds": [
+        {
+          "word": "割込",
+          "reading": "わりこみ",
+          "glossJa": "",
+          "glossEn": "crowded; included; packed"
+        },
+        {
+          "word": "仕込",
+          "reading": "しこみ",
+          "glossJa": "",
+          "glossEn": "crowded; included; packed"
+        },
+        {
+          "word": "込む",
+          "reading": "こむ",
+          "glossJa": "",
+          "glossEn": "crowded; included; packed"
+        },
+        {
+          "word": "込める",
+          "reading": "こめる",
+          "glossJa": "",
+          "glossEn": "crowded; included; packed"
+        }
+      ]
+    },
+    {
+      "char": "余",
+      "reading": "あま (す)、あま (る)、よ",
+      "meaningJa": "",
+      "meaning": "remainder; surplus",
+      "meaningEn": "remainder; surplus",
+      "compounds": [
+        {
+          "word": "余韻",
+          "reading": "よいん",
+          "glossJa": "",
+          "glossEn": "remainder; surplus"
+        },
+        {
+          "word": "余暇",
+          "reading": "よか",
+          "glossJa": "",
+          "glossEn": "remainder; surplus"
+        },
+        {
+          "word": "余す",
+          "reading": "あます",
+          "glossJa": "",
+          "glossEn": "remainder; surplus"
+        },
+        {
+          "word": "余り",
+          "reading": "あまり",
+          "glossJa": "",
+          "glossEn": "remainder; surplus"
+        }
+      ]
+    },
+    {
+      "char": "禁",
+      "reading": "きん",
+      "meaningJa": "",
+      "meaning": "ban; prohibit; endure",
+      "meaningEn": "ban; prohibit; endure",
+      "compounds": [
+        {
+          "word": "解禁",
+          "reading": "かいきん",
+          "glossJa": "",
+          "glossEn": "ban; prohibit; endure"
+        },
+        {
+          "word": "監禁",
+          "reading": "かんきん",
+          "glossJa": "",
+          "glossEn": "ban; prohibit; endure"
+        },
+        {
+          "word": "禁じる",
+          "reading": "きんじる",
+          "glossJa": "",
+          "glossEn": "ban; prohibit; endure"
+        },
+        {
+          "word": "禁ずる",
+          "reading": "きんずる",
+          "glossJa": "",
+          "glossEn": "ban; prohibit; endure"
+        }
+      ]
+    },
+    {
+      "char": "逆",
+      "reading": "さか、さか (らう)、ぎゃく",
+      "meaningJa": "",
+      "meaning": "opposite; reversed",
+      "meaningEn": "opposite; reversed",
+      "compounds": [
+        {
+          "word": "吃逆",
+          "reading": "しゃっくり",
+          "glossJa": "",
+          "glossEn": "opposite; reversed"
+        },
+        {
+          "word": "逆境",
+          "reading": "ぎゃっきょう",
+          "glossJa": "",
+          "glossEn": "opposite; reversed"
+        },
+        {
+          "word": "逆さ",
+          "reading": "さかさ",
+          "glossJa": "",
+          "glossEn": "opposite; reversed"
+        },
+        {
+          "word": "逆しま",
+          "reading": "さかしま",
+          "glossJa": "",
+          "glossEn": "opposite; reversed"
+        }
+      ]
+    },
+    {
+      "char": "換",
+      "reading": "か (える)、か (わる)、かん",
+      "meaningJa": "",
+      "meaning": "change; interchange",
+      "meaningEn": "change; interchange",
+      "compounds": [
+        {
+          "word": "引換",
+          "reading": "ひきかえ",
+          "glossJa": "",
+          "glossEn": "change; interchange"
+        },
+        {
+          "word": "換気",
+          "reading": "かんき",
+          "glossJa": "",
+          "glossEn": "change; interchange"
+        },
+        {
+          "word": "換え",
+          "reading": "かえ",
+          "glossJa": "",
+          "glossEn": "change; interchange"
+        },
+        {
+          "word": "換える",
+          "reading": "かえる",
+          "glossJa": "",
+          "glossEn": "change; interchange"
+        }
+      ]
+    },
+    {
+      "char": "久",
+      "reading": "ひさ (しい)、きゅう、く",
+      "meaningJa": "",
+      "meaning": "long time",
+      "meaningEn": "long time",
+      "compounds": [
+        {
+          "word": "永久",
+          "reading": "えいきゅう",
+          "glossJa": "",
+          "glossEn": "long time"
+        },
+        {
+          "word": "久々",
+          "reading": "ひさびさ",
+          "glossJa": "",
+          "glossEn": "long time"
+        },
+        {
+          "word": "久しい",
+          "reading": "ひさしい",
+          "glossJa": "",
+          "glossEn": "long time"
+        },
+        {
+          "word": "久しぶり",
+          "reading": "ひさしぶり",
+          "glossJa": "",
+          "glossEn": "long time"
+        }
+      ]
+    },
+    {
+      "char": "妻",
+      "reading": "つま、さい",
+      "meaningJa": "",
+      "meaning": "wife",
+      "meaningEn": "wife",
+      "compounds": [
+        {
+          "word": "稲妻",
+          "reading": "いなずま",
+          "glossJa": "",
+          "glossEn": "wife"
+        },
+        {
+          "word": "後妻",
+          "reading": "ごさい",
+          "glossJa": "",
+          "glossEn": "wife"
+        },
+        {
+          "word": "妻せる",
+          "reading": "めあわせる",
+          "glossJa": "",
+          "glossEn": "wife"
+        },
+        {
+          "word": "我が妻",
+          "reading": "わがつま",
+          "glossJa": "",
+          "glossEn": "wife"
+        }
+      ]
+    },
+    {
+      "char": "背",
+      "reading": "せ、せい、そむ (く)、そむ (ける)、はい",
+      "meaningJa": "",
+      "meaning": "back; behind; abandon; turn one's back on",
+      "meaningEn": "back; behind; abandon; turn one's back on",
+      "compounds": [
+        {
+          "word": "猫背",
+          "reading": "ねこぜ",
+          "glossJa": "",
+          "glossEn": "back; behind; abandon; turn one's back on"
+        },
+        {
+          "word": "背筋",
+          "reading": "せすじ",
+          "glossJa": "",
+          "glossEn": "back; behind; abandon; turn one's back on"
+        },
+        {
+          "word": "背く",
+          "reading": "そむく",
+          "glossJa": "",
+          "glossEn": "back; behind; abandon; turn one's back on"
+        },
+        {
+          "word": "背もたれ",
+          "reading": "せもたれ",
+          "glossJa": "",
+          "glossEn": "back; behind; abandon; turn one's back on"
+        }
+      ]
+    },
+    {
+      "char": "頼",
+      "reading": "たの (む)、たの (もしい)、たよ (る)、らい",
+      "meaningJa": "",
+      "meaning": "request; rely on; trust",
+      "meaningEn": "request; rely on; trust",
+      "compounds": [
+        {
+          "word": "依頼",
+          "reading": "いらい",
+          "glossJa": "",
+          "glossEn": "request; rely on; trust"
+        },
+        {
+          "word": "家頼",
+          "reading": "けらい",
+          "glossJa": "",
+          "glossEn": "request; rely on; trust"
+        },
+        {
+          "word": "頼み",
+          "reading": "たのみ",
+          "glossJa": "",
+          "glossEn": "request; rely on; trust"
+        },
+        {
+          "word": "頼む",
+          "reading": "たのむ",
+          "glossJa": "",
+          "glossEn": "request; rely on; trust"
+        }
+      ]
+    },
+    {
+      "char": "均",
+      "reading": "きん",
+      "meaningJa": "",
+      "meaning": "average; level",
+      "meaningEn": "average; level",
+      "compounds": [
+        {
+          "word": "百均",
+          "reading": "ひゃっきん",
+          "glossJa": "",
+          "glossEn": "average; level"
+        },
+        {
+          "word": "均一",
+          "reading": "きんいつ",
+          "glossJa": "",
+          "glossEn": "average; level"
+        },
+        {
+          "word": "均しい",
+          "reading": "ひとしい",
+          "glossJa": "",
+          "glossEn": "average; level"
+        },
+        {
+          "word": "均し",
+          "reading": "ならし",
+          "glossJa": "",
+          "glossEn": "average; level"
+        }
+      ]
+    },
+    {
+      "char": "途",
+      "reading": "と",
+      "meaningJa": "",
+      "meaning": "road; path",
+      "meaningEn": "road; path",
+      "compounds": [
+        {
+          "word": "一途",
+          "reading": "いちず",
+          "glossJa": "",
+          "glossEn": "road; path"
+        },
+        {
+          "word": "帰途",
+          "reading": "きと",
+          "glossJa": "",
+          "glossEn": "road; path"
+        },
+        {
+          "word": "途につく",
+          "reading": "とにつく",
+          "glossJa": "",
+          "glossEn": "road; path"
+        },
+        {
+          "word": "途惑う",
+          "reading": "とまどう",
+          "glossJa": "",
+          "glossEn": "road; path"
+        }
+      ]
+    },
+    {
+      "char": "許",
+      "reading": "ゆる (す)、きょ",
+      "meaningJa": "",
+      "meaning": "approve; permit",
+      "meaningEn": "approve; permit",
+      "compounds": [
+        {
+          "word": "許可",
+          "reading": "きょか",
+          "glossJa": "",
+          "glossEn": "approve; permit"
+        },
+        {
+          "word": "許諾",
+          "reading": "きょだく",
+          "glossJa": "",
+          "glossEn": "approve; permit"
+        },
+        {
+          "word": "許し",
+          "reading": "ゆるし",
+          "glossJa": "",
+          "glossEn": "approve; permit"
+        },
+        {
+          "word": "許す",
+          "reading": "ゆるす",
+          "glossJa": "",
+          "glossEn": "approve; permit"
+        }
+      ]
+    },
+    {
+      "char": "署",
+      "reading": "しょ",
+      "meaningJa": "",
+      "meaning": "signature; government office; role; duty",
+      "meaningEn": "signature; government office; role; duty",
+      "compounds": [
+        {
+          "word": "署員",
+          "reading": "しょいん",
+          "glossJa": "",
+          "glossEn": "signature; government office; role; duty"
+        },
+        {
+          "word": "署長",
+          "reading": "しょちょう",
+          "glossJa": "",
+          "glossEn": "signature; government office; role; duty"
+        },
+        {
+          "word": "署する",
+          "reading": "しょする",
+          "glossJa": "",
+          "glossEn": "signature; government office; role; duty"
+        },
+        {
+          "word": "四つの署名",
+          "reading": "よつのしょめい",
+          "glossJa": "",
+          "glossEn": "signature; government office; role; duty"
+        }
+      ]
+    },
+    {
+      "char": "留",
+      "reading": "と (まる)、と (める)、りゅう、る",
+      "meaningJa": "",
+      "meaning": "fasten; detain; halt",
+      "meaningEn": "fasten; detain; halt",
+      "compounds": [
+        {
+          "word": "局留",
+          "reading": "きょくどめ",
+          "glossJa": "",
+          "glossEn": "fasten; detain; halt"
+        },
+        {
+          "word": "拘留",
+          "reading": "こうりゅう",
+          "glossJa": "",
+          "glossEn": "fasten; detain; halt"
+        },
+        {
+          "word": "留まる",
+          "reading": "とまる",
+          "glossJa": "",
+          "glossEn": "fasten; detain; halt"
+        },
+        {
+          "word": "留る",
+          "reading": "とまる",
+          "glossJa": "",
+          "glossEn": "fasten; detain; halt"
+        }
+      ]
+    },
+    {
+      "char": "罪",
+      "reading": "つみ、ざい",
+      "meaningJa": "",
+      "meaning": "crime; sin",
+      "meaningEn": "crime; sin",
+      "compounds": [
+        {
+          "word": "罪人",
+          "reading": "ざいにん",
+          "glossJa": "",
+          "glossEn": "crime; sin"
+        },
+        {
+          "word": "謝罪",
+          "reading": "しゃざい",
+          "glossJa": "",
+          "glossEn": "crime; sin"
+        },
+        {
+          "word": "罪がない",
+          "reading": "つみがない",
+          "glossJa": "",
+          "glossEn": "crime; sin"
+        },
+        {
+          "word": "罪する",
+          "reading": "つみする",
+          "glossJa": "",
+          "glossEn": "crime; sin"
+        }
+      ]
+    },
+    {
+      "char": "精",
+      "reading": "しょう、せい",
+      "meaningJa": "",
+      "meaning": "purify; refine; spirit; heart; ghost",
+      "meaningEn": "purify; refine; spirit; heart; ghost",
+      "compounds": [
+        {
+          "word": "射精",
+          "reading": "しゃせい",
+          "glossJa": "",
+          "glossEn": "purify; refine; spirit; heart; ghost"
+        },
+        {
+          "word": "受精",
+          "reading": "じゅせい",
+          "glossJa": "",
+          "glossEn": "purify; refine; spirit; heart; ghost"
+        },
+        {
+          "word": "精しい",
+          "reading": "くわしい",
+          "glossJa": "",
+          "glossEn": "purify; refine; spirit; heart; ghost"
+        },
+        {
+          "word": "精げる",
+          "reading": "しらげる",
+          "glossJa": "",
+          "glossEn": "purify; refine; spirit; heart; ghost"
+        }
+      ]
+    },
+    {
+      "char": "普",
+      "reading": "ふ",
+      "meaningJa": "",
+      "meaning": "widely; generally; universally",
+      "meaningEn": "widely; generally; universally",
+      "compounds": [
+        {
+          "word": "普及",
+          "reading": "ふきゅう",
+          "glossJa": "",
+          "glossEn": "widely; generally; universally"
+        },
+        {
+          "word": "普賢",
+          "reading": "ふげん",
+          "glossJa": "",
+          "glossEn": "widely; generally; universally"
+        },
+        {
+          "word": "普く",
+          "reading": "あまねく",
+          "glossJa": "",
+          "glossEn": "widely; generally; universally"
+        },
+        {
+          "word": "普段から",
+          "reading": "ふだんから",
+          "glossJa": "",
+          "glossEn": "widely; generally; universally"
+        }
+      ]
+    },
+    {
+      "char": "善",
+      "reading": "よ (い)、ぜん",
+      "meaningJa": "",
+      "meaning": "good; virtuous",
+      "meaningEn": "good; virtuous",
+      "compounds": [
+        {
+          "word": "改善",
+          "reading": "かいぜん",
+          "glossJa": "",
+          "glossEn": "good; virtuous"
+        },
+        {
+          "word": "最善",
+          "reading": "さいぜん",
+          "glossJa": "",
+          "glossEn": "good; virtuous"
+        },
+        {
+          "word": "善くも",
+          "reading": "よくも",
+          "glossJa": "",
+          "glossEn": "good; virtuous"
+        },
+        {
+          "word": "善い",
+          "reading": "よい",
+          "glossJa": "",
+          "glossEn": "good; virtuous"
+        }
+      ]
+    },
+    {
+      "char": "婚",
+      "reading": "こん",
+      "meaningJa": "",
+      "meaning": "marriage",
+      "meaningEn": "marriage",
+      "compounds": [
+        {
+          "word": "既婚",
+          "reading": "きこん",
+          "glossJa": "",
+          "glossEn": "marriage"
+        },
+        {
+          "word": "結婚",
+          "reading": "けっこん",
+          "glossJa": "",
+          "glossEn": "marriage"
+        },
+        {
+          "word": "婚い",
+          "reading": "よばい",
+          "glossJa": "",
+          "glossEn": "marriage"
+        },
+        {
+          "word": "授かり婚",
+          "reading": "さずかりこん",
+          "glossJa": "",
+          "glossEn": "marriage"
+        }
+      ]
+    },
+    {
+      "char": "厚",
+      "reading": "あつ (い)、こう",
+      "meaningJa": "",
+      "meaning": "thick; heavy; kind",
+      "meaningEn": "thick; heavy; kind",
+      "compounds": [
+        {
+          "word": "温厚",
+          "reading": "おんこう",
+          "glossJa": "",
+          "glossEn": "thick; heavy; kind"
+        },
+        {
+          "word": "厚味",
+          "reading": "あつみ",
+          "glossJa": "",
+          "glossEn": "thick; heavy; kind"
+        },
+        {
+          "word": "厚い",
+          "reading": "あつい",
+          "glossJa": "",
+          "glossEn": "thick; heavy; kind"
+        },
+        {
+          "word": "厚さ",
+          "reading": "あつさ",
+          "glossJa": "",
+          "glossEn": "thick; heavy; kind"
+        }
+      ]
+    },
+    {
+      "char": "齢",
+      "reading": "れい",
+      "meaningJa": "",
+      "meaning": "age",
+      "meaningEn": "age",
+      "compounds": [
+        {
+          "word": "学齢",
+          "reading": "がくれい",
+          "glossJa": "",
+          "glossEn": "age"
+        },
+        {
+          "word": "高齢",
+          "reading": "こうれい",
+          "glossJa": "",
+          "glossEn": "age"
+        },
+        {
+          "word": "齢する",
+          "reading": "よわいする",
+          "glossJa": "",
+          "glossEn": "age"
+        },
+        {
+          "word": "齢を重ねる",
+          "reading": "よわいをかさねる",
+          "glossJa": "",
+          "glossEn": "age"
+        }
+      ]
+    },
+    {
+      "char": "絶",
+      "reading": "た (える)、た (つ)、た (やす)、ぜつ",
+      "meaningJa": "",
+      "meaning": "stand; bear; stop; eradicate; extremely; very",
+      "meaningEn": "stand; bear; stop; eradicate; extremely; very",
+      "compounds": [
+        {
+          "word": "気絶",
+          "reading": "きぜつ",
+          "glossJa": "",
+          "glossEn": "stand; bear; stop; eradicate; extremely; very"
+        },
+        {
+          "word": "拒絶",
+          "reading": "きょぜつ",
+          "glossJa": "",
+          "glossEn": "stand; bear; stop; eradicate; extremely; very"
+        },
+        {
+          "word": "絶えず",
+          "reading": "たえず",
+          "glossJa": "",
+          "glossEn": "stand; bear; stop; eradicate; extremely; very"
+        },
+        {
+          "word": "絶える",
+          "reading": "たえる",
+          "glossJa": "",
+          "glossEn": "stand; bear; stop; eradicate; extremely; very"
+        }
+      ]
+    },
+    {
+      "char": "押",
+      "reading": "お (さえる)、お (す)、おう",
+      "meaningJa": "",
+      "meaning": "push; press; hold down; sign",
+      "meaningEn": "push; press; hold down; sign",
+      "compounds": [
+        {
+          "word": "押売",
+          "reading": "おしうり",
+          "glossJa": "",
+          "glossEn": "push; press; hold down; sign"
+        },
+        {
+          "word": "押収",
+          "reading": "おうしゅう",
+          "glossJa": "",
+          "glossEn": "push; press; hold down; sign"
+        },
+        {
+          "word": "押さえる",
+          "reading": "おさえる",
+          "glossJa": "",
+          "glossEn": "push; press; hold down; sign"
+        },
+        {
+          "word": "押える",
+          "reading": "おさえる",
+          "glossJa": "",
+          "glossEn": "push; press; hold down; sign"
+        }
+      ]
+    },
+    {
+      "char": "倒",
+      "reading": "たお (す)、たお (れる)、とう",
+      "meaningJa": "",
+      "meaning": "knock down; fall; collapse",
+      "meaningEn": "knock down; fall; collapse",
+      "compounds": [
+        {
+          "word": "圧倒",
+          "reading": "あっとう",
+          "glossJa": "",
+          "glossEn": "knock down; fall; collapse"
+        },
+        {
+          "word": "傾倒",
+          "reading": "けいとう",
+          "glossJa": "",
+          "glossEn": "knock down; fall; collapse"
+        },
+        {
+          "word": "倒さ",
+          "reading": "さかさ",
+          "glossJa": "",
+          "glossEn": "knock down; fall; collapse"
+        },
+        {
+          "word": "倒す",
+          "reading": "たおす",
+          "glossJa": "",
+          "glossEn": "knock down; fall; collapse"
+        }
+      ]
+    },
+    {
+      "char": "城",
+      "reading": "しろ、じょう",
+      "meaningJa": "",
+      "meaning": "castle",
+      "meaningEn": "castle",
+      "compounds": [
+        {
+          "word": "開城",
+          "reading": "かいじょう",
+          "glossJa": "",
+          "glossEn": "castle"
+        },
+        {
+          "word": "古城",
+          "reading": "こじょう",
+          "glossJa": "",
+          "glossEn": "castle"
+        },
+        {
+          "word": "奥つ城",
+          "reading": "おくつき",
+          "glossJa": "",
+          "glossEn": "castle"
+        },
+        {
+          "word": "城郭",
+          "reading": "じょうかく",
+          "glossJa": "",
+          "glossEn": "castle"
+        }
+      ]
+    },
+    {
+      "char": "絡",
+      "reading": "から (まる)、から (む)、らく",
+      "meaningJa": "",
+      "meaning": "entwine; coil around; connect; logical thread",
+      "meaningEn": "entwine; coil around; connect; logical thread",
+      "compounds": [
+        {
+          "word": "短絡",
+          "reading": "たんらく",
+          "glossJa": "",
+          "glossEn": "entwine; coil around; connect; logical thread"
+        },
+        {
+          "word": "脈絡",
+          "reading": "みゃくらく",
+          "glossJa": "",
+          "glossEn": "entwine; coil around; connect; logical thread"
+        },
+        {
+          "word": "絡み",
+          "reading": "からみ",
+          "glossJa": "",
+          "glossEn": "entwine; coil around; connect; logical thread"
+        },
+        {
+          "word": "絡む",
+          "reading": "からむ",
+          "glossJa": "",
+          "glossEn": "entwine; coil around; connect; logical thread"
+        }
+      ]
+    },
+    {
+      "char": "裏",
+      "reading": "うら、り",
+      "meaningJa": "",
+      "meaning": "reverse; backside; internal",
+      "meaningEn": "reverse; backside; internal",
+      "compounds": [
+        {
+          "word": "脳裏",
+          "reading": "のうり",
+          "glossJa": "",
+          "glossEn": "reverse; backside; internal"
+        },
+        {
+          "word": "表裏",
+          "reading": "ひょうり",
+          "glossJa": "",
+          "glossEn": "reverse; backside; internal"
+        },
+        {
+          "word": "裏づけ",
+          "reading": "うらづけ",
+          "glossJa": "",
+          "glossEn": "reverse; backside; internal"
+        },
+        {
+          "word": "裏す",
+          "reading": "うらす",
+          "glossJa": "",
+          "glossEn": "reverse; backside; internal"
+        }
+      ]
+    },
+    {
+      "char": "払",
+      "reading": "はら (う)、ふつ",
+      "meaningJa": "",
+      "meaning": "pay; oppose",
+      "meaningEn": "pay; oppose",
+      "compounds": [
+        {
+          "word": "支払",
+          "reading": "しはらい",
+          "glossJa": "",
+          "glossEn": "pay; oppose"
+        },
+        {
+          "word": "前払",
+          "reading": "まえばらい",
+          "glossJa": "",
+          "glossEn": "pay; oppose"
+        },
+        {
+          "word": "払い",
+          "reading": "はらい",
+          "glossJa": "",
+          "glossEn": "pay; oppose"
+        },
+        {
+          "word": "払う",
+          "reading": "はらう",
+          "glossJa": "",
+          "glossEn": "pay; oppose"
+        }
+      ]
+    },
+    {
+      "char": "混",
+      "reading": "こ (む)、ま (ざる)、ま (じる)、ま (ぜる)、こん",
+      "meaningJa": "",
+      "meaning": "mix; cloud; confuse",
+      "meaningEn": "mix; cloud; confuse",
+      "compounds": [
+        {
+          "word": "混血",
+          "reading": "こんけつ",
+          "glossJa": "",
+          "glossEn": "mix; cloud; confuse"
+        },
+        {
+          "word": "混合",
+          "reading": "こんごう",
+          "glossJa": "",
+          "glossEn": "mix; cloud; confuse"
+        },
+        {
+          "word": "混じり",
+          "reading": "まじり",
+          "glossJa": "",
+          "glossEn": "mix; cloud; confuse"
+        },
+        {
+          "word": "混ざる",
+          "reading": "まざる",
+          "glossJa": "",
+          "glossEn": "mix; cloud; confuse"
+        }
+      ]
+    },
+    {
+      "char": "勤",
+      "reading": "つと (まる)、つと (める)、きん、ごん",
+      "meaningJa": "",
+      "meaning": "be employed; serve",
+      "meaningEn": "be employed; serve",
+      "compounds": [
+        {
+          "word": "勤続",
+          "reading": "きんぞく",
+          "glossJa": "",
+          "glossEn": "be employed; serve"
+        },
+        {
+          "word": "勤勉",
+          "reading": "きんべん",
+          "glossJa": "",
+          "glossEn": "be employed; serve"
+        },
+        {
+          "word": "勤め",
+          "reading": "つとめ",
+          "glossJa": "",
+          "glossEn": "be employed; serve"
+        },
+        {
+          "word": "勤める",
+          "reading": "つとめる",
+          "glossJa": "",
+          "glossEn": "be employed; serve"
+        }
+      ]
+    },
+    {
+      "char": "遅",
+      "reading": "おく (らす)、おく (れる)、おそ (い)、ち",
+      "meaningJa": "",
+      "meaning": "late; slow",
+      "meaningEn": "late; slow",
+      "compounds": [
+        {
+          "word": "遅々",
+          "reading": "ちち",
+          "glossJa": "",
+          "glossEn": "late; slow"
+        },
+        {
+          "word": "遅遅",
+          "reading": "ちち",
+          "glossJa": "",
+          "glossEn": "late; slow"
+        },
+        {
+          "word": "遅い",
+          "reading": "おそい",
+          "glossJa": "",
+          "glossEn": "late; slow"
+        },
+        {
+          "word": "遅らす",
+          "reading": "おくらす",
+          "glossJa": "",
+          "glossEn": "late; slow"
+        }
+      ]
+    },
+    {
+      "char": "居",
+      "reading": "い (る)、きょ",
+      "meaningJa": "",
+      "meaning": "exist; reside",
+      "meaningEn": "exist; reside",
+      "compounds": [
+        {
+          "word": "隠居",
+          "reading": "いんきょ",
+          "glossJa": "",
+          "glossEn": "exist; reside"
+        },
+        {
+          "word": "居間",
+          "reading": "いま",
+          "glossJa": "",
+          "glossEn": "exist; reside"
+        },
+        {
+          "word": "居る",
+          "reading": "おる",
+          "glossJa": "",
+          "glossEn": "exist; reside"
+        },
+        {
+          "word": "居眠り",
+          "reading": "いねむり",
+          "glossJa": "",
+          "glossEn": "exist; reside"
+        }
+      ]
+    },
+    {
+      "char": "雑",
+      "reading": "ざつ、ぞう",
+      "meaningJa": "",
+      "meaning": "mixed; disordered",
+      "meaningEn": "mixed; disordered",
+      "compounds": [
+        {
+          "word": "混雑",
+          "reading": "こんざつ",
+          "glossJa": "",
+          "glossEn": "mixed; disordered"
+        },
+        {
+          "word": "雑音",
+          "reading": "ざつおん",
+          "glossJa": "",
+          "glossEn": "mixed; disordered"
+        },
+        {
+          "word": "雑じる",
+          "reading": "まじる",
+          "glossJa": "",
+          "glossEn": "mixed; disordered"
+        },
+        {
+          "word": "雑ず",
+          "reading": "まず",
+          "glossJa": "",
+          "glossEn": "mixed; disordered"
+        }
+      ]
+    },
+    {
+      "char": "招",
+      "reading": "まね (く)、しょう",
+      "meaningJa": "",
+      "meaning": "invite; summon",
+      "meaningEn": "invite; summon",
+      "compounds": [
+        {
+          "word": "招喚",
+          "reading": "しょうかん",
+          "glossJa": "",
+          "glossEn": "invite; summon"
+        },
+        {
+          "word": "招集",
+          "reading": "しょうしゅう",
+          "glossJa": "",
+          "glossEn": "invite; summon"
+        },
+        {
+          "word": "招き",
+          "reading": "まねき",
+          "glossJa": "",
+          "glossEn": "invite; summon"
+        },
+        {
+          "word": "招く",
+          "reading": "まねく",
+          "glossJa": "",
+          "glossEn": "invite; summon"
+        }
+      ]
+    },
+    {
+      "char": "困",
+      "reading": "こま (る)、こん",
+      "meaningJa": "",
+      "meaning": "annoyed; distressed",
+      "meaningEn": "annoyed; distressed",
+      "compounds": [
+        {
+          "word": "困窮",
+          "reading": "こんきゅう",
+          "glossJa": "",
+          "glossEn": "annoyed; distressed"
+        },
+        {
+          "word": "困難",
+          "reading": "こんなん",
+          "glossJa": "",
+          "glossEn": "annoyed; distressed"
+        },
+        {
+          "word": "困る",
+          "reading": "こまる",
+          "glossJa": "",
+          "glossEn": "annoyed; distressed"
+        },
+        {
+          "word": "困りはてる",
+          "reading": "こまりはてる",
+          "glossJa": "",
+          "glossEn": "annoyed; distressed"
+        }
+      ]
+    },
+    {
+      "char": "更",
+      "reading": "さら、ふ (かす)、ふ (ける)、こう",
+      "meaningJa": "",
+      "meaning": "to change; alternately; by turns; to pass; futhermore",
+      "meaningEn": "to change; alternately; by turns; to pass; futhermore",
+      "compounds": [
+        {
+          "word": "更衣",
+          "reading": "ころもがえ",
+          "glossJa": "",
+          "glossEn": "to change; alternately; by turns; to pass; futhermore"
+        },
+        {
+          "word": "更改",
+          "reading": "こうかい",
+          "glossJa": "",
+          "glossEn": "to change; alternately; by turns; to pass; futhermore"
+        },
+        {
+          "word": "更ける",
+          "reading": "ふける",
+          "glossJa": "",
+          "glossEn": "to change; alternately; by turns; to pass; futhermore"
+        },
+        {
+          "word": "更に",
+          "reading": "さらに",
+          "glossJa": "",
+          "glossEn": "to change; alternately; by turns; to pass; futhermore"
+        }
+      ]
+    },
+    {
+      "char": "刻",
+      "reading": "きざ (む)、こく",
+      "meaningJa": "",
+      "meaning": "chop; mince; carve; engrave",
+      "meaningEn": "chop; mince; carve; engrave",
+      "compounds": [
+        {
+          "word": "一刻",
+          "reading": "いっこく",
+          "glossJa": "",
+          "glossEn": "chop; mince; carve; engrave"
+        },
+        {
+          "word": "刻々",
+          "reading": "こっこく",
+          "glossJa": "",
+          "glossEn": "chop; mince; carve; engrave"
+        },
+        {
+          "word": "刻み",
+          "reading": "きざみ",
+          "glossJa": "",
+          "glossEn": "chop; mince; carve; engrave"
+        },
+        {
+          "word": "刻む",
+          "reading": "きざむ",
+          "glossJa": "",
+          "glossEn": "chop; mince; carve; engrave"
+        }
+      ]
+    },
+    {
+      "char": "抱",
+      "reading": "いだ (く)、かか (える)、だ (く)、ほう",
+      "meaningJa": "",
+      "meaning": "embrace; hold",
+      "meaningEn": "embrace; hold",
+      "compounds": [
+        {
+          "word": "辛抱",
+          "reading": "しんぼう",
+          "glossJa": "",
+          "glossEn": "embrace; hold"
+        },
+        {
+          "word": "抱負",
+          "reading": "ほうふ",
+          "glossJa": "",
+          "glossEn": "embrace; hold"
+        },
+        {
+          "word": "抱え",
+          "reading": "かかえ",
+          "glossJa": "",
+          "glossEn": "embrace; hold"
+        },
+        {
+          "word": "抱える",
+          "reading": "かかえる",
+          "glossJa": "",
+          "glossEn": "embrace; hold"
+        }
+      ]
+    },
+    {
+      "char": "犯",
+      "reading": "おか (す)、はん",
+      "meaningJa": "",
+      "meaning": "crime; offense",
+      "meaningEn": "crime; offense",
+      "compounds": [
+        {
+          "word": "共犯",
+          "reading": "きょうはん",
+          "glossJa": "",
+          "glossEn": "crime; offense"
+        },
+        {
+          "word": "主犯",
+          "reading": "しゅはん",
+          "glossJa": "",
+          "glossEn": "crime; offense"
+        },
+        {
+          "word": "犯す",
+          "reading": "おかす",
+          "glossJa": "",
+          "glossEn": "crime; offense"
+        },
+        {
+          "word": "犯る",
+          "reading": "やる",
+          "glossJa": "",
+          "glossEn": "crime; offense"
+        }
+      ]
+    },
+    {
+      "char": "布",
+      "reading": "ぬの、ふ",
+      "meaningJa": "",
+      "meaning": "cloth",
+      "meaningEn": "cloth",
+      "compounds": [
+        {
+          "word": "絹布",
+          "reading": "けんぷ",
+          "glossJa": "",
+          "glossEn": "cloth"
+        },
+        {
+          "word": "公布",
+          "reading": "こうふ",
+          "glossJa": "",
+          "glossEn": "cloth"
+        },
+        {
+          "word": "布おむつ",
+          "reading": "ぬのおむつ(布おむつ",
+          "glossJa": "",
+          "glossEn": "cloth"
+        },
+        {
+          "word": "布きれ",
+          "reading": "ぬのきれ",
+          "glossJa": "",
+          "glossEn": "cloth"
+        }
+      ]
+    },
+    {
+      "char": "恐",
+      "reading": "おそ (れる)、おそ (ろしい)、きょう",
+      "meaningJa": "",
+      "meaning": "fear; awe",
+      "meaningEn": "fear; awe",
+      "compounds": [
+        {
+          "word": "恐喝",
+          "reading": "きょうかつ",
+          "glossJa": "",
+          "glossEn": "fear; awe"
+        },
+        {
+          "word": "恐慌",
+          "reading": "きょうこう",
+          "glossJa": "",
+          "glossEn": "fear; awe"
+        },
+        {
+          "word": "恐らく",
+          "reading": "おそらく",
+          "glossJa": "",
+          "glossEn": "fear; awe"
+        },
+        {
+          "word": "恐るべき",
+          "reading": "おそるべき",
+          "glossJa": "",
+          "glossEn": "fear; awe"
+        }
+      ]
+    },
+    {
+      "char": "戻",
+      "reading": "もど (す)、もど (る)、れい",
+      "meaningJa": "",
+      "meaning": "return; arrive",
+      "meaningEn": "return; arrive",
+      "compounds": [
+        {
+          "word": "払戻",
+          "reading": "はらいもどし",
+          "glossJa": "",
+          "glossEn": "return; arrive"
+        },
+        {
+          "word": "持戻",
+          "reading": "もちもどり",
+          "glossJa": "",
+          "glossEn": "return; arrive"
+        },
+        {
+          "word": "戻し",
+          "reading": "もどし",
+          "glossJa": "",
+          "glossEn": "return; arrive"
+        },
+        {
+          "word": "戻す",
+          "reading": "もどす",
+          "glossJa": "",
+          "glossEn": "return; arrive"
+        }
+      ]
+    },
+    {
+      "char": "震",
+      "reading": "ふる (う)、ふる (える)、しん",
+      "meaningJa": "",
+      "meaning": "shake; tremble",
+      "meaningEn": "shake; tremble",
+      "compounds": [
+        {
+          "word": "軽震",
+          "reading": "けいしん",
+          "glossJa": "",
+          "glossEn": "shake; tremble"
+        },
+        {
+          "word": "震源",
+          "reading": "しんげん",
+          "glossJa": "",
+          "glossEn": "shake; tremble"
+        },
+        {
+          "word": "震える",
+          "reading": "ふるえる",
+          "glossJa": "",
+          "glossEn": "shake; tremble"
+        },
+        {
+          "word": "震れる",
+          "reading": "ふれる",
+          "glossJa": "",
+          "glossEn": "shake; tremble"
+        }
+      ]
+    },
+    {
+      "char": "越",
+      "reading": "こ (える)、こ (す)、えつ",
+      "meaningJa": "",
+      "meaning": "exceed; surpass",
+      "meaningEn": "exceed; surpass",
+      "compounds": [
+        {
+          "word": "越境",
+          "reading": "えっきょう",
+          "glossJa": "",
+          "glossEn": "exceed; surpass"
+        },
+        {
+          "word": "越権",
+          "reading": "えっけん",
+          "glossJa": "",
+          "glossEn": "exceed; surpass"
+        },
+        {
+          "word": "越える",
+          "reading": "こえる",
+          "glossJa": "",
+          "glossEn": "exceed; surpass"
+        },
+        {
+          "word": "越し",
+          "reading": "ごし",
+          "glossJa": "",
+          "glossEn": "exceed; surpass"
+        }
+      ]
+    },
+    {
+      "char": "欲",
+      "reading": "ほっ (する)、ほ (しい)、よく",
+      "meaningJa": "",
+      "meaning": "desire; greed; longing; passion",
+      "meaningEn": "desire; greed; longing; passion",
+      "compounds": [
+        {
+          "word": "意欲",
+          "reading": "いよく",
+          "glossJa": "",
+          "glossEn": "desire; greed; longing; passion"
+        },
+        {
+          "word": "食欲",
+          "reading": "しょくよく",
+          "glossJa": "",
+          "glossEn": "desire; greed; longing; passion"
+        },
+        {
+          "word": "欲しい",
+          "reading": "ほしい",
+          "glossJa": "",
+          "glossEn": "desire; greed; longing; passion"
+        },
+        {
+          "word": "欲しがる",
+          "reading": "ほしがる",
+          "glossJa": "",
+          "glossEn": "desire; greed; longing; passion"
+        }
+      ]
+    },
+    {
+      "char": "痛",
+      "reading": "いた (い)、いた (む)、いた (める)、つう",
+      "meaningJa": "",
+      "meaning": "damage; hurt; pain",
+      "meaningEn": "damage; hurt; pain",
+      "compounds": [
+        {
+          "word": "苦痛",
+          "reading": "くつう",
+          "glossJa": "",
+          "glossEn": "damage; hurt; pain"
+        },
+        {
+          "word": "腰痛",
+          "reading": "ようつう",
+          "glossJa": "",
+          "glossEn": "damage; hurt; pain"
+        },
+        {
+          "word": "痛い",
+          "reading": "いたい",
+          "glossJa": "",
+          "glossEn": "damage; hurt; pain"
+        },
+        {
+          "word": "痛ましい",
+          "reading": "いたましい",
+          "glossJa": "",
+          "glossEn": "damage; hurt; pain"
+        }
+      ]
+    },
+    {
+      "char": "汚",
+      "reading": "きたな (い)、けが (す)、けが (らわしい)、けが (れる)、よご (す)、よご (れる)、お",
+      "meaningJa": "",
+      "meaning": "dirty; pollute; disgrace",
+      "meaningEn": "dirty; pollute; disgrace",
+      "compounds": [
+        {
+          "word": "汚職",
+          "reading": "おしょく",
+          "glossJa": "",
+          "glossEn": "dirty; pollute; disgrace"
+        },
+        {
+          "word": "汚水",
+          "reading": "おすい",
+          "glossJa": "",
+          "glossEn": "dirty; pollute; disgrace"
+        },
+        {
+          "word": "汚い",
+          "reading": "きたない",
+          "glossJa": "",
+          "glossEn": "dirty; pollute; disgrace"
+        },
+        {
+          "word": "汚す",
+          "reading": "よごす",
+          "glossJa": "",
+          "glossEn": "dirty; pollute; disgrace"
+        }
+      ]
+    },
+    {
+      "char": "互",
+      "reading": "たが (い)、ご",
+      "meaningJa": "",
+      "meaning": "mutually; reciprocally",
+      "meaningEn": "mutually; reciprocally",
+      "compounds": [
+        {
+          "word": "互角",
+          "reading": "ごかく",
+          "glossJa": "",
+          "glossEn": "mutually; reciprocally"
+        },
+        {
+          "word": "互換",
+          "reading": "ごかん",
+          "glossJa": "",
+          "glossEn": "mutually; reciprocally"
+        },
+        {
+          "word": "互い",
+          "reading": "たがい",
+          "glossJa": "",
+          "glossEn": "mutually; reciprocally"
+        },
+        {
+          "word": "互いに",
+          "reading": "たがいに",
+          "glossJa": "",
+          "glossEn": "mutually; reciprocally"
+        }
+      ]
+    },
+    {
+      "char": "郵",
+      "reading": "ゆう",
+      "meaningJa": "",
+      "meaning": "(postal) mail",
+      "meaningEn": "(postal) mail",
+      "compounds": [
+        {
+          "word": "郵政",
+          "reading": "ゆうせい",
+          "glossJa": "",
+          "glossEn": "(postal) mail"
+        },
+        {
+          "word": "郵送",
+          "reading": "ゆうそう",
+          "glossJa": "",
+          "glossEn": "(postal) mail"
+        },
+        {
+          "word": "郵便はがき",
+          "reading": "ゆうびんはがき",
+          "glossJa": "",
+          "glossEn": "(postal) mail"
+        },
+        {
+          "word": "郵貯",
+          "reading": "ゆうちょ",
+          "glossJa": "",
+          "glossEn": "(postal) mail"
+        }
+      ]
+    },
+    {
+      "char": "似",
+      "reading": "に (る)、じ",
+      "meaningJa": "",
+      "meaning": "imitate; resemble",
+      "meaningEn": "imitate; resemble",
+      "compounds": [
+        {
+          "word": "疑似",
+          "reading": "ぎじ",
+          "glossJa": "",
+          "glossEn": "imitate; resemble"
+        },
+        {
+          "word": "擬似",
+          "reading": "ぎじ",
+          "glossJa": "",
+          "glossEn": "imitate; resemble"
+        },
+        {
+          "word": "似せる",
+          "reading": "にせる",
+          "glossJa": "",
+          "glossEn": "imitate; resemble"
+        },
+        {
+          "word": "似る",
+          "reading": "にる",
+          "glossJa": "",
+          "glossEn": "imitate; resemble"
+        }
+      ]
+    },
+    {
+      "char": "探",
+      "reading": "さが (す)、さぐ (る)、たん",
+      "meaningJa": "",
+      "meaning": "search",
+      "meaningEn": "search",
+      "compounds": [
+        {
+          "word": "探求",
+          "reading": "たんきゅう",
+          "glossJa": "",
+          "glossEn": "search"
+        },
+        {
+          "word": "探究",
+          "reading": "たんきゅう",
+          "glossJa": "",
+          "glossEn": "search"
+        },
+        {
+          "word": "探す",
+          "reading": "さがす",
+          "glossJa": "",
+          "glossEn": "search"
+        },
+        {
+          "word": "探る",
+          "reading": "さぐる",
+          "glossJa": "",
+          "glossEn": "search"
+        }
+      ]
+    },
+    {
+      "char": "逃",
+      "reading": "に (がす)、に (げる)、のが (す)、のが (れる)、とう",
+      "meaningJa": "",
+      "meaning": "escape; evade; set free",
+      "meaningEn": "escape; evade; set free",
+      "compounds": [
+        {
+          "word": "逃走",
+          "reading": "とうそう",
+          "glossJa": "",
+          "glossEn": "escape; evade; set free"
+        },
+        {
+          "word": "逃避",
+          "reading": "とうひ",
+          "glossJa": "",
+          "glossEn": "escape; evade; set free"
+        },
+        {
+          "word": "逃がす",
+          "reading": "にがす",
+          "glossJa": "",
+          "glossEn": "escape; evade; set free"
+        },
+        {
+          "word": "逃げ",
+          "reading": "にげ",
+          "glossJa": "",
+          "glossEn": "escape; evade; set free"
+        }
+      ]
+    },
+    {
+      "char": "骨",
+      "reading": "ほね、こつ",
+      "meaningJa": "",
+      "meaning": "bone",
+      "meaningEn": "bone",
+      "compounds": [
+        {
+          "word": "遺骨",
+          "reading": "いこつ",
+          "glossJa": "",
+          "glossEn": "bone"
+        },
+        {
+          "word": "骨牌",
+          "reading": "カルタ",
+          "glossJa": "",
+          "glossEn": "bone"
+        },
+        {
+          "word": "骨っぽい",
+          "reading": "ほねっぽい",
+          "glossJa": "",
+          "glossEn": "bone"
+        },
+        {
+          "word": "骨なし",
+          "reading": "ほねなし",
+          "glossJa": "",
+          "glossEn": "bone"
+        }
+      ]
+    },
+    {
+      "char": "届",
+      "reading": "とど (く)、とど (ける)",
+      "meaningJa": "",
+      "meaning": "arrive; deliver; forward; notify",
+      "meaningEn": "arrive; deliver; forward; notify",
+      "compounds": [
+        {
+          "word": "届出",
+          "reading": "とどけで",
+          "glossJa": "",
+          "glossEn": "arrive; deliver; forward; notify"
+        },
+        {
+          "word": "無届",
+          "reading": "むとどけ",
+          "glossJa": "",
+          "glossEn": "arrive; deliver; forward; notify"
+        },
+        {
+          "word": "届け",
+          "reading": "とどけ",
+          "glossJa": "",
+          "glossEn": "arrive; deliver; forward; notify"
+        },
+        {
+          "word": "届く",
+          "reading": "とどく",
+          "glossJa": "",
+          "glossEn": "arrive; deliver; forward; notify"
+        }
+      ]
+    },
+    {
+      "char": "迷",
+      "reading": "まよ (う)、めい",
+      "meaningJa": "",
+      "meaning": "be lost; confused; unclear; hesitate",
+      "meaningEn": "be lost; confused; unclear; hesitate",
+      "compounds": [
+        {
+          "word": "混迷",
+          "reading": "こんめい",
+          "glossJa": "",
+          "glossEn": "be lost; confused; unclear; hesitate"
+        },
+        {
+          "word": "低迷",
+          "reading": "ていめい",
+          "glossJa": "",
+          "glossEn": "be lost; confused; unclear; hesitate"
+        },
+        {
+          "word": "迷い",
+          "reading": "まよい",
+          "glossJa": "",
+          "glossEn": "be lost; confused; unclear; hesitate"
+        },
+        {
+          "word": "迷う",
+          "reading": "まよう",
+          "glossJa": "",
+          "glossEn": "be lost; confused; unclear; hesitate"
+        }
+      ]
+    },
+    {
+      "char": "夢",
+      "reading": "ゆめ、む",
+      "meaningJa": "",
+      "meaning": "dream; vision",
+      "meaningEn": "dream; vision",
+      "compounds": [
+        {
+          "word": "悪夢",
+          "reading": "あくむ",
+          "glossJa": "",
+          "glossEn": "dream; vision"
+        },
+        {
+          "word": "初夢",
+          "reading": "はつゆめ",
+          "glossJa": "",
+          "glossEn": "dream; vision"
+        },
+        {
+          "word": "夢にも",
+          "reading": "ゆめにも",
+          "glossJa": "",
+          "glossEn": "dream; vision"
+        },
+        {
+          "word": "夢うつつ",
+          "reading": "ゆめうつつ",
+          "glossJa": "",
+          "glossEn": "dream; vision"
+        }
+      ]
+    },
+    {
+      "char": "燃",
+      "reading": "も (える)、も (す)、も (やす)、ねん",
+      "meaningJa": "",
+      "meaning": "blaze; burn; glow",
+      "meaningEn": "blaze; burn; glow",
+      "compounds": [
+        {
+          "word": "再燃",
+          "reading": "さいねん",
+          "glossJa": "",
+          "glossEn": "blaze; burn; glow"
+        },
+        {
+          "word": "燃焼",
+          "reading": "ねんしょう",
+          "glossJa": "",
+          "glossEn": "blaze; burn; glow"
+        },
+        {
+          "word": "燃える",
+          "reading": "もえる",
+          "glossJa": "",
+          "glossEn": "blaze; burn; glow"
+        },
+        {
+          "word": "燃やす",
+          "reading": "もやす",
+          "glossJa": "",
+          "glossEn": "blaze; burn; glow"
+        }
+      ]
+    },
+    {
+      "char": "閉",
+      "reading": "し (まる)、し (める)、と (ざす)、と (じる)、へい",
+      "meaningJa": "",
+      "meaning": "closed; shut",
+      "meaningEn": "closed; shut",
+      "compounds": [
+        {
+          "word": "開閉",
+          "reading": "かいへい",
+          "glossJa": "",
+          "glossEn": "closed; shut"
+        },
+        {
+          "word": "閉会",
+          "reading": "へいかい",
+          "glossJa": "",
+          "glossEn": "closed; shut"
+        },
+        {
+          "word": "閉ざす",
+          "reading": "とざす",
+          "glossJa": "",
+          "glossEn": "closed; shut"
+        },
+        {
+          "word": "閉じる",
+          "reading": "とじる",
+          "glossJa": "",
+          "glossEn": "closed; shut"
+        }
+      ]
+    },
+    {
+      "char": "緒",
+      "reading": "お、しょ、ちょ",
+      "meaningJa": "",
+      "meaning": "thread; string; connection; beginning",
+      "meaningEn": "thread; string; connection; beginning",
+      "compounds": [
+        {
+          "word": "一緒",
+          "reading": "いっしょ",
+          "glossJa": "",
+          "glossEn": "thread; string; connection; beginning"
+        },
+        {
+          "word": "緒戦",
+          "reading": "しょせん",
+          "glossJa": "",
+          "glossEn": "thread; string; connection; beginning"
+        },
+        {
+          "word": "緒につく",
+          "reading": "しょにつく",
+          "glossJa": "",
+          "glossEn": "thread; string; connection; beginning"
+        },
+        {
+          "word": "一緒に",
+          "reading": "いっしょに",
+          "glossJa": "",
+          "glossEn": "thread; string; connection; beginning"
+        }
+      ]
+    },
+    {
+      "char": "暮",
+      "reading": "く (らす)、く (れる)、ぼ",
+      "meaningJa": "",
+      "meaning": "livelihood; make a living; to set (ex. sunset); close",
+      "meaningEn": "livelihood; make a living; to set (ex. sunset); close",
+      "compounds": [
+        {
+          "word": "歳暮",
+          "reading": "せいぼ",
+          "glossJa": "",
+          "glossEn": "livelihood; make a living; to set (ex. sunset); close"
+        },
+        {
+          "word": "日暮",
+          "reading": "ひぐれ",
+          "glossJa": "",
+          "glossEn": "livelihood; make a living; to set (ex. sunset); close"
+        },
+        {
+          "word": "暮らし",
+          "reading": "くらし",
+          "glossJa": "",
+          "glossEn": "livelihood; make a living; to set (ex. sunset); close"
+        },
+        {
+          "word": "暮し",
+          "reading": "くらし",
+          "glossJa": "",
+          "glossEn": "livelihood; make a living; to set (ex. sunset); close"
+        }
+      ]
+    },
+    {
+      "char": "替",
+      "reading": "か (える)、か (わる)、たい",
+      "meaningJa": "",
+      "meaning": "exchange; substitute",
+      "meaningEn": "exchange; substitute",
+      "compounds": [
+        {
+          "word": "為替",
+          "reading": "かわせ",
+          "glossJa": "",
+          "glossEn": "exchange; substitute"
+        },
+        {
+          "word": "引替",
+          "reading": "ひきかえ",
+          "glossJa": "",
+          "glossEn": "exchange; substitute"
+        },
+        {
+          "word": "替え",
+          "reading": "かえ",
+          "glossJa": "",
+          "glossEn": "exchange; substitute"
+        },
+        {
+          "word": "替える",
+          "reading": "かえる",
+          "glossJa": "",
+          "glossEn": "exchange; substitute"
+        }
+      ]
+    },
+    {
+      "char": "預",
+      "reading": "あず (かる)、あず (ける)、よ",
+      "meaningJa": "",
+      "meaning": "entrust to; deposit",
+      "meaningEn": "entrust to; deposit",
+      "compounds": [
+        {
+          "word": "預備",
+          "reading": "よび",
+          "glossJa": "",
+          "glossEn": "entrust to; deposit"
+        },
+        {
+          "word": "預防",
+          "reading": "よぼう",
+          "glossJa": "",
+          "glossEn": "entrust to; deposit"
+        },
+        {
+          "word": "預かり",
+          "reading": "あずかり",
+          "glossJa": "",
+          "glossEn": "entrust to; deposit"
+        },
+        {
+          "word": "預り",
+          "reading": "あずかり",
+          "glossJa": "",
+          "glossEn": "entrust to; deposit"
+        }
+      ]
+    },
+    {
+      "char": "簡",
+      "reading": "かん",
+      "meaningJa": "",
+      "meaning": "simple;  brevity",
+      "meaningEn": "simple;  brevity",
+      "compounds": [
+        {
+          "word": "簡易",
+          "reading": "かんい",
+          "glossJa": "",
+          "glossEn": "simple;  brevity"
+        },
+        {
+          "word": "簡潔",
+          "reading": "かんけつ",
+          "glossJa": "",
+          "glossEn": "simple;  brevity"
+        },
+        {
+          "word": "料簡違い",
+          "reading": "りょうけんちがい",
+          "glossJa": "",
+          "glossEn": "simple;  brevity"
+        },
+        {
+          "word": "簡裁",
+          "reading": "かんさい",
+          "glossJa": "",
+          "glossEn": "simple;  brevity"
+        }
+      ]
+    },
+    {
+      "char": "薄",
+      "reading": "うす (い)、うす (まる)、うす (める)、うす (らぐ)、うす (れる)、はく",
+      "meaningJa": "",
+      "meaning": "think; shallow; weak (taste, etc.)",
+      "meaningEn": "think; shallow; weak (taste, etc.)",
+      "compounds": [
+        {
+          "word": "希薄",
+          "reading": "きはく",
+          "glossJa": "",
+          "glossEn": "think; shallow; weak (taste, etc.)"
+        },
+        {
+          "word": "稀薄",
+          "reading": "きはく",
+          "glossJa": "",
+          "glossEn": "think; shallow; weak (taste, etc.)"
+        },
+        {
+          "word": "薄い",
+          "reading": "うすい",
+          "glossJa": "",
+          "glossEn": "think; shallow; weak (taste, etc.)"
+        },
+        {
+          "word": "薄まる",
+          "reading": "うすまる",
+          "glossJa": "",
+          "glossEn": "think; shallow; weak (taste, etc.)"
+        }
+      ]
+    },
+    {
+      "char": "奥",
+      "reading": "おく、おう",
+      "meaningJa": "",
+      "meaning": "interior; all the way inside",
+      "meaningEn": "interior; all the way inside",
+      "compounds": [
+        {
+          "word": "奥行",
+          "reading": "おくゆき",
+          "glossJa": "",
+          "glossEn": "interior; all the way inside"
+        },
+        {
+          "word": "奥山",
+          "reading": "おくやま",
+          "glossJa": "",
+          "glossEn": "interior; all the way inside"
+        },
+        {
+          "word": "奥さん",
+          "reading": "おくさん",
+          "glossJa": "",
+          "glossEn": "interior; all the way inside"
+        },
+        {
+          "word": "奥さま",
+          "reading": "おくさま",
+          "glossJa": "",
+          "glossEn": "interior; all the way inside"
+        }
+      ]
+    },
+    {
+      "char": "刺",
+      "reading": "さ (さる)、さ (す)、し",
+      "meaningJa": "",
+      "meaning": "stab; pierce; calling card",
+      "meaningEn": "stab; pierce; calling card",
+      "compounds": [
+        {
+          "word": "刺々",
+          "reading": "いらいら",
+          "glossJa": "",
+          "glossEn": "stab; pierce; calling card"
+        },
+        {
+          "word": "刺刺",
+          "reading": "いらいら",
+          "glossJa": "",
+          "glossEn": "stab; pierce; calling card"
+        },
+        {
+          "word": "刺さる",
+          "reading": "ささる",
+          "glossJa": "",
+          "glossEn": "stab; pierce; calling card"
+        },
+        {
+          "word": "刺し",
+          "reading": "さし",
+          "glossJa": "",
+          "glossEn": "stab; pierce; calling card"
+        }
+      ]
+    },
+    {
+      "char": "到",
+      "reading": "とう",
+      "meaningJa": "",
+      "meaning": "arrive; attain; invert",
+      "meaningEn": "arrive; attain; invert",
+      "compounds": [
+        {
+          "word": "殺到",
+          "reading": "さっとう",
+          "glossJa": "",
+          "glossEn": "arrive; attain; invert"
+        },
+        {
+          "word": "周到",
+          "reading": "しゅうとう",
+          "glossJa": "",
+          "glossEn": "arrive; attain; invert"
+        },
+        {
+          "word": "到る",
+          "reading": "いたる",
+          "glossJa": "",
+          "glossEn": "arrive; attain; invert"
+        },
+        {
+          "word": "到る所",
+          "reading": "いたるところ",
+          "glossJa": "",
+          "glossEn": "arrive; attain; invert"
+        }
+      ]
+    },
+    {
+      "char": "寝",
+      "reading": "ね (かす)、ね (る)、しん",
+      "meaningJa": "",
+      "meaning": "lie down; sleep",
+      "meaningEn": "lie down; sleep",
+      "compounds": [
+        {
+          "word": "就寝",
+          "reading": "しゅうしん",
+          "glossJa": "",
+          "glossEn": "lie down; sleep"
+        },
+        {
+          "word": "寝巻",
+          "reading": "ねまき",
+          "glossJa": "",
+          "glossEn": "lie down; sleep"
+        },
+        {
+          "word": "寝かす",
+          "reading": "ねかす",
+          "glossJa": "",
+          "glossEn": "lie down; sleep"
+        },
+        {
+          "word": "寝かせる",
+          "reading": "ねかせる",
+          "glossJa": "",
+          "glossEn": "lie down; sleep"
+        }
+      ]
+    },
+    {
+      "char": "盗",
+      "reading": "ぬす (む)、とう",
+      "meaningJa": "",
+      "meaning": "steal",
+      "meaningEn": "steal",
+      "compounds": [
+        {
+          "word": "強盗",
+          "reading": "ごうとう",
+          "glossJa": "",
+          "glossEn": "steal"
+        },
+        {
+          "word": "窃盗",
+          "reading": "せっとう",
+          "glossJa": "",
+          "glossEn": "steal"
+        },
+        {
+          "word": "盗み",
+          "reading": "ぬすみ",
+          "glossJa": "",
+          "glossEn": "steal"
+        },
+        {
+          "word": "盗む",
+          "reading": "ぬすむ",
+          "glossJa": "",
+          "glossEn": "steal"
+        }
+      ]
+    },
+    {
+      "char": "吸",
+      "reading": "す (う)、きゅう",
+      "meaningJa": "",
+      "meaning": "inhale; suck",
+      "meaningEn": "inhale; suck",
+      "compounds": [
+        {
+          "word": "吸殻",
+          "reading": "すいがら",
+          "glossJa": "",
+          "glossEn": "inhale; suck"
+        },
+        {
+          "word": "吸引",
+          "reading": "きゅういん",
+          "glossJa": "",
+          "glossEn": "inhale; suck"
+        },
+        {
+          "word": "吸いがら",
+          "reading": "すいがら",
+          "glossJa": "",
+          "glossEn": "inhale; suck"
+        },
+        {
+          "word": "吸がら",
+          "reading": "すいがら",
+          "glossJa": "",
+          "glossEn": "inhale; suck"
+        }
+      ]
+    },
+    {
+      "char": "片",
+      "reading": "かた、へん",
+      "meaningJa": "",
+      "meaning": "fragment; piece; right half",
+      "meaningEn": "fragment; piece; right half",
+      "compounds": [
+        {
+          "word": "花片",
+          "reading": "はなびら",
+          "glossJa": "",
+          "glossEn": "fragment; piece; right half"
+        },
+        {
+          "word": "欠片",
+          "reading": "かけら",
+          "glossJa": "",
+          "glossEn": "fragment; piece; right half"
+        },
+        {
+          "word": "片すみ",
+          "reading": "かたすみ",
+          "glossJa": "",
+          "glossEn": "fragment; piece; right half"
+        },
+        {
+          "word": "片づく",
+          "reading": "かたづく",
+          "glossJa": "",
+          "glossEn": "fragment; piece; right half"
+        }
+      ]
+    },
+    {
+      "char": "忘",
+      "reading": "わす (れる)、ぼう",
+      "meaningJa": "",
+      "meaning": "forget",
+      "meaningEn": "forget",
+      "compounds": [
+        {
+          "word": "忘却",
+          "reading": "ぼうきゃく",
+          "glossJa": "",
+          "glossEn": "forget"
+        },
+        {
+          "word": "忘年会",
+          "reading": "ぼうねんかい",
+          "glossJa": "",
+          "glossEn": "forget"
+        },
+        {
+          "word": "忘れる",
+          "reading": "わすれる",
+          "glossJa": "",
+          "glossEn": "forget"
+        },
+        {
+          "word": "忘る",
+          "reading": "わする",
+          "glossJa": "",
+          "glossEn": "forget"
+        }
+      ]
+    },
+    {
+      "char": "吹",
+      "reading": "ふ (く)、すい",
+      "meaningJa": "",
+      "meaning": "blow; breathe; smoke",
+      "meaningEn": "blow; breathe; smoke",
+      "compounds": [
+        {
+          "word": "吹雪",
+          "reading": "ふぶき",
+          "glossJa": "",
+          "glossEn": "blow; breathe; smoke"
+        },
+        {
+          "word": "乱吹",
+          "reading": "ふぶき",
+          "glossJa": "",
+          "glossEn": "blow; breathe; smoke"
+        },
+        {
+          "word": "吹く",
+          "reading": "ふく",
+          "glossJa": "",
+          "glossEn": "blow; breathe; smoke"
+        },
+        {
+          "word": "吹きだまり",
+          "reading": "ふきだまり",
+          "glossJa": "",
+          "glossEn": "blow; breathe; smoke"
+        }
+      ]
+    },
+    {
+      "char": "宝",
+      "reading": "たから、ほう",
+      "meaningJa": "",
+      "meaning": "treasure",
+      "meaningEn": "treasure",
+      "compounds": [
+        {
+          "word": "国宝",
+          "reading": "こくほう",
+          "glossJa": "",
+          "glossEn": "treasure"
+        },
+        {
+          "word": "重宝",
+          "reading": "ちょうほう",
+          "glossJa": "",
+          "glossEn": "treasure"
+        },
+        {
+          "word": "宝くじ",
+          "reading": "たからくじ",
+          "glossJa": "",
+          "glossEn": "treasure"
+        },
+        {
+          "word": "宝づくし",
+          "reading": "たからづくし",
+          "glossJa": "",
+          "glossEn": "treasure"
+        }
+      ]
+    },
+    {
+      "char": "娘",
+      "reading": "むすめ",
+      "meaningJa": "",
+      "meaning": "daughter",
+      "meaningEn": "daughter",
+      "compounds": [
+        {
+          "word": "孫娘",
+          "reading": "まごむすめ",
+          "glossJa": "",
+          "glossEn": "daughter"
+        },
+        {
+          "word": "娘婿",
+          "reading": "むすめむこ",
+          "glossJa": "",
+          "glossEn": "daughter"
+        },
+        {
+          "word": "娘さん",
+          "reading": "むすめさん",
+          "glossJa": "",
+          "glossEn": "daughter"
+        },
+        {
+          "word": "娘っこ",
+          "reading": "むすめっこ",
+          "glossJa": "",
+          "glossEn": "daughter"
+        }
+      ]
+    },
+    {
+      "char": "誤",
+      "reading": "あやま (る)、ご",
+      "meaningJa": "",
+      "meaning": "error; mistake; wrong",
+      "meaningEn": "error; mistake; wrong",
+      "compounds": [
+        {
+          "word": "誤解",
+          "reading": "ごかい",
+          "glossJa": "",
+          "glossEn": "error; mistake; wrong"
+        },
+        {
+          "word": "誤差",
+          "reading": "ごさ",
+          "glossJa": "",
+          "glossEn": "error; mistake; wrong"
+        },
+        {
+          "word": "誤ち",
+          "reading": "あやまち",
+          "glossJa": "",
+          "glossEn": "error; mistake; wrong"
+        },
+        {
+          "word": "誤って",
+          "reading": "あやまって",
+          "glossJa": "",
+          "glossEn": "error; mistake; wrong"
+        }
+      ]
+    },
+    {
+      "char": "慣",
+      "reading": "な (らす)、な (れる)、かん",
+      "meaningJa": "",
+      "meaning": "accustomed to; get used to",
+      "meaningEn": "accustomed to; get used to",
+      "compounds": [
+        {
+          "word": "慣行",
+          "reading": "かんこう",
+          "glossJa": "",
+          "glossEn": "accustomed to; get used to"
+        },
+        {
+          "word": "慣習",
+          "reading": "かんしゅう",
+          "glossJa": "",
+          "glossEn": "accustomed to; get used to"
+        },
+        {
+          "word": "慣らす",
+          "reading": "ならす",
+          "glossJa": "",
+          "glossEn": "accustomed to; get used to"
+        },
+        {
+          "word": "慣れ",
+          "reading": "なれ",
+          "glossJa": "",
+          "glossEn": "accustomed to; get used to"
+        }
+      ]
+    },
+    {
+      "char": "窓",
+      "reading": "まど、そう",
+      "meaningJa": "",
+      "meaning": "pane; window",
+      "meaningEn": "pane; window",
+      "compounds": [
+        {
+          "word": "車窓",
+          "reading": "しゃそう",
+          "glossJa": "",
+          "glossEn": "pane; window"
+        },
+        {
+          "word": "窓口",
+          "reading": "まどぐち",
+          "glossJa": "",
+          "glossEn": "pane; window"
+        },
+        {
+          "word": "窓ごし",
+          "reading": "まどごし",
+          "glossJa": "",
+          "glossEn": "pane; window"
+        },
+        {
+          "word": "窓ふき",
+          "reading": "まどふき",
+          "glossJa": "",
+          "glossEn": "pane; window"
+        }
+      ]
+    },
+    {
+      "char": "貧",
+      "reading": "まず (しい)、ひん、びん",
+      "meaningJa": "",
+      "meaning": "poverty",
+      "meaningEn": "poverty",
+      "compounds": [
+        {
+          "word": "清貧",
+          "reading": "せいひん",
+          "glossJa": "",
+          "glossEn": "poverty"
+        },
+        {
+          "word": "貧血",
+          "reading": "ひんけつ",
+          "glossJa": "",
+          "glossEn": "poverty"
+        },
+        {
+          "word": "貧しい",
+          "reading": "まずしい",
+          "glossJa": "",
+          "glossEn": "poverty"
+        },
+        {
+          "word": "貧する",
+          "reading": "ひんする",
+          "glossJa": "",
+          "glossEn": "poverty"
+        }
+      ]
+    },
+    {
+      "char": "怒",
+      "reading": "いか (る)、おこ (る)、ど",
+      "meaningJa": "",
+      "meaning": "to become angry",
+      "meaningEn": "to become angry",
+      "compounds": [
+        {
+          "word": "激怒",
+          "reading": "げきど",
+          "glossJa": "",
+          "glossEn": "to become angry"
+        },
+        {
+          "word": "怒気",
+          "reading": "どき",
+          "glossJa": "",
+          "glossEn": "to become angry"
+        },
+        {
+          "word": "怒らせる",
+          "reading": "おこらせる",
+          "glossJa": "",
+          "glossEn": "to become angry"
+        },
+        {
+          "word": "怒り",
+          "reading": "いかり",
+          "glossJa": "",
+          "glossEn": "to become angry"
+        }
+      ]
+    },
+    {
+      "char": "祖",
+      "reading": "そ",
+      "meaningJa": "",
+      "meaning": "ancestor; founder",
+      "meaningEn": "ancestor; founder",
+      "compounds": [
+        {
+          "word": "教祖",
+          "reading": "きょうそ",
+          "glossJa": "",
+          "glossEn": "ancestor; founder"
+        },
+        {
+          "word": "元祖",
+          "reading": "がんそ",
+          "glossJa": "",
+          "glossEn": "ancestor; founder"
+        },
+        {
+          "word": "祖母さん",
+          "reading": "ばあさん",
+          "glossJa": "",
+          "glossEn": "ancestor; founder"
+        },
+        {
+          "word": "宗祖",
+          "reading": "しゅうそ",
+          "glossJa": "",
+          "glossEn": "ancestor; founder"
+        }
+      ]
+    },
+    {
+      "char": "泊",
+      "reading": "と (まる)、と (める)、はく",
+      "meaningJa": "",
+      "meaning": "overnight stay",
+      "meaningEn": "overnight stay",
+      "compounds": [
+        {
+          "word": "一泊",
+          "reading": "いっぱく",
+          "glossJa": "",
+          "glossEn": "overnight stay"
+        },
+        {
+          "word": "宿泊",
+          "reading": "しゅくはく",
+          "glossJa": "",
+          "glossEn": "overnight stay"
+        },
+        {
+          "word": "泊まり",
+          "reading": "とまり",
+          "glossJa": "",
+          "glossEn": "overnight stay"
+        },
+        {
+          "word": "泊り",
+          "reading": "とまり",
+          "glossJa": "",
+          "glossEn": "overnight stay"
+        }
+      ]
+    },
+    {
+      "char": "杯",
+      "reading": "さかずき、はい",
+      "meaningJa": "",
+      "meaning": "counter for cups, glasses",
+      "meaningEn": "counter for cups, glasses",
+      "compounds": [
+        {
+          "word": "一杯",
+          "reading": "いっぱい",
+          "glossJa": "",
+          "glossEn": "counter for cups, glasses"
+        },
+        {
+          "word": "乾杯",
+          "reading": "かんぱい",
+          "glossJa": "",
+          "glossEn": "counter for cups, glasses"
+        },
+        {
+          "word": "杯をする",
+          "reading": "さかずきをする",
+          "glossJa": "",
+          "glossEn": "counter for cups, glasses"
+        },
+        {
+          "word": "一杯やる",
+          "reading": "いっぱいやる",
+          "glossJa": "",
+          "glossEn": "counter for cups, glasses"
+        }
+      ]
+    },
+    {
+      "char": "疲",
+      "reading": "つか (れる)、ひ",
+      "meaningJa": "",
+      "meaning": "exhausted; tired",
+      "meaningEn": "exhausted; tired",
+      "compounds": [
+        {
+          "word": "疲弊",
+          "reading": "ひへい",
+          "glossJa": "",
+          "glossEn": "exhausted; tired"
+        },
+        {
+          "word": "疲労",
+          "reading": "ひろう",
+          "glossJa": "",
+          "glossEn": "exhausted; tired"
+        },
+        {
+          "word": "疲れ",
+          "reading": "つかれ",
+          "glossJa": "",
+          "glossEn": "exhausted; tired"
+        },
+        {
+          "word": "疲れる",
+          "reading": "つかれる",
+          "glossJa": "",
+          "glossEn": "exhausted; tired"
+        }
+      ]
+    },
+    {
+      "char": "捨",
+      "reading": "す (てる)、しゃ",
+      "meaningJa": "",
+      "meaning": "discard; throw away",
+      "meaningEn": "discard; throw away",
+      "compounds": [
+        {
+          "word": "捨子",
+          "reading": "すてご",
+          "glossJa": "",
+          "glossEn": "discard; throw away"
+        },
+        {
+          "word": "取捨",
+          "reading": "しゅしゃ",
+          "glossJa": "",
+          "glossEn": "discard; throw away"
+        },
+        {
+          "word": "捨てる",
+          "reading": "すてる",
+          "glossJa": "",
+          "glossEn": "discard; throw away"
+        },
+        {
+          "word": "捨つ",
+          "reading": "すつ",
+          "glossJa": "",
+          "glossEn": "discard; throw away"
+        }
+      ]
+    },
+    {
+      "char": "皆",
+      "reading": "みな、かい",
+      "meaningJa": "",
+      "meaning": "all; everything; everyone",
+      "meaningEn": "all; everything; everyone",
+      "compounds": [
+        {
+          "word": "皆無",
+          "reading": "かいむ",
+          "glossJa": "",
+          "glossEn": "all; everything; everyone"
+        },
+        {
+          "word": "皆目",
+          "reading": "かいもく",
+          "glossJa": "",
+          "glossEn": "all; everything; everyone"
+        },
+        {
+          "word": "皆さん",
+          "reading": "みなさん",
+          "glossJa": "",
+          "glossEn": "all; everything; everyone"
+        },
+        {
+          "word": "皆さま",
+          "reading": "みなさま",
+          "glossJa": "",
+          "glossEn": "all; everything; everyone"
+        }
+      ]
+    },
+    {
+      "char": "腹",
+      "reading": "はら、ふく",
+      "meaningJa": "",
+      "meaning": "abdomen; stomach",
+      "meaningEn": "abdomen; stomach",
+      "compounds": [
+        {
+          "word": "空腹",
+          "reading": "くうふく",
+          "glossJa": "",
+          "glossEn": "abdomen; stomach"
+        },
+        {
+          "word": "切腹",
+          "reading": "せっぷく",
+          "glossJa": "",
+          "glossEn": "abdomen; stomach"
+        },
+        {
+          "word": "腹いっぱい",
+          "reading": "はらいっぱい",
+          "glossJa": "",
+          "glossEn": "abdomen; stomach"
+        },
+        {
+          "word": "腹いせ",
+          "reading": "はらいせ",
+          "glossJa": "",
+          "glossEn": "abdomen; stomach"
+        }
+      ]
+    },
+    {
+      "char": "煙",
+      "reading": "けむり、けむ (い)、けむ (る)、えん",
+      "meaningJa": "",
+      "meaning": "smoke",
+      "meaningEn": "smoke",
+      "compounds": [
+        {
+          "word": "煙草",
+          "reading": "タバコ",
+          "glossJa": "",
+          "glossEn": "smoke"
+        },
+        {
+          "word": "煙突",
+          "reading": "えんとつ",
+          "glossJa": "",
+          "glossEn": "smoke"
+        },
+        {
+          "word": "煙い",
+          "reading": "けむい",
+          "glossJa": "",
+          "glossEn": "smoke"
+        },
+        {
+          "word": "煙たい",
+          "reading": "けむたい",
+          "glossJa": "",
+          "glossEn": "smoke"
+        }
+      ]
+    },
+    {
+      "char": "紅",
+      "reading": "くれない、べに、く、こう",
+      "meaningJa": "",
+      "meaning": "crimson",
+      "meaningEn": "crimson",
+      "compounds": [
+        {
+          "word": "口紅",
+          "reading": "くちべに",
+          "glossJa": "",
+          "glossEn": "crimson"
+        },
+        {
+          "word": "紅茶",
+          "reading": "こうちゃ",
+          "glossJa": "",
+          "glossEn": "crimson"
+        },
+        {
+          "word": "紅い",
+          "reading": "あかい",
+          "glossJa": "",
+          "glossEn": "crimson"
+        },
+        {
+          "word": "紅ずいき",
+          "reading": "くれないずいき",
+          "glossJa": "",
+          "glossEn": "crimson"
+        }
+      ]
+    },
+    {
+      "char": "冊",
+      "reading": "さく、さつ",
+      "meaningJa": "",
+      "meaning": "tome; volume; counter for books",
+      "meaningEn": "tome; volume; counter for books",
+      "compounds": [
+        {
+          "word": "一冊",
+          "reading": "いっさつ",
+          "glossJa": "",
+          "glossEn": "tome; volume; counter for books"
+        },
+        {
+          "word": "冊子",
+          "reading": "さっし",
+          "glossJa": "",
+          "glossEn": "tome; volume; counter for books"
+        },
+        {
+          "word": "短冊",
+          "reading": "たんざく",
+          "glossJa": "",
+          "glossEn": "tome; volume; counter for books"
+        },
+        {
+          "word": "分冊",
+          "reading": "ぶんさつ",
+          "glossJa": "",
+          "glossEn": "tome; volume; counter for books"
+        }
+      ]
+    },
+    {
+      "char": "眠",
+      "reading": "ねむ (い)、ねむ (る)、みん",
+      "meaningJa": "",
+      "meaning": "die; sleep",
+      "meaningEn": "die; sleep",
+      "compounds": [
+        {
+          "word": "安眠",
+          "reading": "あんみん",
+          "glossJa": "",
+          "glossEn": "die; sleep"
+        },
+        {
+          "word": "催眠",
+          "reading": "さいみん",
+          "glossJa": "",
+          "glossEn": "die; sleep"
+        },
+        {
+          "word": "眠い",
+          "reading": "ねむい",
+          "glossJa": "",
+          "glossEn": "die; sleep"
+        },
+        {
+          "word": "眠たい",
+          "reading": "ねむたい",
+          "glossJa": "",
+          "glossEn": "die; sleep"
+        }
+      ]
+    },
+    {
+      "char": "怖",
+      "reading": "こわ (い)、ふ",
+      "meaningJa": "",
+      "meaning": "be frightened; afraid",
+      "meaningEn": "be frightened; afraid",
+      "compounds": [
+        {
+          "word": "恐怖",
+          "reading": "きょうふ",
+          "glossJa": "",
+          "glossEn": "be frightened; afraid"
+        },
+        {
+          "word": "恐怖症",
+          "reading": "きょうふしょう",
+          "glossJa": "",
+          "glossEn": "be frightened; afraid"
+        },
+        {
+          "word": "怖れ",
+          "reading": "おそれ",
+          "glossJa": "",
+          "glossEn": "be frightened; afraid"
+        },
+        {
+          "word": "怖れる",
+          "reading": "おそれる",
+          "glossJa": "",
+          "glossEn": "be frightened; afraid"
+        }
+      ]
+    },
+    {
+      "char": "卵",
+      "reading": "たまご、らん",
+      "meaningJa": "",
+      "meaning": "egg; ovum",
+      "meaningEn": "egg; ovum",
+      "compounds": [
+        {
+          "word": "鶏卵",
+          "reading": "けいらん",
+          "glossJa": "",
+          "glossEn": "egg; ovum"
+        },
+        {
+          "word": "産卵",
+          "reading": "さんらん",
+          "glossJa": "",
+          "glossEn": "egg; ovum"
+        },
+        {
+          "word": "卵とじ",
+          "reading": "たまごとじ",
+          "glossJa": "",
+          "glossEn": "egg; ovum"
+        },
+        {
+          "word": "卵めん",
+          "reading": "たまごめん",
+          "glossJa": "",
+          "glossEn": "egg; ovum"
+        }
+      ]
+    },
+    {
+      "char": "頂",
+      "reading": "いただき、いただ (く)、ちょう",
+      "meaningJa": "",
+      "meaning": "peak; summit",
+      "meaningEn": "peak; summit",
+      "compounds": [
+        {
+          "word": "山頂",
+          "reading": "さんちょう",
+          "glossJa": "",
+          "glossEn": "peak; summit"
+        },
+        {
+          "word": "絶頂",
+          "reading": "ぜっちょう",
+          "glossJa": "",
+          "glossEn": "peak; summit"
+        },
+        {
+          "word": "頂き",
+          "reading": "いただき",
+          "glossJa": "",
+          "glossEn": "peak; summit"
+        },
+        {
+          "word": "頂きます",
+          "reading": "いただきます",
+          "glossJa": "",
+          "glossEn": "peak; summit"
+        }
+      ]
+    },
+    {
+      "char": "暖",
+      "reading": "あたた (か)、あたた (かい)、あたた (まる)、あたた (める)、だん",
+      "meaningJa": "",
+      "meaning": "warmth",
+      "meaningEn": "warmth",
+      "compounds": [
+        {
+          "word": "温暖",
+          "reading": "おんだん",
+          "glossJa": "",
+          "glossEn": "warmth"
+        },
+        {
+          "word": "暖冬",
+          "reading": "だんとう",
+          "glossJa": "",
+          "glossEn": "warmth"
+        },
+        {
+          "word": "暖まる",
+          "reading": "あたたまる",
+          "glossJa": "",
+          "glossEn": "warmth"
+        },
+        {
+          "word": "暖める",
+          "reading": "あたためる",
+          "glossJa": "",
+          "glossEn": "warmth"
+        }
+      ]
+    },
+    {
+      "char": "涙",
+      "reading": "なみだ、るい",
+      "meaningJa": "",
+      "meaning": "tears",
+      "meaningEn": "tears",
+      "compounds": [
+        {
+          "word": "感涙",
+          "reading": "かんるい",
+          "glossJa": "",
+          "glossEn": "tears"
+        },
+        {
+          "word": "催涙",
+          "reading": "さいるい",
+          "glossJa": "",
+          "glossEn": "tears"
+        },
+        {
+          "word": "涙ぐましい",
+          "reading": "なみだぐましい",
+          "glossJa": "",
+          "glossEn": "tears"
+        },
+        {
+          "word": "涙ぐむ",
+          "reading": "なみだぐむ",
+          "glossJa": "",
+          "glossEn": "tears"
+        }
+      ]
+    },
+    {
+      "char": "晩",
+      "reading": "ばん",
+      "meaningJa": "",
+      "meaning": "night",
+      "meaningEn": "night",
+      "compounds": [
+        {
+          "word": "一晩",
+          "reading": "ひとばん",
+          "glossJa": "",
+          "glossEn": "night"
+        },
+        {
+          "word": "今晩",
+          "reading": "こんばん",
+          "glossJa": "",
+          "glossEn": "night"
+        },
+        {
+          "word": "晩ごはん",
+          "reading": "ばんごはん",
+          "glossJa": "",
+          "glossEn": "night"
+        },
+        {
+          "word": "今晩は",
+          "reading": "こんばんは",
+          "glossJa": "",
+          "glossEn": "night"
+        }
+      ]
+    },
+    {
+      "char": "髪",
+      "reading": "かみ、はつ",
+      "meaningJa": "",
+      "meaning": "hair (on the head)",
+      "meaningEn": "hair (on the head)",
+      "compounds": [
+        {
+          "word": "金髪",
+          "reading": "きんぱつ",
+          "glossJa": "",
+          "glossEn": "hair (on the head)"
+        },
+        {
+          "word": "散髪",
+          "reading": "さんぱつ",
+          "glossJa": "",
+          "glossEn": "hair (on the head)"
+        },
+        {
+          "word": "髪をあげる",
+          "reading": "かみをあげる",
+          "glossJa": "",
+          "glossEn": "hair (on the head)"
+        },
+        {
+          "word": "髪をとかす",
+          "reading": "かみをとかす",
+          "glossJa": "",
+          "glossEn": "hair (on the head)"
+        }
+      ]
+    },
+    {
+      "char": "忙",
+      "reading": "いそが (しい)、ぼう",
+      "meaningJa": "",
+      "meaning": "busy; occupied",
+      "meaningEn": "busy; occupied",
+      "compounds": [
+        {
+          "word": "多忙",
+          "reading": "たぼう",
+          "glossJa": "",
+          "glossEn": "busy; occupied"
+        },
+        {
+          "word": "繁忙",
+          "reading": "はんぼう",
+          "glossJa": "",
+          "glossEn": "busy; occupied"
+        },
+        {
+          "word": "忙しい",
+          "reading": "いそがしい",
+          "glossJa": "",
+          "glossEn": "busy; occupied"
+        },
+        {
+          "word": "気忙しい",
+          "reading": "きぜわしい",
+          "glossJa": "",
+          "glossEn": "busy; occupied"
+        }
+      ]
+    },
+    {
+      "char": "汗",
+      "reading": "あせ、かん",
+      "meaningJa": "",
+      "meaning": "sweat",
+      "meaningEn": "sweat",
+      "compounds": [
+        {
+          "word": "発汗",
+          "reading": "はっかん",
+          "glossJa": "",
+          "glossEn": "sweat"
+        },
+        {
+          "word": "冷汗",
+          "reading": "ひやあせ",
+          "glossJa": "",
+          "glossEn": "sweat"
+        },
+        {
+          "word": "汗かき",
+          "reading": "あせかき",
+          "glossJa": "",
+          "glossEn": "sweat"
+        },
+        {
+          "word": "汗する",
+          "reading": "あせする",
+          "glossJa": "",
+          "glossEn": "sweat"
+        }
+      ]
+    },
+    {
+      "char": "靴",
+      "reading": "くつ、か",
+      "meaningJa": "",
+      "meaning": "shoes",
+      "meaningEn": "shoes",
+      "compounds": [
+        {
+          "word": "革靴",
+          "reading": "かわぐつ",
+          "glossJa": "",
+          "glossEn": "shoes"
+        },
+        {
+          "word": "皮靴",
+          "reading": "かわぐつ",
+          "glossJa": "",
+          "glossEn": "shoes"
+        },
+        {
+          "word": "靴ずれ",
+          "reading": "くつずれ",
+          "glossJa": "",
+          "glossEn": "shoes"
+        },
+        {
+          "word": "靴のひも",
+          "reading": "くつのひも",
+          "glossJa": "",
+          "glossEn": "shoes"
+        }
+      ]
+    },
+    {
+      "char": "恥",
+      "reading": "はじ、は (じらう)、は (じる)、は (ずかしい)、ち",
+      "meaningJa": "",
+      "meaning": "dishonor",
+      "meaningEn": "dishonor",
+      "compounds": [
+        {
+          "word": "恥辱",
+          "reading": "ちじょく",
+          "glossJa": "",
+          "glossEn": "dishonor"
+        },
+        {
+          "word": "無恥",
+          "reading": "むち",
+          "glossJa": "",
+          "glossEn": "dishonor"
+        },
+        {
+          "word": "恥じ",
+          "reading": "はじ",
+          "glossJa": "",
+          "glossEn": "dishonor"
+        },
+        {
+          "word": "恥さらし",
+          "reading": "はじさらし",
+          "glossJa": "",
+          "glossEn": "dishonor"
+        }
+      ]
+    },
+    {
+      "char": "偶",
+      "reading": "ぐう",
+      "meaningJa": "",
+      "meaning": "unexpected; accidentally; even number; same kind",
+      "meaningEn": "unexpected; accidentally; even number; same kind",
+      "compounds": [
+        {
+          "word": "偶々",
+          "reading": "たまたま",
+          "glossJa": "",
+          "glossEn": "unexpected; accidentally; even number; same kind"
+        },
+        {
+          "word": "偶偶",
+          "reading": "たまたま",
+          "glossJa": "",
+          "glossEn": "unexpected; accidentally; even number; same kind"
+        },
+        {
+          "word": "偶に",
+          "reading": "たまに",
+          "glossJa": "",
+          "glossEn": "unexpected; accidentally; even number; same kind"
+        },
+        {
+          "word": "偶さか",
+          "reading": "たまさか",
+          "glossJa": "",
+          "glossEn": "unexpected; accidentally; even number; same kind"
+        }
+      ]
+    },
+    {
+      "char": "机",
+      "reading": "つくえ、き",
+      "meaningJa": "",
+      "meaning": "desk; table",
+      "meaningEn": "desk; table",
+      "compounds": [
+        {
+          "word": "机上",
+          "reading": "きじょう",
+          "glossJa": "",
+          "glossEn": "desk; table"
+        },
+        {
+          "word": "机下",
+          "reading": "きか",
+          "glossJa": "",
+          "glossEn": "desk; table"
+        },
+        {
+          "word": "机の足",
+          "reading": "つくえのあし",
+          "glossJa": "",
+          "glossEn": "desk; table"
+        },
+        {
+          "word": "机辺",
+          "reading": "きへん",
+          "glossJa": "",
+          "glossEn": "desk; table"
+        }
+      ]
+    },
+    {
+      "char": "猫",
+      "reading": "ねこ、びょう",
+      "meaningJa": "",
+      "meaning": "cat",
+      "meaningEn": "cat",
+      "compounds": [
+        {
+          "word": "山猫",
+          "reading": "やまねこ",
+          "glossJa": "",
+          "glossEn": "cat"
+        },
+        {
+          "word": "子猫",
+          "reading": "こねこ",
+          "glossJa": "",
+          "glossEn": "cat"
+        },
+        {
+          "word": "猫かぶり",
+          "reading": "ねこかぶり",
+          "glossJa": "",
+          "glossEn": "cat"
+        },
+        {
+          "word": "猫ちぐら",
+          "reading": "ねこちぐら",
+          "glossJa": "",
+          "glossEn": "cat"
+        }
+      ]
+    },
+    {
+      "char": "雲",
+      "reading": "くも、うん",
+      "meaningJa": "",
+      "meaning": "cloud",
+      "meaningEn": "cloud",
+      "compounds": [
+        {
+          "word": "暗雲",
+          "reading": "あんうん",
+          "glossJa": "",
+          "glossEn": "cloud"
+        },
+        {
+          "word": "雨雲",
+          "reading": "あまぐも",
+          "glossJa": "",
+          "glossEn": "cloud"
+        },
+        {
+          "word": "雲ひとつない",
+          "reading": "くもひとつない",
+          "glossJa": "",
+          "glossEn": "cloud"
+        },
+        {
+          "word": "雲をつかむ",
+          "reading": "くもをつかむ",
+          "glossJa": "",
+          "glossEn": "cloud"
+        }
+      ]
+    }
+  ]
 }

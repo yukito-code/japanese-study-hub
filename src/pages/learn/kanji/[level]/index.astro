@@ -1,0 +1,61 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import SiteHeader from "../../../../components/SiteHeader.astro";
+import PageBackLink from "../../../../components/PageBackLink.astro";
+import { ui } from "../../../../i18n/ui";
+
+const LEVELS = ["N1", "N2", "N3", "N4", "N5"] as const;
+type Level = (typeof LEVELS)[number];
+
+export function getStaticPaths() {
+  return (["N1", "N2", "N3", "N4", "N5"] as const).map((level) => ({ params: { level } }));
+}
+
+const base = import.meta.env.BASE_URL;
+const raw = Astro.params.level ?? "";
+const level = raw.toUpperCase() as Level;
+if (!LEVELS.includes(level)) {
+  return Astro.redirect(`${base}learn/kanji/`, 302);
+}
+
+const config = JSON.stringify({ base, level });
+---
+
+<BaseLayout
+  titleTemplateKey="title.kanjiListLevel"
+  titleTemplateVars={{ level }}
+  descKey="meta.kanji.list"
+>
+  <SiteHeader topHref={`${base}`} />
+  <main>
+    <PageBackLink href={`${base}learn/kanji/`} />
+    <h1 class="hero-title">
+      <span data-ui="kanji.list.title">{ui.ja["kanji.list.title"]}</span>
+      <span class="num-em" lang="ja">{level}</span>
+    </h1>
+    <p class="hero-lead" data-ui="learn.kanji.levelPage.lead">{ui.ja["learn.kanji.levelPage.lead"]}</p>
+
+    <div class="kanji-action-row">
+      <a
+        class="btn btn-kanji-flash-cta"
+        href={`${base}learn/kanji/${level}/flash/`}
+        data-ui="learn.kanji.link.flash"
+      >
+        {ui.ja["learn.kanji.link.flash"]}
+      </a>
+    </div>
+
+    <div id="kanji-list-root"></div>
+
+    <p class="learn-foot card-muted" style="margin-top: 1.25rem" data-ui="learn.kanji.disclaimer">
+      {ui.ja["learn.kanji.disclaimer"]}
+    </p>
+  </main>
+
+  <script type="application/json" id="kanji-list-config" set:html={config} />
+  <script>
+    import { mountKanjiListPage } from "../../../../scripts/kanji-list-page";
+    mountKanjiListPage("kanji-list-config");
+  </script>
+</BaseLayout>
+

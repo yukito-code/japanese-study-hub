@@ -1,0 +1,78 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import SiteHeader from "../../../../components/SiteHeader.astro";
+import PageBackLink from "../../../../components/PageBackLink.astro";
+import { ui } from "../../../../i18n/ui";
+
+const LEVELS = ["N1", "N2", "N3", "N4", "N5"] as const;
+type Level = (typeof LEVELS)[number];
+
+export function getStaticPaths() {
+  return (["N1", "N2", "N3", "N4", "N5"] as const).map((level) => ({ params: { level } }));
+}
+
+const base = import.meta.env.BASE_URL;
+const raw = Astro.params.level ?? "";
+const level = raw.toUpperCase() as Level;
+if (!LEVELS.includes(level)) {
+  return Astro.redirect(`${base}learn/kanji/`, 302);
+}
+
+const config = JSON.stringify({ base, level });
+---
+
+<BaseLayout
+  titleTemplateKey="title.kanjiFlashLevel"
+  titleTemplateVars={{ level }}
+  descKey="meta.kanji.flash"
+>
+  <SiteHeader topHref={`${base}`} />
+  <main>
+    <PageBackLink href={`${base}learn/kanji/${level}/`} />
+    <h1 class="hero-title">
+      <span data-ui="flash.title">{ui.ja["flash.title"]}</span>
+      <span class="num-em" lang="ja">{level}</span>
+    </h1>
+
+    <p id="flash-empty" class="hero-lead" hidden data-ui="kanji.emptyLevel">{ui.ja["kanji.emptyLevel"]}</p>
+
+    <p class="progress-text" id="flash-progress" aria-live="polite">—</p>
+
+    <div class="flash-stage" id="flash-stage">
+      <div
+        class="flash-card"
+        id="flash-card"
+        tabindex="0"
+        role="button"
+        aria-label={ui.ja["flash.cardAria"]}
+      >
+        <div class="flash-face flash-face-front">
+          <span class="flash-char" id="flash-front-char">—</span>
+        </div>
+        <div class="flash-face flash-face-back">
+          <div class="flash-reading" id="flash-back-reading">—</div>
+          <div class="flash-meaning" id="flash-back-meaning">—</div>
+          <div id="flash-back-compounds" class="flash-back-compounds" hidden></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-row" id="flash-nav-row">
+      <button type="button" class="btn btn-secondary" id="flash-prev" data-ui="flash.prev">
+        {ui.ja["flash.prev"]}
+      </button>
+      <button type="button" class="btn btn-secondary" id="flash-flip">
+        {ui.ja["flash.flipToBack"]}
+      </button>
+      <button type="button" class="btn btn-secondary" id="flash-next" data-ui="flash.next">
+        {ui.ja["flash.next"]}
+      </button>
+    </div>
+  </main>
+
+  <script type="application/json" id="kanji-flash-config" set:html={config} />
+  <script>
+    import { mountKanjiFlashPage } from "../../../../scripts/kanji-flash-page";
+    mountKanjiFlashPage("kanji-flash-config");
+  </script>
+</BaseLayout>

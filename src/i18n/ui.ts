@@ -20,12 +20,17 @@ export const ui = {
     "nav.back": "戻る",
     "meta.home.description":
       "日本語の学習ハブ。学習コンテンツ（一覧・カード等）と JLPT 形式の四択（JLPT問題集）を分けて用意しています。",
-    "meta.kanji.hub":
-      "漢字の学習メニュー。漢字一覧のカードで級（N1〜N5）を選ぶと、その級の一覧が開きます。",
     "meta.kanji.list":
-      "選択中の級の漢字一覧（読み・意味）。JLPT 公式の漢字表はありません。",
+      "級ごとの漢字一覧（読み・意味・熟語の例）。JLPT 公式の漢字表はありません。",
+    "meta.kanji.flash": "級ごとの漢字フラッシュカード。タップで裏返し、熟語の例も表示します。",
+    "meta.learn.kanjiHub":
+      "JLPT N1〜N5 ごとに漢字一覧・フラッシュカード。基本（読み方の表）へのリンクあり。",
+    "meta.learn.kanjiLevelHub": "選択した級の漢字を、一覧またはフラッシュカードで学習します。",
     "title.home": "Japanese Study Hub",
-    "title.kanjiHub": "漢字 | Japanese Study Hub",
+    "title.learnKanjiHub": "漢字（級の選択）| Japanese Study Hub",
+    "title.learnKanjiLevelHub": "{level} · 漢字 | Japanese Study Hub",
+    "title.kanjiListLevel": "漢字一覧（{level}）| Japanese Study Hub",
+    "title.kanjiFlashLevel": "フラッシュカード（{level}）| Japanese Study Hub",
     "title.kanjiList": "漢字一覧 | Japanese Study Hub",
     "home.hero": "日本語の学習を、すこしずつ。",
     "home.lead":
@@ -34,7 +39,14 @@ export const ui = {
     "home.sectionThinkTitle": "学習コンテンツ",
     "home.sectionProblemsTitle": "JLPT問題集",
     "home.think.kanji.title": "漢字",
-    "home.think.kanji.desc": "N1〜N5 の漢字を一覧で確認。",
+    "home.think.kanji.desc": "N1〜N5 の読み方・熟語の例を級ごとに確認。",
+    "meta.learn.kanjiBasics":
+      "漢字の音読み・訓読み、数字・自然・方位など N5 向けの学習メモ（表形式）。",
+    "title.learnKanjiBasics": "漢字の基本 | Japanese Study Hub",
+    "learn.kanji.disclaimer":
+      "※ JLPT に公式の漢字表はありません。読み・意味は学習用の目安です。",
+    "learn.kanji.levelPage.lead":
+      "読み方（訓読み・音読み）と熟語の例です。訓読みは「つと (める)」のように送り仮名を括弧で示し、熟語は語（読み）のみ掲載します。",
     "home.think.kaiwaAisatsu.title": "あいさつ表現",
     "home.think.kaiwaAisatsu.desc": "場面別のあいさつフレーズを表で確認。",
     "meta.learn.kaiwaAisatsu":
@@ -64,13 +76,32 @@ export const ui = {
     "jlpt.level.unreleased": "準備中",
     "home.footer":
       "静的サイト（GitHub Pages 想定）。ログインはありません。言語は右上から切り替えできます。",
+    "learn.kanji.hub.h1": "漢字",
+    "learn.kanji.hub.lead": "JLPT の級を選ぶと、その級の漢字・読み方・熟語の例が一覧で見られます。",
+    "learn.kanji.levelCard.desc": "字・読み・熟語の例",
+    "learn.kanji.levelHub.titleSep": " · ",
+    "learn.kanji.levelHub.titleWord": "漢字",
+    "learn.kanji.levelHub.lead": "学び方を選んでください。",
+    "learn.kanji.link.list": "漢字一覧",
+    "learn.kanji.link.list.desc": "字・読み・意味と、熟語の例（N5 はデータあり）。",
+    "learn.kanji.link.flash": "フラッシュカード",
+    "learn.kanji.link.flash.desc": "タップで裏返し、読み・意味・熟語の例を確認。",
+    "flash.title": "フラッシュカード",
+    "flash.lead": "カードをタップして、うらがえします。",
+    "flash.cardAria": "カードをめくる",
+    "flash.prev": "まえへ",
+    "flash.flipToBack": "うらをみる",
+    "flash.flipToFront": "おもてをみる",
+    "flash.next": "つぎへ",
+    "kanji.compounds.title": "熟語の例",
+    "kanji.label.reading": "読み",
+    "kanji.label.meaning": "意味",
     "kanji.hub.title": "漢字",
     "kanji.hub.lead":
-      "漢字一覧のカードで N1〜N5 を押すと、選んだ級の漢字一覧が開きます。",
+      "（旧メニュー用・互換）基本記事や一覧への案内。現在は「漢字」トップから級を選びます。",
     "kanji.hub.cardList.title": "漢字一覧",
-    "kanji.hub.cardList.desc": "級のボタンから開くと、その級の漢字と読み・意味を一覧します。",
-    "kanji.list.title": "漢字一覧",
-    "kanji.emptyLevel": "この級の漢字データはまだありません。バーで別の級を選んでください。",
+    "kanji.hub.cardList.desc": "級を選ぶと一覧が開きます。",
+    "kanji.emptyLevel": "この級の漢字データはまだありません。別の級を選ぶか、しばらくしてからまた見てください。",
     "kanji.leadSuffix": "字 · よみと意味は学習用の目安です。",
     "kanji.disclaimer":
       "JLPT に公式の漢字表はありません。出典は学習用の目安です。",
@@ -116,12 +147,18 @@ export const ui = {
     "nav.back": "Back",
     "meta.home.description":
       "Japanese study hub: study content (lists, cards, and more) plus JLPT-style multiple-choice practice sets.",
-    "meta.kanji.hub":
-      "Kanji hub: pick N1–N5 on the Kanji list card to open the list at the chosen level.",
     "meta.kanji.list":
-      "Kanji list for the selected level (readings and meanings are informal notes).",
+      "Kanji list by level: readings, meanings, and example compounds. The JLPT has no official kanji list.",
+    "meta.kanji.flash":
+      "Kanji flashcards by level; tap to flip and see example compounds when available.",
+    "meta.learn.kanjiHub":
+      "Pick JLPT N1–N5 for a kanji list or flashcards. Includes a link to the readings basics article.",
+    "meta.learn.kanjiLevelHub": "Study the chosen level with a list view or flashcards.",
     "title.home": "Japanese Study Hub",
-    "title.kanjiHub": "Kanji | Japanese Study Hub",
+    "title.learnKanjiHub": "Kanji (pick a level) | Japanese Study Hub",
+    "title.learnKanjiLevelHub": "{level} · Kanji | Japanese Study Hub",
+    "title.kanjiListLevel": "Kanji list ({level}) | Japanese Study Hub",
+    "title.kanjiFlashLevel": "Flashcards ({level}) | Japanese Study Hub",
     "title.kanjiList": "Kanji list | Japanese Study Hub",
     "home.hero": "Japanese study, one step at a time.",
     "home.lead":
@@ -130,7 +167,14 @@ export const ui = {
     "home.sectionThinkTitle": "Study content",
     "home.sectionProblemsTitle": "JLPT question sets",
     "home.think.kanji.title": "Kanji",
-    "home.think.kanji.desc": "Browse kanji by level (N1–N5).",
+    "home.think.kanji.desc": "Readings and example compounds for each JLPT level (N1–N5).",
+    "meta.learn.kanjiBasics":
+      "Study notes on on/kun readings, numbers, nature, and directions—N5-focused tables.",
+    "title.learnKanjiBasics": "Kanji basics | Japanese Study Hub",
+    "learn.kanji.disclaimer":
+      "The JLPT has no official kanji list; readings and meanings here are informal study notes.",
+    "learn.kanji.levelPage.lead":
+      "Readings (kun/on) and example compounds. Kun readings show okurigana in parentheses, e.g. つと (める).",
     "home.think.kaiwaAisatsu.title": "Greeting phrases",
     "home.think.kaiwaAisatsu.desc": "Greeting phrases by situation, in tables.",
     "meta.learn.kaiwaAisatsu":
@@ -160,13 +204,33 @@ export const ui = {
     "jlpt.level.unreleased": "Coming soon",
     "home.footer":
       "Static site (GitHub Pages). No login. Switch language from the header.",
+    "learn.kanji.hub.h1": "Kanji",
+    "learn.kanji.hub.lead": "Pick a JLPT level to browse characters with readings and example compounds.",
+    "learn.kanji.levelCard.desc": "Readings & compounds",
+    "learn.kanji.levelHub.titleSep": " · ",
+    "learn.kanji.levelHub.titleWord": "Kanji",
+    "learn.kanji.levelHub.lead": "Choose how you want to study.",
+    "learn.kanji.link.list": "Kanji list",
+    "learn.kanji.link.list.desc": "Characters, readings, meanings, and example compounds (N5 has data).",
+    "learn.kanji.link.flash": "Flashcards",
+    "learn.kanji.link.flash.desc": "Tap to flip; readings, meanings, and example compounds.",
+    "flash.title": "Flashcards",
+    "flash.lead": "Tap the card to flip it.",
+    "flash.cardAria": "Flip card",
+    "flash.prev": "Previous",
+    "flash.flipToBack": "Show back",
+    "flash.flipToFront": "Show front",
+    "flash.next": "Next",
+    "kanji.compounds.title": "Example compounds",
+    "kanji.label.reading": "Reading",
+    "kanji.label.meaning": "Meaning",
     "kanji.hub.title": "Kanji",
     "kanji.hub.lead":
-      "On the Kanji list card, tap N1–N5 to open the list at that level.",
+      "Start with Kanji basics, then use the list or JLPT reading quizzes to practice.",
     "kanji.hub.cardList.title": "Kanji list",
     "kanji.hub.cardList.desc": "Opens the list for the level you tap.",
     "kanji.list.title": "Kanji list",
-    "kanji.emptyLevel": "No kanji data for this level yet. Choose another level in the bar.",
+    "kanji.emptyLevel": "No kanji data for this level yet. Try another level or check back later.",
     "kanji.leadSuffix":
       " characters · Readings and meanings are informal study notes.",
     "kanji.disclaimer":

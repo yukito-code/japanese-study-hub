@@ -1,9 +1,11 @@
 import { applyDataUi } from "../i18n/client";
 import {
-  applyJlptLevelFromSearchParams,
   getStoredJlptLevel,
   JLPT_LEVEL_CHANGE,
+  setStoredJlptLevel,
+  type JlptLevelFilter,
 } from "../i18n/level";
+import { buildKanjiListRow } from "./kanji-card-render";
 import type { KanjiItem } from "./kanji-item";
 
 function readJsonConfig<T>(id: string): T {
@@ -20,16 +22,20 @@ function kanjiDataUrl(base: string, level: string): string {
 
 type KanjiBundle = { level: string; items: KanjiItem[]; note?: string };
 
+/** 級固定の漢字一覧（learn/kanji/[level]/） */
 export function mountKanjiListPage(configId: string): void {
   const root = document.getElementById("kanji-list-root");
   const countEl = document.getElementById("kanji-list-count");
   if (!root) return;
 
-  const { base } = readJsonConfig<{ base: string }>(configId);
-  applyJlptLevelFromSearchParams();
+  const cfg = readJsonConfig<{ base: string; level?: JlptLevelFilter }>(configId);
+  const { base } = cfg;
+  const fixedLevel = cfg.level;
+
+  if (fixedLevel) setStoredJlptLevel(fixedLevel);
 
   async function load() {
-    const level = getStoredJlptLevel();
+    const level = fixedLevel ?? getStoredJlptLevel();
     const res = await fetch(kanjiDataUrl(base, level));
     root.replaceChildren();
     if (!res.ok) return;
@@ -51,27 +57,7 @@ export function mountKanjiListPage(configId: string): void {
     ul.style.marginTop = "1.25rem";
     for (const item of items) {
       const li = document.createElement("li");
-      const row = document.createElement("div");
-      row.className = "kanji-row";
-      row.setAttribute("role", "group");
-      row.setAttribute("aria-label", `${item.char} ${item.reading}`);
-      const ch = document.createElement("span");
-      ch.className = "kanji-char";
-      ch.textContent = item.char;
-      const meta = document.createElement("span");
-      meta.className = "kanji-meta";
-      meta.appendChild(document.createTextNode(item.reading));
-      const br = document.createElement("br");
-      meta.appendChild(br);
-      const mean = document.createElement("span");
-      mean.className = "js-meaning";
-      mean.style.fontSize = "0.82rem";
-      mean.setAttribute("data-meaning-ja", item.meaning);
-      mean.setAttribute("data-meaning-en", item.meaningEn);
-      mean.textContent = item.meaning;
-      meta.appendChild(mean);
-      row.append(ch, meta);
-      li.appendChild(row);
+      li.appendChild(buildKanjiListRow(item));
       ul.appendChild(li);
     }
     root.appendChild(ul);
@@ -79,7 +65,9 @@ export function mountKanjiListPage(configId: string): void {
   }
 
   void load();
-  window.addEventListener(JLPT_LEVEL_CHANGE, () => {
-    window.location.reload();
-  });
+  if (!fixedLevel) {
+    window.addEventListener(JLPT_LEVEL_CHANGE, () => {
+      window.location.reload();
+    });
+  }
 }

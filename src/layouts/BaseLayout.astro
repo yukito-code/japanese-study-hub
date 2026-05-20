@@ -1,10 +1,13 @@
 ---
 import "../styles/global.css";
-import { ui, type UiKey } from "../i18n/ui";
+import { fillTemplate, ui, type UiKey } from "../i18n/ui";
 
 type Props = {
   /** クライアントで document.title を切り替えるときのキー */
   titleKey?: UiKey;
+  /** `{ level: "N5" }` のように fillTemplate に渡す（多言語タイトル用） */
+  titleTemplateKey?: UiKey;
+  titleTemplateVars?: Record<string, string>;
   title?: string;
   descKey?: UiKey;
   description?: string;
@@ -12,14 +15,27 @@ type Props = {
 
 const {
   titleKey,
+  titleTemplateKey,
+  titleTemplateVars,
   title = ui.ja["site.name"],
   descKey,
   description = ui.ja["meta.home.description"],
 } = Astro.props;
 
-const pageTitle = titleKey ? ui.ja[titleKey] : title;
+let pageTitle = title;
+if (titleTemplateKey && titleTemplateVars) {
+  pageTitle = fillTemplate(ui.ja[titleTemplateKey], titleTemplateVars);
+} else if (titleKey) {
+  pageTitle = ui.ja[titleKey];
+}
+
 const pageDesc = descKey ? ui.ja[descKey] : description;
 const base = import.meta.env.BASE_URL;
+
+const bodyAttrs: Record<string, string> = {};
+if (titleKey) bodyAttrs["data-title-key"] = titleKey;
+if (titleTemplateKey) bodyAttrs["data-title-template-key"] = titleTemplateKey;
+if (titleTemplateVars) bodyAttrs["data-title-template-vars"] = JSON.stringify(titleTemplateVars);
 ---
 
 <!doctype html>
@@ -41,7 +57,7 @@ const base = import.meta.env.BASE_URL;
     />
     <title>{pageTitle}</title>
   </head>
-  <body {...titleKey ? { "data-title-key": titleKey } : {}}>
+  <body {...bodyAttrs}>
     <div class="page-shell">
       <div class="page-shell-inner" aria-hidden="true"></div>
       <div class="page-frame">

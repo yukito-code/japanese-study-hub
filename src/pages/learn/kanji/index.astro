@@ -1,0 +1,31 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import SiteHeader from "../../../components/SiteHeader.astro";
+import PageBackLink from "../../../components/PageBackLink.astro";
+import { ui } from "../../../i18n/ui";
+
+const base = import.meta.env.BASE_URL;
+const levels = ["N1", "N2", "N3", "N4", "N5"] as const;
+---
+
+<BaseLayout titleKey="title.learnKanjiHub" descKey="meta.learn.kanjiHub">
+  <SiteHeader topHref={`${base}`} />
+  <main>
+    <PageBackLink href={`${base}`} />
+    <h1 class="hero-title" data-ui="learn.kanji.hub.h1">{ui.ja["learn.kanji.hub.h1"]}</h1>
+    <p class="hero-lead" data-ui="learn.kanji.hub.lead">{ui.ja["learn.kanji.hub.lead"]}</p>
+
+    <div class="goi-hub-grid">
+      {
+        levels.map((lv) => (
+          <a class="goi-hub-card" href={`${base}learn/kanji/${lv}/`}>
+            <div class="goi-hub-card__text">
+              <h3>{lv}</h3>
+              <p data-ui="learn.kanji.levelCard.desc">{ui.ja["learn.kanji.levelCard.desc"]}</p>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </main>
+</BaseLayout>

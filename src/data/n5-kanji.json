@@ -4,477 +4,1188 @@
   "items": [
     {
       "char": "一",
-      "reading": "いち",
+      "reading": "イチ (イツ)、ひと~、ひとつ",
+      "meaningJa": "一つの数",
       "meaning": "一つの数",
-      "meaningEn": "one"
+      "meaningEn": "one",
+      "compounds": [
+        {
+          "word": "一つ",
+          "reading": "ひとつ",
+          "glossJa": "1 個・1 つ",
+          "glossEn": "one (thing)"
+        }
+      ]
     },
     {
       "char": "二",
-      "reading": "に",
+      "reading": "ニ (ジ)、ふた、ふたつ、ふたたび",
+      "meaningJa": "二つの数",
       "meaning": "二つの数",
-      "meaningEn": "two"
+      "meaningEn": "two",
+      "compounds": [
+        {
+          "word": "二月",
+          "reading": "にがつ",
+          "glossJa": "2 月",
+          "glossEn": "February"
+        }
+      ]
     },
     {
       "char": "三",
-      "reading": "さん",
+      "reading": "サン (ゾウ)、み、みつ、みっつ",
+      "meaningJa": "三つの数",
       "meaning": "三つの数",
-      "meaningEn": "three"
+      "meaningEn": "three",
+      "compounds": [
+        {
+          "word": "三つ",
+          "reading": "みっつ",
+          "glossJa": "3 個",
+          "glossEn": "three (things)"
+        }
+      ]
     },
     {
       "char": "四",
-      "reading": "よん",
+      "reading": "シ、よ、よつ、よっつ、よん",
+      "meaningJa": "四つの数",
       "meaning": "四つの数",
-      "meaningEn": "four"
+      "meaningEn": "four",
+      "compounds": [
+        {
+          "word": "四月",
+          "reading": "しがつ",
+          "glossJa": "4 月",
+          "glossEn": "April"
+        }
+      ]
     },
     {
       "char": "五",
-      "reading": "ご",
+      "reading": "ゴ、いつ、いつつ",
+      "meaningJa": "五つの数",
       "meaning": "五つの数",
-      "meaningEn": "five"
+      "meaningEn": "five",
+      "compounds": [
+        {
+          "word": "五つ",
+          "reading": "いつつ",
+          "glossJa": "5 個",
+          "glossEn": "five (things)"
+        }
+      ]
     },
     {
       "char": "六",
-      "reading": "ろく",
+      "reading": "ロク (リク)、む、むつ、むっつ、むい",
+      "meaningJa": "六つの数",
       "meaning": "六つの数",
-      "meaningEn": "six"
+      "meaningEn": "six",
+      "compounds": [
+        {
+          "word": "六月",
+          "reading": "ろくがつ",
+          "glossJa": "6 月",
+          "glossEn": "June"
+        }
+      ]
     },
     {
       "char": "七",
-      "reading": "なな",
+      "reading": "シチ、なな、ななつ、なの",
+      "meaningJa": "七つの数",
       "meaning": "七つの数",
-      "meaningEn": "seven"
+      "meaningEn": "seven",
+      "compounds": [
+        {
+          "word": "七月",
+          "reading": "しちがつ",
+          "glossJa": "7 月",
+          "glossEn": "July"
+        }
+      ]
     },
     {
       "char": "八",
-      "reading": "はち",
+      "reading": "ハチ、や、やつ、やっつ、よう",
+      "meaningJa": "八つの数",
       "meaning": "八つの数",
-      "meaningEn": "eight"
+      "meaningEn": "eight",
+      "compounds": [
+        {
+          "word": "八つ",
+          "reading": "やっつ",
+          "glossJa": "8 個",
+          "glossEn": "eight (things)"
+        }
+      ]
     },
     {
       "char": "九",
-      "reading": "きゅう",
+      "reading": "キュウ (ク)、ここの、ここのつ",
+      "meaningJa": "九つの数",
       "meaning": "九つの数",
-      "meaningEn": "nine"
+      "meaningEn": "nine",
+      "compounds": [
+        {
+          "word": "九月",
+          "reading": "くがつ",
+          "glossJa": "9 月",
+          "glossEn": "September"
+        }
+      ]
     },
     {
       "char": "十",
-      "reading": "じゅう",
+      "reading": "ジュウ (ジッジュッ)、とお、と",
+      "meaningJa": "十の数",
       "meaning": "十の数",
-      "meaningEn": "ten"
+      "meaningEn": "ten",
+      "compounds": [
+        {
+          "word": "十月",
+          "reading": "じゅうがつ",
+          "glossJa": "10 月",
+          "glossEn": "October"
+        }
+      ]
     },
     {
       "char": "百",
-      "reading": "ひゃく",
+      "reading": "ヒャク (ビャク)、もも",
+      "meaningJa": "百",
       "meaning": "百",
-      "meaningEn": "hundred"
+      "meaningEn": "hundred",
+      "compounds": [
+        {
+          "word": "三百",
+          "reading": "さんびゃく",
+          "glossJa": "300",
+          "glossEn": "three hundred"
+        }
+      ]
     },
     {
       "char": "千",
-      "reading": "せん",
+      "reading": "セン、ち",
+      "meaningJa": "千",
       "meaning": "千",
-      "meaningEn": "thousand"
+      "meaningEn": "thousand",
+      "compounds": [
+        {
+          "word": "三千",
+          "reading": "さんぜん",
+          "glossJa": "3000",
+          "glossEn": "three thousand"
+        }
+      ]
     },
     {
       "char": "万",
-      "reading": "まん",
+      "reading": "マン、ばん、よろず",
+      "meaningJa": "万",
       "meaning": "万",
-      "meaningEn": "ten thousand"
+      "meaningEn": "ten thousand",
+      "compounds": [
+        {
+          "word": "一万",
+          "reading": "いちまん",
+          "glossJa": "10000",
+          "glossEn": "ten thousand"
+        }
+      ]
     },
     {
       "char": "円",
-      "reading": "えん",
+      "reading": "エン、まるい、まる、まど、まどか、まろやか",
+      "meaningJa": "円、まるい",
       "meaning": "円、まるい",
-      "meaningEn": "yen, circle"
+      "meaningEn": "yen, circle",
+      "compounds": [
+        {
+          "word": "百円",
+          "reading": "ひゃくえん",
+          "glossJa": "100 円",
+          "glossEn": "100 yen"
+        }
+      ]
     },
     {
       "char": "日",
-      "reading": "ひ",
+      "reading": "ニチ (ジツ)、ひ、~び、~か",
+      "meaningJa": "日、太陽",
       "meaning": "日、太陽",
-      "meaningEn": "day, sun"
+      "meaningEn": "day, sun",
+      "compounds": [
+        {
+          "word": "今日",
+          "reading": "きょう",
+          "glossJa": "この日・きょう",
+          "glossEn": "today"
+        }
+      ]
     },
     {
       "char": "月",
-      "reading": "つき",
+      "reading": "ゲツ (ガツ)、つき",
+      "meaningJa": "月、つき",
       "meaning": "月、つき",
-      "meaningEn": "moon, month"
+      "meaningEn": "moon, month",
+      "compounds": [
+        {
+          "word": "一月",
+          "reading": "いちがつ",
+          "glossJa": "1 月",
+          "glossEn": "January"
+        }
+      ]
     },
     {
       "char": "火",
-      "reading": "か",
+      "reading": "カ、ひ、~び、ほ~",
+      "meaningJa": "火",
       "meaning": "火",
-      "meaningEn": "fire"
+      "meaningEn": "fire",
+      "compounds": [
+        {
+          "word": "火曜日",
+          "reading": "かようび",
+          "glossJa": "火曜",
+          "glossEn": "Tuesday"
+        }
+      ]
     },
     {
       "char": "水",
-      "reading": "みず",
+      "reading": "スイ、みず、みず~",
+      "meaningJa": "水",
       "meaning": "水",
-      "meaningEn": "water"
+      "meaningEn": "water",
+      "compounds": [
+        {
+          "word": "水曜日",
+          "reading": "すいようび",
+          "glossJa": "水曜",
+          "glossEn": "Wednesday"
+        }
+      ]
     },
     {
       "char": "木",
-      "reading": "き",
+      "reading": "ボク (モク)、き、こ~",
+      "meaningJa": "木、樹木",
       "meaning": "木、樹木",
-      "meaningEn": "tree, wood"
+      "meaningEn": "tree, wood",
+      "compounds": [
+        {
+          "word": "木曜日",
+          "reading": "もくようび",
+          "glossJa": "木曜",
+          "glossEn": "Thursday"
+        }
+      ]
     },
     {
       "char": "金",
-      "reading": "かね",
+      "reading": "キン (コンゴン)、かね、かな~、~がね",
+      "meaningJa": "金、金属、お金",
       "meaning": "金、金属、お金",
-      "meaningEn": "gold, money, metal"
+      "meaningEn": "gold, money, metal",
+      "compounds": [
+        {
+          "word": "金曜日",
+          "reading": "きんようび",
+          "glossJa": "金曜",
+          "glossEn": "Friday"
+        }
+      ]
     },
     {
       "char": "土",
-      "reading": "つち",
+      "reading": "つち、ど、と",
+      "meaningJa": "土、土地",
       "meaning": "土、土地",
-      "meaningEn": "earth, soil"
+      "meaningEn": "earth, soil",
+      "compounds": [
+        {
+          "word": "土曜日",
+          "reading": "どようび",
+          "glossJa": "土曜",
+          "glossEn": "Saturday"
+        }
+      ]
     },
     {
       "char": "年",
-      "reading": "とし",
+      "reading": "ネン、とし",
+      "meaningJa": "年",
       "meaning": "年",
-      "meaningEn": "year"
+      "meaningEn": "year",
+      "compounds": [
+        {
+          "word": "今年",
+          "reading": "ことし",
+          "glossJa": "この年",
+          "glossEn": "this year"
+        }
+      ]
     },
     {
       "char": "時",
-      "reading": "とき",
+      "reading": "ジ、とき、~どき",
+      "meaningJa": "時、時間",
       "meaning": "時、時間",
-      "meaningEn": "time, hour"
+      "meaningEn": "time, hour",
+      "compounds": [
+        {
+          "word": "時間",
+          "reading": "じかん",
+          "glossJa": "時間の長さ",
+          "glossEn": "time, hours"
+        }
+      ]
     },
     {
       "char": "半",
-      "reading": "はん",
+      "reading": "ハン、なかば",
+      "meaningJa": "半分",
       "meaning": "半分",
-      "meaningEn": "half"
+      "meaningEn": "half",
+      "compounds": [
+        {
+          "word": "半分",
+          "reading": "はんぶん",
+          "glossJa": "2 分の 1",
+          "glossEn": "half"
+        }
+      ]
     },
     {
       "char": "午",
-      "reading": "ご",
+      "reading": "ゴ、うま",
+      "meaningJa": "午（午前）",
       "meaning": "午（午前）",
-      "meaningEn": "noon (午前)"
+      "meaningEn": "noon (午前)",
+      "compounds": [
+        {
+          "word": "午前",
+          "reading": "ごぜん",
+          "glossJa": "正午より前",
+          "glossEn": "a.m., morning"
+        }
+      ]
     },
     {
       "char": "前",
-      "reading": "まえ",
+      "reading": "ゼン、まえ、~まえ",
+      "meaningJa": "前",
       "meaning": "前",
-      "meaningEn": "front, before"
+      "meaningEn": "front, before",
+      "compounds": [
+        {
+          "word": "名前",
+          "reading": "なまえ",
+          "glossJa": "名の前＝名前",
+          "glossEn": "name"
+        }
+      ]
     },
     {
       "char": "後",
-      "reading": "うしろ",
+      "reading": "ゴ (コウ)、のち、うしろ、うしろ、あと、おくれる",
+      "meaningJa": "後ろ、あと",
       "meaning": "後ろ、あと",
-      "meaningEn": "back, after"
+      "meaningEn": "back, after",
+      "compounds": [
+        {
+          "word": "午後",
+          "reading": "ごご",
+          "glossJa": "正午より後",
+          "glossEn": "p.m., afternoon"
+        }
+      ]
     },
     {
       "char": "今",
-      "reading": "いま",
+      "reading": "コン (キン)、いま",
+      "meaningJa": "今",
       "meaning": "今",
-      "meaningEn": "now"
+      "meaningEn": "now",
+      "compounds": [
+        {
+          "word": "今日",
+          "reading": "きょう",
+          "glossJa": "この日",
+          "glossEn": "today"
+        }
+      ]
     },
     {
       "char": "先",
-      "reading": "さき",
+      "reading": "セン、さき、まず",
+      "meaningJa": "先、前、以前",
       "meaning": "先、前、以前",
-      "meaningEn": "ahead, previous"
+      "meaningEn": "ahead, previous",
+      "compounds": [
+        {
+          "word": "先月",
+          "reading": "せんげつ",
+          "glossJa": "この前の月",
+          "glossEn": "last month"
+        }
+      ]
     },
     {
       "char": "毎",
-      "reading": "まい",
+      "reading": "マイ、ごと、~ごとに",
+      "meaningJa": "毎〜",
       "meaning": "毎〜",
-      "meaningEn": "every ~"
+      "meaningEn": "every ~",
+      "compounds": [
+        {
+          "word": "毎日",
+          "reading": "まいにち",
+          "glossJa": "すべての日",
+          "glossEn": "every day"
+        }
+      ]
     },
     {
       "char": "間",
-      "reading": "あいだ",
+      "reading": "カン (ケン)、あいだ、ま、あい",
+      "meaningJa": "あいだ、間",
       "meaning": "あいだ、間",
-      "meaningEn": "interval, between"
+      "meaningEn": "interval, between",
+      "compounds": [
+        {
+          "word": "時間",
+          "reading": "じかん",
+          "glossJa": "時のあいだ",
+          "glossEn": "time interval"
+        }
+      ]
     },
     {
       "char": "人",
-      "reading": "ひと",
+      "reading": "ジン (ニン)、ひと、~り、~と",
+      "meaningJa": "人",
       "meaning": "人",
-      "meaningEn": "person"
+      "meaningEn": "person",
+      "compounds": [
+        {
+          "word": "日本人",
+          "reading": "にほんじん",
+          "glossJa": "日本の人",
+          "glossEn": "Japanese person"
+        }
+      ]
     },
     {
       "char": "名",
-      "reading": "な",
+      "reading": "メイ (ミョウ)、な、~な",
+      "meaningJa": "名前の名",
       "meaning": "名前の名",
-      "meaningEn": "name"
+      "meaningEn": "name",
+      "compounds": [
+        {
+          "word": "名前",
+          "reading": "なまえ",
+          "glossJa": "名まえ",
+          "glossEn": "name"
+        }
+      ]
     },
     {
       "char": "男",
-      "reading": "おとこ",
+      "reading": "ダン (ナン)、おとこ、お",
+      "meaningJa": "男",
       "meaning": "男",
-      "meaningEn": "man"
+      "meaningEn": "man",
+      "compounds": [
+        {
+          "word": "男の子",
+          "reading": "おとこのこ",
+          "glossJa": "男の子ども",
+          "glossEn": "boy"
+        }
+      ]
     },
     {
       "char": "女",
-      "reading": "おんな",
+      "reading": "ジョ (ニョニョウ)、おんな、め",
+      "meaningJa": "女",
       "meaning": "女",
-      "meaningEn": "woman"
+      "meaningEn": "woman",
+      "compounds": [
+        {
+          "word": "女の子",
+          "reading": "おんなのこ",
+          "glossJa": "女の子ども",
+          "glossEn": "girl"
+        }
+      ]
     },
     {
       "char": "子",
-      "reading": "こ",
+      "reading": "シ (スツ)、こ、~こ、ね",
+      "meaningJa": "子ども",
       "meaning": "子ども",
-      "meaningEn": "child"
+      "meaningEn": "child",
+      "compounds": [
+        {
+          "word": "子ども",
+          "reading": "こども",
+          "glossJa": "幼い人",
+          "glossEn": "child"
+        }
+      ]
     },
     {
       "char": "母",
-      "reading": "はは",
+      "reading": "ボ、はは、も",
+      "meaningJa": "母",
       "meaning": "母",
-      "meaningEn": "mother"
+      "meaningEn": "mother",
+      "compounds": [
+        {
+          "word": "母さん",
+          "reading": "かあさん",
+          "glossJa": "お母さんのいみでもつかう",
+          "glossEn": "mom (familiar)"
+        }
+      ]
     },
     {
       "char": "父",
-      "reading": "ちち",
+      "reading": "フ、ちち",
+      "meaningJa": "父",
       "meaning": "父",
-      "meaningEn": "father"
+      "meaningEn": "father",
+      "compounds": [
+        {
+          "word": "父さん",
+          "reading": "とうさん",
+          "glossJa": "お父さんのいみでもつかう",
+          "glossEn": "dad (familiar)"
+        }
+      ]
     },
     {
       "char": "友",
-      "reading": "とも",
+      "reading": "ユウ、とも",
+      "meaningJa": "友（友だち）",
       "meaning": "友（友だち）",
-      "meaningEn": "friend"
+      "meaningEn": "friend",
+      "compounds": [
+        {
+          "word": "友だち",
+          "reading": "ともだち",
+          "glossJa": "なかよしの人",
+          "glossEn": "friend"
+        }
+      ]
     },
     {
       "char": "生",
-      "reading": "いきる",
+      "reading": "セイ (ショウ)、いきる、いかす、いける、うまれる、うまれる、うまれ、うまれ、うむ、おう、はえる、はやす、き、なま、なま~、なる、なす、むす、~う",
+      "meaningJa": "生きる、生まれる",
       "meaning": "生きる、生まれる",
-      "meaningEn": "to live, be born"
+      "meaningEn": "to live, be born",
+      "compounds": [
+        {
+          "word": "学生",
+          "reading": "がくせい",
+          "glossJa": "学ぶ生",
+          "glossEn": "student"
+        }
+      ]
     },
     {
       "char": "学",
-      "reading": "がく",
+      "reading": "ガク、まなぶ",
+      "meaningJa": "学ぶ、学問（学）",
       "meaning": "学ぶ、学問（学）",
-      "meaningEn": "study, learning"
+      "meaningEn": "study, learning",
+      "compounds": [
+        {
+          "word": "学校",
+          "reading": "がっこう",
+          "glossJa": "まなぶところ",
+          "glossEn": "school"
+        }
+      ]
     },
     {
       "char": "大",
-      "reading": "おおきい",
+      "reading": "ダイ (タイ)、おお~、おおきい、~おおいに",
+      "meaningJa": "大きい",
       "meaning": "大きい",
-      "meaningEn": "big"
+      "meaningEn": "big",
+      "compounds": [
+        {
+          "word": "大きい",
+          "reading": "おおきい",
+          "glossJa": "おおきさ",
+          "glossEn": "big"
+        }
+      ]
     },
     {
       "char": "中",
-      "reading": "なか",
+      "reading": "チュウ、なか、うち、あたる",
+      "meaningJa": "中、なか",
       "meaning": "中、なか",
-      "meaningEn": "middle, inside"
+      "meaningEn": "middle, inside",
+      "compounds": [
+        {
+          "word": "中学校",
+          "reading": "ちゅうがっこう",
+          "glossJa": "中学",
+          "glossEn": "junior high school"
+        }
+      ]
     },
     {
       "char": "小",
-      "reading": "ちいさい",
+      "reading": "ショウ、ちいさい、こ~、お~、さ~",
+      "meaningJa": "小さい",
       "meaning": "小さい",
-      "meaningEn": "small"
+      "meaningEn": "small",
+      "compounds": [
+        {
+          "word": "小さい",
+          "reading": "ちいさい",
+          "glossJa": "ちいささ",
+          "glossEn": "small"
+        }
+      ]
     },
     {
       "char": "校",
-      "reading": "こう",
+      "reading": "こう、きょう",
+      "meaningJa": "学校の校",
       "meaning": "学校の校",
-      "meaningEn": "school (suffix)"
+      "meaningEn": "school (suffix)",
+      "compounds": [
+        {
+          "word": "学校",
+          "reading": "がっこう",
+          "glossJa": "がく＋校",
+          "glossEn": "school"
+        }
+      ]
     },
     {
       "char": "外",
-      "reading": "そと",
+      "reading": "ガイ (ゲ)、そと、ほか、はずす、はずれる、と~",
+      "meaningJa": "外",
       "meaning": "外",
-      "meaningEn": "outside"
+      "meaningEn": "outside",
+      "compounds": [
+        {
+          "word": "外出",
+          "reading": "がいしゅつ",
+          "glossJa": "そとへ出ること",
+          "glossEn": "going out"
+        }
+      ]
     },
     {
       "char": "国",
-      "reading": "くに",
+      "reading": "コク、くに",
+      "meaningJa": "国",
       "meaning": "国",
-      "meaningEn": "country"
+      "meaningEn": "country",
+      "compounds": [
+        {
+          "word": "外国",
+          "reading": "がいこく",
+          "glossJa": "ほかの国",
+          "glossEn": "foreign country"
+        }
+      ]
     },
     {
       "char": "語",
-      "reading": "ご",
+      "reading": "ゴ、かたる、かたらう",
+      "meaningJa": "言葉、語",
       "meaning": "言葉、語",
-      "meaningEn": "word, language"
+      "meaningEn": "word, language",
+      "compounds": [
+        {
+          "word": "日本語",
+          "reading": "にほんご",
+          "glossJa": "日本のことば",
+          "glossEn": "Japanese language"
+        }
+      ]
     },
     {
       "char": "本",
-      "reading": "ほん",
+      "reading": "ホン、もと",
+      "meaningJa": "本、〜さん",
       "meaning": "本、〜さん",
-      "meaningEn": "book, counter (~)"
+      "meaningEn": "book, counter (~)",
+      "compounds": [
+        {
+          "word": "日本",
+          "reading": "にほん",
+          "glossJa": "日のもと＝にっぽんとも",
+          "glossEn": "Japan"
+        }
+      ]
     },
     {
       "char": "何",
-      "reading": "なん",
+      "reading": "カ、なに、なん、なに~、なん~",
+      "meaningJa": "何",
       "meaning": "何",
-      "meaningEn": "what"
+      "meaningEn": "what",
+      "compounds": [
+        {
+          "word": "何時",
+          "reading": "なんじ",
+          "glossJa": "いつ",
+          "glossEn": "what time"
+        }
+      ]
     },
     {
       "char": "天",
-      "reading": "てん",
+      "reading": "テン、あまつ、あめ、あま~",
+      "meaningJa": "天、空",
       "meaning": "天、空",
-      "meaningEn": "sky, heaven"
+      "meaningEn": "sky, heaven",
+      "compounds": [
+        {
+          "word": "天気",
+          "reading": "てんき",
+          "glossJa": "空のようす",
+          "glossEn": "weather"
+        }
+      ]
     },
     {
       "char": "気",
-      "reading": "き",
+      "reading": "キ (ケ)、いき",
+      "meaningJa": "気、天気の気",
       "meaning": "気、天気の気",
-      "meaningEn": "spirit, weather"
+      "meaningEn": "spirit, weather",
+      "compounds": [
+        {
+          "word": "天気",
+          "reading": "てんき",
+          "glossJa": "気のようす",
+          "glossEn": "weather"
+        }
+      ]
     },
     {
       "char": "山",
-      "reading": "やま",
+      "reading": "サン (セン)、やま",
+      "meaningJa": "山",
       "meaning": "山",
-      "meaningEn": "mountain"
+      "meaningEn": "mountain",
+      "compounds": [
+        {
+          "word": "山田",
+          "reading": "やまだ",
+          "glossJa": "よくある名字の例",
+          "glossEn": "Yamada (surname example)"
+        }
+      ]
     },
     {
       "char": "川",
-      "reading": "かわ",
+      "reading": "セン、かわ",
+      "meaningJa": "川",
       "meaning": "川",
-      "meaningEn": "river"
+      "meaningEn": "river",
+      "compounds": [
+        {
+          "word": "川口",
+          "reading": "かわぐち",
+          "glossJa": "川の入り口付近",
+          "glossEn": "river mouth, Kawaguchi"
+        }
+      ]
     },
     {
       "char": "雨",
-      "reading": "あめ",
+      "reading": "ウ、あめ、あま~、~さめ",
+      "meaningJa": "雨",
       "meaning": "雨",
-      "meaningEn": "rain"
+      "meaningEn": "rain",
+      "compounds": [
+        {
+          "word": "大雨",
+          "reading": "おおあめ",
+          "glossJa": "おおきい雨",
+          "glossEn": "heavy rain"
+        }
+      ]
     },
     {
       "char": "電",
-      "reading": "でん",
+      "reading": "デン",
+      "meaningJa": "電気の電",
       "meaning": "電気の電",
-      "meaningEn": "electricity"
+      "meaningEn": "electricity",
+      "compounds": [
+        {
+          "word": "電気",
+          "reading": "でんき",
+          "glossJa": "でんき",
+          "glossEn": "electricity"
+        }
+      ]
     },
     {
       "char": "上",
-      "reading": "うえ",
+      "reading": "ジョウ (ショウシャン)、うえ、~うえ、うわ~、かみ、あげる、~あげる、あがる、~あがる、あがり、~あがり、のぼる、のぼり、のぼせる、のぼす、たてまつる",
+      "meaningJa": "上",
       "meaning": "上",
-      "meaningEn": "above, up"
+      "meaningEn": "above, up",
+      "compounds": [
+        {
+          "word": "上手",
+          "reading": "じょうず",
+          "glossJa": "うまいこと",
+          "glossEn": "skillful"
+        }
+      ]
     },
     {
       "char": "下",
-      "reading": "した",
+      "reading": "カ (ゲ)、した、しも、もと、さげる、さがる、くだる、くだり、くだす、~くだす、くださる、おろす、おりる",
+      "meaningJa": "下",
       "meaning": "下",
-      "meaningEn": "below, down"
+      "meaningEn": "below, down",
+      "compounds": [
+        {
+          "word": "下手",
+          "reading": "へた",
+          "glossJa": "うまくないこと",
+          "glossEn": "clumsy"
+        }
+      ]
     },
     {
       "char": "左",
-      "reading": "ひだり",
+      "reading": "サ (シャ)、ひだり",
+      "meaningJa": "左",
       "meaning": "左",
-      "meaningEn": "left"
+      "meaningEn": "left",
+      "compounds": [
+        {
+          "word": "左折",
+          "reading": "させつ",
+          "glossJa": "ひだりに曲がる",
+          "glossEn": "turn left (traffic)"
+        }
+      ]
     },
     {
       "char": "右",
-      "reading": "みぎ",
+      "reading": "ウ (ユウ)、みぎ",
+      "meaningJa": "右",
       "meaning": "右",
-      "meaningEn": "right"
+      "meaningEn": "right",
+      "compounds": [
+        {
+          "word": "右折",
+          "reading": "うせつ",
+          "glossJa": "みぎに曲がる",
+          "glossEn": "turn right (traffic)"
+        }
+      ]
     },
     {
       "char": "北",
-      "reading": "きた",
+      "reading": "ホク、きた",
+      "meaningJa": "北",
       "meaning": "北",
-      "meaningEn": "north"
+      "meaningEn": "north",
+      "compounds": [
+        {
+          "word": "北海道",
+          "reading": "ほっかいどう",
+          "glossJa": "地名の例",
+          "glossEn": "Hokkaido"
+        }
+      ]
     },
     {
       "char": "南",
-      "reading": "みなみ",
+      "reading": "ナン (ナ)、みなみ",
+      "meaningJa": "南",
       "meaning": "南",
-      "meaningEn": "south"
+      "meaningEn": "south",
+      "compounds": [
+        {
+          "word": "南口",
+          "reading": "みなみぐち",
+          "glossJa": "南の出口",
+          "glossEn": "south exit"
+        }
+      ]
     },
     {
       "char": "東",
-      "reading": "ひがし",
+      "reading": "トウ、ひがし",
+      "meaningJa": "東",
       "meaning": "東",
-      "meaningEn": "east"
+      "meaningEn": "east",
+      "compounds": [
+        {
+          "word": "東京",
+          "reading": "とうきょう",
+          "glossJa": "とう＋きょう",
+          "glossEn": "Tokyo"
+        }
+      ]
     },
     {
       "char": "西",
-      "reading": "にし",
+      "reading": "セイ (サイス)、にし",
+      "meaningJa": "西",
       "meaning": "西",
-      "meaningEn": "west"
+      "meaningEn": "west",
+      "compounds": [
+        {
+          "word": "関西",
+          "reading": "かんさい",
+          "glossJa": "西の方の地方",
+          "glossEn": "Kansai region"
+        }
+      ]
     },
     {
       "char": "見",
-      "reading": "みる",
+      "reading": "ケン、みる、みえる、みせる",
+      "meaningJa": "見る",
       "meaning": "見る",
-      "meaningEn": "to see"
+      "meaningEn": "to see",
+      "compounds": [
+        {
+          "word": "見学",
+          "reading": "けんがく",
+          "glossJa": "みてまなぶ",
+          "glossEn": "study tour, observe"
+        }
+      ]
     },
     {
       "char": "聞",
-      "reading": "きく",
+      "reading": "ブン (モン)、きく、きこえる",
+      "meaningJa": "聞く",
       "meaning": "聞く",
-      "meaningEn": "to hear, listen"
+      "meaningEn": "to hear, listen",
+      "compounds": [
+        {
+          "word": "新聞",
+          "reading": "しんぶん",
+          "glossJa": "新聞・新聞紙",
+          "glossEn": "newspaper"
+        }
+      ]
     },
     {
       "char": "食",
-      "reading": "たべる",
+      "reading": "ショク (ジキ)、くう、くらう、たべる、はむ",
+      "meaningJa": "食べる",
       "meaning": "食べる",
-      "meaningEn": "to eat"
+      "meaningEn": "to eat",
+      "compounds": [
+        {
+          "word": "食べ物",
+          "reading": "たべもの",
+          "glossJa": "たべるもの",
+          "glossEn": "food"
+        }
+      ]
     },
     {
       "char": "読",
-      "reading": "よむ",
+      "reading": "ドク (トクトウ)、よむ、~よみ",
+      "meaningJa": "読む",
       "meaning": "読む",
-      "meaningEn": "to read"
+      "meaningEn": "to read",
+      "compounds": [
+        {
+          "word": "読書",
+          "reading": "どくしょ",
+          "glossJa": "本を読むこと",
+          "glossEn": "reading books"
+        }
+      ]
     },
     {
       "char": "書",
-      "reading": "かく",
+      "reading": "ショ、かく、~がき、~がき",
+      "meaningJa": "書く",
       "meaning": "書く",
-      "meaningEn": "to write"
+      "meaningEn": "to write",
+      "compounds": [
+        {
+          "word": "辞書",
+          "reading": "じしょ",
+          "glossJa": "ことばの書",
+          "glossEn": "dictionary"
+        }
+      ]
     },
     {
       "char": "行",
-      "reading": "いく",
+      "reading": "コウ (ギョウアン)、いく、ゆく、~ゆき、~ゆき、~いき、~いき、おこなう、おこなう",
+      "meaningJa": "行く",
       "meaning": "行く",
-      "meaningEn": "to go"
+      "meaningEn": "to go",
+      "compounds": [
+        {
+          "word": "銀行",
+          "reading": "ぎんこう",
+          "glossJa": "お金を預ける所",
+          "glossEn": "bank"
+        }
+      ]
     },
     {
       "char": "来",
-      "reading": "くる",
+      "reading": "ライ (タイ)、くる、きたる、きたす、きたす、きたる、き、こ",
+      "meaningJa": "来る",
       "meaning": "来る",
-      "meaningEn": "to come"
+      "meaningEn": "to come",
+      "compounds": [
+        {
+          "word": "来月",
+          "reading": "らいげつ",
+          "glossJa": "つぎの月",
+          "glossEn": "next month"
+        }
+      ]
     },
     {
       "char": "出",
-      "reading": "でる",
+      "reading": "シュツ (スイ)、でる、~で、だす、~だす、いでる、いだす",
+      "meaningJa": "出る",
       "meaning": "出る",
-      "meaningEn": "to exit, go out"
+      "meaningEn": "to exit, go out",
+      "compounds": [
+        {
+          "word": "出口",
+          "reading": "でぐち",
+          "glossJa": "でる口",
+          "glossEn": "exit"
+        }
+      ]
     },
     {
       "char": "入",
-      "reading": "はいる",
+      "reading": "ニュウ (ジュ)、いる、~いる、~いり、いれる、~いれ、はいる",
+      "meaningJa": "入る",
       "meaning": "入る",
-      "meaningEn": "to enter"
+      "meaningEn": "to enter",
+      "compounds": [
+        {
+          "word": "入口",
+          "reading": "いりぐち",
+          "glossJa": "はいる口",
+          "glossEn": "entrance"
+        }
+      ]
     },
     {
       "char": "休",
-      "reading": "やすむ",
+      "reading": "キュウ、やすむ、やすまる、やすめる",
+      "meaningJa": "休む",
       "meaning": "休む",
-      "meaningEn": "to rest"
+      "meaningEn": "to rest",
+      "compounds": [
+        {
+          "word": "休み",
+          "reading": "やすみ",
+          "glossJa": "やすむ時間",
+          "glossEn": "rest, holiday"
+        }
+      ]
     },
     {
       "char": "車",
-      "reading": "くるま",
+      "reading": "シャ、くるま",
+      "meaningJa": "車",
       "meaning": "車",
-      "meaningEn": "car, vehicle"
+      "meaningEn": "car, vehicle",
+      "compounds": [
+        {
+          "word": "電車",
+          "reading": "でんしゃ",
+          "glossJa": "でんきの車",
+          "glossEn": "train"
+        }
+      ]
     },
     {
       "char": "話",
-      "reading": "はなす",
+      "reading": "ワ、はなす、はなし",
+      "meaningJa": "話す、話",
       "meaning": "話す、話",
-      "meaningEn": "to speak, talk"
+      "meaningEn": "to speak, talk",
+      "compounds": [
+        {
+          "word": "電話",
+          "reading": "でんわ",
+          "glossJa": "はなす電気",
+          "glossEn": "telephone"
+        }
+      ]
     },
     {
       "char": "白",
-      "reading": "しろ",
+      "reading": "ハク (ビャク)、しろ、しら~、しろい",
+      "meaningJa": "白、しろい",
       "meaning": "白、しろい",
-      "meaningEn": "white"
+      "meaningEn": "white",
+      "compounds": [
+        {
+          "word": "白い",
+          "reading": "しろい",
+          "glossJa": "いろの名",
+          "glossEn": "white (adj.)"
+        }
+      ]
     },
     {
       "char": "高",
-      "reading": "たかい",
+      "reading": "コウ、たかい、たか、~だか、たかまる、たかめる",
+      "meaningJa": "高い",
       "meaning": "高い",
-      "meaningEn": "high, tall"
+      "meaningEn": "high, tall",
+      "compounds": [
+        {
+          "word": "高校",
+          "reading": "こうこう",
+          "glossJa": "高い学校＝高等学校",
+          "glossEn": "high school"
+        }
+      ]
     },
     {
       "char": "長",
-      "reading": "ながい",
+      "reading": "チョウ、ながい、おさ",
+      "meaningJa": "長い",
       "meaning": "長い",
-      "meaningEn": "long, tall"
+      "meaningEn": "long, tall",
+      "compounds": [
+        {
+          "word": "長い",
+          "reading": "ながい",
+          "glossJa": "ながさ",
+          "glossEn": "long"
+        }
+      ]
     }
   ]
 }

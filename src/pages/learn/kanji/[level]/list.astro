@@ -1,0 +1,14 @@
+---
+export function getStaticPaths() {
+  return (["N1", "N2", "N3", "N4", "N5"] as const).map((level) => ({ params: { level } }));
+}
+
+const LEVELS = ["N1", "N2", "N3", "N4", "N5"] as const;
+const base = import.meta.env.BASE_URL;
+const raw = Astro.params.level ?? "";
+const level = raw.toUpperCase();
+if (!(LEVELS as readonly string[]).includes(level)) {
+  return Astro.redirect(`${base}learn/kanji/`, 302);
+}
+return Astro.redirect(`${base}learn/kanji/${level}/`, 301);
+---
