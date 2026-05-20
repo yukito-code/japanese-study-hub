@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="iik-bg" x1="8" y1="6" x2="72" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff5f5"/>
+      <stop offset="1" stop-color="#f0e4e4"/>
+    </linearGradient>
+    <linearGradient id="iik-left" x1="10" y1="28" x2="30" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5a6b7a"/>
+      <stop offset="1" stop-color="#3a4a58"/>
+    </linearGradient>
+    <linearGradient id="iik-right" x1="50" y1="28" x2="70" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b84d52"/>
+      <stop offset="1" stop-color="#8f2d32"/>
+    </linearGradient>
+    <filter id="iik-sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#1f1a16" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="80" height="80" rx="14" fill="url(#iik-bg)"/>
+  <path d="M40 16c-6 4-10 10-10 16s4 12 10 16c6-4 10-10 10-16s-4-12-10-16z" stroke="#8f2d32" stroke-width="1" opacity="0.12" fill="none"/>
+  <g filter="url(#iik-sh)">
+    <rect x="10" y="30" width="22" height="24" rx="6" fill="url(#iik-left)"/>
+    <rect x="48" y="30" width="22" height="24" rx="6" fill="url(#iik-right)"/>
+    <path d="M18 40h6M18 46h8" stroke="#fdfbf7" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M56 40h6M56 46h8" stroke="#fdfbf7" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+  </g>
+  <circle cx="40" cy="42" r="10" fill="#fdfbf7" stroke="#d9d0c4" stroke-width="1.2"/>
+  <path d="M35 42h4M41 38l4 4-4 4" stroke="#8f2d32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28 24l4 2M52 24l-4 2" stroke="#9a7b2d" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <circle cx="24" cy="58" r="2" fill="#3a4a58" opacity="0.25"/>
+  <circle cx="56" cy="58" r="2" fill="#8f2d32" opacity="0.25"/>
+</svg>

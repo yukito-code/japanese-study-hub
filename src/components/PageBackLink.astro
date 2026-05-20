@@ -2,12 +2,43 @@
 import { ui } from "../i18n/ui";
 
 type Props = {
-  href: string;
+  href?: string;
+  /** button のとき（クイズ→記事など） */
+  id?: string;
 };
 
-const { href } = Astro.props;
+const { href, id } = Astro.props;
+const isButton = !href && id;
 ---
 
-<p class="page-back-wrap">
-  <a class="page-back-link" href={href} data-ui="nav.back">{ui.ja["nav.back"]}</a>
-</p>
+<nav class="page-back-nav" aria-label={ui.ja["nav.back"]}>
+  {
+    isButton ? (
+      <button type="button" class="page-back-btn" id={id} data-ui="nav.back">
+        <svg class="page-back-btn__icon" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+          <path
+            d="M12.5 15 7.5 10l5-5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"></path>
+        </svg>
+        <span class="page-back-btn__label">{ui.ja["nav.back"]}</span>
+      </button>
+    ) : (
+      <a class="page-back-btn" href={href} data-ui="nav.back">
+        <svg class="page-back-btn__icon" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+          <path
+            d="M12.5 15 7.5 10l5-5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"></path>
+        </svg>
+        <span class="page-back-btn__label">{ui.ja["nav.back"]}</span>
+      </a>
+    )
+  }
+</nav>

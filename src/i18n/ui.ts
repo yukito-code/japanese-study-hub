@@ -1,19 +1,23 @@
+import { uiZh } from "./ui-zh";
+import type { Locale } from "./locales";
+
+export type { Locale } from "./locales";
+
 export const LOCALE_STORAGE_KEY = "jlpt-locale";
 
-export type Locale = "ja" | "en";
-
-/** UI 文言（将来の言語追加はこの型＋オブジェクトを拡張） */
+/** UI 文言（将来の言語追加は ui-*.ts と zh ブロックを拡張） */
 export const ui = {
   ja: {
     "site.name": "Japanese Study Hub",
     "lang.pick": "表示言語",
     "lang.ja": "日本語",
     "lang.en": "English",
+    "lang.zh": "中文",
     "nav.top": "トップ",
     "nav.kanjiIndex": "漢字一覧",
     "nav.kanjiHub": "漢字メニュー",
     "nav.goiHub": "語彙問題",
-    "nav.back": "もどる",
+    "nav.back": "戻る",
     "meta.home.description":
       "日本語の学習ハブ。学習コンテンツ（一覧・カード等）と JLPT 形式の四択（JLPT問題集）を分けて用意しています。",
     "meta.kanji.hub":
@@ -28,17 +32,11 @@ export const ui = {
       "「学習コンテンツ」は参考用の一覧・カードなど（JLPT 以外の教材もここに増やす予定です）。「JLPT問題集」は四択の問題です。級は各カードの N1〜N5 から選びます。",
     "home.menuTitle": "学習メニュー",
     "home.sectionThinkTitle": "学習コンテンツ",
-    "home.sectionThinkLead":
-      "一覧やカードで内容を確認します。漢字に加え、あいさつ表現などのガイドを追加中です。",
     "home.sectionProblemsTitle": "JLPT問題集",
-    "home.sectionProblemsLead":
-      "漢字の読み・空所補充・言い換えの四択。各カードの N1〜N5 から級を選んで始めます。",
     "home.think.kanji.title": "漢字",
-    "home.think.kanji.desc":
-      "漢字一覧のメニューへ。級はカード内の N1〜N5 から選びます。",
+    "home.think.kanji.desc": "N1〜N5 の漢字を一覧で確認。",
     "home.think.kaiwaAisatsu.title": "あいさつ表現",
-    "home.think.kaiwaAisatsu.desc":
-      "表でフレーズを確認し、記事表示時だけ目立つボタンから四択クイズでも練習できます。",
+    "home.think.kaiwaAisatsu.desc": "場面別のあいさつフレーズを表で確認。",
     "meta.learn.kaiwaAisatsu":
       "あいさつ表現のフレーズを、時間帯・場面ごとに表（フレーズ＋解説）で整理。",
     "title.learnKaiwaAisatsu": "あいさつ表現 | Japanese Study Hub",
@@ -49,16 +47,20 @@ export const ui = {
     "learn.kaiwa.quiz.sectionTitle": "あいさつ表現 · クイズ",
     "learn.kaiwa.quiz.progress": "問題 {n} / {total}",
     "learn.kaiwa.quiz.next": "つぎの問題",
+    "learn.kaiwa.quiz.roundSummary.title": "おつかれさま！",
+    "learn.kaiwa.quiz.roundSummary.score": "正答率 {pct}%",
+    "learn.kaiwa.quiz.roundSummary.detail": "正解 {correct} / {total} 問",
+    "learn.kaiwa.quiz.roundSummary.restart": "もう一度挑戦",
     "learn.kaiwa.quiz.feedbackOk": "せいかい！",
     "learn.kaiwa.quiz.feedbackNg": "ざんねん。",
     "learn.kaiwa.quiz.correctLine": "正答：{choice}",
     "learn.kaiwa.quiz.prevQuestion": "前の問題",
     "home.problem.kanjiYomi.title": "漢字の読み",
-    "home.problem.kanjiYomi.desc": "文中の下線の漢字の読みを四択で選びます。",
+    "home.problem.kanjiYomi.desc": "文中の漢字の読みを四択で選ぶ。",
     "home.problem.bunmyaku.title": "空所補充 (文脈)",
-    "home.problem.bunmyaku.desc": "空欄に入る語を、文の流れから四択で選びます。",
+    "home.problem.bunmyaku.desc": "空欄に入る語を、文の意味から選ぶ。",
     "home.problem.iikae.title": "言い換え (同義)",
-    "home.problem.iikae.desc": "下線の語句と同じ意味に近い表現を四択で選びます。",
+    "home.problem.iikae.desc": "下線の表現と同じ意味に近い語を選ぶ。",
     "jlpt.level.unreleased": "準備中",
     "home.footer":
       "静的サイト（GitHub Pages 想定）。ログインはありません。言語は右上から切り替えできます。",
@@ -89,6 +91,10 @@ export const ui = {
     "goi.lead.iikae": "下線の表現に、いちばん近い意味を選びます。",
     "goi.instruction": "正しいと思う選択肢をタップしてください。",
     "goi.next": "つぎの問題",
+    "goi.roundSummary.title": "おつかれさま！",
+    "goi.roundSummary.score": "正答率 {pct}%",
+    "goi.roundSummary.detail": "正解 {correct} / {total} 問",
+    "goi.roundSummary.restart": "もう一度挑戦",
     "goi.progress": "問題 {n} / {total}",
     "goi.explain.title": "解説",
     "goi.feedback.ok": "せいかい！",
@@ -102,6 +108,7 @@ export const ui = {
     "lang.pick": "Language",
     "lang.ja": "日本語",
     "lang.en": "English",
+    "lang.zh": "中文",
     "nav.top": "Home",
     "nav.kanjiIndex": "Kanji list",
     "nav.kanjiHub": "Kanji menu",
@@ -121,17 +128,11 @@ export const ui = {
       "“Study content” is reference material (lists, cards, and non-JLPT topics we plan to add). “JLPT question sets” are multiple-choice drills. Pick a level (N1–N5) on each card.",
     "home.menuTitle": "Study menu",
     "home.sectionThinkTitle": "Study content",
-    "home.sectionThinkLead":
-      "Browse lists and cards. Kanji plus greeting-phrase guides (more topics coming).",
     "home.sectionProblemsTitle": "JLPT question sets",
-    "home.sectionProblemsLead":
-      "Kanji reading, context cloze, and paraphrase (four choices each). Pick N1–N5 on each card.",
     "home.think.kanji.title": "Kanji",
-    "home.think.kanji.desc":
-      "Kanji list menu. Pick a level from the N1–N5 chips on the card.",
+    "home.think.kanji.desc": "Browse kanji by level (N1–N5).",
     "home.think.kaiwaAisatsu.title": "Greeting phrases",
-    "home.think.kaiwaAisatsu.desc":
-      "Phrase tables and an optional quiz. Tap the prominent button at the top when in article view.",
+    "home.think.kaiwaAisatsu.desc": "Greeting phrases by situation, in tables.",
     "meta.learn.kaiwaAisatsu":
       "Greeting phrases in tables: phrase + short notes by time of day and situation.",
     "title.learnKaiwaAisatsu": "Greeting phrases | Japanese Study Hub",
@@ -142,16 +143,20 @@ export const ui = {
     "learn.kaiwa.quiz.sectionTitle": "Greeting phrases · Quiz",
     "learn.kaiwa.quiz.progress": "Question {n} of {total}",
     "learn.kaiwa.quiz.next": "Next question",
+    "learn.kaiwa.quiz.roundSummary.title": "Well done!",
+    "learn.kaiwa.quiz.roundSummary.score": "Score: {pct}%",
+    "learn.kaiwa.quiz.roundSummary.detail": "{correct} of {total} correct",
+    "learn.kaiwa.quiz.roundSummary.restart": "Try again",
     "learn.kaiwa.quiz.feedbackOk": "Correct!",
     "learn.kaiwa.quiz.feedbackNg": "Not quite.",
     "learn.kaiwa.quiz.correctLine": "Answer: {choice}",
     "learn.kaiwa.quiz.prevQuestion": "Previous",
     "home.problem.kanjiYomi.title": "Kanji reading",
-    "home.problem.kanjiYomi.desc": "Pick the reading of the underlined kanji in the sentence.",
+    "home.problem.kanjiYomi.desc": "Pick the kanji reading in context (four choices).",
     "home.problem.bunmyaku.title": "Context cloze",
-    "home.problem.bunmyaku.desc": "Choose the word that best fits the blank from context.",
+    "home.problem.bunmyaku.desc": "Choose the word that fits the blank.",
     "home.problem.iikae.title": "Paraphrase (synonym)",
-    "home.problem.iikae.desc": "Choose the expression closest in meaning to the underlined phrase.",
+    "home.problem.iikae.desc": "Pick the meaning closest to the underlined phrase.",
     "jlpt.level.unreleased": "Coming soon",
     "home.footer":
       "Static site (GitHub Pages). No login. Switch language from the header.",
@@ -183,6 +188,10 @@ export const ui = {
     "goi.lead.iikae": "Choose the closest meaning for the underlined expression.",
     "goi.instruction": "Tap the option you think is correct.",
     "goi.next": "Next question",
+    "goi.roundSummary.title": "Well done!",
+    "goi.roundSummary.score": "Score: {pct}%",
+    "goi.roundSummary.detail": "{correct} of {total} correct",
+    "goi.roundSummary.restart": "Try again",
     "goi.progress": "Question {n} of {total}",
     "goi.explain.title": "Explanation",
     "goi.feedback.ok": "Correct!",
@@ -191,6 +200,7 @@ export const ui = {
     "goi.footer":
       "Study-only material. Not affiliated with JLPT; format and coverage are not guaranteed.",
   },
+  zh: uiZh,
 } as const;
 
 export type UiKey = keyof typeof ui.ja;

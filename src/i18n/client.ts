@@ -1,6 +1,6 @@
+import { htmlLangFor, isLocale, LOCALES, type Locale } from "./locales";
 import {
   LOCALE_STORAGE_KEY,
-  type Locale,
   type UiKey,
   ui,
 } from "./ui";
@@ -8,7 +8,7 @@ import {
 export function getLocale(): Locale {
   if (typeof window === "undefined") return "ja";
   const v = localStorage.getItem(LOCALE_STORAGE_KEY);
-  return v === "en" ? "en" : "ja";
+  return isLocale(v) ? v : "ja";
 }
 
 export function setLocale(locale: Locale): void {
@@ -34,7 +34,7 @@ function applyMetaAndTitle(locale: Locale): void {
 /** [data-ui="key"] の text を現在言語に合わせる */
 export function applyDataUi(): void {
   const locale = getLocale();
-  document.documentElement.lang = locale === "en" ? "en" : "ja";
+  document.documentElement.lang = htmlLangFor(locale);
   document.documentElement.dataset.locale = locale;
 
   for (const el of document.querySelectorAll("[data-ui]")) {
@@ -54,7 +54,9 @@ export function applyDataUi(): void {
   for (const el of document.querySelectorAll(".js-meaning")) {
     const ja = el.getAttribute("data-meaning-ja");
     const en = el.getAttribute("data-meaning-en");
-    if (locale === "en" && en) el.textContent = en;
+    const zh = el.getAttribute("data-meaning-zh");
+    if (locale === "zh" && zh) el.textContent = zh;
+    else if (locale === "en" && en) el.textContent = en;
     else if (ja) el.textContent = ja;
   }
 
@@ -67,27 +69,24 @@ export function applyDataUi(): void {
 
   applyMetaAndTitle(locale);
 
-  for (const btn of document.querySelectorAll("[data-set-lang]")) {
-    const lang = btn.getAttribute("data-set-lang") as Locale | null;
-    if (!lang) continue;
-    btn.setAttribute("aria-pressed", locale === lang ? "true" : "false");
-  }
-
-  window.dispatchEvent(new CustomEvent("localechange", { detail: { locale } }));
+  const langSelect = document.getElementById("site-lang-select") as HTMLSelectElement | null;
+  if (langSelect) langSelect.value = locale;
 }
 
 function bindLanguageSwitch(): void {
-  for (const btn of document.querySelectorAll("[data-set-lang]")) {
-    btn.addEventListener("click", () => {
-      const lang = btn.getAttribute("data-set-lang") as Locale | null;
-      if (lang !== "ja" && lang !== "en") return;
-      setLocale(lang);
-      applyDataUi();
-    });
-  }
+  const langSelect = document.getElementById("site-lang-select") as HTMLSelectElement | null;
+  langSelect?.addEventListener("change", () => {
+    const lang = langSelect.value;
+    if (!isLocale(lang)) return;
+    setLocale(lang);
+    applyDataUi();
+  });
 }
 
 export function initI18n(): void {
   bindLanguageSwitch();
   applyDataUi();
 }
+
+/** ヘッダー用：言語選択の option 一覧（Astro から利用可） */
+export { LOCALES };

@@ -15,12 +15,12 @@ const quizPayload = JSON.stringify({ items: kaiwaAisatsuQuizItems });
 ---
 
 <BaseLayout titleKey="title.learnKaiwaAisatsu" descKey="meta.learn.kaiwaAisatsu">
-  <SiteHeader topHref={`${base}`} />
+  <SiteHeader />
   <main class="learn-article">
-    <h1 class="hero-title" data-ui="learn.kaiwa.aisatsu.h1">{ui.ja["learn.kaiwa.aisatsu.h1"]}</h1>
     <div id="kaiwa-page-back-wrap">
       <PageBackLink href={`${base}`} />
     </div>
+    <h1 class="hero-title" data-ui="learn.kaiwa.aisatsu.h1">{ui.ja["learn.kaiwa.aisatsu.h1"]}</h1>
 
     <div id="kaiwa-read-panel">
       <div id="kaiwa-read-cta-wrap" class="kaiwa-action-row">
@@ -31,23 +31,30 @@ const quizPayload = JSON.stringify({ items: kaiwaAisatsuQuizItems });
           data-ui="learn.kaiwa.quiz.startButton">{ui.ja["learn.kaiwa.quiz.startButton"]}</button>
       </div>
 
-      <div class="learn-locale-ja">
+      <div data-locale-block="ja">
         <p class="hero-lead learn-intro">{kaiwaAisatsuIntro.ja}</p>
       </div>
-      <div class="learn-locale-en">
+      <div data-locale-block="en">
         <p class="hero-lead learn-intro">{kaiwaAisatsuIntro.en}</p>
+      </div>
+      <div data-locale-block="zh">
+        <p class="hero-lead learn-intro">{kaiwaAisatsuIntro.zh}</p>
       </div>
 
       {
         kaiwaAisatsuSections.map((sec) => (
           <section class="learn-section">
-            <div class="learn-locale-ja">
+            <div data-locale-block="ja">
               <h2 class="hero-title hero-title--section">{sec.ja.title}</h2>
               <LearnBlocks blocks={sec.ja.blocks} />
             </div>
-            <div class="learn-locale-en">
+            <div data-locale-block="en">
               <h2 class="hero-title hero-title--section">{sec.en.title}</h2>
               <LearnBlocks blocks={sec.en.blocks} />
+            </div>
+            <div data-locale-block="zh">
+              <h2 class="hero-title hero-title--section">{sec.zh.title}</h2>
+              <LearnBlocks blocks={sec.zh.blocks} />
             </div>
           </section>
         ))
@@ -59,11 +66,7 @@ const quizPayload = JSON.stringify({ items: kaiwaAisatsuQuizItems });
     </div>
 
     <div id="kaiwa-quiz-panel" class="kaiwa-quiz-panel" hidden>
-      <p class="page-back-wrap">
-        <button type="button" class="page-back-link" id="kaiwa-btn-back-read" data-ui="nav.back">
-          {ui.ja["nav.back"]}
-        </button>
-      </p>
+      <PageBackLink id="kaiwa-btn-back-read" />
 
       <h2 class="hero-title hero-title--section" data-ui="learn.kaiwa.quiz.sectionTitle">
         {ui.ja["learn.kaiwa.quiz.sectionTitle"]}
@@ -73,23 +76,40 @@ const quizPayload = JSON.stringify({ items: kaiwaAisatsuQuizItems });
       <p class="progress-text" id="kaiwa-quiz-progress" aria-live="polite"></p>
 
       <div class="card" style="margin-top: 0.65rem">
-        <div class="quiz-options" id="kaiwa-quiz-options"></div>
-        <div class="nav-row nav-row--quiz-footer" style="margin-top: 1rem">
+        <div id="kaiwa-quiz-play">
+          <div class="quiz-options" id="kaiwa-quiz-options"></div>
+          <div class="nav-row nav-row--quiz-footer" style="margin-top: 1rem">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              id="kaiwa-quiz-prev"
+              disabled
+              data-ui="learn.kaiwa.quiz.prevQuestion">{ui.ja["learn.kaiwa.quiz.prevQuestion"]}</button>
+            <button type="button" class="btn btn-goi-next" id="kaiwa-quiz-next" disabled data-ui="learn.kaiwa.quiz.next">
+              {ui.ja["learn.kaiwa.quiz.next"]}
+            </button>
+          </div>
+          <div id="kaiwa-quiz-feedback" class="quiz-feedback" hidden>
+            <p id="kaiwa-quiz-feedback-head" style="margin: 0 0 0.35rem; font-weight: 700"></p>
+            <p id="kaiwa-quiz-correct-line" style="margin: 0 0 0.35rem" lang="ja"></p>
+            <p class="goi-explain-title" data-ui="goi.explain.title">{ui.ja["goi.explain.title"]}</p>
+            <p class="goi-explain-body" id="kaiwa-quiz-explain-body"></p>
+          </div>
+        </div>
+        <div id="kaiwa-round-summary" class="quiz-round-summary" hidden>
+          <p class="quiz-round-summary__title" data-ui="learn.kaiwa.quiz.roundSummary.title">
+            {ui.ja["learn.kaiwa.quiz.roundSummary.title"]}
+          </p>
+          <p class="quiz-round-summary__pct" id="kaiwa-round-summary-pct" aria-live="polite"></p>
+          <p class="quiz-round-summary__detail" id="kaiwa-round-summary-detail"></p>
           <button
             type="button"
-            class="btn btn-secondary"
-            id="kaiwa-quiz-prev"
-            disabled
-            data-ui="learn.kaiwa.quiz.prevQuestion">{ui.ja["learn.kaiwa.quiz.prevQuestion"]}</button>
-          <button type="button" class="btn btn-goi-next" id="kaiwa-quiz-next" disabled data-ui="learn.kaiwa.quiz.next">
-            {ui.ja["learn.kaiwa.quiz.next"]}
+            class="btn btn-goi-next quiz-round-summary__restart"
+            id="kaiwa-round-restart"
+            data-ui="learn.kaiwa.quiz.roundSummary.restart"
+          >
+            {ui.ja["learn.kaiwa.quiz.roundSummary.restart"]}
           </button>
-        </div>
-        <div id="kaiwa-quiz-feedback" class="quiz-feedback" hidden>
-          <p id="kaiwa-quiz-feedback-head" style="margin: 0 0 0.35rem; font-weight: 700"></p>
-          <p id="kaiwa-quiz-correct-line" style="margin: 0 0 0.35rem" lang="ja"></p>
-          <p class="goi-explain-title" data-ui="goi.explain.title">{ui.ja["goi.explain.title"]}</p>
-          <p class="goi-explain-body" id="kaiwa-quiz-explain-body"></p>
         </div>
       </div>
     </div>

@@ -34,8 +34,9 @@ const pageTitleKey = PAGE_TITLE_KEY[id];
 ---
 
 <BaseLayout titleKey={titleKey} descKey="meta.goi.description">
-  <SiteHeader topHref={`${base}`} />
+  <SiteHeader />
   <main>
+    <PageBackLink href={`${base}`} />
     <h1
       class="hero-title"
       data-ui={pageTitleKey}
@@ -44,7 +45,6 @@ const pageTitleKey = PAGE_TITLE_KEY[id];
     >
       {ui.ja[pageTitleKey]}
     </h1>
-    <PageBackLink href={`${base}`} />
 
     <div id="goi-level-unavailable" class="card card-muted" hidden>
       <p data-ui="goi.levelUnavailable">{ui.ja["goi.levelUnavailable"]}</p>
@@ -56,28 +56,45 @@ const pageTitleKey = PAGE_TITLE_KEY[id];
       <p class="progress-text" id="goi-progress" aria-live="polite">—</p>
 
       <div class="card" style="margin-top: 0.65rem">
-        <div class="quiz-options" id="goi-options"></div>
-        <div class="nav-row nav-row--quiz-footer" style="margin-top: 1rem">
+        <div id="goi-quiz-play">
+          <div class="quiz-options" id="goi-options"></div>
+          <div class="nav-row nav-row--quiz-footer" style="margin-top: 1rem">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              id="goi-prev"
+              disabled
+              data-ui="goi.prev"
+            >
+              {ui.ja["goi.prev"]}
+            </button>
+            <button type="button" class="btn btn-goi-next" id="goi-next" disabled data-ui="goi.next">
+              {ui.ja["goi.next"]}
+            </button>
+          </div>
+          <div id="goi-feedback" class="quiz-feedback" hidden>
+            <p id="goi-feedback-head" style="margin: 0 0 0.35rem; font-weight: 700"></p>
+            <p id="goi-correct-line" style="margin: 0 0 0.35rem"></p>
+            <p class="goi-explain-title" data-ui="goi.explain.title">
+              {ui.ja["goi.explain.title"]}
+            </p>
+            <p class="goi-explain-body" id="goi-explain-body"></p>
+          </div>
+        </div>
+        <div id="goi-round-summary" class="quiz-round-summary" hidden>
+          <p class="quiz-round-summary__title" data-ui="goi.roundSummary.title">
+            {ui.ja["goi.roundSummary.title"]}
+          </p>
+          <p class="quiz-round-summary__pct" id="goi-round-summary-pct" aria-live="polite"></p>
+          <p class="quiz-round-summary__detail" id="goi-round-summary-detail"></p>
           <button
             type="button"
-            class="btn btn-secondary"
-            id="goi-prev"
-            disabled
-            data-ui="goi.prev"
+            class="btn btn-goi-next quiz-round-summary__restart"
+            id="goi-round-restart"
+            data-ui="goi.roundSummary.restart"
           >
-            {ui.ja["goi.prev"]}
+            {ui.ja["goi.roundSummary.restart"]}
           </button>
-          <button type="button" class="btn btn-goi-next" id="goi-next" disabled data-ui="goi.next">
-            {ui.ja["goi.next"]}
-          </button>
-        </div>
-        <div id="goi-feedback" class="quiz-feedback" hidden>
-          <p id="goi-feedback-head" style="margin: 0 0 0.35rem; font-weight: 700"></p>
-          <p id="goi-correct-line" style="margin: 0 0 0.35rem"></p>
-          <p class="goi-explain-title" data-ui="goi.explain.title">
-            {ui.ja["goi.explain.title"]}
-          </p>
-          <p class="goi-explain-body" id="goi-explain-body"></p>
         </div>
       </div>
     </div>

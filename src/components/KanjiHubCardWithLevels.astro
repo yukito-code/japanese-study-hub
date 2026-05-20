@@ -1,4 +1,5 @@
 ---
+import HomeCardVisual from "./HomeCardVisual.astro";
 import { ui, type UiKey } from "../i18n/ui";
 import type { JlptLevelFilter } from "../i18n/level";
 
@@ -8,21 +9,29 @@ type Props = {
   path: string;
   titleKey: UiKey;
   descKey: UiKey;
+  /** public からの画像パス（例: images/home/kanji-yomi.svg） */
+  imageSrc?: string;
   /** 未指定なら N1〜N5 すべてリンク。語彙問題集など段階公開時は N1 のみ等 */
   enabledLevels?: readonly JlptLevelFilter[];
   /** 左アクセントの色（学習=moss / 問題=indigo） */
   accent?: "moss" | "indigo";
 };
 
-const { base, path, titleKey, descKey, enabledLevels, accent = "indigo" } = Astro.props;
+const { base, path, titleKey, descKey, imageSrc, enabledLevels, accent = "indigo" } =
+  Astro.props;
 const accentClass = accent === "moss" ? "goi-hub-card--moss" : "goi-hub-card--indigo";
 const levels = ["N1", "N2", "N3", "N4", "N5"] as const;
 const enabled = enabledLevels ?? levels;
 ---
 
 <div class:list={["goi-hub-card", "goi-hub-card--block", accentClass]}>
-  <h3 data-ui={titleKey}>{ui.ja[titleKey]}</h3>
-  <p data-ui={descKey}>{ui.ja[descKey]}</p>
+  <div class="goi-hub-card__body">
+    {imageSrc ? <HomeCardVisual src={`${base}${imageSrc}`} /> : null}
+    <div class="goi-hub-card__text">
+      <h3 data-ui={titleKey}>{ui.ja[titleKey]}</h3>
+      <p data-ui={descKey}>{ui.ja[descKey]}</p>
+    </div>
+  </div>
   <div class="kanji-hub-card-levels" role="group" aria-label="N1–N5">
     <div class="level-bar-chips level-bar-chips--in-card">
       {

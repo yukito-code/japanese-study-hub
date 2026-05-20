@@ -1,17 +1,21 @@
 /**
- * 会話「あいさつ」クイズ（問題文は JA/EN、選択肢・正答は常に日本語のフレーズ）
+ * 会話「あいさつ」クイズ（問題文は JA/EN/ZH、選択肢・正答は常に日本語のフレーズ）
  */
+
+import { kaiwaAisatsuQuizZh } from "./kaiwa-aisatsu-quiz-zh";
 
 export type KaiwaAisatsuQuizItem = {
   promptJa: string;
   promptEn: string;
+  promptZh: string;
   choicesJa: [string, string, string, string];
   correctIndex: 0 | 1 | 2 | 3;
   explainJa: string;
   explainEn: string;
+  explainZh: string;
 };
 
-export const kaiwaAisatsuQuizItems: KaiwaAisatsuQuizItem[] = [
+const kaiwaAisatsuQuizItemsBase = [
   {
     promptJa: "昼間、初対面の人や店の人に使う定番のあいさつはどれですか？",
     promptEn:
@@ -111,4 +115,12 @@ export const kaiwaAisatsuQuizItems: KaiwaAisatsuQuizItem[] = [
     explainJa: "来訪日の締めには「本日はありがとうございました。」が自然です。",
     explainEn: "Honjitsu wa arigatō gozaimashita thanks them for coming today.",
   },
-];
+] as const;
+
+export const kaiwaAisatsuQuizItems: KaiwaAisatsuQuizItem[] = kaiwaAisatsuQuizItemsBase.map(
+  (item, i) => ({
+    ...item,
+    promptZh: kaiwaAisatsuQuizZh[i]!.promptZh,
+    explainZh: kaiwaAisatsuQuizZh[i]!.explainZh,
+  }),
+);

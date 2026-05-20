@@ -76,6 +76,13 @@ function renderGoiPrompt(el: HTMLElement, prompt: string): void {
   el.appendChild(document.createTextNode(after));
 }
 
+function roundStats(scores: (boolean | null)[]) {
+  const total = scores.length;
+  const correct = scores.filter((s) => s === true).length;
+  const pct = total > 0 ? Math.round((correct / total) * 100) : 0;
+  return { correct, total, pct };
+}
+
 /** JLPT 語彙四択。級は URL の ?lv= のみ（カードの N1〜N5 リンク） */
 export function mountGoiQuiz(payloadId = "goi-quiz-payload"): void {
   applyJlptLevelFromSearchParams();
@@ -111,16 +118,23 @@ export function mountGoiQuiz(payloadId = "goi-quiz-payload"): void {
   let qi = 0;
   let locked = false;
   let lastOk: boolean | null = null;
+  let summaryMode = false;
+  let scores: (boolean | null)[] = [];
 
   const elPrompt = document.getElementById("goi-prompt");
   const elProg = document.getElementById("goi-progress");
   const elOpts = document.getElementById("goi-options");
+  const elPlay = document.getElementById("goi-quiz-play");
   const elFb = document.getElementById("goi-feedback");
   const elFbHead = document.getElementById("goi-feedback-head");
   const elFbCorrect = document.getElementById("goi-correct-line");
   const elFbExpl = document.getElementById("goi-explain-body");
   const btnNext = document.getElementById("goi-next");
   const btnPrev = document.getElementById("goi-prev");
+  const elSummary = document.getElementById("goi-round-summary");
+  const elSummaryPct = document.getElementById("goi-round-summary-pct");
+  const elSummaryDetail = document.getElementById("goi-round-summary-detail");
+  const btnRestart = document.getElementById("goi-round-restart");
 
   function loc() {
     return getLocale();
@@ -130,10 +144,49 @@ export function mountGoiQuiz(payloadId = "goi-quiz-payload"): void {
     return all.filter((q) => q.level === levelFilter);
   }
 
+  function setPlayVisible(visible: boolean) {
+    if (elPlay) elPlay.hidden = !visible;
+    if (elPrompt) elPrompt.hidden = !visible;
+    if (elProg) elProg.hidden = !visible;
+  }
+
+  function paintSummary() {
+    const L = loc();
+    const { correct, total, pct } = roundStats(scores);
+    if (elSummaryPct) {
+      elSummaryPct.textContent = fillTemplate(ui[L]["goi.roundSummary.score"], { pct });
+    }
+    if (elSummaryDetail) {
+      elSummaryDetail.textContent = fillTemplate(ui[L]["goi.roundSummary.detail"], {
+        correct,
+        total,
+      });
+    }
+  }
+
+  function showRoundSummary() {
+    summaryMode = true;
+    setPlayVisible(false);
+    if (elSummary) elSummary.hidden = false;
+    if (elProg) {
+      elProg.textContent = "";
+      elProg.hidden = false;
+    }
+    paintSummary();
+  }
+
+  function hideRoundSummary() {
+    summaryMode = false;
+    if (elSummary) elSummary.hidden = true;
+    setPlayVisible(true);
+  }
+
   function newRound() {
     pool = filteredPool();
     order = shuffle(pool.map((_, i) => i));
     qi = 0;
+    scores = new Array(order.length).fill(null);
+    hideRoundSummary();
   }
 
   function progressText() {
@@ -145,7 +198,7 @@ export function mountGoiQuiz(payloadId = "goi-quiz-payload"): void {
   }
 
   function updatePrevNextButtons() {
-    if (btnPrev) btnPrev.disabled = qi <= 0;
+    if (btnPrev) btnPrev.disabled = summaryMode || qi <= 0;
   }
 
   function showQuestion() {
@@ -178,11 +231,12 @@ export function mountGoiQuiz(payloadId = "goi-quiz-payload"): void {
   }
 
   function onPick(btn: HTMLButtonElement, q: GoiQuestion) {
-    if (locked || !pool.length) return;
+    if (locked || !pool.length || summaryMode) return;
     const idx = Number(btn.dataset.choiceIndex);
     locked = true;
     const ok = idx === q.correctIndex;
     lastOk = ok;
+    scores[qi] = ok;
     const L = loc();
     const correctText = q.choices[q.correctIndex];
     const buttons = elOpts?.querySelectorAll("button");
@@ -206,7 +260,7 @@ export function mountGoiQuiz(payloadId = "goi-quiz-payload"): void {
   }
 
   function paintFeedbackLocale() {
-    if (!elFb || elFb.hidden || lastOk === null || !pool.length) return;
+    if (!elFb || elFb.hidden || lastOk === null || !pool.length || summaryMode) return;
     const q = pool[order[qi]];
     const L = loc();
     const correctText = q.choices[q.correctIndex];
@@ -217,16 +271,24 @@ export function mountGoiQuiz(payloadId = "goi-quiz-payload"): void {
   }
 
   btnNext?.addEventListener("click", () => {
-    qi++;
-    if (qi >= order.length) {
-      newRound();
+    if (summaryMode) return;
+    if (!locked) return;
+    if (qi >= order.length - 1) {
+      showRoundSummary();
+      return;
     }
+    qi++;
     showQuestion();
   });
 
   btnPrev?.addEventListener("click", () => {
-    if (qi <= 0) return;
+    if (summaryMode || qi <= 0) return;
     qi--;
+    showQuestion();
+  });
+
+  btnRestart?.addEventListener("click", () => {
+    newRound();
     showQuestion();
   });
 
@@ -234,6 +296,10 @@ export function mountGoiQuiz(payloadId = "goi-quiz-payload"): void {
   showQuestion();
 
   window.addEventListener("localechange", () => {
+    if (summaryMode) {
+      paintSummary();
+      return;
+    }
     if (elProg) elProg.textContent = progressText();
     paintFeedbackLocale();
   });

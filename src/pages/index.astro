@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import SiteHeader from "../components/SiteHeader.astro";
+import HomeCardVisual from "../components/HomeCardVisual.astro";
 import KanjiHubCardWithLevels from "../components/KanjiHubCardWithLevels.astro";
 import { GOI_RELEASED_LEVELS } from "../i18n/goi-levels";
 import { ui } from "../i18n/ui";
@@ -12,11 +13,13 @@ const thinkTopics = [
     href: `${base}kanji/`,
     titleKey: "home.think.kanji.title" as const,
     descKey: "home.think.kanji.desc" as const,
+    imageSrc: "images/home/kanji.svg",
   },
   {
     href: `${base}learn/kaiwa/aisatsu/`,
     titleKey: "home.think.kaiwaAisatsu.title" as const,
     descKey: "home.think.kaiwaAisatsu.desc" as const,
+    imageSrc: "images/home/aisatsu.svg",
   },
 ];
 ---
@@ -27,13 +30,17 @@ const thinkTopics = [
     <h3 class="home-menu-subhead" data-ui="home.sectionThinkTitle">
       {ui.ja["home.sectionThinkTitle"]}
     </h3>
-    <p class="home-menu-sublead" data-ui="home.sectionThinkLead">{ui.ja["home.sectionThinkLead"]}</p>
     <div class="goi-hub-grid home-topic-grid">
       {
         thinkTopics.map((t) => (
-          <a class="goi-hub-card goi-hub-card--moss" href={t.href}>
-            <h3 data-ui={t.titleKey}>{ui.ja[t.titleKey]}</h3>
-            <p data-ui={t.descKey}>{ui.ja[t.descKey]}</p>
+          <a class="goi-hub-card" href={t.href}>
+            <div class="goi-hub-card__body">
+              <HomeCardVisual src={`${base}${t.imageSrc}`} />
+              <div class="goi-hub-card__text">
+                <h3 data-ui={t.titleKey}>{ui.ja[t.titleKey]}</h3>
+                <p data-ui={t.descKey}>{ui.ja[t.descKey]}</p>
+              </div>
+            </div>
           </a>
         ))
       }
@@ -46,13 +53,13 @@ const thinkTopics = [
     >
       {ui.ja["home.sectionProblemsTitle"]}
     </h3>
-    <p class="home-menu-sublead" data-ui="home.sectionProblemsLead">{ui.ja["home.sectionProblemsLead"]}</p>
     <div class="goi-hub-grid home-topic-grid">
       <KanjiHubCardWithLevels
         base={base}
         path="goi/kanji-yomi/"
         titleKey="home.problem.kanjiYomi.title"
         descKey="home.problem.kanjiYomi.desc"
+        imageSrc="images/home/kanji-yomi.svg"
         enabledLevels={GOI_RELEASED_LEVELS}
       />
       <KanjiHubCardWithLevels
@@ -60,6 +67,7 @@ const thinkTopics = [
         path="goi/bunmyaku/"
         titleKey="home.problem.bunmyaku.title"
         descKey="home.problem.bunmyaku.desc"
+        imageSrc="images/home/bunmyaku.svg"
         enabledLevels={GOI_RELEASED_LEVELS}
       />
       <KanjiHubCardWithLevels
@@ -67,6 +75,7 @@ const thinkTopics = [
         path="goi/iikae/"
         titleKey="home.problem.iikae.title"
         descKey="home.problem.iikae.desc"
+        imageSrc="images/home/iikae.svg"
         enabledLevels={GOI_RELEASED_LEVELS}
       />
     </div>

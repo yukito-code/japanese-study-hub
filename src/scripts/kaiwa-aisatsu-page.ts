@@ -1,4 +1,5 @@
 import { getLocale } from "../i18n/client";
+import { pickLocaleField } from "../i18n/locales";
 import { ui, fillTemplate } from "../i18n/ui";
 import type { KaiwaAisatsuQuizItem } from "../data/kaiwa-aisatsu-quiz";
 
@@ -18,6 +19,13 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
+function roundStats(scores: (boolean | null)[]) {
+  const total = scores.length;
+  const correct = scores.filter((s) => s === true).length;
+  const pct = total > 0 ? Math.round((correct / total) * 100) : 0;
+  return { correct, total, pct };
+}
+
 /** あいさつ記事：クイズ切替・四択（選択肢は常に日本語）・1問前へ戻る */
 export function mountKaiwaAisatsuPage(
   payloadId = "kaiwa-quiz-payload",
@@ -28,6 +36,7 @@ export function mountKaiwaAisatsuPage(
   const btnOpenQuiz = document.getElementById("kaiwa-btn-open-quiz");
   const btnBackRead = document.getElementById("kaiwa-btn-back-read");
 
+  const elPlay = document.getElementById("kaiwa-quiz-play");
   const elPrompt = document.getElementById("kaiwa-quiz-prompt");
   const elProg = document.getElementById("kaiwa-quiz-progress");
   const elOpts = document.getElementById("kaiwa-quiz-options");
@@ -37,6 +46,10 @@ export function mountKaiwaAisatsuPage(
   const elFbExpl = document.getElementById("kaiwa-quiz-explain-body");
   const btnNext = document.getElementById("kaiwa-quiz-next");
   const btnPrev = document.getElementById("kaiwa-quiz-prev");
+  const elSummary = document.getElementById("kaiwa-round-summary");
+  const elSummaryPct = document.getElementById("kaiwa-round-summary-pct");
+  const elSummaryDetail = document.getElementById("kaiwa-round-summary-detail");
+  const btnRestart = document.getElementById("kaiwa-round-restart");
 
   const { items: allItems } = readQuizPayload(payloadId);
 
@@ -44,6 +57,8 @@ export function mountKaiwaAisatsuPage(
   let qi = 0;
   let locked = false;
   let lastOk: boolean | null = null;
+  let summaryMode = false;
+  let scores: (boolean | null)[] = [];
   /** 表示中の問題で、正解ボタンの index（毎回シャッフル） */
   let displayCorrectIndex = 0;
 
@@ -60,20 +75,75 @@ export function mountKaiwaAisatsuPage(
   }
 
   function promptForItem(q: KaiwaAisatsuQuizItem): string {
-    return loc() === "en" ? q.promptEn : q.promptJa;
+    return pickLocaleField(
+      { ja: q.promptJa, en: q.promptEn, zh: q.promptZh },
+      loc(),
+    );
   }
 
   function explainForItem(q: KaiwaAisatsuQuizItem): string {
-    return loc() === "en" ? q.explainEn : q.explainJa;
+    return pickLocaleField(
+      { ja: q.explainJa, en: q.explainEn, zh: q.explainZh },
+      loc(),
+    );
+  }
+
+  function contentLang(): string {
+    const L = loc();
+    if (L === "en") return "en";
+    if (L === "zh") return "zh-Hans";
+    return "ja";
+  }
+
+  function setPlayVisible(visible: boolean) {
+    if (elPlay) elPlay.hidden = !visible;
+    if (elPrompt) elPrompt.hidden = !visible;
+    if (elProg) elProg.hidden = !visible;
+  }
+
+  function paintSummary() {
+    const L = loc();
+    const { correct, total, pct } = roundStats(scores);
+    if (elSummaryPct) {
+      elSummaryPct.textContent = fillTemplate(
+        ui[L]["learn.kaiwa.quiz.roundSummary.score"],
+        { pct },
+      );
+    }
+    if (elSummaryDetail) {
+      elSummaryDetail.textContent = fillTemplate(
+        ui[L]["learn.kaiwa.quiz.roundSummary.detail"],
+        { correct, total },
+      );
+    }
+  }
+
+  function showRoundSummary() {
+    summaryMode = true;
+    setPlayVisible(false);
+    if (elSummary) elSummary.hidden = false;
+    if (elProg) {
+      elProg.textContent = "";
+      elProg.hidden = false;
+    }
+    paintSummary();
+  }
+
+  function hideRoundSummary() {
+    summaryMode = false;
+    if (elSummary) elSummary.hidden = true;
+    setPlayVisible(true);
   }
 
   function newRound() {
     order = shuffle(allItems.map((_, i) => i));
     qi = 0;
+    scores = new Array(order.length).fill(null);
+    hideRoundSummary();
   }
 
   function updatePrevNextButtons() {
-    if (btnPrev) btnPrev.disabled = qi <= 0;
+    if (btnPrev) btnPrev.disabled = summaryMode || qi <= 0;
   }
 
   function showQuestion() {
@@ -84,7 +154,7 @@ export function mountKaiwaAisatsuPage(
     const q = allItems[order[qi]];
     if (!q || !elPrompt || !elProg || !elOpts) return;
     elPrompt.textContent = promptForItem(q);
-    elPrompt.lang = loc() === "en" ? "en" : "ja";
+    elPrompt.lang = contentLang();
     elProg.textContent = progressText();
     elOpts.replaceChildren();
     const perm = shuffle([0, 1, 2, 3]);
@@ -104,10 +174,11 @@ export function mountKaiwaAisatsuPage(
   }
 
   function onPick(btn: HTMLButtonElement, q: KaiwaAisatsuQuizItem, pickedIndex: number) {
-    if (locked) return;
+    if (locked || summaryMode) return;
     locked = true;
     const ok = pickedIndex === displayCorrectIndex;
     lastOk = ok;
+    scores[qi] = ok;
     const L = loc();
     const correctText = q.choicesJa[q.correctIndex];
     const buttons = elOpts?.querySelectorAll("button");
@@ -128,14 +199,14 @@ export function mountKaiwaAisatsuPage(
       });
       elFbCorrect.lang = "ja";
       elFbExpl.textContent = explainForItem(q);
-      elFbExpl.lang = L === "en" ? "en" : "ja";
+      elFbExpl.lang = contentLang();
     }
     if (btnNext) btnNext.disabled = false;
-    if (btnPrev) btnPrev.disabled = qi <= 0;
+    updatePrevNextButtons();
   }
 
   function paintFeedbackLocale() {
-    if (!elFb || elFb.hidden || lastOk === null) return;
+    if (!elFb || elFb.hidden || lastOk === null || summaryMode) return;
     const q = allItems[order[qi]];
     if (!q) return;
     const L = loc();
@@ -152,15 +223,15 @@ export function mountKaiwaAisatsuPage(
     }
     if (elFbExpl) {
       elFbExpl.textContent = explainForItem(q);
-      elFbExpl.lang = L === "en" ? "en" : "ja";
+      elFbExpl.lang = contentLang();
     }
   }
 
   function paintPromptLocale() {
     const q = allItems[order[qi]];
-    if (!q || !elPrompt) return;
+    if (!q || !elPrompt || summaryMode) return;
     elPrompt.textContent = promptForItem(q);
-    elPrompt.lang = loc() === "en" ? "en" : "ja";
+    elPrompt.lang = contentLang();
   }
 
   btnOpenQuiz?.addEventListener("click", () => {
@@ -175,24 +246,38 @@ export function mountKaiwaAisatsuPage(
     if (quizPanel) quizPanel.hidden = true;
     if (readPanel) readPanel.hidden = false;
     if (pageBackWrap) pageBackWrap.hidden = false;
+    summaryMode = false;
+    if (elSummary) elSummary.hidden = true;
   });
 
   btnNext?.addEventListener("click", () => {
-    qi++;
-    if (qi >= order.length) {
-      newRound();
+    if (summaryMode) return;
+    if (!locked) return;
+    if (qi >= order.length - 1) {
+      showRoundSummary();
+      return;
     }
+    qi++;
     showQuestion();
   });
 
   btnPrev?.addEventListener("click", () => {
-    if (qi <= 0) return;
+    if (summaryMode || qi <= 0) return;
     qi--;
+    showQuestion();
+  });
+
+  btnRestart?.addEventListener("click", () => {
+    newRound();
     showQuestion();
   });
 
   window.addEventListener("localechange", () => {
     if (!quizPanel || quizPanel.hidden) return;
+    if (summaryMode) {
+      paintSummary();
+      return;
+    }
     if (elProg) elProg.textContent = progressText();
     paintPromptLocale();
     paintFeedbackLocale();

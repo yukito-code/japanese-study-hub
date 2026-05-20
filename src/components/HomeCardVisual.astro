@@ -1,0 +1,13 @@
+---
+type Props = {
+  src: string;
+  /** 装飾用のため空でよい */
+  alt?: string;
+};
+
+const { src, alt = "" } = Astro.props;
+---
+
+<div class="home-card-visual">
+  <img class="home-card-visual__img" src={src} alt={alt} width="96" height="96" loading="lazy" decoding="async" />
+</div>

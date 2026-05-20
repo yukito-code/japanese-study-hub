@@ -1,6 +1,7 @@
 ---
 import LevelBar from "./LevelBar.astro";
-import { ui } from "../i18n/ui";
+import { LOCALES } from "../i18n/locales";
+import { ui, type UiKey } from "../i18n/ui";
 
 type Props = {
   /** トップ（サイトルート）へ。子ページでは `base` を渡す */
@@ -30,20 +31,23 @@ const topText = ui.ja["nav.top"];
         <a href={`${base}`} data-ui="site.name">{ui.ja["site.name"]}</a>
       </div>
       <div class="site-header-actions">
-        <div class="lang-switch" role="group" data-aria-label-ui="lang.pick">
-          <button
-            type="button"
-            class="lang-chip"
-            data-set-lang="ja"
-            data-ui="lang.ja"
-            aria-pressed="true">{ui.ja["lang.ja"]}</button>
-          <button
-            type="button"
-            class="lang-chip"
-            data-set-lang="en"
-            data-ui="lang.en"
-            aria-pressed="false">{ui.ja["lang.en"]}</button>
-        </div>
+        <label class="lang-select-wrap">
+          <span class="visually-hidden" data-ui="lang.pick">{ui.ja["lang.pick"]}</span>
+          <select
+            id="site-lang-select"
+            class="lang-select"
+            aria-label={ui.ja["lang.pick"]}
+            data-aria-label-ui="lang.pick"
+          >
+            {
+              LOCALES.map((loc) => (
+                <option value={loc.id} data-ui={loc.labelKey}>
+                  {ui.ja[loc.labelKey as UiKey]}
+                </option>
+              ))
+            }
+          </select>
+        </label>
       </div>
     </div>
   </header>

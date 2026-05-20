@@ -11,18 +11,22 @@ export type LearnSectionLocale = {
   blocks: LearnBlock[];
 };
 
+import { kaiwaAisatsuIntroZh, kaiwaAisatsuSectionsZh } from "./kaiwa-aisatsu-zh";
+
 export type LearnSection = {
   ja: LearnSectionLocale;
   en: LearnSectionLocale;
+  zh: LearnSectionLocale;
 };
 
 /** 冒頭は一行のみ（表本体が主） */
-export const kaiwaAisatsuIntro: { ja: string; en: string } = {
+export const kaiwaAisatsuIntro: { ja: string; en: string; zh: string } = {
   ja: "下の表は「フレーズ」と「いつ・どんな相手向きか」の対応です。",
   en: "Each table pairs a phrase with a short note on when and for whom it fits.",
+  zh: kaiwaAisatsuIntroZh,
 };
 
-export const kaiwaAisatsuSections: LearnSection[] = [
+const kaiwaAisatsuSectionsBase = [
   {
     ja: {
       title: "時間帯のあいさつ",
@@ -389,4 +393,12 @@ export const kaiwaAisatsuSections: LearnSection[] = [
       ],
     },
   },
-];
+] as const;
+
+export const kaiwaAisatsuSections: LearnSection[] = kaiwaAisatsuSectionsBase.map(
+  (sec, i) => ({
+    ja: sec.ja,
+    en: sec.en,
+    zh: kaiwaAisatsuSectionsZh[i]!,
+  }),
+);
